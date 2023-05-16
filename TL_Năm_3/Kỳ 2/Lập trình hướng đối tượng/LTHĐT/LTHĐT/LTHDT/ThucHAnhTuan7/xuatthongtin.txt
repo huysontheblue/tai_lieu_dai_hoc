@@ -1,0 +1,28 @@
+3
+7
+2001     
+Ha Huy Son                   
+Cam Xuyen       
+555666         
+3
+8
+10
+1989    
+Phan Thi Huong Tra           
+59 linh Tien    
+74123          
+3
+20
+11
+2000   
+Truong Huy Manh             
+38 Ha Tinh       
+01234          
+3
+7
+8-
+003     
+Tran Trung Kien              
+Cau Phu         
+3254           
+3

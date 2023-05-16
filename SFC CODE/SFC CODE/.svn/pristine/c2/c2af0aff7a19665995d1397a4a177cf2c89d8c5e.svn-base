@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>Button1</Control_Id>
+    <Chs_Desc>保存设置参数</Chs_Desc>
+    <Cht_Desc>保存設置參數</Cht_Desc>
+    <En_Desc>Save Setting Param</En_Desc>
+    <En_Full_Desc>Save Setting Parameter</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmSharedOptionSet</Control_Id>
+    <Chs_Desc>FrmSharedOptionSet</Chs_Desc>
+    <Cht_Desc>FrmSharedOptionSet</Cht_Desc>
+    <En_Desc>Parameter Setting</En_Desc>
+    <En_Full_Desc>Parameter Setting</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc>通信信息设置</Chs_Desc>
+    <Cht_Desc>通信信息設置</Cht_Desc>
+    <En_Desc>Com Setting</En_Desc>
+    <En_Full_Desc>Communication Setting Port:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>工站:</Chs_Desc>
+    <Cht_Desc>工站:</Cht_Desc>
+    <En_Desc>Station:</En_Desc>
+    <En_Full_Desc>Station:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>通信端口：</Chs_Desc>
+    <Cht_Desc>通信端口：</Cht_Desc>
+    <En_Desc>Com Port:</En_Desc>
+    <En_Full_Desc>Communication Port:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>波特率：</Chs_Desc>
+    <Cht_Desc>波特率：</Cht_Desc>
+    <En_Desc>Baud Rate:</En_Desc>
+    <En_Full_Desc>Baud Rate:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>校验位：</Chs_Desc>
+    <Cht_Desc>校驗位：</Cht_Desc>
+    <En_Desc>Check Bit:</En_Desc>
+    <En_Full_Desc>Check Bit:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>数据位：</Chs_Desc>
+    <Cht_Desc>數據位：</Cht_Desc>
+    <En_Desc>Data Bit:</En_Desc>
+    <En_Full_Desc>Data Bit:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>停止位：</Chs_Desc>
+    <Cht_Desc>停止位：</Cht_Desc>
+    <En_Desc>Stop Bit:</En_Desc>
+    <En_Full_Desc>Stop Bit:</En_Full_Desc>
+  </Table>
+</NewDataSet>

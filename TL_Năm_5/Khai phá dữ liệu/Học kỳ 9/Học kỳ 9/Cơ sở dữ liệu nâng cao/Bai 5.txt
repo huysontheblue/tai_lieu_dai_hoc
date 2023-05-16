@@ -1,0 +1,79 @@
+
+---5.1 Ordinary Relations and Object Relations
+
+CREATE TABLE people (ID number PRIMARY KEY, name VARCHAR2(30), phone VARCHAR2(20));
+
+INSERT into people VALUES (0, 'Smith', '546-4364');
+INSERT into people VALUES (1, 'Miller', '556-4374');
+INSERT into people VALUES (2, 'Jones', '536-4386');
+
+CREATE TYPE phone_nested AS TABLE OF VARCHAR2(12);
+
+CREATE TYPE people_type AS OBJECT (person_ID number, name VARCHAR2(30), phone_list phone_nested);
+
+CREATE TABLE people_object_table OF people_type
+NESTED TABLE phone_list STORE AS p_table;
+
+INSERT INTO people_object_table
+   SELECT ID, name, phone_nested(phone) FROM people;
+
+CREATE VIEW people_object_view OF people_type WITH OBJECT IDENTIFIER (person_ID) AS
+   SELECT ID, name, phone_nested(phone) AS phone_list from people;
+
+--Exercises 29
+
+CREATE TABLE department (dno NUMBER PRIMARY KEY, dname VARCHAR2(20), dstreet VARCHAR2(30), dstreetnumber VARCHAR2(20), dcity VARCHAR2(30), dpostalcode VARCHAR2(8));/
+
+CREATE OR REPLACE TYPE address_typ AS OBJECT (dstreet VARCHAR2(30), dstreetnumber VARCHAR2(20), dcity VARCHAR2(30), dpostalcode VARCHAR2(8));/
+
+CREATE OR REPLACE TYPE dept_type AS OBJECT (deptno NUMBER, deptname VARCHAR2(20), deptaddress address_typ);/
+
+CREATE VIEW dept_view OF dept_type WITH OBJECT IDENTIFIER (deptno) AS
+   SELECT dno, dname , address_typ(d.dstreet, d.dstreetnumber, d.dcity, d.dpostalcode) AS address_list from department d;
+
+--Exercises 30
+
+INSERT INTO department VALUES (1, 'Tran Thi A', 'Nguyen Van Cu', '02', 'TP.Vinh', '098-8372');/
+
+INSERT INTO department VALUES (2, 'ST', '400 Oracle Pkwy', 'Redwood S', 'CA', '94065'); 
+
+INSERT INTO department VALUES (3, 'Apps', '310 Open', 'RedSan', 'TA', '73826');
+
+SELECT v.deptno, v.deptname, v.deptaddress.dstreet, v.deptaddress.dcity FROM dept_view v;
+
+---5.2 Using Nested Tables in Views
+
+CREATE TABLE phone_nrs (ID number, phone VARCHAR2(20));
+
+INSERT into phone_nrs VALUES (0, '546-4364');
+INSERT into phone_nrs VALUES (0, '546-4123');
+INSERT into phone_nrs VALUES (1, '556-4374');
+INSERT into phone_nrs VALUES (2, '536-4386');
+
+CREATE VIEW people_object_view2 OF people_type WITH OBJECT IDENTIFIER (person_ID) AS
+   SELECT p.ID, p.name, CAST(MULTISET (SELECT phone FROM phone_nrs n
+   WHERE n.ID = p.ID) AS phone_nested)
+   FROM people p;
+
+--Exercises 31
+
+CREATE TABLE employees (empID NUMBER PRIMARY KEY, empname VARCHAR2(20), deptno NUMBER REFERENCES department(dno));/
+
+CREATE OR REPLACE TYPE employee_t AS OBJECT (eID NUMBER, ename VARCHAR2(20)) ;/
+
+CREATE OR REPLACE TYPE employee_list_t AS TABLE OF employee_t ;/
+
+CREATE OR REPLACE TYPE dept_t AS OBJECT(deptno NUMBER, deptname VARCHAR2(20), address address_typ,  emp_list employee_list_t);/
+
+CREATE VIEW dept_view1 OF dept_t WITH OBJECT IDENTIFIER (deptno) AS 
+  SELECT d.dno, d.dname, address_typ(d.dstreet, d.dstreetnumber, d.dcity, d.dpostalcode) AS address_list, CAST(MULTISET (SELECT e.empID, e.empname FROM employees e WHERE e.deptno = d.dno) AS employee_list_t) AS emp_list FROM department d; 
+
+INSERT INTO employees VALUES (100, 'John', 1);/
+INSERT INTO employees VALUES (200, 'Robert', 2 );/
+INSERT INTO employees VALUES (300, 'Mary', 3);/ 
+
+SELECT dv.deptno, dv.deptname, dv.address.dstreet, e.* FROM dept_view1 dv, TABLE(dv.emp_list) e WHERE dv.deptno = 1;/
+
+---5.3 Further Information about Object Views
+
+

@@ -1,0 +1,545 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Vt_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Vt_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>ChkLinePrint</Control_Id>
+    <Chs_Desc>是否在线打印产品条码</Chs_Desc>
+    <Cht_Desc>是否在線打印產品條碼</Cht_Desc>
+    <En_Desc>Whether Online Print Barcode</En_Desc>
+    <En_Full_Desc>Whether Online Print Barcode</En_Full_Desc>
+    <Vt_Desc>In Mã Vạch Online</Vt_Desc>
+    <Vt_Full_Desc>In Mã Vạch Online</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_0</Control_Id>
+    <Chs_Desc>成品料号</Chs_Desc>
+    <Cht_Desc>成品料號</Cht_Desc>
+    <En_Desc>Product Material Number</En_Desc>
+    <En_Full_Desc>Product Material Number</En_Full_Desc>
+    <Vt_Desc>Mã Liệu</Vt_Desc>
+    <Vt_Full_Desc>Mã Liệu Sản Phẩm</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_1</Control_Id>
+    <Chs_Desc>站点项次序号</Chs_Desc>
+    <Cht_Desc>站點項次序號</Cht_Desc>
+    <En_Desc>Site Item Number</En_Desc>
+    <En_Full_Desc>Site Item Number</En_Full_Desc>
+    <Vt_Desc>Trạm Số</Vt_Desc>
+    <Vt_Full_Desc>Trạm Số</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_2</Control_Id>
+    <Chs_Desc>部件条码序号</Chs_Desc>
+    <Cht_Desc>部件條碼序號</Cht_Desc>
+    <En_Desc>Component Barcode Serial Number</En_Desc>
+    <En_Full_Desc>Component Barcode Serial Number</En_Full_Desc>
+    <Vt_Desc>Mã Thành Phần</Vt_Desc>
+    <Vt_Full_Desc>Số Serial Mã Vạch Thành Phần</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_3</Control_Id>
+    <Chs_Desc>部件名称</Chs_Desc>
+    <Cht_Desc>部件名稱</Cht_Desc>
+    <En_Desc>Component Name</En_Desc>
+    <En_Full_Desc>Component Name</En_Full_Desc>
+    <Vt_Desc>Tên Thành Phần</Vt_Desc>
+    <Vt_Full_Desc>Tên Thành Phần</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_4</Control_Id>
+    <Chs_Desc>扫描人员</Chs_Desc>
+    <Cht_Desc>掃描人員</Cht_Desc>
+    <En_Desc>Scan Man</En_Desc>
+    <En_Full_Desc>Scanning personnel</En_Full_Desc>
+    <Vt_Desc>Người Quét</Vt_Desc>
+    <Vt_Full_Desc>Người Quét</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_5</Control_Id>
+    <Chs_Desc>扫描时间</Chs_Desc>
+    <Cht_Desc>掃描時間</Cht_Desc>
+    <En_Desc>Scan Time</En_Desc>
+    <En_Full_Desc>Scan Time</En_Full_Desc>
+    <Vt_Desc>TG Quét</Vt_Desc>
+    <Vt_Full_Desc>Thời Gian Quét</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmStantPackScan</Control_Id>
+    <Chs_Desc>工站包装扫描作业</Chs_Desc>
+    <Cht_Desc>工站包裝掃描作業</Cht_Desc>
+    <En_Desc>Working Station Package Scan</En_Desc>
+    <En_Full_Desc>Working Station Package Scan</En_Full_Desc>
+    <Vt_Desc>Quét Trạm Đóng Gói</Vt_Desc>
+    <Vt_Full_Desc>Quét Trạm Đóng Gói</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>groupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>groupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>groupBox3</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox4</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LabCartonQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+    <Vt_Desc>0</Vt_Desc>
+    <Vt_Full_Desc>0</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label1</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO:</En_Desc>
+    <En_Full_Desc>MO:</En_Full_Desc>
+    <Vt_Desc>Công Lệnh:</Vt_Desc>
+    <Vt_Full_Desc>Công Lệnh:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>扫描箱数:</Chs_Desc>
+    <Cht_Desc>掃描箱數:</Cht_Desc>
+    <En_Desc>Scanned Qty:</En_Desc>
+    <En_Full_Desc>Scanned Box Quantity:</En_Full_Desc>
+    <Vt_Desc>SL Đã Quét:</Vt_Desc>
+    <Vt_Full_Desc>Số Lượng Đã Quét</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>...</Chs_Desc>
+    <Cht_Desc>...</Cht_Desc>
+    <En_Desc>...</En_Desc>
+    <En_Full_Desc>...</En_Full_Desc>
+    <Vt_Desc>...</Vt_Desc>
+    <Vt_Full_Desc>...</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>栈板条码ID：</Chs_Desc>
+    <Cht_Desc>棧板條碼ID：</Cht_Desc>
+    <En_Desc>Pallet Barcode ID:</En_Desc>
+    <En_Full_Desc>Pallet Barcode ID:</En_Full_Desc>
+    <Vt_Desc>Mã Pallets ID:</Vt_Desc>
+    <Vt_Full_Desc>Mã Vạch Pallets ID:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label14</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label15</Control_Id>
+    <Chs_Desc>已裝箱数：</Chs_Desc>
+    <Cht_Desc>已裝箱數：</Cht_Desc>
+    <En_Desc>Installed Qty:</En_Desc>
+    <En_Full_Desc>Installed Quantity:</En_Full_Desc>
+    <Vt_Desc>SL Đã Quét:</Vt_Desc>
+    <Vt_Full_Desc>SL Đã Quét:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label16</Control_Id>
+    <Chs_Desc>应装箱数：</Chs_Desc>
+    <Cht_Desc>應裝箱數：</Cht_Desc>
+    <En_Desc>Should Be Installed:</En_Desc>
+    <En_Full_Desc>
+      Should Be Installed:
+    </En_Full_Desc>
+    <Vt_Desc>SL Cài Đặt:</Vt_Desc>
+    <Vt_Full_Desc>Số Lượng Nên Thiết Lập</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label2</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>Part ID:</En_Desc>
+    <En_Full_Desc>Part ID:</En_Full_Desc>
+    <Vt_Desc>Mã Liệu:</Vt_Desc>
+    <Vt_Full_Desc>Mã Liệu ID:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label22</Control_Id>
+    <Chs_Desc>线别编号：</Chs_Desc>
+    <Cht_Desc>線別編號：</Cht_Desc>
+    <En_Desc>Line Num:</En_Desc>
+    <En_Full_Desc>Line Num:</En_Full_Desc>
+    <Vt_Desc>Mã Chuyền:</Vt_Desc>
+    <Vt_Full_Desc>Mã Chuyền:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>主条码序号:</Chs_Desc>
+    <Cht_Desc>主條碼序號:</Cht_Desc>
+    <En_Desc>Main Barcode Serial Number:</En_Desc>
+    <En_Full_Desc>Main Barcode Serial Number:</En_Full_Desc>
+    <Vt_Desc>Mã Vạch Chính</Vt_Desc>
+    <Vt_Full_Desc>Số Serial Mã Vạch Chính</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label4</Control_Id>
+    <Chs_Desc>站点名称：</Chs_Desc>
+    <Cht_Desc>站點名稱：</Cht_Desc>
+    <En_Desc>Station Name:</En_Desc>
+    <En_Full_Desc>Station Name:</En_Full_Desc>
+    <Vt_Desc>Tên Trạm:</Vt_Desc>
+    <Vt_Full_Desc>Tên Trạm</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label5</Control_Id>
+    <Chs_Desc>条码标准样式：</Chs_Desc>
+    <Cht_Desc>條碼標準樣式：</Cht_Desc>
+    <En_Desc>Barcode Style:</En_Desc>
+    <En_Full_Desc>Barcode Standard Style:</En_Full_Desc>
+    <Vt_Desc>Kiểu Mã Vạch</Vt_Desc>
+    <Vt_Full_Desc>Kiểu Mã Vạch Chuẩn</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>外箱Packing ID：</Chs_Desc>
+    <Cht_Desc>外箱Packing ID：</Cht_Desc>
+    <En_Desc>Outer Box Packing ID:</En_Desc>
+    <En_Full_Desc>Outer Box Packing ID:</En_Full_Desc>
+    <Vt_Desc>Mã Thùng Đóng Gói</Vt_Desc>
+    <Vt_Full_Desc>Thùng Đóng Gói ID</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>条码标准样式：</Chs_Desc>
+    <Cht_Desc>條碼標準樣式：</Cht_Desc>
+    <En_Desc>Barcode Style:</En_Desc>
+    <En_Full_Desc>Barcode Standard Style:</En_Full_Desc>
+    <Vt_Desc>Kiểu Mã Vạch</Vt_Desc>
+    <Vt_Full_Desc>Kiểu Mã Vạch Chuẩn</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>应装数量：</Chs_Desc>
+    <Cht_Desc>應裝數量：</Cht_Desc>
+    <En_Desc>Qty Should Be:</En_Desc>
+    <En_Full_Desc>Quantity Should Be Installed:</En_Full_Desc>
+    <Vt_Desc>SL Cài Đặt:</Vt_Desc>
+    <Vt_Full_Desc>Số Lượng Cài Đặt</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>已裝数量：</Chs_Desc>
+    <Cht_Desc>已裝數量：</Cht_Desc>
+    <En_Desc>Installed Qty:</En_Desc>
+    <En_Full_Desc>
+      Installed Quantity:
+    </En_Full_Desc>
+    <Vt_Desc>SL Đã Quét</Vt_Desc>
+    <Vt_Full_Desc>Số Lượng Đã Quét</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabResult</Control_Id>
+    <Chs_Desc>CN0XX5807244997E000A000026</Chs_Desc>
+    <Cht_Desc>CN0XX5807244997E000A000026</Cht_Desc>
+    <En_Desc>CN0XX5807244997E000A000026</En_Desc>
+    <En_Full_Desc>CN0XX5807244997E000A000026</En_Full_Desc>
+    <Vt_Desc>CN0XX5807244997E000A000026</Vt_Desc>
+    <Vt_Full_Desc>CN0XX5807244997E000A000026</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblBarName</Control_Id>
+    <Chs_Desc>产品条码序号:</Chs_Desc>
+    <Cht_Desc>產品條碼序號:</Cht_Desc>
+    <En_Desc>Product barcode Serial Number:</En_Desc>
+    <En_Full_Desc>Product barcode Serial Number:</En_Full_Desc>
+    <Vt_Desc>Mã Vạch Sản Phẩm</Vt_Desc>
+    <Vt_Full_Desc>Số Serial Mã Vạch Sản Phẩm</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblCartonQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+    <Vt_Desc>0</Vt_Desc>
+    <Vt_Full_Desc>0</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblCurrCarQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+    <Vt_Desc>0</Vt_Desc>
+    <Vt_Full_Desc>0</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblCurrQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+    <Vt_Desc>0</Vt_Desc>
+    <Vt_Full_Desc>0</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblMainBarCode</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lblMessage</Control_Id>
+    <Chs_Desc>PASS</Chs_Desc>
+    <Cht_Desc>PASS</Cht_Desc>
+    <En_Desc>PASS</En_Desc>
+    <En_Full_Desc>PASS</En_Full_Desc>
+    <Vt_Desc>PASS</Vt_Desc>
+    <Vt_Full_Desc>PASS(Thành Công)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPackQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+    <Vt_Desc>0</Vt_Desc>
+    <Vt_Full_Desc>0</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolCartonReplace</Control_Id>
+    <Chs_Desc>外箱替换打印(&amp;F5)</Chs_Desc>
+    <Cht_Desc>外箱替換打印(&amp;F5)</Cht_Desc>
+    <En_Desc>Outer Box Replacement Printing (&amp;F5)</En_Desc>
+    <En_Full_Desc>Outer Box Replacement Printing (&amp;F5)</En_Full_Desc>
+    <Vt_Desc>In Thay Thế Thùng(&amp;F5)</Vt_Desc>
+    <Vt_Full_Desc>In Thay Thế Thùng(&amp;F5)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolExit</Control_Id>
+    <Chs_Desc>退出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+    <Vt_Desc>Thoát(&amp;X)</Vt_Desc>
+    <Vt_Full_Desc>Thoát(&amp;X)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolLot</Control_Id>
+    <Chs_Desc>上料批次扫描(L)</Chs_Desc>
+    <Cht_Desc>上料批次掃描(L)</Cht_Desc>
+    <En_Desc>Batch Scanning (L)</En_Desc>
+    <En_Full_Desc>Batch Scanning (L)</En_Full_Desc>
+    <Vt_Desc>Quét Lô(L)</Vt_Desc>
+    <Vt_Full_Desc>Quét Lô(L)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolOption</Control_Id>
+    <Chs_Desc>尾数箱设置(&amp;O)</Chs_Desc>
+    <Cht_Desc>尾數箱設置(&amp;O)</Cht_Desc>
+    <En_Desc>Mantissa Box Set (&amp;O)</En_Desc>
+    <En_Full_Desc>Mantissa Box Set (&amp;O)</En_Full_Desc>
+    <Vt_Desc>Thiết Lập Thùng Lẻ(&amp;O)</Vt_Desc>
+    <Vt_Full_Desc>Thiết Lập Thùng Lẻ(&amp;O)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolReplace</Control_Id>
+    <Chs_Desc>产品条码替换打印(R)</Chs_Desc>
+    <Cht_Desc>產品條碼替換打印(R)</Cht_Desc>
+    <En_Desc>Barcode Replace printing</En_Desc>
+    <En_Full_Desc>Barcode Replace printing</En_Full_Desc>
+    <Vt_Desc>In Thay Thế Mã Vạch</Vt_Desc>
+    <Vt_Full_Desc>In Thay Thế Mã Vạch</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolScanSet</Control_Id>
+    <Chs_Desc>扫描设置(&amp;F1)</Chs_Desc>
+    <Cht_Desc>掃描設置(&amp;F1)</Cht_Desc>
+    <En_Desc>Scanning Setup (&amp;F1)</En_Desc>
+    <En_Full_Desc>Scanning Setup (&amp;F1)</En_Full_Desc>
+    <Vt_Desc>Thiết Lập Quét(F1)</Vt_Desc>
+    <Vt_Full_Desc>Thiết Lập Quét(F1)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+    <Vt_Desc>Hệ thống(&amp;S)</Vt_Desc>
+    <Vt_Full_Desc>Hệ thống(&amp;S)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+    <Vt_Desc>Tệp tin(&amp;F)</Vt_Desc>
+    <Vt_Full_Desc>Tệp tin(&amp;F)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+    <Vt_Desc>Xem(&amp;V)</Vt_Desc>
+    <Vt_Full_Desc>Xem(&amp;V)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tools(&amp;T)</En_Desc>
+    <En_Full_Desc>Tools(&amp;T)</En_Full_Desc>
+    <Vt_Desc>Công cụ(&amp;T)</Vt_Desc>
+    <Vt_Full_Desc>Công cụ(&amp;T)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+    <Vt_Desc>Cửa sổ(&amp;W)</Vt_Desc>
+    <Vt_Full_Desc>Cửa sổ(&amp;W)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+    <Vt_Desc>Trợ giúp(&amp;H)</Vt_Desc>
+    <Vt_Full_Desc>Trợ giúp(&amp;H)</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel1</Control_Id>
+    <Chs_Desc>扫描人员:</Chs_Desc>
+    <Cht_Desc>掃描人員:</Cht_Desc>
+    <En_Desc>Scan Man:</En_Desc>
+    <En_Full_Desc>Scanning personnel:</En_Full_Desc>
+    <Vt_Desc>Người Quét:</Vt_Desc>
+    <Vt_Full_Desc>Người Quét:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>ToolUsename</Control_Id>
+    <Chs_Desc>歐翔烽</Chs_Desc>
+    <Cht_Desc>歐翔烽</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>TxtLineId</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>TxtMoId</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>TxtPartid</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>TxtSitName</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+</NewDataSet>

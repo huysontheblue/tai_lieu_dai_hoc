@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+Runcard, 1.0.0.6, 2015/07/13,by cq
+=======================================
+Requirement:
+1. When dgvRunCardBody.Rows为0, FirstDisplayedScrollingRowIndex =-1, show error
+Action:
+1. Add condition when dgvRunCardBody.Rows >0, set FirstDisplayedScrollingRowIndex
+
+Runcard, 1.0.0.3, by cq
+=======================================
+Requirement:
+1. 点击保存的时候关闭DCS Web页面。
+Action:
+1. Modify FrmLotReportRegister, Add close webBrowser method.

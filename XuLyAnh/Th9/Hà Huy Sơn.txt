@@ -1,0 +1,97 @@
+=========================================================================Bài thực hành số 9===============================================================================
+===========================================================================Hà Huy Sơn=====================================================================================
+========================================================================MSSV: 18574802010055==============================================================================
+
+---------------------Câu 1-------------------------------
+import cv2
+import matplotlib.pyplot as plt
+# đọc ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+anhmau1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+# cắt  1 vùng ảnh vs tọa độ đc nhập vào
+x1 = int(input("Nhap x1:"))
+x2 = int(input("Nhap x2:"))
+y1 = int(input("Nhap y1:"))
+y2 = int(input("Nhap y2:"))
+anhcat = anhmau1[x1:x2, y1:y2]
+
+# đổi ảnh vừa cắt sang ảnh gray 
+anhgray = cv2.cvtColor(anhcat, cv2.COLOR_BGR2GRAY)
+anhmau2 = cv2.cvtColor(anhgray, cv2.COLOR_BGR2RGB)
+
+# phân ngưỡng thích nghi 
+thichnghi = cv2.adaptiveThreshold(anhgray, 255, cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,55,0 )
+anhmau3 = cv2.cvtColor(thichnghi, cv2.COLOR_BGR2RGB)
+
+#Hiển thị ảnh trên matplotlib 
+plt.subplot(2,2,1).axis('off'),plt.imshow(anhmau1),plt.title('Ảnh gốc')
+plt.subplot(2,2,2).axis('off'),plt.imshow(anhcat),plt.title('Ảnh Sau khi cắt')
+plt.subplot(2,2,3).axis('off'),plt.imshow(anhmau2),plt.title('Ảnh Gray')
+plt.subplot(2,2,4).axis('off'),plt.imshow(anhmau3),plt.title('Ảnh phân ngưỡng thích nghi')
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+---------------------Câu 2-------------------------------
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+anhmau1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+pts1 = np.float32([[50,50],[350,50],[50,350],[350,350]])
+pts2 = np.float32([[0,0],[200,50],[50,300],[300,300]])
+
+M = cv2.getPerspectiveTransform(pts1,pts2)
+
+dst = cv2.warpPerspective(anhmau1,M,(300,300))
+
+plt.subplot(121),plt.imshow(anhmau1),plt.title('Ảnh đầu vào')
+for (x, y) in pts1:
+  plt.scatter(x, y, s=50, c='white', marker='x')
+plt.subplot(122),plt.imshow(dst),plt.title('Sau khi biến đổi phối cảnh')
+for (x, y) in pts2:
+  plt.scatter(x, y, s=50, c='white', marker='x')
+plt.show()
+
+
+---------------------Câu 3-------------------------------
+import cv2
+import numpy as np
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg",0)
+img2 = cv2.blur(img,(3,3))    
+
+def get_value(x):
+    get_value.value = x
+get_value.value = 0
+
+cv2.namedWindow("a")
+cv2.createTrackbar('1','a',1,85,get_value)
+while(True):
+    a = get_value.value
+    b = a*2
+    img3 = cv2.Canny(img,a,b)
+    cv2.imshow("a",img3)
+    if cv2.waitKey(5) == ord("q"):
+        break
+cv2.destroyAllWindows()
+
+---------------------Câu 4-------------------------------
+import cv2
+def funcRotate(degree=0):
+    degree = cv2.getTrackbarPos('degree','Xoayanh')
+    rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), degree, 1)
+    rotated_image = cv2.warpAffine(img, rotation_matrix, (width, height))
+    cv2.imshow('Sau khi xoay', rotated_image)
+
+if __name__== '__main__':
+    img=cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+    height, width = img.shape[:2]
+    cv2.namedWindow('Xoayanh')
+    degree=0
+    cv2.createTrackbar('degree','Xoayanh',degree,360,funcRotate)
+    funcRotate(0)
+    cv2.imshow('Xoayanh',img)
+    cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+

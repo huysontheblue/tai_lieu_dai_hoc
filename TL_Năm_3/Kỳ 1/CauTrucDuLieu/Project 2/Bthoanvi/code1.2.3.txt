@@ -1,0 +1,83 @@
+https://www.geeksforgeeks.org/heaps-algorithm-for-generating-permutations/
+Thuật toán Heap để tạo ra các hoán vị
+Thuật toán Heap được sử dụng để tạo ra tất cả các hoán vị của n đối tượng. Ý tưởng là tạo ra mỗi hoán vị từ hoán vị trước bằng cách chọn một cặp phần tử để hoán vị, mà không làm ảnh hưởng đến n-2 phần tử khác. 
+Sau đây là hình minh họa tạo tất cả các hoán vị của n số đã cho.
+Thí dụ: 
+ 
+
+Đầu vào: 1 2 3
+ Đầu ra: 1 2 3
+        2 1 3
+        3 1 2
+        1 3 2
+        2 3 1
+        3 2 1
+Thuật toán: 
+
+Thuật toán tạo ra (n-1)! hoán vị của n-1 phần tử đầu tiên, liền kề phần tử cuối cùng với mỗi phần tử này. Điều này sẽ tạo ra tất cả các hoán vị kết thúc bằng phần tử cuối cùng.
+Nếu n lẻ, hoán đổi phần tử đầu tiên và cuối cùng và nếu n chẵn, sau đó hoán đổi phần tử thứ i (i là bộ đếm bắt đầu từ 0) và phần tử cuối cùng và lặp lại thuật toán trên cho đến khi tôi nhỏ hơn n.
+Trong mỗi lần lặp, thuật toán sẽ tạo ra tất cả các hoán vị kết thúc bằng phần tử cuối cùng hiện tại.
+Thực hiện: 
+ 
+
+filter_none
+biên tập
+play_arrow
+
+độ sáng_4
+// C++ program to print all permutations using
+// Heap's algorithm
+#include <bits/stdc++.h>
+using namespace std;
+ 
+// Prints the array
+void printArr(int a[], int n)
+{
+    for (int i = 0; i < n; i++)
+        cout << a[i] << " ";
+    printf("\n");
+}
+ 
+// Generating permutation using Heap Algorithm
+void heapPermutation(int a[], int size, int n)
+{
+    // if size becomes 1 then prints the obtained
+    // permutation
+    if (size == 1) {
+        printArr(a, n);
+        return;
+    }
+ 
+    for (int i = 0; i < size; i++) {
+        heapPermutation(a, size - 1, n);
+ 
+        // if size is odd, swap 0th i.e (first) and 
+        // (size-1)th i.e (last) element
+        if (size % 2 == 1)
+            swap(a[0], a[size - 1]);
+ 
+        // If size is even, swap ith and 
+        // (size-1)th i.e (last) element
+        else
+            swap(a[i], a[size - 1]);
+    }
+}
+ 
+// Driver code
+int main()
+{
+    int a[] = { 1, 2, 3 };
+    int n = sizeof a / sizeof a[0];
+    heapPermutation(a, n, n);
+    return 0;
+}
+Đầu ra: 
+
+1 2 3
+2 1 3
+3 1 2
+1 3 2
+2 3 1
+3 2 1
+Tài liệu tham khảo: 
+1. “https://en.wikipedia.org/wiki/Heap%27s_algorithm#cite_note-3

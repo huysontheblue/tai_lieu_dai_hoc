@@ -1,0 +1,16 @@
+Phương pháp xử lí thông tin bao gồm bốn công đoạn, đó là: thu thập, xử lí, lưu trữ và truyền đạt thông tin. Cụ thể:
+– Thu thập thông tin:
++ Có vai trò quan trọng vì chỉ có thu thập được đầy đủ các thông tin cần thiết mới đảm bảo cho ta những số liệu chính xác, phản ánh toàn diện các mặt hoạt động của tổ chức.
++ Liên kết trực tiếp với nguồn phát sinh dữ liệu như khách hàng (đơn đặt hàng, tiền thanh toán hoá đơn), quầy bán hàng (số lượng giao dịch, tiền thu mỗi ngày)…
++ Mục tiêu thu thập thông tin phải được đặt ra rõ ràng và cụ thể (bao nhiêu chỉ tiêu cần thu thập, bao nhiêu chỉ tiêu cần xử lí…).
+– Xử lí thông tin: 
+Xử lí thông tin là công đoạn trung tâm, có vai trò quyết định, bao gồm tất cả các công việc như sắp xếp thông tin, tập hợp hoặc phân chia thông tin thành nhóm, tiến hành tính toán theo các chỉ tiêu…
++ Bộ phận kết xuất thông tin: liên kết với nơi sử dụng thông tin như người quản lí (nhận báo cáo thống kê doanh thu, báo cáo tiến độ thực hiện), các hệ thống khác (hệ thống quản lí đơn đặt hàng cung cấp các đơn đặt hàng hợp lệ cho hệ thống quản lí kho để lập phiếu xuất kho).
++ Bộ phận xử lí: có thể là con người (tiến hành công việc), máy tính (thực thi phần mềm). Các hoạt động xử lí đều dựa trên chuẩn, quy trình và quy tắc quản lí của tổ chức.
+– Lưu trữ thông tin:
++ Kết quả của quá trình xử lí thông tin được lưu trữ để sử dụng lâu dài.
+	– Truyền đạt thông tin:
+Các kết quả xử lí thông tin được truyền đạt đến các đối tượng có nhu cầu sử dụng thông tin ở phạm vi trong nội bộ tổ chức hoặc ra bên ngoài (thường để báo cáo cấp trên hoặc thông báo).
+
+Phương pháp phân tích, đánh giá: dựa vào những cơ sở lý thuyết đã tìm được và nhìn nhận vấn đề vào thực tế để lựa chọn giải pháp hoàn thiện đề tài.
+Phương pháp tổng hợp: Áp dụng lựa chọn tốt nhất từ bước phân tích kết hợp với công nghệ, từ đó từng bước hoàn thành đề tài.

@@ -1,0 +1,160 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Vt_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Vt_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>CmdCancel</Control_Id>
+    <Chs_Desc>取消</Chs_Desc>
+    <Cht_Desc>取消</Cht_Desc>
+    <En_Desc>Cancel</En_Desc>
+    <En_Full_Desc>Cancel</En_Full_Desc>
+    <Vt_Desc>Hủy</Vt_Desc>
+    <Vt_Full_Desc>Hủy</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>CmdOk</Control_Id>
+    <Chs_Desc>确定</Chs_Desc>
+    <Cht_Desc>確定</Cht_Desc>
+    <En_Desc>Confirm</En_Desc>
+    <En_Full_Desc>Confirm</En_Full_Desc>
+    <Vt_Desc>Xác nhận</Vt_Desc>
+    <Vt_Full_Desc>Xác nhận</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmLogin</Control_Id>
+    <Chs_Desc>MES登录</Chs_Desc>
+    <Cht_Desc>MES登錄</Cht_Desc>
+    <En_Desc>MES Login</En_Desc>
+    <En_Full_Desc>MES Login</En_Full_Desc>
+    <Vt_Desc>Đăng nhập MES</Vt_Desc>
+    <Vt_Full_Desc>Đăng nhập MES</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>立讯精密工业股份有限公司          版权所有</Chs_Desc>
+    <Cht_Desc>立訊精密工業股份有限公司          版權所有</Cht_Desc>
+    <En_Desc>Luxshare-ict Co.,Ltd All Right Reserved</En_Desc>
+    <En_Full_Desc>Luxshare-ict Co.,Ltd All Rights Reserved</En_Full_Desc>
+    <Vt_Desc> Bản quyền: Công ty TNHH Luxsahre-ICT</Vt_Desc>
+    <Vt_Full_Desc> Bản quyền: Công ty TNHH Luxsahre-ICT</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>
+      现 场 制 造 执 行 系 统
+      Manufacturing execution system
+    </Chs_Desc>
+    <Cht_Desc>
+      現 場 制 造 執 行 系 統
+      Manufacturing execution system
+    </Cht_Desc>
+    <En_Desc>Manufacture Execution System</En_Desc>
+    <En_Full_Desc>Manufacture Execution System</En_Full_Desc>
+    <Vt_Desc>Hệ Thống Quản Lý Sản Xuất</Vt_Desc>
+    <Vt_Full_Desc>Hệ Thống Quản Lý Sản Xuất</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>营运中心：</Chs_Desc>
+    <Cht_Desc>營運中心：</Cht_Desc>
+    <En_Desc>Operation Center</En_Desc>
+    <En_Full_Desc>Opera.Center</En_Full_Desc>
+    <Vt_Desc>Trung Tâm Điều Hành</Vt_Desc>
+    <Vt_Full_Desc>Trung Tâm Điều Hành</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>用户名：</Chs_Desc>
+    <Cht_Desc>用戶名：</Cht_Desc>
+    <En_Desc>User Name</En_Desc>
+    <En_Full_Desc>UserName</En_Full_Desc>
+    <Vt_Desc>Tên Đăng Nhập</Vt_Desc>
+    <Vt_Full_Desc>Tên Đăng Nhập</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>密码：</Chs_Desc>
+    <Cht_Desc>密碼：</Cht_Desc>
+    <En_Desc>Password</En_Desc>
+    <En_Full_Desc>Password</En_Full_Desc>
+    <Vt_Desc>Mật Khẩu</Vt_Desc>
+    <Vt_Full_Desc>Mật Khẩu</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>利润中心：</Chs_Desc>
+    <Cht_Desc>利潤中心：</Cht_Desc>
+    <En_Desc>Profit Center</En_Desc>
+    <En_Full_Desc>Profit Center</En_Full_Desc>
+    <Vt_Desc>Trung Tâm Liên Quan</Vt_Desc>
+    <Vt_Full_Desc>Trung Tâm Liên Quan</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>语言：</Chs_Desc>
+    <Cht_Desc>語言：</Cht_Desc>
+    <En_Desc>Language</En_Desc>
+    <En_Full_Desc>Language</En_Full_Desc>
+    <Vt_Desc>Ngôn ngữ</Vt_Desc>
+    <Vt_Full_Desc>Ngôn ngữ</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Lblmsg</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LblPErrMessage</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LblUErrMessage</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+    <Vt_Desc />
+    <Vt_Full_Desc />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,2673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="M000001" xml:space="preserve">
+    <value>Vẫn còn Mô-Đun con, không thể xóa!</value>
+  </data>
+  <data name="M000002" xml:space="preserve">
+    <value>Bạn có muốn xóa không?</value>
+  </data>
+  <data name="M000003" xml:space="preserve">
+    <value>Máy tính không phát hiện ra cổng có sẵn…</value>
+  </data>
+  <data name="M000004" xml:space="preserve">
+    <value>User hiện tại không có quyền trạm Thử nghiệm</value>
+  </data>
+  <data name="M000005" xml:space="preserve">
+    <value>1-Đã nhận như 1 chuỗi</value>
+  </data>
+  <data name="M000006" xml:space="preserve">
+    <value>2-Bytes đã nhận</value>
+  </data>
+  <data name="M000007" xml:space="preserve">
+    <value>1-Đọc mã số chip ASN</value>
+  </data>
+  <data name="M000008" xml:space="preserve">
+    <value>2-Đọc mã số chip MSN</value>
+  </data>
+  <data name="M000009" xml:space="preserve">
+    <value>3-Quét mã vạch</value>
+  </data>
+  <data name="M000010" xml:space="preserve">
+    <value>4-Chỉ đọc MSN</value>
+  </data>
+  <data name="M000011" xml:space="preserve">
+    <value>Vui lòng chọn chuyền làm việc</value>
+  </data>
+  <data name="M000012" xml:space="preserve">
+    <value>Cổng đã mở…</value>
+  </data>
+  <data name="M000013" xml:space="preserve">
+    <value>Một lỗi xuất hiện khi mở cổng…</value>
+  </data>
+  <data name="M000014" xml:space="preserve">
+    <value>Cổng kết nối vẫn chưa mở</value>
+  </data>
+  <data name="M000015" xml:space="preserve">
+    <value>Cổng kết nối đã đóng</value>
+  </data>
+  <data name="M000016" xml:space="preserve">
+    <value>Đã đọc qua</value>
+  </data>
+  <data name="M000017" xml:space="preserve">
+    <value>Mã vạch E75 đã đọc thành công</value>
+  </data>
+  <data name="M000018" xml:space="preserve">
+    <value>Mã vạch sản phẩm đã đọc thành công</value>
+  </data>
+  <data name="M000019" xml:space="preserve">
+    <value>Mã vạch chưa đọc hoặc đọc thất bại, vui lòng đọc thông tin mã vạch.</value>
+  </data>
+  <data name="M000020" xml:space="preserve">
+    <value>Đọc dữ liệu thành công</value>
+  </data>
+  <data name="M000021" xml:space="preserve">
+    <value>Đọc số serial ASN là trống hoặc sau Trạm NI không khắc được sản phẩm</value>
+  </data>
+  <data name="M000022" xml:space="preserve">
+    <value>Không có thao tác liên kết E75…</value>
+  </data>
+  <data name="M000023" xml:space="preserve">
+    <value>Sản phẩm lỗi không được phép thực hiện Kiểm Tra Wiggle, vui lòng sửa lỗi trước…</value>
+  </data>
+  <data name="M000024" xml:space="preserve">
+    <value>Sản phẩm đã bị hủy bỏ, không cho phép thực hiện Kiểm tra Wiggle</value>
+  </data>
+  <data name="M000025" xml:space="preserve">
+    <value>Dữ liệu quá lớn, vui lòng nhập điều kiện truy vấn chính xác hơn.</value>
+  </data>
+  <data name="M000026" xml:space="preserve">
+    <value>1.04 volt Kiểm Tra Wiggle dữ liệu lưu thành công…</value>
+  </data>
+  <data name="M000027" xml:space="preserve">
+    <value>1.04 volt Kiểm Tra Wiggle dữ liệu lưu thất bại…</value>
+  </data>
+  <data name="M000028" xml:space="preserve">
+    <value>Mã vạch hoặc số serial MSN\ASN không thể trống</value>
+  </data>
+  <data name="M000029" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra sạc thành công</value>
+  </data>
+  <data name="M000030" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra sạc thất bại</value>
+  </data>
+  <data name="M000031" xml:space="preserve">
+    <value>Kiểm tra sạc:</value>
+  </data>
+  <data name="M000032" xml:space="preserve">
+    <value>Xuất hiện một lỗi khi lưu dữ liệu kiểm tra Wiggle…</value>
+  </data>
+  <data name="M000033" xml:space="preserve">
+    <value>Trạm test SIB nhận dữ liệu không chính xác…</value>
+  </data>
+  <data name="M000034" xml:space="preserve">
+    <value>Sản phẩm chưa kiểm tra NI hoặc kết quả kiểm tra NI thất bại…</value>
+  </data>
+  <data name="M000035" xml:space="preserve">
+    <value>Kiểm tra SBI:</value>
+  </data>
+  <data name="M000036" xml:space="preserve">
+    <value>Lưu dữ liệu SIB thành công…</value>
+  </data>
+  <data name="M000037" xml:space="preserve">
+    <value>Lưu dữ liệu SIB thất bại</value>
+  </data>
+  <data name="M000038" xml:space="preserve">
+    <value>Kiểm tra 3 và 1 EUT:</value>
+  </data>
+  <data name="M000039" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra 3 và 1 EUT IN thành công…</value>
+  </data>
+  <data name="M000040" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra 3 và 1 EUT IN thất bại…</value>
+  </data>
+  <data name="M000041" xml:space="preserve">
+    <value>Trạm kiểm tra Lifting nhận dữ liệu không chính xác...</value>
+  </data>
+  <data name="M000042" xml:space="preserve">
+    <value>Kiểm tra Lifting Weight:</value>
+  </data>
+  <data name="M000043" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra Lifting thành công…</value>
+  </data>
+  <data name="M000044" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra Lifting thất bại…</value>
+  </data>
+  <data name="M000045" xml:space="preserve">
+    <value>Trạm kiểm tra Lifting nhận dữ liệu không chính xác...</value>
+  </data>
+  <data name="M000046" xml:space="preserve">
+    <value>Sản phẩm đã hủy bỏ, không được phép thực hiện kiểm tra Wiggle...</value>
+  </data>
+  <data name="M000047" xml:space="preserve">
+    <value>Sản phẩm đã sửa nhưng chưa được IPQC xác nhận, không cho phép Kiểm Tra Wiggle…</value>
+  </data>
+  <data name="M000048" xml:space="preserve">
+    <value>Mã vạch chưa kiểm tra Lifting hoặc kiểm tra thất bại…</value>
+  </data>
+  <data name="M000049" xml:space="preserve">
+    <value>Trạm kiểm tra Wiggle nhận dữ liệu không chính xác…</value>
+  </data>
+  <data name="M000050" xml:space="preserve">
+    <value>Kiểm tra mã vạch thất bại…</value>
+  </data>
+  <data name="M000051" xml:space="preserve">
+    <value>Kiểm tra Wiggle:</value>
+  </data>
+  <data name="M000052" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra Wiggle thành công…</value>
+  </data>
+  <data name="M000053" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra Wiggle thất bại…</value>
+  </data>
+  <data name="M000054" xml:space="preserve">
+    <value>Lưu dữ liệu 2 IN 1 EUT thành công…</value>
+  </data>
+  <data name="M000055" xml:space="preserve">
+    <value>Lưu dữ liệu 2 IN 1 EUT thất bại…</value>
+  </data>
+  <data name="M000056" xml:space="preserve">
+    <value>Trạm thí điểm E75 nhận dữ liệu không chính xác…</value>
+  </data>
+  <data name="M000057" xml:space="preserve">
+    <value>Kiểm tra thí điểm E75:</value>
+  </data>
+  <data name="M000058" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra E75 thành công…</value>
+  </data>
+  <data name="M000059" xml:space="preserve">
+    <value>Lưu dữ liệu kiểm tra E75 thất bại…</value>
+  </data>
+  <data name="M000060" xml:space="preserve">
+    <value>Mã số và thiết lập của chuyền không phù hợp, chuyền thực tế {0}</value>
+  </data>
+  <data name="M000061" xml:space="preserve">
+    <value>Mã vạch:</value>
+  </data>
+  <data name="M000062" xml:space="preserve">
+    <value>Lỗi ghi chú không thể trống!</value>
+  </data>
+  <data name="M000063" xml:space="preserve">
+    <value>Thông tin nhắc nhở</value>
+  </data>
+  <data name="M000064" xml:space="preserve">
+    <value>Sai hoặc không có mật khẩu</value>
+  </data>
+  <data name="M000065" xml:space="preserve">
+    <value>Vui lòng nhập mật khẩu</value>
+  </data>
+  <data name="M000066" xml:space="preserve">
+    <value>Kiểm tra 2 và 1 EUT:</value>
+  </data>
+  <data name="M000067" xml:space="preserve">
+    <value>Thời gian bắt đầu không thể lớn hơn thời gian kết thúc!</value>
+  </data>
+  <data name="M000068" xml:space="preserve">
+    <value>Thời gian bắt đầu không thể nhỏ hơn 2007-01-01!</value>
+  </data>
+  <data name="M000069" xml:space="preserve">
+    <value>Khoảng thời gian truy vấn phải nhỏ hơn {0} tháng</value>
+  </data>
+  <data name="M000070" xml:space="preserve">
+    <value>Dữ liệu quá lớn, vui lòng nhập điều kiện truy vấn chính xác hơn.</value>
+  </data>
+  <data name="M000071" xml:space="preserve">
+    <value>Vui lòng chọn một trạm kiểm tra…</value>
+  </data>
+  <data name="M000072" xml:space="preserve">
+    <value>Không có dữ liệu được xuất!!!</value>
+  </data>
+  <data name="M000073" xml:space="preserve">
+    <value>Không tìm thấy Công Lệnh được nhập tương ứng, vui lòng xác nhận Công Lệnh chính xác không!</value>
+  </data>
+  <data name="M000074" xml:space="preserve">
+    <value>0 hoặc âm</value>
+  </data>
+  <data name="M000075" xml:space="preserve">
+    <value>Không tìm thấy Công Lệnh tương ứng với Công Lệnh nhập vào, vui lòng xác nhận có sai sót không!</value>
+  </data>
+  <data name="M000076" xml:space="preserve">
+    <value>Nhập số lượng Liệu đến quá ngắn, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000077" xml:space="preserve">
+    <value>Nhập sai, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000078" xml:space="preserve">
+    <value>Mã Vạch bị lặp, vui lòng quét lại!</value>
+  </data>
+  <data name="M000079" xml:space="preserve">
+    <value>{0} không thể trống</value>
+  </data>
+  <data name="M000080" xml:space="preserve">
+    <value>Công Lệnh truy vấn kết quả là rỗng, vui lòng xác nhận có phải sai Công Lệnh!</value>
+  </data>
+  <data name="M000081" xml:space="preserve">
+    <value>{0} không thể trống, vui lòng lựa chọn.</value>
+  </data>
+  <data name="M000082" xml:space="preserve">
+    <value>Số nhập vào không đúng, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000083" xml:space="preserve">
+    <value>Mã số trống, vui lòng xác nhận mã số đúng!</value>
+  </data>
+  <data name="M000084" xml:space="preserve">
+    <value>Đây không phải vấn đề đơn lẻ, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000085" xml:space="preserve">
+    <value>Loại Công Lệnh gia công, cần nhập tên Công Lệnh gia công đi kèm.</value>
+  </data>
+  <data name="M000086" xml:space="preserve">
+    <value>Hệ thống không tồn tại tên Công Lệnh gia công đi kèm.</value>
+  </data>
+  <data name="M000087" xml:space="preserve">
+    <value>Loại Công Lệnh gia công, mã vạch của Công Lệnh và Công Lệnh gia công không giống nhau.</value>
+  </data>
+  <data name="M000088" xml:space="preserve">
+    <value>Nhập dữ liệu thất bại!</value>
+  </data>
+  <data name="M000089" xml:space="preserve">
+    <value>Mã phụ liệu: {0} số còn lại {1} không đủ!</value>
+  </data>
+  <data name="M000090" xml:space="preserve">
+    <value>Có 1 vấn đề với mã phụ liệu. Vui lòng xác nhận!</value>
+  </data>
+  <data name="M000091" xml:space="preserve">
+    <value>Nếu chọn hủy bỏ, bạn phải điền ghi chú hợp lệ trong cột memo!</value>
+  </data>
+  <data name="M000092" xml:space="preserve">
+    <value>[ID: {0}] thông tin này hiện tại trong trạng thái "Báo phế", vui lòng không lặp lại hành động không hợp lệ!</value>
+  </data>
+  <data name="M000093" xml:space="preserve">
+    <value>Lựa chọn không hợp lệ, vui lòng chọn một dòng để xóa!</value>
+  </data>
+  <data name="M000094" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy bỏ [Id:{0}]?</value>
+  </data>
+  <data name="M000095" xml:space="preserve">
+    <value>Mở báo phế</value>
+  </data>
+  <data name="M000096" xml:space="preserve">
+    <value>Báo phế hoàn thành</value>
+  </data>
+  <data name="M000097" xml:space="preserve">
+    <value>Bạn đã chọn xóa Id:{0}, vui lòng xác nhận</value>
+  </data>
+  <data name="M000098" xml:space="preserve">
+    <value>mã vạch nhập không hợp lệ, không được in trên hệ thống</value>
+  </data>
+  <data name="M000099" xml:space="preserve">
+    <value>Không thể thiết lập đối tượng excel, bạn không thể cài đặt máy excel</value>
+  </data>
+  <data name="M000100" xml:space="preserve">
+    <value>Lỗi khi xuất tập tin. Tập tin này có thể đang được mở</value>
+  </data>
+  <data name="M000101" xml:space="preserve">
+    <value>Lưu thành công</value>
+  </data>
+  <data name="M000102" xml:space="preserve">
+    <value>Số pallet trống</value>
+  </data>
+  <data name="M000103" xml:space="preserve">
+    <value>Số thùng carton trống</value>
+  </data>
+  <data name="M000104" xml:space="preserve">
+    <value>Định dạng in của mã liệu không được thiết lập</value>
+  </data>
+  <data name="M000105" xml:space="preserve">
+    <value>Một phần của các giá trị tham số trong mã vạch không hoàn chỉnh!</value>
+  </data>
+  <data name="M000106" xml:space="preserve">
+    <value>Vui lòng nhập số lượng của thùng cuối lẻ</value>
+  </data>
+  <data name="M000107" xml:space="preserve">
+    <value>Thiết lập in thùng cuối lẻ</value>
+  </data>
+  <data name="M000108" xml:space="preserve">
+    <value>Số lượng đóng gói phải lớn hơn 0</value>
+  </data>
+  <data name="M000109" xml:space="preserve">
+    <value>Trường hợp số nên là số</value>
+  </data>
+  <data name="M000110" xml:space="preserve">
+    <value>Bạn có chắc muốn in tem thùng lẻ</value>
+  </data>
+  <data name="M000111" xml:space="preserve">
+    <value>Hãy chắc chắn rằng máy in đã được kết nối</value>
+  </data>
+  <data name="M000112" xml:space="preserve">
+    <value>Số lượng in giới hạn {0}!</value>
+  </data>
+  <data name="M000113" xml:space="preserve">
+    <value>Số lượng của mã vạch in không thể trống</value>
+  </data>
+  <data name="M000114" xml:space="preserve">
+    <value>Công lệnh đang in!</value>
+  </data>
+  <data name="M000115" xml:space="preserve">
+    <value>Sửa đổi công lệnh không tương ứng với chuyền được thiết lập</value>
+  </data>
+  <data name="M000116" xml:space="preserve">
+    <value>Không tìm thấy chuyền {0} trong bảng tương ứng. </value>
+  </data>
+  <data name="M000117" xml:space="preserve">
+    <value>Mã liệu không được thiết lập để in mẫu</value>
+  </data>
+  <data name="M000118" xml:space="preserve">
+    <value>Số serial đã đạt đến giá trị tối đa</value>
+  </data>
+  <data name="M000119" xml:space="preserve">
+    <value>Thư mục cài đặt chương trình không phù hợp với module nguồn dữ liệu và không được phép in.</value>
+  </data>
+  <data name="M000120" xml:space="preserve">
+    <value>Mã vạch in không bình thường:</value>
+  </data>
+  <data name="M000121" xml:space="preserve">
+    <value>Vui lòng chọn khách hàng và nguyên tắc mã vạch</value>
+  </data>
+  <data name="M000122" xml:space="preserve">
+    <value>Nhập thành công</value>
+  </data>
+  <data name="M000123" xml:space="preserve">
+    <value>Nhập thất bại</value>
+  </data>
+  <data name="M000124" xml:space="preserve">
+    <value>Vui lòng xác nhận dữ liệu cần xuất ra!</value>
+  </data>
+  <data name="M000125" xml:space="preserve">
+    <value>Xuất tập tin thành công, vị trí xuất: {0}</value>
+  </data>
+  <data name="M000126" xml:space="preserve">
+    <value>Vui lòng nhập số lượng in</value>
+  </data>
+  <data name="M000127" xml:space="preserve">
+    <value>Mẫu cục bộ không tồn tại</value>
+  </data>
+  <data name="M000128" xml:space="preserve">
+    <value>Server không tồn tại mẫu in tương ứng của vật liệu</value>
+  </data>
+  <data name="M000129" xml:space="preserve">
+    <value>Không có bất kỳ thông tin nào về mã vạch </value>
+  </data>
+  <data name="M000130" xml:space="preserve">
+    <value>Mã liệu in chưa tải lên file mẫu…</value>
+  </data>
+  <data name="M000131" xml:space="preserve">
+    <value>Không tồn tại file XML</value>
+  </data>
+  <data name="M000132" xml:space="preserve">
+    <value>Khi sử dụng Bartender để in, hệ thống có thể xem trước định dạng file .btw</value>
+  </data>
+  <data name="M000133" xml:space="preserve">
+    <value>Công lệnh này chưa thiết lập bộ phận sản xuất hoặc trung tâm thao tác…</value>
+  </data>
+  <data name="M000134" xml:space="preserve">
+    <value>Số lượng đóng gói không thiết lập…</value>
+  </data>
+  <data name="M000135" xml:space="preserve">
+    <value>Thông tin Liệu đóng gói tương ứng cho công lệnh này không thiết lập hoặc thiết lập lỗi</value>
+  </data>
+  <data name="M000136" xml:space="preserve">
+    <value>Số lượng đóng gói thùng lẻ cuối không được lớn hơn hoặc bằng số lượng đóng gói thùng nguyên!</value>
+  </data>
+  <data name="M000137" xml:space="preserve">
+    <value>Sinh ra kiểu lỗi!</value>
+  </data>
+  <data name="M000138" xml:space="preserve">
+    <value>Tem này không cần thiết lập thùng lẻ cuối</value>
+  </data>
+  <data name="M000139" xml:space="preserve">
+    <value>Tự động sinh ra định dạng CSV số dòng in ra không được lớn hơn 50000!</value>
+  </data>
+  <data name="M000140" xml:space="preserve">
+    <value>Tài liệu đã được chuyển, vui lòng xác nhận</value>
+  </data>
+  <data name="M000141" xml:space="preserve">
+    <value>Chuyển {0} file đến Mac thất bại, vui lòng chuyển thủ công</value>
+  </data>
+  <data name="M000142" xml:space="preserve">
+    <value>Vui lòng chọn số cột cho mỗi hàng!</value>
+  </data>
+  <data name="M000143" xml:space="preserve">
+    <value>Số kí tự cố định không thể lớn hơn tổng số kí tự!</value>
+  </data>
+  <data name="M000144" xml:space="preserve">
+    <value>Các mã kí hiệu nhập vào không thể là {0}, vui lòng nhập lại</value>
+  </data>
+  <data name="M000145" xml:space="preserve">
+    <value>Vui lòng nhập dấu phân cách</value>
+  </data>
+  <data name="M000146" xml:space="preserve">
+    <value>Vui lòng nhập chiều dài mã</value>
+  </data>
+  <data name="M000147" xml:space="preserve">
+    <value>Đã không hợp lệ, không thể sửa!</value>
+  </data>
+  <data name="M000148" xml:space="preserve">
+    <value>Vui lòng xác nhận có phải thông tin chính xác?</value>
+  </data>
+  <data name="M000149" xml:space="preserve">
+    <value>Đã đóng băng, không thể sửa!</value>
+  </data>
+  <data name="M000150" xml:space="preserve">
+    <value>Bạn có chắc muốn đóng băng không?</value>
+  </data>
+  <data name="M000151" xml:space="preserve">
+    <value>Đóng băng thành công!</value>
+  </data>
+  <data name="M000152" xml:space="preserve">
+    <value>Nguyên tắc mã đã được đóng băng, không thể đóng  băng nữa!</value>
+  </data>
+  <data name="M000153" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy bỏ nguyên tắc mã này?</value>
+  </data>
+  <data name="M000154" xml:space="preserve">
+    <value>Hủy bỏ đóng băng thành công!</value>
+  </data>
+  <data name="M000155" xml:space="preserve">
+    <value>lưu thất bại</value>
+  </data>
+  <data name="M000156" xml:space="preserve">
+    <value>Vui lòng chọn một dữ liệu</value>
+  </data>
+  <data name="M000157" xml:space="preserve">
+    <value>Vui lòng chọn một bản ghi in</value>
+  </data>
+  <data name="M000158" xml:space="preserve">
+    <value>In thành công</value>
+  </data>
+  <data name="M000159" xml:space="preserve">
+    <value>In bị lỗi</value>
+  </data>
+  <data name="M000160" xml:space="preserve">
+    <value>Lỗi khi nhận được thông tin đơn hàng</value>
+  </data>
+  <data name="M000161" xml:space="preserve">
+    <value>Lựa chọn bất thường</value>
+  </data>
+  <data name="M000162" xml:space="preserve">
+    <value>Thời gian thiết lập không được sớm hơn cùng ngày</value>
+  </data>
+  <data name="M000163" xml:space="preserve">
+    <value>Hợp đồng số: {0} Yêu cầu thông tin:</value>
+  </data>
+  <data name="M000164" xml:space="preserve">
+    <value>Bản ghi ứng dụng in lô</value>
+  </data>
+  <data name="M000165" xml:space="preserve">
+    <value>Đối với thuộc tính mã vạch khác nhau không có yêu cầu đặc biệt, tùy theo công lệnh hiện tại tất cả loại mã vạch sinh ra một đơn in mới, nếu không vui lòng in theo thao tác của một kiểu đơn in mã vạch.</value>
+  </data>
+  <data name="M000166" xml:space="preserve">
+    <value>In trung gian…</value>
+  </data>
+  <data name="M000167" xml:space="preserve">
+    <value>Đơn hàng cho {0} từ một thành công</value>
+  </data>
+  <data name="M000168" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="M000169" xml:space="preserve">
+    <value>Có xóa không?</value>
+  </data>
+  <data name="M000170" xml:space="preserve">
+    <value>Xóa thất bại</value>
+  </data>
+  <data name="M000171" xml:space="preserve">
+    <value>Truy cập vào một danh sách in ngoại lệ</value>
+  </data>
+  <data name="M000172" xml:space="preserve">
+    <value>Vui lòng nhập đơn Tiptop truy vấn</value>
+  </data>
+  <data name="M000173" xml:space="preserve">
+    <value>Vui lòng thiết lập tham số vật liệu in</value>
+  </data>
+  <data name="M000174" xml:space="preserve">
+    <value>Đơn hàng {0} không tồn tại!</value>
+  </data>
+  <data name="M000175" xml:space="preserve">
+    <value>Cập nhật BOM thất bại, vui lòng chọn khách hàng trước</value>
+  </data>
+  <data name="M000176" xml:space="preserve">
+    <value>Vui lòng chọn khách hàng trước!</value>
+  </data>
+  <data name="M000177" xml:space="preserve">
+    <value>{0} tải xuống ngoại lệ!</value>
+  </data>
+  <data name="M000178" xml:space="preserve">
+    <value>Đơn hàng {0} đã in, không cho phép tải lại hoặc xóa!</value>
+  </data>
+  <data name="M000179" xml:space="preserve">
+    <value>Vui lòng cấu hình {0} cho tham số in các vật liệu, và chắc chắn rằng các vật liệu khác đã cấu hình tham số OK!</value>
+  </data>
+  <data name="M000180" xml:space="preserve">
+    <value>Vui lòng cấu hình {0} cho mẫu in các vật liệu, và chắc chắn rằng các vật liệu khác đã cấu hình mẫu in OK!</value>
+  </data>
+  <data name="M000181" xml:space="preserve">
+    <value>Vui lòng cấu hình dung lượng đóng gói {0}, và đảm bảo rằng dung lượng in đóng gói của các vật liệu đóng gói khác đã cấu hình OK!</value>
+  </data>
+  <data name="M000182" xml:space="preserve">
+    <value>Đầu vào của in không phải kiểu số!</value>
+  </data>
+  <data name="M000183" xml:space="preserve">
+    <value>Vui lòng thiết lập {0} dòng in, và các liệu khác chắc chắn đã cấu hình in OK!</value>
+  </data>
+  <data name="M000184" xml:space="preserve">
+    <value>Dòng thứ {0} không thể in, vui lòng kiểm tra!</value>
+  </data>
+  <data name="M000185" xml:space="preserve">
+    <value>Số lượng in phải lớn hơn 0!</value>
+  </data>
+  <data name="M000186" xml:space="preserve">
+    <value>Định dạng số lượng in không đúng!</value>
+  </data>
+  <data name="M000187" xml:space="preserve">
+    <value>Cập nhật thất bại</value>
+  </data>
+  <data name="M000188" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="M000189" xml:space="preserve">
+    <value>Không thể nhận được dữ liệu in dòng {0}!</value>
+  </data>
+  <data name="M000190" xml:space="preserve">
+    <value>Vui lòng cấu hình kiểu mã vạch in không tuần tự</value>
+  </data>
+  <data name="M000191" xml:space="preserve">
+    <value>Công lệnh này không thiết lập bộ phận sản xuất, vui lòng thiết lập bộ phận sản xuất!</value>
+  </data>
+  <data name="M000192" xml:space="preserve">
+    <value>Vui lòng chọn cổng in và tải  về font!</value>
+  </data>
+  <data name="M000193" xml:space="preserve">
+    <value>Đơn của bạn đã vượt quá số lượng in, vui lòng xác nhận số lượng bạn cần in?</value>
+  </data>
+  <data name="M000194" xml:space="preserve">
+    <value>Đã xác nhận, không cho phép sửa!</value>
+  </data>
+  <data name="M000195" xml:space="preserve">
+    <value>Người dùng không có quyền, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000196" xml:space="preserve">
+    <value>Quyết định báo phế?</value>
+  </data>
+  <data name="M000197" xml:space="preserve">
+    <value>Định dạng in không được chọn!</value>
+  </data>
+  <data name="M000198" xml:space="preserve">
+    <value>Định dạng in chưa thiết lập, bạn có cần thay đổi không?</value>
+  </data>
+  <data name="M000199" xml:space="preserve">
+    <value>Không chọn định dạng, không cập nhật!</value>
+  </data>
+  <data name="M000200" xml:space="preserve">
+    <value>Mã Liệu {0} của định dạng in {1} đã cập nhật</value>
+  </data>
+  <data name="M000201" xml:space="preserve">
+    <value>Liệu này đã thiết lập tham số, vui lòng hủy bỏ!</value>
+  </data>
+  <data name="M000202" xml:space="preserve">
+    <value>Số của Mã liệu nhập không tồn tại!</value>
+  </data>
+  <data name="M000203" xml:space="preserve">
+    <value>Độ dài của {0} mã vạch không chính xác, nên là {1}!</value>
+  </data>
+  <data name="M000204" xml:space="preserve">
+    <value>Vui lòng xác nhận có phải bạn cần thiết lập số lượng của thùng không?</value>
+  </data>
+  <data name="M000205" xml:space="preserve">
+    <value>Tham số này chưa được xác nhận, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000206" xml:space="preserve">
+    <value>Bắt đầu hoặc kết thúc của chuỗi mã số thiết lập lỗi, vui lòng kiểm tra!</value>
+  </data>
+  <data name="M000207" xml:space="preserve">
+    <value>Trạng thái hiện tại không thể đóng băng!</value>
+  </data>
+  <data name="M000208" xml:space="preserve">
+    <value>Tham số mã liệu in đóng băng thành công, mã liệu không thể quét hoặc in…</value>
+  </data>
+  <data name="M000209" xml:space="preserve">
+    <value>Đóng băng thất bại</value>
+  </data>
+  <data name="M000210" xml:space="preserve">
+    <value>Trạng thái đã hoạt động, không cho phép sửa</value>
+  </data>
+  <data name="M000211" xml:space="preserve">
+    <value>Vẫn còn một bản ghi có hiệu lực, và hệ thống có nhiều hơn một bản ghi có hiệu lực</value>
+  </data>
+  <data name="M000212" xml:space="preserve">
+    <value>Xác nhận khôi phục?</value>
+  </data>
+  <data name="M000213" xml:space="preserve">
+    <value>Nguyên tắc mã không có kí tự đại diện…</value>
+  </data>
+  <data name="M000214" xml:space="preserve">
+    <value>Chỉ trạng thái "chờ in" hoặc "từ chối" mới có thể sửa!</value>
+  </data>
+  <data name="M000215" xml:space="preserve">
+    <value>Văn kiện không tồn tại</value>
+  </data>
+  <data name="M000216" xml:space="preserve">
+    <value>Khi in tem thùng, vui lòng chọn kiểu thùng…</value>
+  </data>
+  <data name="M000217" xml:space="preserve">
+    <value>Bao gồm thùng lẻ, số lượng đóng thùng:</value>
+  </data>
+  <data name="M000218" xml:space="preserve">
+    <value>Bạn xác nhận muốn sửa đổi</value>
+  </data>
+  <data name="M000219" xml:space="preserve">
+    <value>Vui lòng nhập lý do sửa đổi</value>
+  </data>
+  <data name="M000220" xml:space="preserve">
+    <value>Đơn sửa đổi văn bản</value>
+  </data>
+  <data name="M000221" xml:space="preserve">
+    <value>Đã sửa thành công</value>
+  </data>
+  <data name="M000222" xml:space="preserve">
+    <value>Lý do sửa đổi không thể trống</value>
+  </data>
+  <data name="M000223" xml:space="preserve">
+    <value>Mã liệu không cho phép sinh tệp tin CSV</value>
+  </data>
+  <data name="M000224" xml:space="preserve">
+    <value>Công lệnh không có trong tài liệu, không cho phép Sản Xuất in file CSV</value>
+  </data>
+  <data name="M000225" xml:space="preserve">
+    <value>Chỉ các văn kiện có trạng thái [đang in] mới có thể thực hiện thao tác. </value>
+  </data>
+  <data name="M000226" xml:space="preserve">
+    <value>Vui lòng xác nhận có phải văn kiện đã được in</value>
+  </data>
+  <data name="M000227" xml:space="preserve">
+    <value>Đã đóng</value>
+  </data>
+  <data name="M000228" xml:space="preserve">
+    <value>Vui lòng xác nhận có phải tài liệu đã nhận được mã vạch</value>
+  </data>
+  <data name="M000229" xml:space="preserve">
+    <value>Số mã liệu là {0}, không phù hợp với số mã liệu nhập vào!</value>
+  </data>
+  <data name="M000230" xml:space="preserve">
+    <value>Đã đóng băng</value>
+  </data>
+  <data name="M000231" xml:space="preserve">
+    <value>Vui lòng chọn kiểu  của mã vạch in và số lượng in</value>
+  </data>
+  <data name="M000232" xml:space="preserve">
+    <value>Vui lòng chọn kiểu của in mã vạch và số lượng in</value>
+  </data>
+  <data name="M000233" xml:space="preserve">
+    <value>Thời gian yêu cầu không được thiết lập trước hoặc lỗi bảng thiết lập tham số, vui lòng kiểm tra thông tin!</value>
+  </data>
+  <data name="M000234" xml:space="preserve">
+    <value>Sinh ra mã vạch trống.</value>
+  </data>
+  <data name="M000235" xml:space="preserve">
+    <value>Mã vạch không thể trống</value>
+  </data>
+  <data name="M000236" xml:space="preserve">
+    <value>Chiều dài của mã vạch không đúng với chiều dài định dạng của nguyên tắc mã…</value>
+  </data>
+  <data name="M000237" xml:space="preserve">
+    <value>Mã vạch không đúng định dạng</value>
+  </data>
+  <data name="M000238" xml:space="preserve">
+    <value>Quét mã vạch thành công</value>
+  </data>
+  <data name="M000239" xml:space="preserve">
+    <value>Mã vạch đã quét.</value>
+  </data>
+  <data name="M000240" xml:space="preserve">
+    <value>Dữ liệu quét chưa thiết lập</value>
+  </data>
+  <data name="M000241" xml:space="preserve">
+    <value>Số SMT không tồn tại</value>
+  </data>
+  <data name="M000242" xml:space="preserve">
+    <value>Xóa thành công</value>
+  </data>
+  <data name="M000243" xml:space="preserve">
+    <value>Làm mới thành công</value>
+  </data>
+  <data name="M000244" xml:space="preserve">
+    <value>Làm mới thất bại!</value>
+  </data>
+  <data name="M000245" xml:space="preserve">
+    <value>Lỗi Email!</value>
+  </data>
+  <data name="M000246" xml:space="preserve">
+    <value>{0} đã tồn tại, vui lòng  nhập lại!</value>
+  </data>
+  <data name="M000247" xml:space="preserve">
+    <value>Lỗi truy vấn!</value>
+  </data>
+  <data name="M000248" xml:space="preserve">
+    <value>Không thể tải hệ thống!</value>
+  </data>
+  <data name="M000249" xml:space="preserve">
+    <value>Lỗi bảng phân công</value>
+  </data>
+  <data name="M000250" xml:space="preserve">
+    <value>Nếu bạn không kiểm tra vị trí cao nhất, giá trị cao nhất có thể trống!</value>
+  </data>
+  <data name="M000251" xml:space="preserve">
+    <value>File excel không được chọn</value>
+  </data>
+  <data name="M000252" xml:space="preserve">
+    <value>File trống</value>
+  </data>
+  <data name="M000253" xml:space="preserve">
+    <value>Nhập dữ liệu ngoại lệ danh sách đen</value>
+  </data>
+  <data name="M000254" xml:space="preserve">
+    <value>Đã tồn tại một bảng {0} tương ứng trong máy. Vui lòng kiểm tra tên bảng phù hợp!</value>
+  </data>
+  <data name="M000255" xml:space="preserve">
+    <value>Chuyền đã tồn tại trong bảng{0}, vui lòng kiểm tra chuyền phù hợp với bảng!</value>
+  </data>
+  <data name="M000256" xml:space="preserve">
+    <value>Vui lòng chọn ít nhất 1 điều kiện</value>
+  </data>
+  <data name="M000257" xml:space="preserve">
+    <value>Mã nguyên nhân lỗi đã tồn tại</value>
+  </data>
+  <data name="M000258" xml:space="preserve">
+    <value>Đã tồn tại mã bảo trì lỗi</value>
+  </data>
+  <data name="M000259" xml:space="preserve">
+    <value>Không có số liệu này trong hệ thống TipTop</value>
+  </data>
+  <data name="M000260" xml:space="preserve">
+    <value>Vui lòng chọn thay thế</value>
+  </data>
+  <data name="M000261" xml:space="preserve">
+    <value>Mã liệu hiện tại đã được gửi để hủy đóng băng, cho phép gửi để quét…</value>
+  </data>
+  <data name="M000262" xml:space="preserve">
+    <value>Mã liệu hiện tại đã được gửi để đóng băng, không cho phép quét.</value>
+  </data>
+  <data name="M000263" xml:space="preserve">
+    <value>Lỗi:</value>
+  </data>
+  <data name="M000264" xml:space="preserve">
+    <value>Thông tin mã liệu đã được thiết lập trong hệ thống, vui lòng xóa trùng lặp…</value>
+  </data>
+  <data name="M000265" xml:space="preserve">
+    <value>Dữ liệu không tồn tại</value>
+  </data>
+  <data name="M000266" xml:space="preserve">
+    <value>Đã đóng băng, không cho phép quét lại.</value>
+  </data>
+  <data name="M000267" xml:space="preserve">
+    <value>Đã hủy đóng băng, khôi phục quét.</value>
+  </data>
+  <data name="M000268" xml:space="preserve">
+    <value>Bạn có chắc muốn thiết lập một phiên bản mới của Mã sản phẩm {0}?</value>
+  </data>
+  <data name="M000269" xml:space="preserve">
+    <value>Một phiên bản mới đã được thiết lập: {0}</value>
+  </data>
+  <data name="M000270" xml:space="preserve">
+    <value>Chỉ phiên bản sửa đổi [0] có thể chấp nhận!</value>
+  </data>
+  <data name="M000271" xml:space="preserve">
+    <value>Không có các tham số kiểm tra hoặc tham số hiệu chuẩn để thiết lập tài liệu kiểm tra ID: {0}!</value>
+  </data>
+  <data name="M000272" xml:space="preserve">
+    <value>Phiên bản scan của mã liệu đã được xác nhận, không thể xác nhận phiên bản khác!</value>
+  </data>
+  <data name="M000273" xml:space="preserve">
+    <value>Có xác nhận không</value>
+  </data>
+  <data name="M000274" xml:space="preserve">
+    <value>Xác nhận thành công</value>
+  </data>
+  <data name="M000275" xml:space="preserve">
+    <value>Mã liệu không tồn tại trên hệ thống. Vui lòng xác nhận dữ liệu được nhập có chính xác không!</value>
+  </data>
+  <data name="M000276" xml:space="preserve">
+    <value>Điểm gốc không cho phép xóa!</value>
+  </data>
+  <data name="M000277" xml:space="preserve">
+    <value>Mã vạch chính không được phép xóa!</value>
+  </data>
+  <data name="M000278" xml:space="preserve">
+    <value>Điểm gốc không cho phép di chuyển lên!</value>
+  </data>
+  <data name="M000279" xml:space="preserve">
+    <value>Vui lòng xác nhận có di chuyển lên hay không?</value>
+  </data>
+  <data name="M000280" xml:space="preserve">
+    <value>Lên thành công</value>
+  </data>
+  <data name="M000281" xml:space="preserve">
+    <value>Điểm gốc không thể di chuyển xuống!</value>
+  </data>
+  <data name="M000282" xml:space="preserve">
+    <value>Vui lòng xác nhận có di chuyển xuống hay không?</value>
+  </data>
+  <data name="M000283" xml:space="preserve">
+    <value>Xuống thành công!</value>
+  </data>
+  <data name="M000284" xml:space="preserve">
+    <value>Mã liệu đã có trong danh sách hoặc đã được chọn như một phần của mã liệu!</value>
+  </data>
+  <data name="M000285" xml:space="preserve">
+    <value>Liệu và liệu chính không thể có cùng mã liệu!</value>
+  </data>
+  <data name="M000286" xml:space="preserve">
+    <value>Vui lòng chọn trạm quét!</value>
+  </data>
+  <data name="M000287" xml:space="preserve">
+    <value>Vui lòng nhập mã liệu quét!</value>
+  </data>
+  <data name="M000288" xml:space="preserve">
+    <value>Vị trí bắt đầu và chiều dài không thể trống!</value>
+  </data>
+  <data name="M000289" xml:space="preserve">
+    <value>Vui lòng nhập tên của đơn vị quét</value>
+  </data>
+  <data name="M000290" xml:space="preserve">
+    <value>Vui lòng chọn số mã vạch để hiển thị vị trí cột trên tem thùng ngoài!</value>
+  </data>
+  <data name="M000291" xml:space="preserve">
+    <value>Vui lòng chọn số lượng mã vạch để kiểm tra!</value>
+  </data>
+  <data name="M000292" xml:space="preserve">
+    <value>Kiểm tra Liệu thành phần đã thiết lập hoàn chỉnh chưa, thứ tự Trạm scan không được trống</value>
+  </data>
+  <data name="M000293" xml:space="preserve">
+    <value>Kiểm tra liệu thành phần thiết lập hoàn chỉnh chưa, Trạm không được trống.</value>
+  </data>
+  <data name="M000294" xml:space="preserve">
+    <value>Dữ liệu đã tồn tại trong hệ thống quét dữ liệu, cần quét lại sau khi hủy bỏ, có xác nhận hủy bỏ không!</value>
+  </data>
+  <data name="M000295" xml:space="preserve">
+    <value>Kiểm tra in mã vạch, vui lòng tải lên tem mẫu!</value>
+  </data>
+  <data name="M000296" xml:space="preserve">
+    <value>Phiên bản đã hủy bỏ, không thể thiết lập như một lưu trình thay thế!</value>
+  </data>
+  <data name="M000297" xml:space="preserve">
+    <value>Bạn có muốn thiết lập kết thúc phiên bản {1} của mã sản phẩm: {0} cho lưu trình con </value>
+  </data>
+  <data name="M000298" xml:space="preserve">
+    <value>Thiết lập lưu trình thành công!</value>
+  </data>
+  <data name="M000299" xml:space="preserve">
+    <value>Hành động không hợp lệ, trạng thái không cho phép sửa đổi</value>
+  </data>
+  <data name="M000300" xml:space="preserve">
+    <value>Tên kiểm tra không thể trống!</value>
+  </data>
+  <data name="M000301" xml:space="preserve">
+    <value>Câu lệnh SQL không thể trống</value>
+  </data>
+  <data name="M000302" xml:space="preserve">
+    <value>Câu lệnh SQL thất bại</value>
+  </data>
+  <data name="M000303" xml:space="preserve">
+    <value>Khi trường khóa chính rỗng, câu lệnh SQL không thể trống</value>
+  </data>
+  <data name="M000304" xml:space="preserve">
+    <value>Biến {0} không hợp lệ</value>
+  </data>
+  <data name="M000305" xml:space="preserve">
+    <value>Cú pháp SQL bình thường</value>
+  </data>
+  <data name="M000306" xml:space="preserve">
+    <value>Báo phế thất bại</value>
+  </data>
+  <data name="M000307" xml:space="preserve">
+    <value>Không thể thêm hoặc sửa nếu không lưu.</value>
+  </data>
+  <data name="M000308" xml:space="preserve">
+    <value>Thêm thời gian vui lòng chọn trạng thái có hiệu lực</value>
+  </data>
+  <data name="M000309" xml:space="preserve">
+    <value>Chuyền không {0} không sử dụng cho sản xuất, không thể duy trì, vui lòng xác nhận</value>
+  </data>
+  <data name="M000310" xml:space="preserve">
+    <value>Mã liệu kiểm tra không tồn tại, vui lòng kiểm tra Trạm thiết lập thông tin Liệu</value>
+  </data>
+  <data name="M000311" xml:space="preserve">
+    <value>Xác định tình hình?</value>
+  </data>
+  <data name="M000312" xml:space="preserve">
+    <value>Đóng thành công</value>
+  </data>
+  <data name="M000313" xml:space="preserve">
+    <value>Đóng thất bại</value>
+  </data>
+  <data name="M000314" xml:space="preserve">
+    <value>Có hủy bỏ không?</value>
+  </data>
+  <data name="M000315" xml:space="preserve">
+    <value>Hủy bỏ thành công</value>
+  </data>
+  <data name="M000316" xml:space="preserve">
+    <value>Hủy bỏ thất bại</value>
+  </data>
+  <data name="M000317" xml:space="preserve">
+    <value>Nếu đóng băng quét, sẽ không thể quét</value>
+  </data>
+  <data name="M000318" xml:space="preserve">
+    <value>Công lệnh không có trong ERP</value>
+  </data>
+  <data name="M000319" xml:space="preserve">
+    <value>Phải nhập thứ tự lớn hơn (danh sách đóng gói) bởi vì giống với công lệnh đã hoàn thành.</value>
+  </data>
+  <data name="M000320" xml:space="preserve">
+    <value>Lưu trình sản xuất hiện tại không duy trì</value>
+  </data>
+  <data name="M000321" xml:space="preserve">
+    <value>Vui lòng chọn danh mục cho vận chuyển</value>
+  </data>
+  <data name="M000322" xml:space="preserve">
+    <value>Số Pallet: {0}, không tồn tại</value>
+  </data>
+  <data name="M000323" xml:space="preserve">
+    <value>Số lượng pallet với số lượng của mã liệu không khớp</value>
+  </data>
+  <data name="M000324" xml:space="preserve">
+    <value>Khi phát sinh lỗi hệ thống tự động sinh số lô hàng</value>
+  </data>
+  <data name="M000325" xml:space="preserve">
+    <value>Số lượng đóng gói của pallet lớn hơn số lượng đơn hàng</value>
+  </data>
+  <data name="M000326" xml:space="preserve">
+    <value>Quét thành công</value>
+  </data>
+  <data name="M000327" xml:space="preserve">
+    <value>Quét thất bại</value>
+  </data>
+  <data name="M000328" xml:space="preserve">
+    <value>Chọn: kiểu quét Pallet + Carton, số lượng quét pallet không thể trống…</value>
+  </data>
+  <data name="M000329" xml:space="preserve">
+    <value>Mã vạch thùng không tồn tại, hoặc không thực hiện quét đóng gói.</value>
+  </data>
+  <data name="M000330" xml:space="preserve">
+    <value>Chuyền: {0}, đóng băng trong khoảng thời gian từ {1}--{2}, không cho phép scan.</value>
+  </data>
+  <data name="M000331" xml:space="preserve">
+    <value>Mã liệu hiện tại đã đóng băng, không cho phép scan</value>
+  </data>
+  <data name="M000332" xml:space="preserve">
+    <value>Mã vạch thùng đã xuất, vui lòng kiểm tra có phải trùng lặp hoặc chưa được xuất..</value>
+  </data>
+  <data name="M000333" xml:space="preserve">
+    <value>Mã thùng chưa hoàn thành hoặc đã bị thay đổi</value>
+  </data>
+  <data name="M000334" xml:space="preserve">
+    <value>Mã thùng chưa thực hiện kiểm tra, không cho phép quét vận chuyển.</value>
+  </data>
+  <data name="M000335" xml:space="preserve">
+    <value>Pallet đã hoàn thành đóng gói, không cho phép thêm thùng.</value>
+  </data>
+  <data name="M000336" xml:space="preserve">
+    <value>Mã thùng xuất kho vượt quá số lượng thiết lập xuất kho</value>
+  </data>
+  <data name="M000337" xml:space="preserve">
+    <value>Xuất thành công</value>
+  </data>
+  <data name="M000338" xml:space="preserve">
+    <value>Đơn vận chuyển đã quét,  không cho phép quét lại</value>
+  </data>
+  <data name="M000339" xml:space="preserve">
+    <value>Xảy ra lỗi khi xóa thùng ngoài, vui lòng kiểm tra lý do</value>
+  </data>
+  <data name="M000340" xml:space="preserve">
+    <value>Mã vạch không tồn tại, không cho phép quét.</value>
+  </data>
+  <data name="M000341" xml:space="preserve">
+    <value>Tham số của sản phẩm: giá trị được thiết lập {0} và quét {1} không giống nhau</value>
+  </data>
+  <data name="M000342" xml:space="preserve">
+    <value>Mã vạch sản phẩm chưa đóng gói, không thể quét xuất kho</value>
+  </data>
+  <data name="M000343" xml:space="preserve">
+    <value>Mã vạch đã quét, vui lòng không quét lại</value>
+  </data>
+  <data name="M000344" xml:space="preserve">
+    <value>Bảo trì hoàn thành!</value>
+  </data>
+  <data name="M000345" xml:space="preserve">
+    <value>Lỗi xuất hiện khi bảo trì</value>
+  </data>
+  <data name="M000346" xml:space="preserve">
+    <value>Trạm phụ cho trạm hóa chất tự động, cần chọn công cụ mã hóa.</value>
+  </data>
+  <data name="M000347" xml:space="preserve">
+    <value>Sản phẩm hiện tại không cho phép sửa, chỉ cho phép báo phế.</value>
+  </data>
+  <data name="M000348" xml:space="preserve">
+    <value>Không có mã vạch cố định nội bộ hoặc chưa được gắn kết</value>
+  </data>
+  <data name="M000349" xml:space="preserve">
+    <value>Không có hệ thống in mã vạch</value>
+  </data>
+  <data name="M000350" xml:space="preserve">
+    <value>Hệ thống tự sinh ra lỗi khi bảo trì.</value>
+  </data>
+  <data name="M000351" xml:space="preserve">
+    <value>Không nhận được mã vạch</value>
+  </data>
+  <data name="M000352" xml:space="preserve">
+    <value>Sản phẩm YongXin không binding, vui lòng chọn chuyền đầu tiên.</value>
+  </data>
+  <data name="M000353" xml:space="preserve">
+    <value>Đã xác nhận báo phế, không cho phép phán định.</value>
+  </data>
+  <data name="M000354" xml:space="preserve">
+    <value>Sản phẩm: {0} được xác nhận có lỗi, vui lòng sửa.</value>
+  </data>
+  <data name="M000355" xml:space="preserve">
+    <value>Sản phẩm: {0} được xác nhận có 1 lỗi</value>
+  </data>
+  <data name="M000356" xml:space="preserve">
+    <value>Vui lòng nhập mã vạch xác nhận</value>
+  </data>
+  <data name="M000357" xml:space="preserve">
+    <value>Sản phẩm chưa được sửa</value>
+  </data>
+  <data name="M000358" xml:space="preserve">
+    <value>Đã xác nhận, IPQC không cần xác nhận</value>
+  </data>
+  <data name="M000359" xml:space="preserve">
+    <value>Sản phẩm đã báo phế, không cho phép IPQC xác nhận</value>
+  </data>
+  <data name="M000360" xml:space="preserve">
+    <value>IPQC hoàn thành xác nhận, vui lòng sửa sản phẩm, trả lại trạm tương ứng</value>
+  </data>
+  <data name="M000361" xml:space="preserve">
+    <value>Vui lòng nhập mã vạch</value>
+  </data>
+  <data name="M000362" xml:space="preserve">
+    <value>Sản phẩm chưa được phán định lỗi hoặc chưa quét mã vạch nên không thể khôi phục, vui lòng xác nhận.</value>
+  </data>
+  <data name="M000363" xml:space="preserve">
+    <value>Sản phẩm phán định sai</value>
+  </data>
+  <data name="M000364" xml:space="preserve">
+    <value>Khôi phục thất bại</value>
+  </data>
+  <data name="M000365" xml:space="preserve">
+    <value>Vui lòng đọc hoặc quét mã vạch trước</value>
+  </data>
+  <data name="M000366" xml:space="preserve">
+    <value>Không tìm thấy tệp tin</value>
+  </data>
+  <data name="M000367" xml:space="preserve">
+    <value>Đọc thất bại</value>
+  </data>
+  <data name="M000368" xml:space="preserve">
+    <value>Thiết bị quét vân tay khởi động bất thường, vui lòng cài đặt chính xác driver.</value>
+  </data>
+  <data name="M000369" xml:space="preserve">
+    <value>Xác nhận thành công , Mã người dùng: {0}</value>
+  </data>
+  <data name="M000370" xml:space="preserve">
+    <value>Xác nhận vân tay thất bại</value>
+  </data>
+  <data name="M000371" xml:space="preserve">
+    <value>Vui lòng xác minh vân tay của bạn</value>
+  </data>
+  <data name="M000372" xml:space="preserve">
+    <value>Cập nhật file: {0}</value>
+  </data>
+  <data name="M000373" xml:space="preserve">
+    <value>Cập nhật file: {0}% {1}</value>
+  </data>
+  <data name="M000374" xml:space="preserve">
+    <value>Phát hiện {0} file cần cập nhật, đã hoàn thành {1}</value>
+  </data>
+  <data name="M000375" xml:space="preserve">
+    <value>khởi động chương trình {0} không tồn tại!</value>
+  </data>
+  <data name="M000376" xml:space="preserve">
+    <value>Cập nhật danh sách file</value>
+  </data>
+  <data name="M000377" xml:space="preserve">
+    <value>Hệ thống của bạn là phiên bản cuối.</value>
+  </data>
+  <data name="M000378" xml:space="preserve">
+    <value>File cấu hình Loginlog.xml không tồn tại, đã tự sinh file cấu hình Loginlog.xml, vui lòng sửa thông tin IP của máy chủ rồi chạy chương trình.</value>
+  </data>
+  <data name="M000379" xml:space="preserve">
+    <value>Không thể tải hồ sơ file Loginlog.xml</value>
+  </data>
+  <data name="M000380" xml:space="preserve">
+    <value>LUXSHARE-ICT tự động cập nhật chương trình -[{0}] cập nhật trực tuyến</value>
+  </data>
+  <data name="M000381" xml:space="preserve">
+    <value>Vui lòng nhập đúng số Liệu đến, xác định có in mã vạch không!</value>
+  </data>
+  <data name="M000382" xml:space="preserve">
+    <value>LOT: {0} number: {1} quét báo phế, quét mã vạch mới</value>
+  </data>
+  <data name="M000383" xml:space="preserve">
+    <value>Cần nhập công lệnh gia công</value>
+  </data>
+  <data name="M000384" xml:space="preserve">
+    <value>Số lô {0} không tương ứng với mã liệu</value>
+  </data>
+  <data name="M000385" xml:space="preserve">
+    <value>Số lượng vật liệu {0}! Không thể vượt quá số lượng thực tế trong kho.</value>
+  </data>
+  <data name="M000386" xml:space="preserve">
+    <value>Lô  scan không thể trống</value>
+  </data>
+  <data name="M000387" xml:space="preserve">
+    <value>Không thể thao tác  báo phế</value>
+  </data>
+  <data name="M000388" xml:space="preserve">
+    <value>Không có điều kiện truy vấn, vui lòng xác nhận</value>
+  </data>
+  <data name="M000389" xml:space="preserve">
+    <value>Bản ghi sản phẩm lỗi bị xóa</value>
+  </data>
+  <data name="M000390" xml:space="preserve">
+    <value>Bản ghi thùng ngoài thay thế</value>
+  </data>
+  <data name="M000391" xml:space="preserve">
+    <value>Xóa bản ghi Laser</value>
+  </data>
+  <data name="M000392" xml:space="preserve">
+    <value>Trộn bản ghi Laser</value>
+  </data>
+  <data name="M000393" xml:space="preserve">
+    <value>Trạm {0} không đúng.</value>
+  </data>
+  <data name="M000394" xml:space="preserve">
+    <value>Ngày bắt đầu và ngày kết thúc phải cùng ngày</value>
+  </data>
+  <data name="M000395" xml:space="preserve">
+    <value>Bản ghi trạng thái sản xuất hiện tại đã được gửi đến khách hàng, không cho phép sửa đổi.</value>
+  </data>
+  <data name="M000396" xml:space="preserve">
+    <value>Bản ghi số {0}</value>
+  </data>
+  <data name="M000397" xml:space="preserve">
+    <value>Số bản ghi lớn hơn {0}, chỉ hiển thị trước {1}</value>
+  </data>
+  <data name="M000398" xml:space="preserve">
+    <value>Chuyền không thiết lập thông tin MAC tương ứng, vui lòng xác nhận.</value>
+  </data>
+  <data name="M000399" xml:space="preserve">
+    <value>Không có thông tin chi tiết!</value>
+  </data>
+  <data name="M000400" xml:space="preserve">
+    <value>Xuất hiện lỗi với điều kiện truy vấn</value>
+  </data>
+  <data name="M000401" xml:space="preserve">
+    <value>Thông tin mã liệu không được thiết lập</value>
+  </data>
+  <data name="M000402" xml:space="preserve">
+    <value>Cần nhập công lệnh/số sản phẩm, vui lòng nhập.</value>
+  </data>
+  <data name="M000403" xml:space="preserve">
+    <value>Số lượng xuất hàng</value>
+  </data>
+  <data name="M000404" xml:space="preserve">
+    <value>Không cho phép thiết lập menu chính cho chính nó!</value>
+  </data>
+  <data name="M000405" xml:space="preserve">
+    <value>Vui lòng chọn menu phụ</value>
+  </data>
+  <data name="M000406" xml:space="preserve">
+    <value>Vui lòng chọn một bản ghi tham số</value>
+  </data>
+  <data name="M000407" xml:space="preserve">
+    <value>Đã ở trên cùng, không di chuyển lên.</value>
+  </data>
+  <data name="M000408" xml:space="preserve">
+    <value>Đã kết thúc, không di chuyển xuống.</value>
+  </data>
+  <data name="M000409" xml:space="preserve">
+    <value>Menu không thiết lập truy vấn báo cáo, vui lòng thiết lập điều kiện.</value>
+  </data>
+  <data name="M000410" xml:space="preserve">
+    <value>Vui lòng nhập một số</value>
+  </data>
+  <data name="M000411" xml:space="preserve">
+    <value>Mã thùng không thể trống, vui lòng quét mã thùng</value>
+  </data>
+  <data name="M000412" xml:space="preserve">
+    <value>Mã thùng đóng gói lớp {0}, trọng lượng và số chẵn lẻ không khớp.</value>
+  </data>
+  <data name="M000413" xml:space="preserve">
+    <value>Tồn tại trùng lặp mã thùng chưa kết thúc: {0}</value>
+  </data>
+  <data name="M000414" xml:space="preserve">
+    <value>Số thùng trên bảng công việc  không tương ứng với số của khách hàng</value>
+  </data>
+  <data name="M000415" xml:space="preserve">
+    <value>Mã thùng nhập thành công, vui lòng kiểm tra mã sản phẩm</value>
+  </data>
+  <data name="M000416" xml:space="preserve">
+    <value>Không tìm thấy P02 tương ứng với mã vạch chính P06, vui lòng kiểm tra.</value>
+  </data>
+  <data name="M000417" xml:space="preserve">
+    <value>Dữ liệu khách hàng và dữ liệu hệ thống không nhất quán.</value>
+  </data>
+  <data name="M000418" xml:space="preserve">
+    <value>Dữ liệu khách hàng và dữ liệu hệ thống không nhất quán.</value>
+  </data>
+  <data name="M000419" xml:space="preserve">
+    <value>Không tìm thấy  mã vạch tương ứng với mã vạch của khách hàng, vui lòng xác nhận</value>
+  </data>
+  <data name="M000420" xml:space="preserve">
+    <value>Mã vạch đã tồn tại trên hệ thống, vui lòng kiểm tra trùng lặp.</value>
+  </data>
+  <data name="M000421" xml:space="preserve">
+    <value>Mã sản phẩm đã được đóng gói trong thùng {0}</value>
+  </data>
+  <data name="M000422" xml:space="preserve">
+    <value>Không có sản phẩm này, hoặc sản phẩm chưa được đóng gói.</value>
+  </data>
+  <data name="M000423" xml:space="preserve">
+    <value>Số lượng quét không được vượt quá số lượng đóng gói.</value>
+  </data>
+  <data name="M000424" xml:space="preserve">
+    <value>Kiểm tra mã thùng, quét mã thùng tiếp theo.</value>
+  </data>
+  <data name="M000425" xml:space="preserve">
+    <value>Sản phẩm đã kiểm tra, vui lòng quét mã vạch</value>
+  </data>
+  <data name="M000426" xml:space="preserve">
+    <value>Khay đã kết thúc, vui lòng scan mã khách hàng của Khay</value>
+  </data>
+  <data name="M000427" xml:space="preserve">
+    <value>Lớp {0} quét hoàn thành</value>
+  </data>
+  <data name="M000428" xml:space="preserve">
+    <value>{0} lớp chưa hoàn thành</value>
+  </data>
+  <data name="M000429" xml:space="preserve">
+    <value>Khay đã quét, số lần quét lỗi: {0}</value>
+  </data>
+  <data name="M000430" xml:space="preserve">
+    <value>Số khay của khách hàng và số khay đóng thùng không tương ứng, vui lòng kiểm tra!</value>
+  </data>
+  <data name="M000431" xml:space="preserve">
+    <value>Quét Khay thành công, vui lòng quét sản mã vạch sản phẩm</value>
+  </data>
+  <data name="M000432" xml:space="preserve">
+    <value>Số lần bơm thử không thể là 0</value>
+  </data>
+  <data name="M000433" xml:space="preserve">
+    <value>Gửi kiểm tra {0} thành công</value>
+  </data>
+  <data name="M000434" xml:space="preserve">
+    <value>Gửi kiểm tra {0} thành công</value>
+  </data>
+  <data name="M000435" xml:space="preserve">
+    <value>Mở khóa thành công</value>
+  </data>
+  <data name="M000436" xml:space="preserve">
+    <value>Mở khóa thất bại</value>
+  </data>
+  <data name="M000437" xml:space="preserve">
+    <value>Mã E75 không khớp, vui lòng kiểm tra lại mã vạch in</value>
+  </data>
+  <data name="M000438" xml:space="preserve">
+    <value>Hệ thống không tồn tại mã thùng hoặc đã được báo phế</value>
+  </data>
+  <data name="M000439" xml:space="preserve">
+    <value>Sản phẩm không test trạm NI</value>
+  </data>
+  <data name="M000440" xml:space="preserve">
+    <value>Quét thành công, sản phẩm không trộn.</value>
+  </data>
+  <data name="M000441" xml:space="preserve">
+    <value>Sản phẩm chưa đóng gói</value>
+  </data>
+  <data name="M000442" xml:space="preserve">
+    <value>Sản phẩm tương ứng với thùng đã được đóng gói, không cho phép thao tác.</value>
+  </data>
+  <data name="M000443" xml:space="preserve">
+    <value>Sản phẩm thay thế đã đóng thùng, không cho phép thay thế.</value>
+  </data>
+  <data name="M000444" xml:space="preserve">
+    <value>Sản phẩm thay thế phải có cùng mã số, nếu không thì không được thay thế.</value>
+  </data>
+  <data name="M000445" xml:space="preserve">
+    <value>Thay thế thành công, hãy để sản phẩm mới thay vào vị trí sản phẩm cũ trong thùng.</value>
+  </data>
+  <data name="M000446" xml:space="preserve">
+    <value>Thay thế thất bại</value>
+  </data>
+  <data name="M000447" xml:space="preserve">
+    <value>Mã sản phẩm không thể trống, vui lòng quét mã sản phẩm</value>
+  </data>
+  <data name="M000448" xml:space="preserve">
+    <value>Mã thùng không tồn tại sản phẩm này, hoặc sản phẩm chưa được đóng thùng.</value>
+  </data>
+  <data name="M000449" xml:space="preserve">
+    <value>Trong hệ thống không có mã số hoặc mã thùng đã quét.</value>
+  </data>
+  <data name="M000450" xml:space="preserve">
+    <value>Vượt quá số lượng thùng</value>
+  </data>
+  <data name="M000451" xml:space="preserve">
+    <value>Thùng lẻ cuối không thể trống.</value>
+  </data>
+  <data name="M000452" xml:space="preserve">
+    <value>Thùng đóng gói mới in FCL  hoàn thành quét</value>
+  </data>
+  <data name="M000453" xml:space="preserve">
+    <value>Số lượng thùng nguyên bằng tổng số lượng 2 thùng lẻ, không được phép dùng 2 thùng lẻ.</value>
+  </data>
+  <data name="M000454" xml:space="preserve">
+    <value>Hoàn thành đóng thùng, có thể quét thùng tiếp theo</value>
+  </data>
+  <data name="M000455" xml:space="preserve">
+    <value>Trạng thái Lô đã thay đổi, vui lòng xác nhận các trạm khác có thể quét.</value>
+  </data>
+  <data name="M000456" xml:space="preserve">
+    <value>Mã vạch không tồn tại trong hệ thống</value>
+  </data>
+  <data name="M000457" xml:space="preserve">
+    <value>Hoành thành ghi.</value>
+  </data>
+  <data name="M000458" xml:space="preserve">
+    <value>Vui lòng đọc hướng dẫn nhập vào hoặc ghi ra</value>
+  </data>
+  <data name="M000459" xml:space="preserve">
+    <value>Số bắt đầu ghi</value>
+  </data>
+  <data name="M000460" xml:space="preserve">
+    <value>Ghi số lỗi</value>
+  </data>
+  <data name="M000461" xml:space="preserve">
+    <value>Thực thi giá trị trả về HID.EXE</value>
+  </data>
+  <data name="M000462" xml:space="preserve">
+    <value>Thực thi HID.EXE thất bại</value>
+  </data>
+  <data name="M000463" xml:space="preserve">
+    <value>Vui lòng chọn trạm thử nghiệm</value>
+  </data>
+  <data name="M000464" xml:space="preserve">
+    <value>Mã vạch không tồn tại hoặc chưa được kiểm tra trong hệ thống</value>
+  </data>
+  <data name="M000465" xml:space="preserve">
+    <value>Không tồn tại hoặc đã chuyển vào thư viện lịch sử</value>
+  </data>
+  <data name="M000466" xml:space="preserve">
+    <value>Mã vạch sản phẩm trong thùng {0} chưa hoàn thành, không cho phép loại bỏ</value>
+  </data>
+  <data name="M000467" xml:space="preserve">
+    <value>Thao tác thành công</value>
+  </data>
+  <data name="M000468" xml:space="preserve">
+    <value>Thao tác thất bại</value>
+  </data>
+  <data name="M000469" xml:space="preserve">
+    <value>Mã thùng chưa hoàn thành, không cho phép thao tác</value>
+  </data>
+  <data name="M000470" xml:space="preserve">
+    <value>Chưa được quét, không cho phép thay thế</value>
+  </data>
+  <data name="M000471" xml:space="preserve">
+    <value>Nhập mã vạch thành công, vui lòng tìm ra mã sản phẩm và mã E75</value>
+  </data>
+  <data name="M000472" xml:space="preserve">
+    <value>Vui lòng thiết lập quét lại, đóng gói và quét.</value>
+  </data>
+  <data name="M000473" xml:space="preserve">
+    <value>Hiện tại thùng đã đầy nhưng trạng thái của thùng vẫn là N, phải đóng thùng trước.</value>
+  </data>
+  <data name="M000474" xml:space="preserve">
+    <value>Xác nhận rằng mã số đọc được khớp với mã số trên tem</value>
+  </data>
+  <data name="M000475" xml:space="preserve">
+    <value>Sản phẩm đã khắc, không cho phép lặp lại</value>
+  </data>
+  <data name="M000476" xml:space="preserve">
+    <value>Sản phẩm không xóa bản ghi đã khắc, không cho phép khắc thông tin cập nhật</value>
+  </data>
+  <data name="M000477" xml:space="preserve">
+    <value>Trạm  khắc NI không tồn tại bản ghi hoặc ghi bị lỗi</value>
+  </data>
+  <data name="M000478" xml:space="preserve">
+    <value>Vui lòng nhập nhiều hơn số mã thùng của mã số sản phẩm</value>
+  </data>
+  <data name="M000479" xml:space="preserve">
+    <value>Bảng dữ liệu đóng gói sản phẩm không khớp với chi tiết dữ liệu</value>
+  </data>
+  <data name="M000480" xml:space="preserve">
+    <value>Số lượng thùng không thể lớn hơn số lượng cài đặt</value>
+  </data>
+  <data name="M000481" xml:space="preserve">
+    <value>Mã thùng không tồn tại</value>
+  </data>
+  <data name="M000482" xml:space="preserve">
+    <value>Số sản phẩm không thể nhiều hoặc ít hơn số lượng bên ngoài thùng</value>
+  </data>
+  <data name="M000483" xml:space="preserve">
+    <value>Phục hồi thành công</value>
+  </data>
+  <data name="M000484" xml:space="preserve">
+    <value>Mã vạch không thể thay thế hoặc xóa, Thao tác hiện tại không được phép.</value>
+  </data>
+  <data name="M000485" xml:space="preserve">
+    <value>Sản phẩm đã đóng gói không cho phép hủy bỏ</value>
+  </data>
+  <data name="M000486" xml:space="preserve">
+    <value>Thùng mới đã được quét, không cho phép thay thế</value>
+  </data>
+  <data name="M000487" xml:space="preserve">
+    <value>Số lượng sản phẩm trong thùng cũ và thùng mới không khớp.</value>
+  </data>
+  <data name="M000488" xml:space="preserve">
+    <value>Thùng cũ và thùng mới không thuộc cùng một công lệnh, không cho phép thay thế.</value>
+  </data>
+  <data name="M000489" xml:space="preserve">
+    <value>Mã E75 chưa được khắc</value>
+  </data>
+  <data name="M000490" xml:space="preserve">
+    <value>Số lượng liên kết trên Chuyền không khớp với số lượng thành phẩm mới</value>
+  </data>
+  <data name="M000491" xml:space="preserve">
+    <value>Thùng mới đã quét, không cho phép thay thế</value>
+  </data>
+  <data name="M000492" xml:space="preserve">
+    <value>Cập nhật sửa ngày thành công</value>
+  </data>
+  <data name="M000493" xml:space="preserve">
+    <value>Xóa số Lô, cập nhật chỉ cho phép chọn đọc FSN hoặc mã vạch của hệ thống</value>
+  </data>
+  <data name="M000494" xml:space="preserve">
+    <value>Bản ghi trạm quét hiện tại {0}, số bản ghi {1}</value>
+  </data>
+  <data name="M000495" xml:space="preserve">
+    <value>Trạm quét đã ghi {0}, số bản ghi {1}</value>
+  </data>
+  <data name="M000496" xml:space="preserve">
+    <value>Các bản ghi trạm quét liên quan {0}, số bản ghi {1}</value>
+  </data>
+  <data name="M000497" xml:space="preserve">
+    <value>Sản phẩm đã đóng gói, không thể xóa bản ghi quét</value>
+  </data>
+  <data name="M000498" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa bản ghi quét?</value>
+  </data>
+  <data name="M000499" xml:space="preserve">
+    <value>Xóa bản ghi quét</value>
+  </data>
+  <data name="M000500" xml:space="preserve">
+    <value>Chắc chắn rằng muốn xóa bản ghi quét và kiểm tra</value>
+  </data>
+  <data name="M000501" xml:space="preserve">
+    <value>Xóa bản ghi trạm và bản ghi kiểm tra</value>
+  </data>
+  <data name="M000502" xml:space="preserve">
+    <value>Vui lòng đọc dữ liệu E75 trước</value>
+  </data>
+  <data name="M000503" xml:space="preserve">
+    <value>DỮ liệu chưa kiểm tra</value>
+  </data>
+  <data name="M000504" xml:space="preserve">
+    <value>Thùng đang đóng gói hoặc chưa xuất kho, vui lòng kiểm tra có phải thùng lẻ cuối!</value>
+  </data>
+  <data name="M000505" xml:space="preserve">
+    <value>Số lượng quét kiểm tra lặp mã và số lượng đóng gói không khớp, vui lòng kiểm tra.</value>
+  </data>
+  <data name="M000506" xml:space="preserve">
+    <value>Trạng thái thùng đã đầy và đã được xuất kho, không cho phép xóa. </value>
+  </data>
+  <data name="M000507" xml:space="preserve">
+    <value>Mã vạch không thể trống, vui lòng nhập</value>
+  </data>
+  <data name="M000508" xml:space="preserve">
+    <value>Sản phẩm không phải P16 lớp 3 đang đóng gói</value>
+  </data>
+  <data name="M000509" xml:space="preserve">
+    <value>FA CHECK IN thành công</value>
+  </data>
+  <data name="M000510" xml:space="preserve">
+    <value>FA CHECK OUT thành công</value>
+  </data>
+  <data name="M000511" xml:space="preserve">
+    <value>Sản phẩm đã xóa thành công, vui lòng kiểm tra số lượng đóng gói thực tế của thùng</value>
+  </data>
+  <data name="M000512" xml:space="preserve">
+    <value>Sản phẩm thay thế sản phẩm lỗi không được trống</value>
+  </data>
+  <data name="M000513" xml:space="preserve">
+    <value>Thủ tục, vui lòng điền nguyên nhân</value>
+  </data>
+  <data name="M000514" xml:space="preserve">
+    <value>Phân loại tài liệu không thể trống, vui lòng chọn phân loại tập tin</value>
+  </data>
+  <data name="M000515" xml:space="preserve">
+    <value>File tải lên không thể trống, vui lòng chọn file tải lên</value>
+  </data>
+  <data name="M000516" xml:space="preserve">
+    <value>Không thể đặt lại mật khẩu</value>
+  </data>
+  <data name="M000517" xml:space="preserve">
+    <value>Mã người dùng đã tồn tại</value>
+  </data>
+  <data name="M000518" xml:space="preserve">
+    <value>Mật khẩu: {0}</value>
+  </data>
+  <data name="M000519" xml:space="preserve">
+    <value>Tài khoản tương ứng không thể cài đặt giống với tài khoản hiện tại</value>
+  </data>
+  <data name="M000520" xml:space="preserve">
+    <value>Mật khẩu mới nhập không giống nhau.</value>
+  </data>
+  <data name="M000521" xml:space="preserve">
+    <value>Mật khẩu mở khóa không thể trống</value>
+  </data>
+  <data name="M000522" xml:space="preserve">
+    <value>Mật khẩu mở khóa nhập 2 lần không giống nhau</value>
+  </data>
+  <data name="M000523" xml:space="preserve">
+    <value>Số Mô-đun không được hơn 10</value>
+  </data>
+  <data name="M000524" xml:space="preserve">
+    <value>Mô-đun này có mô-đun con, chỉ cho phép xóa mô-đun không có mô-đun con</value>
+  </data>
+  <data name="M000525" xml:space="preserve">
+    <value>Mã vạch chưa đọc được, vui lòng nhập lại mã vạch</value>
+  </data>
+  <data name="M000526" xml:space="preserve">
+    <value>Mã vạch sản phẩm không thể trống, vui lòng kiểm tra có phải sản phẩm có vấn đề hoặc trạm làm việc không ghi.</value>
+  </data>
+  <data name="M000527" xml:space="preserve">
+    <value>Loại sản phẩm trong danh sách đen {0}, vui lòng dùng MP để kiểm tra</value>
+  </data>
+  <data name="M000528" xml:space="preserve">
+    <value>Loại sản phẩm trong danh sách đen {0}, không cho phép xuất kho</value>
+  </data>
+  <data name="M000529" xml:space="preserve">
+    <value>Sản phẩm không phải danh sách đen</value>
+  </data>
+  <data name="M000530" xml:space="preserve">
+    <value>2. Hoàn thành</value>
+  </data>
+  <data name="M000531" xml:space="preserve">
+    <value>1. Đang thực hiện</value>
+  </data>
+  <data name="M000532" xml:space="preserve">
+    <value>Mẫu in không tìm thấy</value>
+  </data>
+  <data name="M000533" xml:space="preserve">
+    <value>Không thể đính kèm lớn hơn {0} MB!</value>
+  </data>
+  <data name="M000534" xml:space="preserve">
+    <value>Vấn đề mới thành công! Câu hỏi số {0}</value>
+  </data>
+  <data name="M000535" xml:space="preserve">
+    <value>Không có file Loginlog.XML</value>
+  </data>
+  <data name="M000536" xml:space="preserve">
+    <value>Thông tin liên hệ chưa hoàn thành</value>
+  </data>
+  <data name="M000537" xml:space="preserve">
+    <value>Vui lòng chọn ít nhất 1 thời gian truy vấn!</value>
+  </data>
+  <data name="M000538" xml:space="preserve">
+    <value>Vui lòng nhập điều kiện truy vấn chi tiết hơn!</value>
+  </data>
+  <data name="M000539" xml:space="preserve">
+    <value>Giao dữ liệu thất bại!</value>
+  </data>
+  <data name="M000540" xml:space="preserve">
+    <value>Phát hành thành công!</value>
+  </data>
+  <data name="M000541" xml:space="preserve">
+    <value>Xuất bản thất bại!</value>
+  </data>
+  <data name="M000542" xml:space="preserve">
+    <value>Hủy bỏ thành công!</value>
+  </data>
+  <data name="M000543" xml:space="preserve">
+    <value>Hủy bỏ thất bại!</value>
+  </data>
+  <data name="M000544" xml:space="preserve">
+    <value>Liên kết thành công</value>
+  </data>
+  <data name="M000545" xml:space="preserve">
+    <value>Mã thùng quét thành công, vui lòng quét mã sản phẩm đóng gói</value>
+  </data>
+  <data name="M000546" xml:space="preserve">
+    <value>Đọc thông tin E75 không chính xác</value>
+  </data>
+  <data name="M000547" xml:space="preserve">
+    <value>Thùng đã đầy, quét thùng tiếp theo</value>
+  </data>
+  <data name="M000548" xml:space="preserve">
+    <value>Thùng đã đầy, quét đóng gói sản phẩm {0} không thành công, vui lòng quét thùng khác rồi quét lại sản phẩm.</value>
+  </data>
+  <data name="M000549" xml:space="preserve">
+    <value>Tải về hệ thống không thất bại!</value>
+  </data>
+  <data name="M000550" xml:space="preserve">
+    <value>Thất bại: mã vạch IMEI {0} không tồn tại</value>
+  </data>
+  <data name="M000551" xml:space="preserve">
+    <value>Thất bại: mã vạch IMEI {0} không có kết nối mạng để xác minh</value>
+  </data>
+  <data name="M000552" xml:space="preserve">
+    <value>Mã vạch phụ</value>
+  </data>
+  <data name="M000553" xml:space="preserve">
+    <value>Vui lòng quét mã IMEI sản phẩm tiêp theo</value>
+  </data>
+  <data name="M000554" xml:space="preserve">
+    <value>Thất bại: mã vạch {0} kiểm tra thất bại {1}</value>
+  </data>
+  <data name="M000555" xml:space="preserve">
+    <value>Mã vạch BTMAC</value>
+  </data>
+  <data name="M000556" xml:space="preserve">
+    <value>Mã vạch IMEI</value>
+  </data>
+  <data name="M000557" xml:space="preserve">
+    <value>Thất bại: Mã vạch {0} không quét trạm T00010 (trạm in mã vạch 4 trong 1), kết nối mạng không cho phép xác minh</value>
+  </data>
+  <data name="M000558" xml:space="preserve">
+    <value>Sản phẩm đọc BTMAC với mã vạch tương ứng BTMAC không phù hợp</value>
+  </data>
+  <data name="M000559" xml:space="preserve">
+    <value>Sản phẩm đọc WIFI_MAC với mã vạch tương ứng WIFI_MAC không phù hợp</value>
+  </data>
+  <data name="M000560" xml:space="preserve">
+    <value>Sản phẩm đọc HARDCODE vơi mã vạch tương ứng HARDCODE không phù hợp</value>
+  </data>
+  <data name="M000561" xml:space="preserve">
+    <value>Sản phẩm đọc ICCID với mã vạch tương ứng ICCID không phù hợp</value>
+  </data>
+  <data name="M000562" xml:space="preserve">
+    <value>Sản phẩm kết nối mạng thành công, vui lòng quét sản phẩm tiếp theo</value>
+  </data>
+  <data name="M000563" xml:space="preserve">
+    <value>Mã vạch chính</value>
+  </data>
+  <data name="M000564" xml:space="preserve">
+    <value>Thất bại: Mã vạch {0} xác thực kết nối mạng thất bại! {1}</value>
+  </data>
+  <data name="M000565" xml:space="preserve">
+    <value>Mã QR hoặc số điện thoại không hợp lệ</value>
+  </data>
+  <data name="M000566" xml:space="preserve">
+    <value>Thông báo lỗi phân phối</value>
+  </data>
+  <data name="M000567" xml:space="preserve">
+    <value>Sai số điện thoại hoặc iccid</value>
+  </data>
+  <data name="M000568" xml:space="preserve">
+    <value>Mã QR hoặc số điện thoại được liên kết</value>
+  </data>
+  <data name="M000569" xml:space="preserve">
+    <value>mã QR không hợp lệ</value>
+  </data>
+  <data name="M000570" xml:space="preserve">
+    <value>Số thẻ SIM không hợp lệ</value>
+  </data>
+  <data name="M000571" xml:space="preserve">
+    <value>Tham số lỗi</value>
+  </data>
+  <data name="M000572" xml:space="preserve">
+    <value>Vui lòng thêm sản phẩm phần cứng di động, tự động đọc thông tin kiểm tra sản phẩm</value>
+  </data>
+  <data name="M000573" xml:space="preserve">
+    <value>Phát hiện thêm một thiết bị di động</value>
+  </data>
+  <data name="M000574" xml:space="preserve">
+    <value>Kết nối thiết bị thất  bại</value>
+  </data>
+  <data name="M000575" xml:space="preserve">
+    <value>Kết nối thiết bị thành công</value>
+  </data>
+  <data name="M000576" xml:space="preserve">
+    <value>Khởi động chế độ kiểm tra thiết bị thất bại</value>
+  </data>
+  <data name="M000577" xml:space="preserve">
+    <value>Khời động chế độ kiểm tra thiết bị thành công</value>
+  </data>
+  <data name="M000578" xml:space="preserve">
+    <value>Đọc thất bại, vui lòng cắm lại sản phẩm</value>
+  </data>
+  <data name="M000579" xml:space="preserve">
+    <value>Mã vạch {0} không tồn tại trong hệ thống</value>
+  </data>
+  <data name="M000580" xml:space="preserve">
+    <value>PASS đọc mã vạch {0} thành công</value>
+  </data>
+  <data name="M000581" xml:space="preserve">
+    <value>Sản phẩm kết nối mạng thành công, vui lòng nhập sản phẩm tiếp theo</value>
+  </data>
+  <data name="M000582" xml:space="preserve">
+    <value>Vui lòng nhập sản phẩm tiếp theo</value>
+  </data>
+  <data name="M000583" xml:space="preserve">
+    <value>Vui lòng thêm sản phẩm phần cứng di động, tự động đọc thông tin kiểm tra sản phẩm</value>
+  </data>
+  <data name="M000584" xml:space="preserve">
+    <value>Phát hiện thông tin sản phẩm, vui lòng kiểm tra đã cắm đúng</value>
+  </data>
+  <data name="M000585" xml:space="preserve">
+    <value>Đọc thông tin sản phẩm trống, vui lòng cắm lại.</value>
+  </data>
+  <data name="M000586" xml:space="preserve">
+    <value>Sản phẩm đọc IMEI không phù hợp với mã vạch IMEI tương ứng</value>
+  </data>
+  <data name="M000587" xml:space="preserve">
+    <value>Sản phẩm đọc QRCODE không phù hợp với mã vạch QRCODE tương ứng</value>
+  </data>
+  <data name="M000588" xml:space="preserve">
+    <value>Kiểm tra thành công</value>
+  </data>
+  <data name="M000589" xml:space="preserve">
+    <value>Chi phí thời gian: {0}</value>
+  </data>
+  <data name="M000590" xml:space="preserve">
+    <value>Giá trị WIFIMAC trống!</value>
+  </data>
+  <data name="M000591" xml:space="preserve">
+    <value>Giá trị ICCID trống!</value>
+  </data>
+  <data name="M000592" xml:space="preserve">
+    <value>Giá trị SMINO trống!</value>
+  </data>
+  <data name="M000593" xml:space="preserve">
+    <value>Giá trị WIFIMAC sản phẩm đã được sử dụng bởi sản phẩm khác {0}</value>
+  </data>
+  <data name="M000594" xml:space="preserve">
+    <value>Giá trị ICCID sản phẩm đã được sử dụng bởi sản phẩm khác {0}</value>
+  </data>
+  <data name="M000595" xml:space="preserve">
+    <value>Giá trị SMINO sản phẩm đã được sử dụng bởi sản phẩm khác {0}</value>
+  </data>
+  <data name="M000596" xml:space="preserve">
+    <value>Mã vạch Tất Cả-Trong-Một thay thế</value>
+  </data>
+  <data name="M000597" xml:space="preserve">
+    <value>Bắt đầu đọc mã vạch!</value>
+  </data>
+  <data name="M000598" xml:space="preserve">
+    <value>Mã liệu không đọc mã vạch đóng gói</value>
+  </data>
+  <data name="M000599" xml:space="preserve">
+    <value>Bắt đầu mở cổng</value>
+  </data>
+  <data name="M000600" xml:space="preserve">
+    <value>Vui lòng nhập hướng dẫn đọc hoặc ghi</value>
+  </data>
+  <data name="M000601" xml:space="preserve">
+    <value>Đọc mã số bất đầu</value>
+  </data>
+  <data name="M000602" xml:space="preserve">
+    <value>In mã vạch thay thế Tất Cả-Trong-Một, vui lòng dùng dấu phẩy giữa các mã vạch quét</value>
+  </data>
+  <data name="M000603" xml:space="preserve">
+    <value>Địa chỉ IP của máy khắc: {0}; cổng: {1}</value>
+  </data>
+  <data name="M000604" xml:space="preserve">
+    <value>Đọc ASN chiều dài: {0}</value>
+  </data>
+  <data name="M000605" xml:space="preserve">
+    <value>Đọc kết nối bất thường, đọc lại</value>
+  </data>
+  <data name="M000606" xml:space="preserve">
+    <value>Sản phẩm này đã thực hiện khắc, không cho phép khắc lại</value>
+  </data>
+  <data name="M000607" xml:space="preserve">
+    <value>Sản phẩm test NI thất bại, không cho phép khắc</value>
+  </data>
+  <data name="M000608" xml:space="preserve">
+    <value>Kết quả test NI không tải lên hệ thống SFCS, không cho phép khắc</value>
+  </data>
+  <data name="M000609" xml:space="preserve">
+    <value>Số kết nối cố định lớn hơn số mặc định 6</value>
+  </data>
+  <data name="M000610" xml:space="preserve">
+    <value>Mã vạch sản phẩm {0}, không liên kết E75</value>
+  </data>
+  <data name="M000611" xml:space="preserve">
+    <value>Chuyển dữ liệu khắc thành công!</value>
+  </data>
+  <data name="M000612" xml:space="preserve">
+    <value>Có phải đã xóa dữ liệu đọc để khắc</value>
+  </data>
+  <data name="M000613" xml:space="preserve">
+    <value>Vui lòng chọn cách khắc</value>
+  </data>
+  <data name="M000614" xml:space="preserve">
+    <value>Đọc mã ASN trống hoặc sản phẩm không ghi NI</value>
+  </data>
+  <data name="M000615" xml:space="preserve">
+    <value>Các sản phẩm hiện tại đã được đọc thành công</value>
+  </data>
+  <data name="M000616" xml:space="preserve">
+    <value>Nhập số lỗi</value>
+  </data>
+  <data name="M000617" xml:space="preserve">
+    <value>Quét đường dẫn</value>
+  </data>
+  <data name="M000618" xml:space="preserve">
+    <value>Vui lòng thiết lập quét</value>
+  </data>
+  <data name="M000619" xml:space="preserve">
+    <value>Dữ liệu quét đã được thiết lập</value>
+  </data>
+  <data name="M000620" xml:space="preserve">
+    <value>Vui lòng thiết lập thông tin quét cơ bản!</value>
+  </data>
+  <data name="M000621" xml:space="preserve">
+    <value>Vui lòng nhập mã sản phẩm!</value>
+  </data>
+  <data name="M000622" xml:space="preserve">
+    <value>Mã vạch không thể rỗng, vui lòng thiết lập quét lại</value>
+  </data>
+  <data name="M000623" xml:space="preserve">
+    <value>Giá trị sản phẩm hiện tại: {0}, giá trị thiết lập: {1} không phù hợp</value>
+  </data>
+  <data name="M000624" xml:space="preserve">
+    <value>Kiểu tem mã vạch giống với thành phẩm, xác nhận rằng E75 đã được liên kết.</value>
+  </data>
+  <data name="M000625" xml:space="preserve">
+    <value>Chờ mã PCBA phía sau</value>
+  </data>
+  <data name="M000626" xml:space="preserve">
+    <value>Đọc mã PCBA trong sản phẩm trống, vui lòng xác nhận ghi mã PCBA thành công!</value>
+  </data>
+  <data name="M000627" xml:space="preserve">
+    <value>Sản phẩm trở lại mã vạch chính bao gồm mã PCBA, vui lòng xác nhận!</value>
+  </data>
+  <data name="M000628" xml:space="preserve">
+    <value>Đang ghi</value>
+  </data>
+  <data name="M000629" xml:space="preserve">
+    <value>Sản phẩm và thành phần liên kết hoàn thành</value>
+  </data>
+  <data name="M000630" xml:space="preserve">
+    <value>Quét thành công, vui lòng kiểm tra CQA</value>
+  </data>
+  <data name="M000631" xml:space="preserve">
+    <value>Mã vạch cách ly thành công</value>
+  </data>
+  <data name="M000632" xml:space="preserve">
+    <value>Hoàn thành ghi và đọc PCB</value>
+  </data>
+  <data name="M000633" xml:space="preserve">
+    <value>Vui lòng thiết lập dữ liệu quét, có thể quét Lô</value>
+  </data>
+  <data name="M000634" xml:space="preserve">
+    <value>Mã sản phẩm không hợp lệ, không thể trống</value>
+  </data>
+  <data name="M000635" xml:space="preserve">
+    <value>Sản phẩm đã báo phế, không thể báo phế lại</value>
+  </data>
+  <data name="M000636" xml:space="preserve">
+    <value>Mã mô-đun đã hủy thành công</value>
+  </data>
+  <data name="M000637" xml:space="preserve">
+    <value>Mã sản phẩm chưa được IQC kiểm tra, không cho phép các thao tác khác.</value>
+  </data>
+  <data name="M000638" xml:space="preserve">
+    <value>Mã sản phẩm đã được IQC kiểm tra, không cần kiểm tra lại</value>
+  </data>
+  <data name="M000639" xml:space="preserve">
+    <value>Sản phẩm đã được giao hàng, không cho phép các thao tác khác.</value>
+  </data>
+  <data name="M000640" xml:space="preserve">
+    <value>Không cho phép thao tác với sản phẩm đã báo phế</value>
+  </data>
+  <data name="M000641" xml:space="preserve">
+    <value>Sản phẩm ở trạng thái IQC chưa kiểm tra, không cho phép nguyên liệu thô nhập kho.</value>
+  </data>
+  <data name="M000642" xml:space="preserve">
+    <value>Sản phẩm không phải nguyên liệu thô trong kho, không phải nguyên liệu thô ngoài kho</value>
+  </data>
+  <data name="M000643" xml:space="preserve">
+    <value>Nguyên liệu thô không có trên chuyền hoặc phòng thí nghiệm, không cho phép trả lại</value>
+  </data>
+  <data name="M000644" xml:space="preserve">
+    <value>Sản phẩm không có trên chuyền sản xuất, không thể đảm nhiệm bán thành phẩm trong kho</value>
+  </data>
+  <data name="M000645" xml:space="preserve">
+    <value>Sản phẩm không có trong kho bán thành phẩm, không thể xuất như bán thành phẩm.</value>
+  </data>
+  <data name="M000646" xml:space="preserve">
+    <value>Sản phẩm không có trên chuyền bán thành phẩm, không thể là bán thành phẩm trong kho hoặc thu hồi</value>
+  </data>
+  <data name="M000647" xml:space="preserve">
+    <value>Mã số sản phẩm không có trong kho thành phẩm, không thể là thành phẩm xuất đi.</value>
+  </data>
+  <data name="M000648" xml:space="preserve">
+    <value>Sản phẩm không có trong kho thành phẩm, không thể là thành phẩm xuất đi.</value>
+  </data>
+  <data name="M000649" xml:space="preserve">
+    <value>Mô-Đun đọc mã số Chip thành công.</value>
+  </data>
+  <data name="M000650" xml:space="preserve">
+    <value>Tên khách hàng hoặc mã chuyền không thể trống!</value>
+  </data>
+  <data name="M000651" xml:space="preserve">
+    <value>Đơn hàng không thể trống.</value>
+  </data>
+  <data name="M000652" xml:space="preserve">
+    <value>Mã trạm không thể trống hoặc không thiết lập dữ liệu trạm</value>
+  </data>
+  <data name="M000653" xml:space="preserve">
+    <value>Ngày quét mã vạch thiết lập không được quá ngày hiện tại 10 tháng</value>
+  </data>
+  <data name="M000654" xml:space="preserve">
+    <value>Bạn chọn thời gian bắt đầu lớn hơn thời gian hiện tại</value>
+  </data>
+  <data name="M000655" xml:space="preserve">
+    <value>Người dùng hiện tại không có quyền hạn chuyền {0}</value>
+  </data>
+  <data name="M000656" xml:space="preserve">
+    <value>Vui lòng chọn Công Lệnh quét</value>
+  </data>
+  <data name="M000657" xml:space="preserve">
+    <value>Trạm này chưa thiết lập cần quét.</value>
+  </data>
+  <data name="M000658" xml:space="preserve">
+    <value>Số lượng dự kiến {0} không được thiết lập trong Nguyên Tắc Mã Hóa</value>
+  </data>
+  <data name="M000659" xml:space="preserve">
+    <value>Chỉ trạm liên kết E75 có thể hủy bỏ chuyền không kiểm tra thẻ</value>
+  </data>
+  <data name="M000660" xml:space="preserve">
+    <value>Vui lòng chọn thành phần để quét Lô đến</value>
+  </data>
+  <data name="M000661" xml:space="preserve">
+    <value>Mã Lô không thể trống, vui lòng quét mã Lô đến</value>
+  </data>
+  <data name="M000662" xml:space="preserve">
+    <value>Vui lòng kiểm tra số Lô sau khi IQC kiểm tra</value>
+  </data>
+  <data name="M000663" xml:space="preserve">
+    <value>Nhập sai, kiểu FAJ bán thành phẩm, số LOT phải là Liệu thành phần</value>
+  </data>
+  <data name="M000664" xml:space="preserve">
+    <value> Chiều dài của số Lô là {0}</value>
+  </data>
+  <data name="M000665" xml:space="preserve">
+    <value>Số Lô phải là kiểu số</value>
+  </data>
+  <data name="M000666" xml:space="preserve">
+    <value>Số lô nhập lần đầu sai</value>
+  </data>
+  <data name="M000667" xml:space="preserve">
+    <value>Lô đến không được phép nhiều hơn {0}pcs của Lô mẫu, nhập sai.</value>
+  </data>
+  <data name="M000668" xml:space="preserve">
+    <value>Một Công lệnh, Mã liệu mẫu chỉ được phép một nhà cung cấp liệu</value>
+  </data>
+  <data name="M000669" xml:space="preserve">
+    <value>Số Lô đến đã sửa thành công</value>
+  </data>
+  <data name="M000670" xml:space="preserve">
+    <value>Số Lô đến đã tồn tại trong Công Lệnh thành phần</value>
+  </data>
+  <data name="M000671" xml:space="preserve">
+    <value>Tất cả số Lô thành phẩm đã scan đủ</value>
+  </data>
+  <data name="M000672" xml:space="preserve">
+    <value>Scan Lô đến thành công</value>
+  </data>
+  <data name="M000673" xml:space="preserve">
+    <value>Scan Lô đến lỗi</value>
+  </data>
+  <data name="M000674" xml:space="preserve">
+    <value>Không thể sửa đổi dữ liệu chuyền, xuất kho/số Lô</value>
+  </data>
+  <data name="M000675" xml:space="preserve">
+    <value>Vui lòng chọn Chuyền cần sửa ở khung bên phải bảng</value>
+  </data>
+  <data name="M000676" xml:space="preserve">
+    <value>Vui lòng bảo trì thông tin Liệu trong mục thông tin cơ bản</value>
+  </data>
+  <data name="M000677" xml:space="preserve">
+    <value>Thiết lập dữ liệu cơ bản, có hơn 1 bản ghi cần thiết lập số Lô Mã Liệu</value>
+  </data>
+  <data name="M000678" xml:space="preserve">
+    <value>Kiểm tra Wiggle thất bại, không cho phép  khắc</value>
+  </data>
+  <data name="M000679" xml:space="preserve">
+    <value>Sản phẩm chưa kiểm tra Wiggle, không cho phép khắc</value>
+  </data>
+  <data name="M000680" xml:space="preserve">
+    <value>Đọc dữ liệu khắc, textbox đầu tiên chứa kí tự trống, không cho phép khắc</value>
+  </data>
+  <data name="M000681" xml:space="preserve">
+    <value>Đọc số serial thành công, số không khớp với số khắc thực tế,  không thể khắc</value>
+  </data>
+  <data name="M000682" xml:space="preserve">
+    <value>Theo dữ liệu đọc được không cho phép khắc</value>
+  </data>
+  <data name="M000683" xml:space="preserve">
+    <value>Lỗi kết nối máy khắc</value>
+  </data>
+  <data name="M000684" xml:space="preserve">
+    <value>Xuất hiện lỗi khi đọc mã cố định, không cho phép khắc</value>
+  </data>
+  <data name="M000685" xml:space="preserve">
+    <value>Vui lòng nhập sản phẩm phần cứng điện thoại, đọc tự động thông tin sản phẩm kiểm tra</value>
+  </data>
+  <data name="M000686" xml:space="preserve">
+    <value>Đọc kiểm tra thành công, vui lòng cắm sản phẩm vào để kiểm tra</value>
+  </data>
+  <data name="M000687" xml:space="preserve">
+    <value>Mở cổng thành công</value>
+  </data>
+  <data name="M000688" xml:space="preserve">
+    <value>Đọc số serial lỗi: cổng không mở</value>
+  </data>
+  <data name="M000689" xml:space="preserve">
+    <value>Đăng ký License thất bại</value>
+  </data>
+  <data name="M000690" xml:space="preserve">
+    <value>Kiểm tra dung lượng thẻ SD</value>
+  </data>
+  <data name="M000691" xml:space="preserve">
+    <value>Chờ lắp thẻ SD</value>
+  </data>
+  <data name="M000692" xml:space="preserve">
+    <value>Sản phẩm bảo trì lỗi, không cho phép scan</value>
+  </data>
+  <data name="M000693" xml:space="preserve">
+    <value>Đợi xác nhận bảo trì OK, không cho phép scan</value>
+  </data>
+  <data name="M000694" xml:space="preserve">
+    <value>Cho phép sử dụng lại túi PE sau khi kết thúc trạm sau của trạm liên kết E75</value>
+  </data>
+  <data name="M000695" xml:space="preserve">
+    <value>Số nhập vào &gt;= tổng số lượng của Công Lệnh</value>
+  </data>
+  <data name="M000696" xml:space="preserve">
+    <value>Giá trị nhập vào không được lớn hơn giá trị của thùng nguyên {0} </value>
+  </data>
+  <data name="M000697" xml:space="preserve">
+    <value>Vui lòng scan bên trong túi PE</value>
+  </data>
+  <data name="M000698" xml:space="preserve">
+    <value>Túi PE được phép sử dụng sau khi kết thúc trạm liên kết E75</value>
+  </data>
+  <data name="M000699" xml:space="preserve">
+    <value>Túi PE nội bộ không có sẵn mã vạch, vui lòng in.</value>
+  </data>
+  <data name="M000700" xml:space="preserve">
+    <value>Lưu trình mã vạch túi PE không tồn tại trong hệ thống</value>
+  </data>
+  <data name="M000701" xml:space="preserve">
+    <value>Mã vạch đã quét qua trạm này, vui lòng không quét lại</value>
+  </data>
+  <data name="M000702" xml:space="preserve">
+    <value>Lưu trình mã vạch túi PE đang sửa, không cho phép quét</value>
+  </data>
+  <data name="M000703" xml:space="preserve">
+    <value>Lưu trình mã vạch túi PE sửa xong, đang chờ IPQC xác nhận, không cho phép quét</value>
+  </data>
+  <data name="M000704" xml:space="preserve">
+    <value>Mã vạch không quét trạm Winding Station</value>
+  </data>
+  <data name="M000705" xml:space="preserve">
+    <value>Lưu trình mã vạch bên trong túi PE đang sửa hoặc đã báo phế, không được quét</value>
+  </data>
+  <data name="M000706" xml:space="preserve">
+    <value>Chuyền scan của mã vạch túi PE không khớp với chuyền thiết lập hiện tại, vui lòng xác nhận có phải chuyền {0}</value>
+  </data>
+  <data name="M000707" xml:space="preserve">
+    <value>Scan kiểm tra mã vạch và kết quả tính toán không đúng</value>
+  </data>
+  <data name="M000708" xml:space="preserve">
+    <value>Số sản phẩm scan không thể vượt quá số lượng Công Lệnh</value>
+  </data>
+  <data name="M000709" xml:space="preserve">
+    <value>Đọc E75 lỗi, vui lòng xác nhận</value>
+  </data>
+  <data name="M000710" xml:space="preserve">
+    <value>Không phù hợp</value>
+  </data>
+  <data name="M000711" xml:space="preserve">
+    <value>Xác nhận thành công, vui lòng tiếp tục quét sản phẩm</value>
+  </data>
+  <data name="M000712" xml:space="preserve">
+    <value>Quét mã vạch sản phẩm thành công, vui lòng tiếp tục quét Laser.</value>
+  </data>
+  <data name="M000713" xml:space="preserve">
+    <value>Mã Vạch thành phẩm và mã vạch Laser không giống</value>
+  </data>
+  <data name="M000714" xml:space="preserve">
+    <value>Quét mã vạch của Bin C, D, E, F</value>
+  </data>
+  <data name="M000715" xml:space="preserve">
+    <value>Quét thất bại, E75 liên kết thất bại với ASN, ASN không tìm thấy liên kết với E75</value>
+  </data>
+  <data name="M000716" xml:space="preserve">
+    <value>Quét thành công</value>
+  </data>
+  <data name="M000717" xml:space="preserve">
+    <value>Vui lòng cắm lại sản phẩm</value>
+  </data>
+  <data name="M000718" xml:space="preserve">
+    <value>Vui lòng cắm lại sản phẩm</value>
+  </data>
+  <data name="M000719" xml:space="preserve">
+    <value>Mã vạch chính trống, không cho phép nhập mã không đạt</value>
+  </data>
+  <data name="M000720" xml:space="preserve">
+    <value>Mã hiện tượng tốt {0} quét thành công</value>
+  </data>
+  <data name="M000721" xml:space="preserve">
+    <value>Sản phẩm không liên kết E75 hoặc liên kết thất bại, vui lòng xác nhận</value>
+  </data>
+  <data name="M000722" xml:space="preserve">
+    <value>Vui lòng thiết lập dữ liệu quét, để liên kết ASN</value>
+  </data>
+  <data name="M000723" xml:space="preserve">
+    <value>Tại trạm đóng gói không tải được Mã Liệu của mã vạch</value>
+  </data>
+  <data name="M000724" xml:space="preserve">
+    <value>Chưa hoàn thành quét trạm này, không thể thiết lập thời gian tương ứng quét mã vạch</value>
+  </data>
+  <data name="M000725" xml:space="preserve">
+    <value>Không tồn tại mẫu in Bartender trong đường dẫn</value>
+  </data>
+  <data name="M000726" xml:space="preserve">
+    <value>Mẫu in Bartender không thiết lập đúng</value>
+  </data>
+  <data name="M000727" xml:space="preserve">
+    <value>Số Pallet không thể là 0, thiết lập sai</value>
+  </data>
+  <data name="M000728" xml:space="preserve">
+    <value>Số thùng không thể là 0, thiết lập sai</value>
+  </data>
+  <data name="M000729" xml:space="preserve">
+    <value>Quét thành công, Vui lòng quét Thùng lớn hoặc Pallet</value>
+  </data>
+  <data name="M000730" xml:space="preserve">
+    <value>Thùng đã hoàn thành đóng gói, vui lòng quét thùng tiếp theo </value>
+  </data>
+  <data name="M000731" xml:space="preserve">
+    <value>Đã quét thùng mới, vui lòng quét sản phẩm </value>
+  </data>
+  <data name="M000732" xml:space="preserve">
+    <value>Sản phẩm chưa quét, không cho phép in</value>
+  </data>
+  <data name="M000733" xml:space="preserve">
+    <value>Khách hàng sản phẩm P06 chưa thiết lập, vui lòng kiểm tra</value>
+  </data>
+  <data name="M000734" xml:space="preserve">
+    <value>Một lỗi xuất hiện khi tải mã thùng, Pallet</value>
+  </data>
+  <data name="M000735" xml:space="preserve">
+    <value>Quét mã thùng thành công</value>
+  </data>
+  <data name="M000736" xml:space="preserve">
+    <value>Mã Pallet không thể trống</value>
+  </data>
+  <data name="M000737" xml:space="preserve">
+    <value>quét mã Pallet thành công</value>
+  </data>
+  <data name="M000738" xml:space="preserve">
+    <value>Vui lòng thiết lập in Liệu</value>
+  </data>
+  <data name="M000739" xml:space="preserve">
+    <value>Thùng hiện tại chưa quét, không cho phép thiết lập Thùng Lẻ</value>
+  </data>
+  <data name="M000740" xml:space="preserve">
+    <value>Đang quét, không cho phép in Thùng Lẻ</value>
+  </data>
+  <data name="M000741" xml:space="preserve">
+    <value>Cần in thay thế trên chuyền</value>
+  </data>
+  <data name="M000742" xml:space="preserve">
+    <value>Đọc số serial PCBA thành công</value>
+  </data>
+  <data name="M000743" xml:space="preserve">
+    <value>Xuất hiện lỗi khi đọc số serial PCBA</value>
+  </data>
+  <data name="M000744" xml:space="preserve">
+    <value>Công Lệnh không thể trống</value>
+  </data>
+  <data name="M000745" xml:space="preserve">
+    <value>Mã vạch không thể trống</value>
+  </data>
+  <data name="M000746" xml:space="preserve">
+    <value>Chiều dài mã vạch không khớp với nguyên tắc mã</value>
+  </data>
+  <data name="M000747" xml:space="preserve">
+    <value>Kiểu tem mã vạch không khớp</value>
+  </data>
+  <data name="M000748" xml:space="preserve">
+    <value>Quét thành công</value>
+  </data>
+  <data name="M000749" xml:space="preserve">
+    <value>Thời gian truy vấn nhiều nhất 7 ngày</value>
+  </data>
+  <data name="M000750" xml:space="preserve">
+    <value>Vui lòng nhập Công Lệnh\ Mã vạch\ Chuyền</value>
+  </data>
+  <data name="M000751" xml:space="preserve">
+    <value>Tên khách hàng không thể trống!</value>
+  </data>
+  <data name="M000752" xml:space="preserve">
+    <value>Công Lệnh không thể trống!</value>
+  </data>
+  <data name="M000753" xml:space="preserve">
+    <value>Thông tin chưa thiết lập hoặc không chính xác</value>
+  </data>
+  <data name="M000754" xml:space="preserve">
+    <value>Chưa thiết lập Công Lệnh, vui lòng thiết lập Chuyền cho Công Lệnh</value>
+  </data>
+  <data name="M000755" xml:space="preserve">
+    <value>Thời gian thiết lập không được quá thời gian hiện tại một tháng</value>
+  </data>
+  <data name="M000756" xml:space="preserve">
+    <value>Bạn chọn thời gian bắt đầu lớn hơn thời gian hiện tại</value>
+  </data>
+  <data name="M000757" xml:space="preserve">
+    <value>Mã liệu chưa xác nhận hoặc mã hóa</value>
+  </data>
+  <data name="M000758" xml:space="preserve">
+    <value>Vui lòng nhập một số nguyên dương</value>
+  </data>
+  <data name="M000759" xml:space="preserve">
+    <value>Mật khẩu không hợp lệ</value>
+  </data>
+  <data name="M000800" xml:space="preserve">
+    <value>Bạn không có quyền quét</value>
+  </data>
+  <data name="M000801" xml:space="preserve">
+    <value>Bạn phải nhập Công Lệnh cao hơn (Công Lệnh sau), vì có thể bị trùng với Công Lệnh kết thúc.</value>
+  </data>
+  <data name="M000802" xml:space="preserve">
+    <value>Chuyền không thể trống</value>
+  </data>
+  <data name="M000803" xml:space="preserve">
+    <value>Lưu trình sản xuất hiện tại chưa thiết lập</value>
+  </data>
+  <data name="M000804" xml:space="preserve">
+    <value>Công Lệnh đã tồn tại!</value>
+  </data>
+  <data name="M000805" xml:space="preserve">
+    <value>Mật khẩu hiện tại không được phép thay thế bản in</value>
+  </data>
+  <data name="M000806" xml:space="preserve">
+    <value>Thùng ngoài không tồn tại, vui lòng chọn Thùng tồn tại.</value>
+  </data>
+  <data name="M000807" xml:space="preserve">
+    <value>Mã Thùng {0}</value>
+  </data>
+  <data name="M000808" xml:space="preserve">
+    <value>Chỉ số {0}</value>
+  </data>
+  <data name="M000809" xml:space="preserve">
+    <value>Vui lòng  nhập Mã Liệu</value>
+  </data>
+  <data name="M000810" xml:space="preserve">
+    <value>Vui lòng thiết lập tên khách hàng trong TipTop</value>
+  </data>
+  <data name="M000811" xml:space="preserve">
+    <value>Thông tin Liệu không tìm thấy trong ERP</value>
+  </data>
+  <data name="M000812" xml:space="preserve">
+    <value>Dữ liệu về Liệu trong ERP được thể hiện ở bảng sau:</value>
+  </data>
+  <data name="M000813" xml:space="preserve">
+    <value>Đã tải về Công Lệnh {0}</value>
+  </data>
+  <data name="M000814" xml:space="preserve">
+    <value>Không tồn tại Công Lệnh {0} trong TipTop</value>
+  </data>
+  <data name="M001809" xml:space="preserve">
+    <value>Liệu</value>
+  </data>
+  <data name="M001810" xml:space="preserve">
+    <value>Tham số in đã xác nhận!</value>
+  </data>
+  <data name="M001811" xml:space="preserve">
+    <value>Tham số in đã hủy bỏ!</value>
+  </data>
+  <data name="M001812" xml:space="preserve">
+    <value>Vui lòng chọn Công Lệnh sửa</value>
+  </data>
+  <data name="M001813" xml:space="preserve">
+    <value>Vui lòng đọc mã E75 trước</value>
+  </data>
+  <data name="M001814" xml:space="preserve">
+    <value>Nhận ASN thất bại</value>
+  </data>
+  <data name="M001815" xml:space="preserve">
+    <value>Vô hiệu thành công</value>
+  </data>
+  <data name="M001816" xml:space="preserve">
+    <value>Xác nhận xóa?</value>
+  </data>
+  <data name="M001817" xml:space="preserve">
+    <value>Xóa thành công</value>
+  </data>
+  <data name="M001818" xml:space="preserve">
+    <value>Định dạng không hợp lệ</value>
+  </data>
+  <data name="M001819" xml:space="preserve">
+    <value>Không có quyền in thay thế</value>
+  </data>
+  <data name="M001820" xml:space="preserve">
+    <value>Thay thế số lượng không phù hợp với đa Mã Vạch</value>
+  </data>
+  <data name="M001821" xml:space="preserve">
+    <value>Mã vạch không tìm thấy khách hàng tương ứng, vui lòng kiểm tra!</value>
+  </data>
+  <data name="M001822" xml:space="preserve">
+    <value>Mã vạch hiện tại tương ứng với {0}, Lô lỗi, vui lòng xác nhận</value>
+  </data>
+  <data name="M001823" xml:space="preserve">
+    <value>Không có thông tin về Mã Vạch</value>
+  </data>
+  <data name="M001824" xml:space="preserve">
+    <value>Định dạng in vẫn chưa tải lên</value>
+  </data>
+  <data name="M001825" xml:space="preserve">
+    <value>Mã vạch chưa đóng gói, không cho phép in</value>
+  </data>
+  <data name="M001826" xml:space="preserve">
+    <value>Vui lòng dùng công cụ E75 để quét</value>
+  </data>
+  <data name="M001827" xml:space="preserve">
+    <value>Bắt đầu đọc Mã Vạch chính!</value>
+  </data>
+  <data name="M001828" xml:space="preserve">
+    <value>Mã liệu không cho đọc Mã Vạch chính để đóng gói</value>
+  </data>
+  <data name="M001829" xml:space="preserve">
+    <value>Đọc Mã Vạch thành công, vui lòng lấy sản phẩm ra.</value>
+  </data>
+  <data name="M001830" xml:space="preserve">
+    <value>Mã Vạch xảy ra một lỗi không xác định</value>
+  </data>
+  <data name="M001831" xml:space="preserve">
+    <value>Bắt đầu mở cổng {0}</value>
+  </data>
+  <data name="M001832" xml:space="preserve">
+    <value>Mở cổng {0} thành công</value>
+  </data>
+  <data name="M001833" xml:space="preserve">
+    <value>Cổng đã  mở</value>
+  </data>
+  <data name="M001834" xml:space="preserve">
+    <value>Một lỗi xuất hiện khi mở cổng</value>
+  </data>
+  <data name="M001835" xml:space="preserve">
+    <value>Vui lòng đọc hướng dẫn nhập hoặc ghi</value>
+  </data>
+  <data name="M001836" xml:space="preserve">
+    <value>Bắt đầu đọc số Serial</value>
+  </data>
+  <data name="M001837" xml:space="preserve">
+    <value>Đọc số Serial hoàn thành</value>
+  </data>
+  <data name="M001838" xml:space="preserve">
+    <value>Xuất hiện lỗi khi đọc số Serial: cổng {0} không mở</value>
+  </data>
+  <data name="M001839" xml:space="preserve">
+    <value>Đọc Mã Vạch thành công</value>
+  </data>
+  <data name="M001840" xml:space="preserve">
+    <value>In thành công, vui lòng lấy sản phẩm ra</value>
+  </data>
+  <data name="M001841" xml:space="preserve">
+    <value>In thay thế nhiều Mã Vạch, vui lòng dùng dấu Phẩy ngăn cách giữa các Mã Vạch</value>
+  </data>
+  <data name="M001842" xml:space="preserve">
+    <value>Không có quyền in thay thế</value>
+  </data>
+  <data name="M001843" xml:space="preserve">
+    <value>Cổng kết nối chưa mở</value>
+  </data>
+  <data name="M001844" xml:space="preserve">
+    <value>Cổng kết nối đã đóng</value>
+  </data>
+  <data name="M001845" xml:space="preserve">
+    <value>Cổng đã mở</value>
+  </data>
+  <data name="M001846" xml:space="preserve">
+    <value>Mật khẩu mở khóa không đúng</value>
+  </data>
+  <data name="M001847" xml:space="preserve">
+    <value>Không có quyền cài đặt thời gian</value>
+  </data>
+  <data name="M001848" xml:space="preserve">
+    <value>Không có bản ghi liên quan đến truy vấn</value>
+  </data>
+  <data name="M001849" xml:space="preserve">
+    <value>Thay thế sản phẩm thành công</value>
+  </data>
+  <data name="M001850" xml:space="preserve">
+    <value>Lỗi thay thế Mã Vạch</value>
+  </data>
+  <data name="M001851" xml:space="preserve">
+    <value>Thông tin nhà máy không tồn tại</value>
+  </data>
+  <data name="M001852" xml:space="preserve">
+    <value>Thông tin trạm Mã Liệu của sản phẩm không thiết lập trạm đóng gói hoặc đã xóa chia liên kết</value>
+  </data>
+  <data name="M001853" xml:space="preserve">
+    <value>Trạm của Mã Vạch này không có Trạm trước</value>
+  </data>
+  <data name="M001854" xml:space="preserve">
+    <value>Chia Thùng thành {0} liên kết</value>
+  </data>
+  <data name="M001855" xml:space="preserve">
+    <value>Một lỗi xuất hiện khi chia Thùng</value>
+  </data>
+  <data name="M001856" xml:space="preserve">
+    <value>Mã Vạch đã đóng thùng, không thể thực hiện thao tác liên quan, vui lòng dùng thành phẩm khác thay thế và tiếp tục.</value>
+  </data>
+  <data name="M001857" xml:space="preserve">
+    <value>Không tồn tại Mã Vạch hoặc đã bị xóa</value>
+  </data>
+  <data name="M001858" xml:space="preserve">
+    <value>Mã vạch không thiết lập thông tin trạm hoặc không liên quan với scan</value>
+  </data>
+  <data name="M001859" xml:space="preserve">
+    <value>Chia Mã Vạch chính làm {0} hoàn thành</value>
+  </data>
+  <data name="M001860" xml:space="preserve">
+    <value>Một lỗi xuất hiện khi chia Mã Vạch chính</value>
+  </data>
+  <data name="M001861" xml:space="preserve">
+    <value>Không có thông tin sản phẩm</value>
+  </data>
+  <data name="M001862" xml:space="preserve">
+    <value>Công Lệnh, Mã Liệu, Mã vạch sản phẩm, Mã thùng không thể trống</value>
+  </data>
+  <data name="M001863" xml:space="preserve">
+    <value>Nguyên tắc Mã đã hủy, không thể hủy lại!</value>
+  </data>
+  <data name="M001864" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy Nguyên Tắc Mã không?</value>
+  </data>
+  <data name="M001865" xml:space="preserve">
+    <value>Bạn có chắc muôn hủy định dạng in</value>
+  </data>
+  <data name="M001866" xml:space="preserve">
+    <value>Vui lòng chọn ca ngày hoặc đêm</value>
+  </data>
+  <data name="M001867" xml:space="preserve">
+    <value>Vui lòng chọn Mã Liệu</value>
+  </data>
+  <data name="M001868" xml:space="preserve">
+    <value>Mã liệu khác, không cho phép liên kết</value>
+  </data>
+  <data name="M001869" xml:space="preserve">
+    <value>Vui lòng xác nhận dữ liệu đã xuất!</value>
+  </data>
+  <data name="M001870" xml:space="preserve">
+    <value>Xuất file thành công, file xuất lưu trong đường dẫn C:\tiptop\{0}{1}.csv!</value>
+  </data>
+  <data name="M001871" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="M001872" xml:space="preserve">
+    <value>Quyền truy vấn dự án, vui lòng xác nhận</value>
+  </data>
+  <data name="M001873" xml:space="preserve">
+    <value>Quyền truy vấn dự án, Mã Vạch ngoại lệ</value>
+  </data>
+  <data name="M001874" xml:space="preserve">
+    <value>Vui lòng xác nhận</value>
+  </data>
+  <data name="M001875" xml:space="preserve">
+    <value>Quyền truy vấn Trạm, vui lòng xác nhận</value>
+  </data>
+  <data name="M001876" xml:space="preserve">
+    <value>Nhập sai ( phải là 0 hoặc 1 hoặc 2), vui lòng xác nhận.</value>
+  </data>
+  <data name="M001877" xml:space="preserve">
+    <value>Mã sản phẩm không tồn tại trong Thùng này, vui lòng xác nhận</value>
+  </data>
+  <data name="M001878" xml:space="preserve">
+    <value>Mở Thùng thành công, vui lòng thiết lập lại Scan đóng gói, tiến hành đóng gói.</value>
+  </data>
+  <data name="M001879" xml:space="preserve">
+    <value>Số Lô không khớp với Mã Liệu</value>
+  </data>
+  <data name="M001880" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy số Lô {0}</value>
+  </data>
+  <data name="M001881" xml:space="preserve">
+    <value>Hủy số Lô thành công của mã linh kiện</value>
+  </data>
+  <data name="M001882" xml:space="preserve">
+    <value>Hủy số Lô của mã linh kiện</value>
+  </data>
+  <data name="M001883" xml:space="preserve">
+    <value>Tổng {0}pcs đã đăng ký, vẫn còn có thể đăng ký {1}pcs, hiện tại yêu cầu {2}pcs, tiếp tục đăng ký</value>
+  </data>
+  <data name="M001884" xml:space="preserve">
+    <value>Tồng {0}pcs đã đăng ký cho Công Lệnh này, {1}pcs đã in, còn lại {2}pcs cần in, yêu cầu hiện tại {3}pcs, tiếp tục in</value>
+  </data>
+  <data name="Q000001" xml:space="preserve">
+    <value>Bạn có muốn lưu lại không?</value>
+  </data>
+</root>

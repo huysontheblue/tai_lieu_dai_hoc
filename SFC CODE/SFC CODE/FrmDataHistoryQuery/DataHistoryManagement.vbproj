@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D1A6810-947E-4CE1-8617-90013A14459E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>DataHistoryManagement</RootNamespace>
+    <AssemblyName>DataHistoryManagement</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>DataHistoryManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>DataHistoryManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=10.5.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04" />
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=10.5.0.3, Culture=neutral, PublicKeyToken=f90dc37c26666a67" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmColumnQuery.Designer.vb">
+      <DependentUpon>FrmColumnQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmColumnQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataHistoryManagement.Designer.vb">
+      <DependentUpon>FrmDataHistoryManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataHistoryManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataHistoryMaster.Designer.vb">
+      <DependentUpon>FrmDataHistoryMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataHistoryMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLinkServerMaster.Designer.vb">
+      <DependentUpon>FrmLinkServerMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLinkServerMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLinkServerQuery.Designer.vb">
+      <DependentUpon>FrmLinkServerQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLinkServerQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSequenceColumnQuery.Designer.vb">
+      <DependentUpon>FrmSequenceColumnQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSequenceColumnQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProxyServerConfig.Designer.vb">
+      <DependentUpon>FrmProxyServerConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProxyServerConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTableQuery.Designer.vb">
+      <DependentUpon>FrmTableQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTableQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTargetDataBaseQuery.Designer.vb">
+      <DependentUpon>FrmTargetDataBaseQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTargetDataBaseQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetMesData.vb" />
+    <Compile Include="FrmLinkServerManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLinkServerManagement.Designer.vb">
+      <DependentUpon>FrmLinkServerManagement.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetTiptopDate.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmColumnQuery.resx">
+      <DependentUpon>FrmColumnQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataHistoryManagement.resx">
+      <DependentUpon>FrmDataHistoryManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataHistoryMaster.resx">
+      <DependentUpon>FrmDataHistoryMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLinkServerMaster.resx">
+      <DependentUpon>FrmLinkServerMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLinkServerManagement.resx">
+      <DependentUpon>FrmLinkServerManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLinkServerQuery.resx">
+      <DependentUpon>FrmLinkServerQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSequenceColumnQuery.resx">
+      <DependentUpon>FrmSequenceColumnQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProxyServerConfig.resx">
+      <DependentUpon>FrmProxyServerConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTableQuery.resx">
+      <DependentUpon>FrmTableQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTargetDataBaseQuery.resx">
+      <DependentUpon>FrmTargetDataBaseQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confirm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mmmmm2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\query.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_play_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_pause_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{ec017007-adae-4cae-ac78-1f0a18a798f4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5ca79a79-689e-4c76-92ad-b2d7aa71da22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

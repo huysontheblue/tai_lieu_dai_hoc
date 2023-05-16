@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1454B478-2521-489F-B437-ADF7207DF94C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Equipment</RootNamespace>
+    <AssemblyName>Equipment</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>Equipment.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>Equipment.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="SysBasicClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\SysBasicClass.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="VbCommClass">
+      <HintPath>..\ShareFile\VbCommClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseInfo.Designer.vb">
+      <DependentUpon>BaseInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaseInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\EquMachineCommon.vb" />
+    <Compile Include="EquipBorrow.Designer.vb">
+      <DependentUpon>EquipBorrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipBorrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipCheck.Designer.vb">
+      <DependentUpon>EquipCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipDetailInfo.Designer.vb">
+      <DependentUpon>EquipDetailInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipDetailInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipmentInfo.Designer.vb">
+      <DependentUpon>EquipmentInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipmentInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipReport.Designer.vb">
+      <DependentUpon>EquipReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lend.Designer.vb">
+      <DependentUpon>Lend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseInfo.resx">
+      <DependentUpon>BaseInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipBorrow.resx">
+      <DependentUpon>EquipBorrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipCheck.resx">
+      <DependentUpon>EquipCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipDetailInfo.resx">
+      <DependentUpon>EquipDetailInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipmentInfo.resx">
+      <DependentUpon>EquipmentInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipReport.resx">
+      <DependentUpon>EquipReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lend.resx">
+      <DependentUpon>Lend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="File\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

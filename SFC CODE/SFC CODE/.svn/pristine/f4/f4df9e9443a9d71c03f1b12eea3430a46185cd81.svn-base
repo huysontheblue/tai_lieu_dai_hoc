@@ -1,0 +1,327 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>Butedit</Control_Id>
+    <Chs_Desc>修改</Chs_Desc>
+    <Cht_Desc>修改</Cht_Desc>
+    <En_Desc>Modify</En_Desc>
+    <En_Full_Desc>Modify</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ButOk</Control_Id>
+    <Chs_Desc>确定</Chs_Desc>
+    <Cht_Desc>確定</Cht_Desc>
+    <En_Desc>Confirm</En_Desc>
+    <En_Full_Desc>Confirm</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>butSet</Control_Id>
+    <Chs_Desc>设置</Chs_Desc>
+    <Cht_Desc>設置</Cht_Desc>
+    <En_Desc>Setting</En_Desc>
+    <En_Full_Desc>Setting</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>chkAuto</Control_Id>
+    <Chs_Desc>扫描完全部后，自动标刻</Chs_Desc>
+    <Cht_Desc>掃描完全部后，自動標刻</Cht_Desc>
+    <En_Desc>Scan Finish，Auto. Mark</En_Desc>
+    <En_Full_Desc>ScanFinish, AutoMark</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>cmdDel</Control_Id>
+    <Chs_Desc>删除读取记录</Chs_Desc>
+    <Cht_Desc>刪除讀取記錄</Cht_Desc>
+    <En_Desc>Delete Reading Record</En_Desc>
+    <En_Full_Desc>Delete ReadingRecord</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>cmdExit</Control_Id>
+    <Chs_Desc>退出</Chs_Desc>
+    <Cht_Desc>退出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>cmdOK</Control_Id>
+    <Chs_Desc>标刻</Chs_Desc>
+    <Cht_Desc>標刻</Cht_Desc>
+    <En_Desc>Marking</En_Desc>
+    <En_Full_Desc>Marking</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmLaserPrint</Control_Id>
+    <Chs_Desc>镭雕打标作业</Chs_Desc>
+    <Cht_Desc>鐳雕打標作業</Cht_Desc>
+    <En_Desc>Laser Marking</En_Desc>
+    <En_Full_Desc>LaserMark</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>5</Chs_Desc>
+    <Cht_Desc>5</Cht_Desc>
+    <En_Desc>5</En_Desc>
+    <En_Full_Desc>5</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>6</Chs_Desc>
+    <Cht_Desc>6</Cht_Desc>
+    <En_Desc>6</En_Desc>
+    <En_Full_Desc>6</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>标刻数量：</Chs_Desc>
+    <Cht_Desc>標刻數量：</Cht_Desc>
+    <En_Desc>Marking Qty</En_Desc>
+    <En_Full_Desc>MarkingQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc>标刻方式：</Chs_Desc>
+    <Cht_Desc>標刻方式：</Cht_Desc>
+    <En_Desc>Marking Method</En_Desc>
+    <En_Full_Desc>MarkMethod</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>条形码读取</Chs_Desc>
+    <Cht_Desc>條形碼讀取</Cht_Desc>
+    <En_Desc>Barcode Reading</En_Desc>
+    <En_Full_Desc>BarcodeRead</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>Apple Serial Number Format Cable Laser Etching</Chs_Desc>
+    <Cht_Desc>Apple Serial Number Format Cable Laser Etching</Cht_Desc>
+    <En_Desc>Apple Serial Number Format Cable Laser Etching.</En_Desc>
+    <En_Full_Desc>Apple Serial Number Format Cable Laser Etching.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>ASN 17-Digit</Chs_Desc>
+    <Cht_Desc>ASN 17-Digit</Cht_Desc>
+    <En_Desc>ASN 17-Digit</En_Desc>
+    <En_Full_Desc>ASN 17-Digit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>ASN 12-Digit (标刻码)</Chs_Desc>
+    <Cht_Desc>ASN 12-Digit (標刻碼)</Cht_Desc>
+    <En_Desc>ASN 12-Digit (Mark Code)</En_Desc>
+    <En_Full_Desc>ASN 12-Digit(MarkCode)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>1</Chs_Desc>
+    <Cht_Desc>1</Cht_Desc>
+    <En_Desc>1</En_Desc>
+    <En_Full_Desc>1</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>2</Chs_Desc>
+    <Cht_Desc>2</Cht_Desc>
+    <En_Desc>2</En_Desc>
+    <En_Full_Desc>2</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>3</Chs_Desc>
+    <Cht_Desc>3</Cht_Desc>
+    <En_Desc>3</En_Desc>
+    <En_Full_Desc>3</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>4</Chs_Desc>
+    <Cht_Desc>4</Cht_Desc>
+    <En_Desc>4</En_Desc>
+    <En_Full_Desc>4</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lbl11</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl12</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl21</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl22</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl31</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl32</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl41</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl42</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl51</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl52</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl61</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>lbl62</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Lblmessage</Control_Id>
+    <Chs_Desc>等待标刻读取...</Chs_Desc>
+    <Cht_Desc>等待標刻讀取...</Cht_Desc>
+    <En_Desc>Waiting for Mark Loading</En_Desc>
+    <En_Full_Desc>WaitFor MarkLoad</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblReadCount</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblresult</Control_Id>
+    <Chs_Desc>等候插卡数据读取</Chs_Desc>
+    <Cht_Desc>等候插卡數據讀取</Cht_Desc>
+    <En_Desc>Waiting for Card Plug-in Data Loading</En_Desc>
+    <En_Full_Desc>WaitFor PlugIn DataLoad</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripStatusLabel1</Control_Id>
+    <Chs_Desc>就绪...</Chs_Desc>
+    <Cht_Desc>就緒...</Cht_Desc>
+    <En_Desc>Ready...</En_Desc>
+    <En_Full_Desc>Ready...</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tsLable</Control_Id>
+    <Chs_Desc>标刻机IP地址： 127.0.0.1 ； 端口： 10001 ；</Chs_Desc>
+    <Cht_Desc>標刻機IP地址： 127.0.0.1 ； 端口： 10001 ；</Cht_Desc>
+    <En_Desc>Marking Machine IP Address: 127.0.0.1; Port: 10001;</En_Desc>
+    <En_Full_Desc>Marking Machine IP Address: 127.0.0.1; Port: 10001;</En_Full_Desc>
+  </Table>
+</NewDataSet>

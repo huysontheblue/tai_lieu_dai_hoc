@@ -1,0 +1,334 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>ButFileView</Control_Id>
+    <Chs_Desc>    ...</Chs_Desc>
+    <Cht_Desc>...</Cht_Desc>
+    <En_Desc>..</En_Desc>
+    <En_Full_Desc>...</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkUsey</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_0</Control_Id>
+    <Chs_Desc>序号</Chs_Desc>
+    <Cht_Desc>序號</Cht_Desc>
+    <En_Desc>series No.</En_Desc>
+    <En_Full_Desc>series No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_1</Control_Id>
+    <Chs_Desc>文件名称</Chs_Desc>
+    <Cht_Desc>文件名稱</Cht_Desc>
+    <En_Desc>document name</En_Desc>
+    <En_Full_Desc>document name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_2</Control_Id>
+    <Chs_Desc>文件类型</Chs_Desc>
+    <Cht_Desc>文件類型</Cht_Desc>
+    <En_Desc>document type</En_Desc>
+    <En_Full_Desc>document type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_3</Control_Id>
+    <Chs_Desc>版本編號</Chs_Desc>
+    <Cht_Desc>版本編號</Cht_Desc>
+    <En_Desc>version.</En_Desc>
+    <En_Full_Desc>version.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_4</Control_Id>
+    <Chs_Desc>有效否</Chs_Desc>
+    <Cht_Desc>有效否</Cht_Desc>
+    <En_Desc>valid or not</En_Desc>
+    <En_Full_Desc>valid or not</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_5</Control_Id>
+    <Chs_Desc>维护人员</Chs_Desc>
+    <Cht_Desc>維護人員</Cht_Desc>
+    <En_Desc>maint. staff</En_Desc>
+    <En_Full_Desc>maint. staff</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_6</Control_Id>
+    <Chs_Desc>维护时间</Chs_Desc>
+    <Cht_Desc>維護時間</Cht_Desc>
+    <En_Desc>maint.time</En_Desc>
+    <En_Full_Desc>maint.time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGridBarCode_7</Control_Id>
+    <Chs_Desc>备注</Chs_Desc>
+    <Cht_Desc>備注</Cht_Desc>
+    <En_Desc>notes</En_Desc>
+    <En_Full_Desc>notes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmSystemFileManage</Control_Id>
+    <Chs_Desc>SFCS系统文件管理</Chs_Desc>
+    <Cht_Desc>SFCS系統文件管理</Cht_Desc>
+    <En_Desc>SFCS Document Manage </En_Desc>
+    <En_Full_Desc>SFCS Docu.Manage </En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>文件序号:</Chs_Desc>
+    <Cht_Desc>文件序號:</Cht_Desc>
+    <En_Desc>File No.</En_Desc>
+    <En_Full_Desc>FileNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>文件名称：</Chs_Desc>
+    <Cht_Desc>文件名稱：</Cht_Desc>
+    <En_Desc>File Name</En_Desc>
+    <En_Full_Desc>FileName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>文件名查找：</Chs_Desc>
+    <Cht_Desc>文件名查找：</Cht_Desc>
+    <En_Desc>Seek Filename</En_Desc>
+    <En_Full_Desc>Seek Filename</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>文件路径：</Chs_Desc>
+    <Cht_Desc>文件路徑：</Cht_Desc>
+    <En_Desc>File Path</En_Desc>
+    <En_Full_Desc>FilePath</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>版本编号：</Chs_Desc>
+    <Cht_Desc>版本編號：</Cht_Desc>
+    <En_Desc>Ver No.</En_Desc>
+    <En_Full_Desc>Ver No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>文件类别：</Chs_Desc>
+    <Cht_Desc>文件類別：</Cht_Desc>
+    <En_Desc>File Type</En_Desc>
+    <En_Full_Desc>FileCategory</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>是否有效</Chs_Desc>
+    <Cht_Desc>是否有效</Cht_Desc>
+    <En_Desc>Validity</En_Desc>
+    <En_Full_Desc>Valid?</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>修改日期：</Chs_Desc>
+    <Cht_Desc>修改日期：</Cht_Desc>
+    <En_Desc>Modified Date</En_Desc>
+    <En_Full_Desc>ModifiedDate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>维护日期：</Chs_Desc>
+    <Cht_Desc>維護日期：</Cht_Desc>
+    <En_Desc>Maint.Date</En_Desc>
+    <En_Full_Desc>Maint.Date</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>维护人员：</Chs_Desc>
+    <Cht_Desc>維護人員：</Cht_Desc>
+    <En_Desc>Maint.Staff</En_Desc>
+    <En_Full_Desc>Maint.Staff</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>备注：</Chs_Desc>
+    <Cht_Desc>備注：</Cht_Desc>
+    <En_Desc>Notes</En_Desc>
+    <En_Full_Desc>Notes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblResult</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>ToolCancel</Control_Id>
+    <Chs_Desc>作廢(&amp;V)</Chs_Desc>
+    <Cht_Desc>作廢(&amp;V)</Cht_Desc>
+    <En_Desc>Delete(&amp;V)</En_Desc>
+    <En_Full_Desc>Delete(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolEdit</Control_Id>
+    <Chs_Desc>修改(&amp;E)</Chs_Desc>
+    <Cht_Desc>修改(&amp;E)</Cht_Desc>
+    <En_Desc>Edit(&amp;E)</En_Desc>
+    <En_Full_Desc>Edit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExit</Control_Id>
+    <Chs_Desc>退出(&amp;E)</Chs_Desc>
+    <Cht_Desc>退出(&amp;E)</Cht_Desc>
+    <En_Desc>Exit(&amp;E)</En_Desc>
+    <En_Full_Desc>Exit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolNew</Control_Id>
+    <Chs_Desc>新增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新增(&amp;N)</Cht_Desc>
+    <En_Desc>New Build(&amp;H)</En_Desc>
+    <En_Full_Desc>New Build(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolQuery</Control_Id>
+    <Chs_Desc>查找(&amp;Q)</Chs_Desc>
+    <Cht_Desc>查找(&amp;Q)</Cht_Desc>
+    <En_Desc>Query(&amp;Q)</En_Desc>
+    <En_Full_Desc>Query(&amp;Q)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolRefesh</Control_Id>
+    <Chs_Desc>刷新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷新(&amp;R)</Cht_Desc>
+    <En_Desc>Refresh(&amp;R)</En_Desc>
+    <En_Full_Desc>Refresh(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolSave</Control_Id>
+    <Chs_Desc>保存(&amp;S)</Chs_Desc>
+    <Cht_Desc>保存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel1</Control_Id>
+    <Chs_Desc>当前用户：</Chs_Desc>
+    <Cht_Desc>當前用戶：</Cht_Desc>
+    <En_Desc>Current User:</En_Desc>
+    <En_Full_Desc>Current User:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>ToolStripStatusLabel3</Control_Id>
+    <Chs_Desc>当前系统的最新版本：</Chs_Desc>
+    <Cht_Desc>當前系統的最新版本：</Cht_Desc>
+    <En_Desc>Current System Version</En_Desc>
+    <En_Full_Desc>Current System Version</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolUndo</Control_Id>
+    <Chs_Desc>取消(&amp;C)</Chs_Desc>
+    <Cht_Desc>取消(&amp;C)</Cht_Desc>
+    <En_Desc>Cancel(&amp;C)</En_Desc>
+    <En_Full_Desc>Cancel(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolUsename</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Toolver</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

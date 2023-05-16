@@ -1,0 +1,252 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>ChkUsey</Control_Id>
+    <Chs_Desc>启用</Chs_Desc>
+    <Cht_Desc>啟用</Cht_Desc>
+    <En_Desc>Start Position</En_Desc>
+    <En_Full_Desc>BeginUse</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_0</Control_Id>
+    <Chs_Desc>不良现象代码</Chs_Desc>
+    <Cht_Desc>不良現象代碼</Cht_Desc>
+    <En_Desc>Defective Reason Code</En_Desc>
+    <En_Full_Desc>Defective Reason Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_1</Control_Id>
+    <Chs_Desc>不良现象名称</Chs_Desc>
+    <Cht_Desc>不良現象名稱</Cht_Desc>
+    <En_Desc>Defective Reason Name</En_Desc>
+    <En_Full_Desc>Defective Reason Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_2</Control_Id>
+    <Chs_Desc>不良现象英文名称</Chs_Desc>
+    <Cht_Desc>不良現象英文名稱</Cht_Desc>
+    <En_Desc>English Name</En_Desc>
+    <En_Full_Desc>Defective Reason English Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_3</Control_Id>
+    <Chs_Desc>不良现象类别编号</Chs_Desc>
+    <Cht_Desc>不良現象類別編號</Cht_Desc>
+    <En_Desc>Defective Reason Category ID</En_Desc>
+    <En_Full_Desc>Defective Reason Category ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_4</Control_Id>
+    <Chs_Desc>不良现象类别</Chs_Desc>
+    <Cht_Desc>不良現象類別</Cht_Desc>
+    <En_Desc>Defective Reason Category</En_Desc>
+    <En_Full_Desc>Defective Reason Category</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_5</Control_Id>
+    <Chs_Desc>有效否</Chs_Desc>
+    <Cht_Desc>有效否</Cht_Desc>
+    <En_Desc>Effective</En_Desc>
+    <En_Full_Desc>Effective Or Not</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_6</Control_Id>
+    <Chs_Desc>设置时间</Chs_Desc>
+    <Cht_Desc>設置時間</Cht_Desc>
+    <En_Desc>Setting Time</En_Desc>
+    <En_Full_Desc>Setting Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvRstation_7</Control_Id>
+    <Chs_Desc>客户代码</Chs_Desc>
+    <Cht_Desc>客戶代碼</Cht_Desc>
+    <En_Desc>Cust Code
+</En_Desc>
+    <En_Full_Desc>Customer Code
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmNCode</Control_Id>
+    <Chs_Desc>不良现象代码维护</Chs_Desc>
+    <Cht_Desc>不良現象代碼維護</Cht_Desc>
+    <En_Desc>Negative Phenomenone Code Maint.</En_Desc>
+    <En_Full_Desc>PoorPheno.CodeMaint.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>不良现象代码：</Chs_Desc>
+    <Cht_Desc>不良現象代碼：</Cht_Desc>
+    <En_Desc>Negative Phenomenone Code</En_Desc>
+    <En_Full_Desc>PoorPheno Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>不良现象名称：</Chs_Desc>
+    <Cht_Desc>不良現象名稱：</Cht_Desc>
+    <En_Desc>Negative Phenomenone Name</En_Desc>
+    <En_Full_Desc>PoorPheno Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>不良现象英文名称：</Chs_Desc>
+    <Cht_Desc>不良現象英文名稱：</Cht_Desc>
+    <En_Desc>Negative Phenomenone English Name</En_Desc>
+    <En_Full_Desc>PoorPheno EngName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>不良现象类别：</Chs_Desc>
+    <Cht_Desc>不良現象類別：</Cht_Desc>
+    <En_Desc>Negative Phenomenone Type</En_Desc>
+    <En_Full_Desc>PoorPheno Category</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>客户名称：</Chs_Desc>
+    <Cht_Desc>客戶名稱：</Cht_Desc>
+    <En_Desc>Customer Name </En_Desc>
+    <En_Full_Desc>CustomerName </En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolAbandon</Control_Id>
+    <Chs_Desc>作 废(&amp;D)</Chs_Desc>
+    <Cht_Desc>作 廢(&amp;D)</Cht_Desc>
+    <En_Desc>Delete(&amp;D)</En_Desc>
+    <En_Full_Desc>Delete(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolAdd</Control_Id>
+    <Chs_Desc>新 增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新 增(&amp;N)</Cht_Desc>
+    <En_Desc>New Build(&amp;N)</En_Desc>
+    <En_Full_Desc>New Build(&amp;N)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolBack</Control_Id>
+    <Chs_Desc>返 回(&amp;B)</Chs_Desc>
+    <Cht_Desc>返 回(&amp;B)</Cht_Desc>
+    <En_Desc>Back(&amp;B)</En_Desc>
+    <En_Full_Desc>Back(&amp;B)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolEdit</Control_Id>
+    <Chs_Desc>修 改(&amp;E)</Chs_Desc>
+    <Cht_Desc>修 改(&amp;E)</Cht_Desc>
+    <En_Desc>Edit(&amp;E)</En_Desc>
+    <En_Full_Desc>Edit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolExit</Control_Id>
+    <Chs_Desc>退 出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退 出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolNg</Control_Id>
+    <Chs_Desc>维修方法代码(R)</Chs_Desc>
+    <Cht_Desc>維修方法代碼(R)</Cht_Desc>
+    <En_Desc>Maint.Method Code</En_Desc>
+    <En_Full_Desc>Maint.MethodCode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolQuery</Control_Id>
+    <Chs_Desc>查  询(&amp;F)</Chs_Desc>
+    <Cht_Desc>查  詢(&amp;F)</Cht_Desc>
+    <En_Desc>Inquiry(&amp;F)</En_Desc>
+    <En_Full_Desc>Query(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolSave</Control_Id>
+    <Chs_Desc>保 存(&amp;S)</Chs_Desc>
+    <Cht_Desc>保 存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel1</Control_Id>
+    <Chs_Desc>记录笔数:</Chs_Desc>
+    <Cht_Desc>記錄筆數:</Cht_Desc>
+    <En_Desc>Record Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

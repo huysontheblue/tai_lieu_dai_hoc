@@ -1,0 +1,204 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KanBan
+</name>
+</assembly>
+<members>
+<member name="M:KanBan.FrmKBHelp.FrmKBHelp_Load(System.Object,System.EventArgs)">
+	<summary>
+ 初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:KanBan.FrmKBHelp">
+	<summary>
+ 修改者： 田玉琳
+ 修改日： 2016/03/01
+ 修改内容：表和设计变更
+ </summary>
+	<remarks>MES所有帮助说明</remarks>
+</member><member name="M:KanBan.FrmParetoShow.toolPDF_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生成PDF
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.FrmParetoShow.BtnQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:KanBan.FrmParetoShow">
+ 修改者： 田玉琳
+ 修改日： 2016/04/01
+ 修改内容：pdf导出
+ 修改日： 前三项不良出力
+ 修改日： 2016/08/05
+ 修改内容：改到存储过程中处理
+ 修改者： 田玉琳
+ 修改日: 2016/12/06
+ 修改内容：增加按周柏拉图，和按月柏拉图
+ 
+
+</member><member name="M:KanBan.FrmParetoShowSub.FrmParetoShowSub_Load(System.Object,System.EventArgs)">
+	<summary>
+ 查找旧数据
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.BindComboxDateIf(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置柏拉图查询条件
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.BindComboxDateIfHaveBlank(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置柏拉图查询条件(只显示日周)
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.BindComboxClass(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置部门
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.BindComboxLineAll(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置线别
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.BindComboxMoKuai(System.Windows.Forms.ComboBox)">
+	<summary>
+ 模块名称
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.BindComboxItems(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 机能名称
+ </summary>
+	<param name="ColComboBox"></param>
+	<param name="items"></param>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.QueryGetParetoNgData(System.String,System.String,System.String,System.String)">
+	<summary>
+ 共通取得数据
+ </summary>
+	<param name="partId"></param>
+	<param name="lineId"></param>
+	<param name="ngDate"></param>
+	<param name="type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.QueryGetParetoNgData(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 共通取得数据
+ </summary>
+	<param name="partId"></param>
+	<param name="lineId"></param>
+	<param name="ngDateFrom"></param>
+	<param name="ngDateTo"></param>
+	<param name="type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:KanBan.KBCom.QueryGetParetoNgData(System.String,System.String,System.String)">
+	<summary>
+ 共通取得数据
+ </summary>
+	<param name="moid"></param>
+	<param name="lineId"></param>
+	<param name="type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:KanBan.FrmOrderSchQuery.toolQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ EXEC [m_QueryKanBanOrderSearch_p] '2014-12-11','2015-12-16','','','','','LXXT','','1','',''
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:KanBan.FrmPartTime">
+ 修改者： 田玉琳
+ 修改日： 2016/04/05
+ 修改内容：自动生成班别资料
+
+</member><member name="P:KanBan.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:KanBan.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:KanBan.My.Resources.Resources.sign">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:KanBan.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.#ctor">
+	<remarks/>
+</member><member name="E:KanBan.EmployeeWCF.EmployeeWCF.GetImmediateSupervisorCompleted">
+	<remarks/>
+</member><member name="E:KanBan.EmployeeWCF.EmployeeWCF.GetEmpPhotoCompleted">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.GetImmediateSupervisor(System.String)">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.GetImmediateSupervisorAsync(System.String)">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.GetImmediateSupervisorAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.GetEmpPhoto(System.String)">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.GetEmpPhotoAsync(System.String)">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.GetEmpPhotoAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:KanBan.EmployeeWCF.EmployeeWCF.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:KanBan.EmployeeWCF.EmployeeWCF">
+	<remarks/>
+</member><member name="P:KanBan.EmployeeWCF.TupleOfstringstringstring.m_Item1">
+	<remarks/>
+</member><member name="P:KanBan.EmployeeWCF.TupleOfstringstringstring.m_Item2">
+	<remarks/>
+</member><member name="P:KanBan.EmployeeWCF.TupleOfstringstringstring.m_Item3">
+	<remarks/>
+</member><member name="T:KanBan.EmployeeWCF.TupleOfstringstringstring">
+	<remarks/>
+</member><member name="T:KanBan.EmployeeWCF.GetImmediateSupervisorCompletedEventHandler">
+	<remarks/>
+</member><member name="P:KanBan.EmployeeWCF.GetImmediateSupervisorCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:KanBan.EmployeeWCF.GetImmediateSupervisorCompletedEventArgs">
+	<remarks/>
+</member><member name="T:KanBan.EmployeeWCF.GetEmpPhotoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:KanBan.EmployeeWCF.GetEmpPhotoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:KanBan.EmployeeWCF.GetEmpPhotoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:KanBan.FrmParetoMoidShow">
+ 修改者： 田玉琳
+ 修改日： 2016/12/14
+ 修改内容：pdf导出
+ 修改日： 前三项不良出力
+ 修改内容：增加按工单生成柏拉图
+ 
+
+</member>
+</members>
+</doc>

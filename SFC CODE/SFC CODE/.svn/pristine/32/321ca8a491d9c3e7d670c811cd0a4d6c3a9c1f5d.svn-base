@@ -1,0 +1,62 @@
+
+-- ===========================================================
+-- Exec_InsertMachineChecks,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROC [dbo].[Exec_InsertMachineChecks]
+	
+	@RTMSG NVARCHAR(128) OUTPUT,
+	@Machine_Code VARCHAR(10)='',
+	@CheckUser VARCHAR(30)='',
+	@CheckStatus  NVARCHAR(20)='',
+	@Remark NVARCHAR(200)='',
+	@CREATEUSERNAME VARCHAR(20)='',
+	@CreateTime datetime='',
+	@CheckTime datetime='',
+	@NextCheckTime datetime='',
+	@FactoryName  VARCHAR(60)='',
+	@Profitcenter   VARCHAR(60)=''
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	DECLARE @RunStatus int
+
+	BEGIN TRY
+		BEGIN TRAN
+	    BEGIN
+			
+			INSERT INTO m_Equ_MachineChecks_t VALUES(
+				@Machine_Code, @CheckUser, @Remark,@CheckStatus,@CREATEUSERNAME, @CreateTime,@FactoryName,@Profitcenter
+			)
+		END
+		update m_Equ_MachineM_t set [Status]=0,CheckTime=@CheckTime,NextCheckTime=@NextCheckTime  where Machine_Code=@Machine_Code
+		COMMIT TRAN
+	END TRY 
+	BEGIN CATCH 
+		ROLLBACK TRAN
+	
+		SET @RTMSG=N'÷¥––“Ï≥£'
+		
+	END CATCH 
+END
+
+
+
+
+
+
+GO
+
+

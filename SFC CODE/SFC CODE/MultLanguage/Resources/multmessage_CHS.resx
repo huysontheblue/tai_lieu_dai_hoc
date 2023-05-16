@@ -1,0 +1,2706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="M000001" xml:space="preserve">
+    <value>该模块还有子模块，只有没有子模块的模块才允许删除！</value>
+  </data>
+  <data name="M000002" xml:space="preserve">
+    <value>你确定删除？</value>
+  </data>
+  <data name="M000003" xml:space="preserve">
+    <value>电脑没有检测到可用的端口...</value>
+  </data>
+  <data name="M000004" xml:space="preserve">
+    <value>当前登陆用户，没有任何测试工站进行测试的权限...</value>
+  </data>
+  <data name="M000005" xml:space="preserve">
+    <value>1-接收为字符串</value>
+  </data>
+  <data name="M000006" xml:space="preserve">
+    <value>2-接收为字节</value>
+  </data>
+  <data name="M000007" xml:space="preserve">
+    <value>1-读取芯片序号ASN</value>
+  </data>
+  <data name="M000008" xml:space="preserve">
+    <value>2-读取芯片序号MSN</value>
+  </data>
+  <data name="M000009" xml:space="preserve">
+    <value>3-扫描条码序号</value>
+  </data>
+  <data name="M000010" xml:space="preserve">
+    <value>4-只读取MSN</value>
+  </data>
+  <data name="M000011" xml:space="preserve">
+    <value>请先选择当前作业的线别</value>
+  </data>
+  <data name="M000012" xml:space="preserve">
+    <value>端口已打开...</value>
+  </data>
+  <data name="M000013" xml:space="preserve">
+    <value>端口打开时发生错误...</value>
+  </data>
+  <data name="M000014" xml:space="preserve">
+    <value>通讯端口尚未打开</value>
+  </data>
+  <data name="M000015" xml:space="preserve">
+    <value>通讯端口已关闭</value>
+  </data>
+  <data name="M000016" xml:space="preserve">
+    <value>读取成功</value>
+  </data>
+  <data name="M000017" xml:space="preserve">
+    <value>E75产品条码读取PASS</value>
+  </data>
+  <data name="M000018" xml:space="preserve">
+    <value>产品条码读取PASS</value>
+  </data>
+  <data name="M000019" xml:space="preserve">
+    <value>条码信息未读取或读取失败，请先读取条码信息...</value>
+  </data>
+  <data name="M000020" xml:space="preserve">
+    <value>数据读取成功！</value>
+  </data>
+  <data name="M000021" xml:space="preserve">
+    <value>读取ASN长度应为：</value>
+  </data>
+  <data name="M000022" xml:space="preserve">
+    <value>未经过E75组装绑定作业...</value>
+  </data>
+  <data name="M000023" xml:space="preserve">
+    <value>不良品不允许进行Wiggle测试,请先进行维修...</value>
+  </data>
+  <data name="M000024" xml:space="preserve">
+    <value>该产品的主条码已经维修作废,不允许进行Wiggle测试..</value>
+  </data>
+  <data name="M000025" xml:space="preserve">
+    <value>该产品的主条码已经维修但未进行IPQC确认,不允许进行Wiggle测试...</value>
+  </data>
+  <data name="M000026" xml:space="preserve">
+    <value>1.04伏 Wigle测试数据保存成功..</value>
+  </data>
+  <data name="M000027" xml:space="preserve">
+    <value>1.04伏 Wiggle测试数据保存失败...</value>
+  </data>
+  <data name="M000028" xml:space="preserve">
+    <value>条码或MSN\ASN序号不能为空...</value>
+  </data>
+  <data name="M000029" xml:space="preserve">
+    <value>充电测试数据保存成功...</value>
+  </data>
+  <data name="M000030" xml:space="preserve">
+    <value>充电测试数据保存失败...</value>
+  </data>
+  <data name="M000031" xml:space="preserve">
+    <value>充电测试：</value>
+  </data>
+  <data name="M000032" xml:space="preserve">
+    <value>Wiggle测试数据保存时,发生错误...</value>
+  </data>
+  <data name="M000033" xml:space="preserve">
+    <value>SIB测试工站接收数据不正确...</value>
+  </data>
+  <data name="M000034" xml:space="preserve">
+    <value>该产品未经过NI测试或结果为FAIL...</value>
+  </data>
+  <data name="M000035" xml:space="preserve">
+    <value>SIB测试：</value>
+  </data>
+  <data name="M000036" xml:space="preserve">
+    <value>SIB数据保存成功...</value>
+  </data>
+  <data name="M000037" xml:space="preserve">
+    <value>SIB数据保存失败...</value>
+  </data>
+  <data name="M000038" xml:space="preserve">
+    <value>3 IN 1EUT测试：</value>
+  </data>
+  <data name="M000039" xml:space="preserve">
+    <value>3 IN 1EUT测试数据保存成功...</value>
+  </data>
+  <data name="M000040" xml:space="preserve">
+    <value>3 IN 1EUT测试数据保存失败...</value>
+  </data>
+  <data name="M000041" xml:space="preserve">
+    <value>吊重测试工站接收数据不正确...</value>
+  </data>
+  <data name="M000042" xml:space="preserve">
+    <value>吊重测试：</value>
+  </data>
+  <data name="M000043" xml:space="preserve">
+    <value>吊重测试数据保存成功...</value>
+  </data>
+  <data name="M000044" xml:space="preserve">
+    <value>吊重测试数据保存失败...</value>
+  </data>
+  <data name="M000045" xml:space="preserve">
+    <value>吊重测试工站接收数据不正确...</value>
+  </data>
+  <data name="M000046" xml:space="preserve">
+    <value>该产品已经维修作废,不允许进行Wiggle测试...</value>
+  </data>
+  <data name="M000047" xml:space="preserve">
+    <value>该产品已经维修但未进行IPQC确认,不允许进行Wiggle测试...</value>
+  </data>
+  <data name="M000048" xml:space="preserve">
+    <value>条码没有做吊重测试或是吊重测试FAIL...</value>
+  </data>
+  <data name="M000049" xml:space="preserve">
+    <value>Wiggle测试工站接收数据不正确..</value>
+  </data>
+  <data name="M000050" xml:space="preserve">
+    <value>条码测试FAIL...</value>
+  </data>
+  <data name="M000051" xml:space="preserve">
+    <value>Wiggle测试：</value>
+  </data>
+  <data name="M000052" xml:space="preserve">
+    <value>Wiggle测试数据保存成功...</value>
+  </data>
+  <data name="M000053" xml:space="preserve">
+    <value>Wiggle测试数据保存失败...</value>
+  </data>
+  <data name="M000054" xml:space="preserve">
+    <value>2 IN 1 EUT测试数据保存成功...</value>
+  </data>
+  <data name="M000055" xml:space="preserve">
+    <value>2 IN 1 EUT测试数据保存失败...</value>
+  </data>
+  <data name="M000056" xml:space="preserve">
+    <value>E75导通测试工站接收数据不正确...</value>
+  </data>
+  <data name="M000057" xml:space="preserve">
+    <value>E75导通测试：</value>
+  </data>
+  <data name="M000058" xml:space="preserve">
+    <value>E75导通测试据保存成功...</value>
+  </data>
+  <data name="M000059" xml:space="preserve">
+    <value>E75导通测试据保存失败...</value>
+  </data>
+  <data name="M000060" xml:space="preserve">
+    <value>该序号与设定的线别不一致，实际线别为{0}</value>
+  </data>
+  <data name="M000061" xml:space="preserve">
+    <value>条码序号：{0}</value>
+  </data>
+  <data name="M000062" xml:space="preserve">
+    <value>错误备注不能为空！</value>
+  </data>
+  <data name="M000063" xml:space="preserve">
+    <value>提示信息</value>
+  </data>
+  <data name="M000064" xml:space="preserve">
+    <value>密码不正确或无权限！</value>
+  </data>
+  <data name="M000065" xml:space="preserve">
+    <value>请先输入密码</value>
+  </data>
+  <data name="M000066" xml:space="preserve">
+    <value>2 IN 1 EUT测试：</value>
+  </data>
+  <data name="M000067" xml:space="preserve">
+    <value>起始时间不能大于结束时间!</value>
+  </data>
+  <data name="M000068" xml:space="preserve">
+    <value>起始时间不能小于2007-01-01!</value>
+  </data>
+  <data name="M000069" xml:space="preserve">
+    <value>查询时间相隔最多请不要超过{0}天</value>
+  </data>
+  <data name="M000070" xml:space="preserve">
+    <value>由于数据量较大，请输入更精确的查询条件...</value>
+  </data>
+  <data name="M000071" xml:space="preserve">
+    <value>请选择测试工站...</value>
+  </data>
+  <data name="M000072" xml:space="preserve">
+    <value>没有资料可导出!!!</value>
+  </data>
+  <data name="M000073" xml:space="preserve">
+    <value>输入的工单未找到对应的子料号,请确认工单是否正确!!</value>
+  </data>
+  <data name="M000074" xml:space="preserve">
+    <value>数量为 0 或 负数！</value>
+  </data>
+  <data name="M000075" xml:space="preserve">
+    <value>输入的工单未查找到对应的工单料号，请确认输入工单是否有误！！！</value>
+  </data>
+  <data name="M000076" xml:space="preserve">
+    <value>输入的来料序号位数太短了，请确认!!</value>
+  </data>
+  <data name="M000077" xml:space="preserve">
+    <value>来料序号输入有误，请确认!!!</value>
+  </data>
+  <data name="M000078" xml:space="preserve">
+    <value>条码录入重复,请重新扫入！</value>
+  </data>
+  <data name="M000079" xml:space="preserve">
+    <value>{0}不能为空</value>
+  </data>
+  <data name="M000080" xml:space="preserve">
+    <value>工单料号获取为空，请确认一下工单是否有误！！</value>
+  </data>
+  <data name="M000081" xml:space="preserve">
+    <value>{0}不能为空，请选择</value>
+  </data>
+  <data name="M000082" xml:space="preserve">
+    <value>输入数量不正确,请确认!!!</value>
+  </data>
+  <data name="M000083" xml:space="preserve">
+    <value>子料号获取为空，请确认一下来料序号是否有误！！！！！</value>
+  </data>
+  <data name="M000084" xml:space="preserve">
+    <value>发料不在此工单中,请确认!!!!</value>
+  </data>
+  <data name="M000085" xml:space="preserve">
+    <value>类型为外包出厂时需输入夹4工单！</value>
+  </data>
+  <data name="M000086" xml:space="preserve">
+    <value>夹4工单在系统中不存在！</value>
+  </data>
+  <data name="M000087" xml:space="preserve">
+    <value>类型为外包出厂时,该条码的工单与夹4工单不符!</value>
+  </data>
+  <data name="M000088" xml:space="preserve">
+    <value>录入数据失败！！</value>
+  </data>
+  <data name="M000089" xml:space="preserve">
+    <value>子料号:{0}剩余数量为:{1}不够领!!!</value>
+  </data>
+  <data name="M000090" xml:space="preserve">
+    <value>子料号有问题,请确认!!!</value>
+  </data>
+  <data name="M000091" xml:space="preserve">
+    <value>选择作废时，必须在备注栏位写上作废说明!!!</value>
+  </data>
+  <data name="M000092" xml:space="preserve">
+    <value>[Id:{0}]的这一笔资料目前状态为[作废]，请不要做重复作废动作!!</value>
+  </data>
+  <data name="M000093" xml:space="preserve">
+    <value>未选择或选择无效，请重新选择要删除的行!!</value>
+  </data>
+  <data name="M000094" xml:space="preserve">
+    <value>确定要作废[Id：{0}]吗？</value>
+  </data>
+  <data name="M000095" xml:space="preserve">
+    <value>开启作废</value>
+  </data>
+  <data name="M000096" xml:space="preserve">
+    <value>作废完成</value>
+  </data>
+  <data name="M000097" xml:space="preserve">
+    <value>你选择要删除的Id：{0}请确认</value>
+  </data>
+  <data name="M000098" xml:space="preserve">
+    <value>输入的条码是非法的，没有在系统打印</value>
+  </data>
+  <data name="M000099" xml:space="preserve">
+    <value>无法创建Excel对象，可能您的机子未安装Excel</value>
+  </data>
+  <data name="M000100" xml:space="preserve">
+    <value>导出文件时出错,文件可能正被打开！\n</value>
+  </data>
+  <data name="M000101" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="M000102" xml:space="preserve">
+    <value>栈板号为空</value>
+  </data>
+  <data name="M000103" xml:space="preserve">
+    <value>箱号为空</value>
+  </data>
+  <data name="M000104" xml:space="preserve">
+    <value>工单对应的料件编号，未设置打印格式</value>
+  </data>
+  <data name="M000105" xml:space="preserve">
+    <value>条码中部分参数值不完整!</value>
+  </data>
+  <data name="M000106" xml:space="preserve">
+    <value>请输入尾数箱的数量！</value>
+  </data>
+  <data name="M000107" xml:space="preserve">
+    <value>尾數箱打印設置</value>
+  </data>
+  <data name="M000108" xml:space="preserve">
+    <value>装箱数量须大于0！</value>
+  </data>
+  <data name="M000109" xml:space="preserve">
+    <value>装箱数量须为数字！</value>
+  </data>
+  <data name="M000110" xml:space="preserve">
+    <value>确定要打印尾箱标签吗?</value>
+  </data>
+  <data name="M000111" xml:space="preserve">
+    <value>请确认是否连接好打印机！</value>
+  </data>
+  <data name="M000112" xml:space="preserve">
+    <value>一次打印数量限制在{0}以内！</value>
+  </data>
+  <data name="M000113" xml:space="preserve">
+    <value>同一条码打印数量不能为空</value>
+  </data>
+  <data name="M000114" xml:space="preserve">
+    <value>此工单正在打印中！</value>
+  </data>
+  <data name="M000115" xml:space="preserve">
+    <value>该工单没有维护对应的线别</value>
+  </data>
+  <data name="M000116" xml:space="preserve">
+    <value>该工单对应的线别:{0}没有维护对应的工站表</value>
+  </data>
+  <data name="M000117" xml:space="preserve">
+    <value>该料号未设置打印模板...</value>
+  </data>
+  <data name="M000118" xml:space="preserve">
+    <value>流水号已达最大值!</value>
+  </data>
+  <data name="M000119" xml:space="preserve">
+    <value>程式安装目录与模块数据源目录不符,不允许打印...</value>
+  </data>
+  <data name="M000120" xml:space="preserve">
+    <value>打印条码时出现异常:</value>
+  </data>
+  <data name="M000121" xml:space="preserve">
+    <value>请先选择客户和条码编码原则！</value>
+  </data>
+  <data name="M000122" xml:space="preserve">
+    <value>导入成功</value>
+  </data>
+  <data name="M000123" xml:space="preserve">
+    <value>导入失败</value>
+  </data>
+  <data name="M000124" xml:space="preserve">
+    <value>请确认需导出的数据资料！</value>
+  </data>
+  <data name="M000125" xml:space="preserve">
+    <value>文件导出成功,导出位置：{0}</value>
+  </data>
+  <data name="M000126" xml:space="preserve">
+    <value>请输入打印数量</value>
+  </data>
+  <data name="M000127" xml:space="preserve">
+    <value>本地模板不存在</value>
+  </data>
+  <data name="M000128" xml:space="preserve">
+    <value>对应料件服务器打印模板不存在</value>
+  </data>
+  <data name="M000129" xml:space="preserve">
+    <value>没有该条码的任何资料...</value>
+  </data>
+  <data name="M000130" xml:space="preserve">
+    <value>该料件的打印格式，未上传打印模版...</value>
+  </data>
+  <data name="M000131" xml:space="preserve">
+    <value>不存在XML文件</value>
+  </data>
+  <data name="M000132" xml:space="preserve">
+    <value>采用bartender打印时,系统只能预览btw格式文件...</value>
+  </data>
+  <data name="M000133" xml:space="preserve">
+    <value>此工单未设置生产部门或营运中心...</value>
+  </data>
+  <data name="M000134" xml:space="preserve">
+    <value>该料号未设置包装数量...</value>
+  </data>
+  <data name="M000135" xml:space="preserve">
+    <value>此工单所对应的料件装箱信息未设置,或工单维护错误！</value>
+  </data>
+  <data name="M000136" xml:space="preserve">
+    <value>尾数箱的装箱数量不能大于或等于整数箱的装箱数量！</value>
+  </data>
+  <data name="M000137" xml:space="preserve">
+    <value>生成样式错误！</value>
+  </data>
+  <data name="M000138" xml:space="preserve">
+    <value>此标签不需要进行尾数设置!</value>
+  </data>
+  <data name="M000139" xml:space="preserve">
+    <value>自动生成CSV格式的打印记录不允许超过50000！</value>
+  </data>
+  <data name="M000140" xml:space="preserve">
+    <value>文档抛砖成功,请确认</value>
+  </data>
+  <data name="M000141" xml:space="preserve">
+    <value>移动{0}文件到Mac失败,请手动移动</value>
+  </data>
+  <data name="M000142" xml:space="preserve">
+    <value>请选择每行打印列数！</value>
+  </data>
+  <data name="M000143" xml:space="preserve">
+    <value>固定字符数不应大于总字符数!</value>
+  </data>
+  <data name="M000144" xml:space="preserve">
+    <value>输入码元代码不能为{0}，请重新输入</value>
+  </data>
+  <data name="M000145" xml:space="preserve">
+    <value>请输入分隔符</value>
+  </data>
+  <data name="M000146" xml:space="preserve">
+    <value>请输入流水码长度</value>
+  </data>
+  <data name="M000147" xml:space="preserve">
+    <value>已经作废，不可再修改！</value>
+  </data>
+  <data name="M000148" xml:space="preserve">
+    <value>请确认资料是否正确?</value>
+  </data>
+  <data name="M000149" xml:space="preserve">
+    <value>已经冻结，不可再修改！</value>
+  </data>
+  <data name="M000150" xml:space="preserve">
+    <value>确定要冻结此编码原则吗？</value>
+  </data>
+  <data name="M000151" xml:space="preserve">
+    <value>冻结成功！</value>
+  </data>
+  <data name="M000152" xml:space="preserve">
+    <value>已经冻结，不可取消冻结！</value>
+  </data>
+  <data name="M000153" xml:space="preserve">
+    <value>确定要取消冻结此编码原则吗？</value>
+  </data>
+  <data name="M000154" xml:space="preserve">
+    <value>取消冻结成功！</value>
+  </data>
+  <data name="M000155" xml:space="preserve">
+    <value>保存失败</value>
+  </data>
+  <data name="M000156" xml:space="preserve">
+    <value>请选择一条数据</value>
+  </data>
+  <data name="M000157" xml:space="preserve">
+    <value>请选择打印记录</value>
+  </data>
+  <data name="M000158" xml:space="preserve">
+    <value>打印成功</value>
+  </data>
+  <data name="M000159" xml:space="preserve">
+    <value>打印出错</value>
+  </data>
+  <data name="M000160" xml:space="preserve">
+    <value>获取采购单信息出错：</value>
+  </data>
+  <data name="M000161" xml:space="preserve">
+    <value>选择异常</value>
+  </data>
+  <data name="M000162" xml:space="preserve">
+    <value>设置的时间不得小于当天</value>
+  </data>
+  <data name="M000163" xml:space="preserve">
+    <value>合同号: {0} 需求信息:</value>
+  </data>
+  <data name="M000164" xml:space="preserve">
+    <value>批量生成打印申请记录</value>
+  </data>
+  <data name="M000165" xml:space="preserve">
+    <value>若对于工单不同条码属性没有特别要求的，可以按照当前工单所有条码类型批量生成新的打印申请记录，否则请到打印申请作业里面进行单个类型的条码申请</value>
+  </data>
+  <data name="M000166" xml:space="preserve">
+    <value>打印中...</value>
+  </data>
+  <data name="M000167" xml:space="preserve">
+    <value>工单号为{0}退单成功!</value>
+  </data>
+  <data name="M000168" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="M000169" xml:space="preserve">
+    <value>确定删除？</value>
+  </data>
+  <data name="M000170" xml:space="preserve">
+    <value>删除失败</value>
+  </data>
+  <data name="M000171" xml:space="preserve">
+    <value>获取工单打印清单异常</value>
+  </data>
+  <data name="M000172" xml:space="preserve">
+    <value>请输入查询Tiptop工单!</value>
+  </data>
+  <data name="M000173" xml:space="preserve">
+    <value>请设置工单料件打印参数!</value>
+  </data>
+  <data name="M000174" xml:space="preserve">
+    <value>工单{0}不存在!</value>
+  </data>
+  <data name="M000175" xml:space="preserve">
+    <value>更新BOM失败,请先选择客户!</value>
+  </data>
+  <data name="M000176" xml:space="preserve">
+    <value>请先选择客户!</value>
+  </data>
+  <data name="M000177" xml:space="preserve">
+    <value>工单{0}下载异常!</value>
+  </data>
+  <data name="M000178" xml:space="preserve">
+    <value>工单{0}已经打印，不允许重新下载或删除!</value>
+  </data>
+  <data name="M000179" xml:space="preserve">
+    <value>请配置第{0}行料件打印参数，并确保其他料件参数已经配置OK!</value>
+  </data>
+  <data name="M000180" xml:space="preserve">
+    <value>请配置第{0}行料件打印模板，并确保其他料件打印模板已经配置OK!</value>
+  </data>
+  <data name="M000181" xml:space="preserve">
+    <value>请配置第{0}行包装容量，并确保其他包装打印料件包装容量已经配置OK!</value>
+  </data>
+  <data name="M000182" xml:space="preserve">
+    <value>输入打印数量不是数字类型！</value>
+  </data>
+  <data name="M000183" xml:space="preserve">
+    <value>请设置第{0}行打印机，并确保其他料件打印机本机配置OK!</value>
+  </data>
+  <data name="M000184" xml:space="preserve">
+    <value>第{0}行打印机不可用，请检查!</value>
+  </data>
+  <data name="M000185" xml:space="preserve">
+    <value>打印数量必须大于0！</value>
+  </data>
+  <data name="M000186" xml:space="preserve">
+    <value>打印數量格式不正确</value>
+  </data>
+  <data name="M000187" xml:space="preserve">
+    <value>更新失败</value>
+  </data>
+  <data name="M000188" xml:space="preserve">
+    <value>更新成功</value>
+  </data>
+  <data name="M000189" xml:space="preserve">
+    <value>获取行{0}打印数据失败!</value>
+  </data>
+  <data name="M000190" xml:space="preserve">
+    <value>请配置无序打印条码类型...</value>
+  </data>
+  <data name="M000191" xml:space="preserve">
+    <value>此工单未设置生产部门，请先设置生产部门！</value>
+  </data>
+  <data name="M000192" xml:space="preserve">
+    <value>请选择打印端口,并下载字体！</value>
+  </data>
+  <data name="M000193" xml:space="preserve">
+    <value>你申请的打印量已超标，请确认是否需要打印这么多量？</value>
+  </data>
+  <data name="M000194" xml:space="preserve">
+    <value>已确认，不允许修改！</value>
+  </data>
+  <data name="M000195" xml:space="preserve">
+    <value>该用户无权限,请确认！</value>
+  </data>
+  <data name="M000196" xml:space="preserve">
+    <value>确定作废？</value>
+  </data>
+  <data name="M000197" xml:space="preserve">
+    <value>未选择打印格式！</value>
+  </data>
+  <data name="M000198" xml:space="preserve">
+    <value>已设置打印格式，是否需要更改？</value>
+  </data>
+  <data name="M000199" xml:space="preserve">
+    <value>未选择格式，不予更新！</value>
+  </data>
+  <data name="M000200" xml:space="preserve">
+    <value>料件{0}的 {1}打印格式已更新</value>
+  </data>
+  <data name="M000201" xml:space="preserve">
+    <value>该料件已有设置参数，请先将其作废！</value>
+  </data>
+  <data name="M000202" xml:space="preserve">
+    <value>输入的料件编号不存在！</value>
+  </data>
+  <data name="M000203" xml:space="preserve">
+    <value>条码码元{0}的长度不正确，应该为{1}位！</value>
+  </data>
+  <data name="M000204" xml:space="preserve">
+    <value>请确认是否需要设置箱装数量?</value>
+  </data>
+  <data name="M000205" xml:space="preserve">
+    <value>该参数未确认，请先确认！</value>
+  </data>
+  <data name="M000206" xml:space="preserve">
+    <value>起始流水号或终止流水号设置错误，请核对！</value>
+  </data>
+  <data name="M000207" xml:space="preserve">
+    <value>目前状态不能被冻结或解除冻结!</value>
+  </data>
+  <data name="M000208" xml:space="preserve">
+    <value>该料号打印参数成功冻结,该料号将无法扫描及打印...</value>
+  </data>
+  <data name="M000209" xml:space="preserve">
+    <value>冻结失败</value>
+  </data>
+  <data name="M000210" xml:space="preserve">
+    <value>已是有效状态，不允许再修改！</value>
+  </data>
+  <data name="M000211" xml:space="preserve">
+    <value>当前还存在一笔有效的记录，系统超过一笔有效的记录!</value>
+  </data>
+  <data name="M000212" xml:space="preserve">
+    <value>确认恢复?</value>
+  </data>
+  <data name="M000213" xml:space="preserve">
+    <value>该编码原则没有表示数据的码元...</value>
+  </data>
+  <data name="M000214" xml:space="preserve">
+    <value>只有状态为[ 待打印] 或者为[ 被驳回] 的执行该操作！</value>
+  </data>
+  <data name="M000215" xml:space="preserve">
+    <value>单据不存在</value>
+  </data>
+  <data name="M000216" xml:space="preserve">
+    <value>打印外箱时，请选择外箱类型...</value>
+  </data>
+  <data name="M000217" xml:space="preserve">
+    <value>含尾箱,其装箱数量:</value>
+  </data>
+  <data name="M000218" xml:space="preserve">
+    <value>确认要修改</value>
+  </data>
+  <data name="M000219" xml:space="preserve">
+    <value>请输入修改原因：</value>
+  </data>
+  <data name="M000220" xml:space="preserve">
+    <value>申请单据修改</value>
+  </data>
+  <data name="M000221" xml:space="preserve">
+    <value>修改成功</value>
+  </data>
+  <data name="M000222" xml:space="preserve">
+    <value>修改原因不能为空</value>
+  </data>
+  <data name="M000223" xml:space="preserve">
+    <value>该料号不允许生成打印CSV文件...</value>
+  </data>
+  <data name="M000224" xml:space="preserve">
+    <value>工单未上料,不允许生成打印CSV文件</value>
+  </data>
+  <data name="M000225" xml:space="preserve">
+    <value>只有单据状态为[ 打印中] 的才能执行该操作</value>
+  </data>
+  <data name="M000226" xml:space="preserve">
+    <value>请确认单据是否已打印完成</value>
+  </data>
+  <data name="M000227" xml:space="preserve">
+    <value>已結案</value>
+  </data>
+  <data name="M000228" xml:space="preserve">
+    <value>请确认单据的条码是否已被领取?</value>
+  </data>
+  <data name="M000229" xml:space="preserve">
+    <value>该工单的料件编号是{0}，与输入的料件编号不符！</value>
+  </data>
+  <data name="M000230" xml:space="preserve">
+    <value>已冻结</value>
+  </data>
+  <data name="M000231" xml:space="preserve">
+    <value>请选择打印条码类型及输入打印数量</value>
+  </data>
+  <data name="M000232" xml:space="preserve">
+    <value>请选择外箱条码打印类型及输入数量！</value>
+  </data>
+  <data name="M000233" xml:space="preserve">
+    <value>[需求时间提前量]未在参数表中设置或设置错误，请联系资讯人员！</value>
+  </data>
+  <data name="M000234" xml:space="preserve">
+    <value>产生的条码为空</value>
+  </data>
+  <data name="M000235" xml:space="preserve">
+    <value>主条码序号不能为空</value>
+  </data>
+  <data name="M000236" xml:space="preserve">
+    <value>该条码的长度不符合编码规则的长度...</value>
+  </data>
+  <data name="M000237" xml:space="preserve">
+    <value>条码不符合标准样式...标准样式：</value>
+  </data>
+  <data name="M000238" xml:space="preserve">
+    <value>条码序号扫描打印成功</value>
+  </data>
+  <data name="M000239" xml:space="preserve">
+    <value>主条码序号已经扫描</value>
+  </data>
+  <data name="M000240" xml:space="preserve">
+    <value>扫描资料未设置</value>
+  </data>
+  <data name="M000241" xml:space="preserve">
+    <value>SMT编号不存在</value>
+  </data>
+  <data name="M000242" xml:space="preserve">
+    <value>删除成功</value>
+  </data>
+  <data name="M000243" xml:space="preserve">
+    <value>刷新成功</value>
+  </data>
+  <data name="M000244" xml:space="preserve">
+    <value>刷新失败</value>
+  </data>
+  <data name="M000245" xml:space="preserve">
+    <value>邮件错误！</value>
+  </data>
+  <data name="M000246" xml:space="preserve">
+    <value>该{0}已存在,请重新输入！</value>
+  </data>
+  <data name="M000247" xml:space="preserve">
+    <value>查询错误！</value>
+  </data>
+  <data name="M000248" xml:space="preserve">
+    <value>加载系统别失败！</value>
+  </data>
+  <data name="M000249" xml:space="preserve">
+    <value>表格赋值错误！</value>
+  </data>
+  <data name="M000250" xml:space="preserve">
+    <value>如果不校验峰位，峰位值必须为空！</value>
+  </data>
+  <data name="M000251" xml:space="preserve">
+    <value>选择的不是Excel文件</value>
+  </data>
+  <data name="M000252" xml:space="preserve">
+    <value>文件为空</value>
+  </data>
+  <data name="M000253" xml:space="preserve">
+    <value>导入黑名单数据异常</value>
+  </data>
+  <data name="M000254" xml:space="preserve">
+    <value>已经存在该机台对应的表{0},请保持该机台表名与原表名一致！</value>
+  </data>
+  <data name="M000255" xml:space="preserve">
+    <value>已经存在该线体对应的表{0},请保持该线体表名与原表名一致!</value>
+  </data>
+  <data name="M000256" xml:space="preserve">
+    <value>请至少选择一个条件</value>
+  </data>
+  <data name="M000257" xml:space="preserve">
+    <value>已经存在该不良原因代码</value>
+  </data>
+  <data name="M000258" xml:space="preserve">
+    <value>已经存在该不良维修代码</value>
+  </data>
+  <data name="M000259" xml:space="preserve">
+    <value>TipTop系统中不存在该料号</value>
+  </data>
+  <data name="M000260" xml:space="preserve">
+    <value>请选择替代料</value>
+  </data>
+  <data name="M000261" xml:space="preserve">
+    <value>当前料号已进行取消出货冻结，允许出货扫描...</value>
+  </data>
+  <data name="M000262" xml:space="preserve">
+    <value>当前料号已进行出货冻结，不允许出货扫描..</value>
+  </data>
+  <data name="M000263" xml:space="preserve">
+    <value>错误:</value>
+  </data>
+  <data name="M000264" xml:space="preserve">
+    <value>系统中已经维护过该料件编号的资料,请删除再复制作业...</value>
+  </data>
+  <data name="M000265" xml:space="preserve">
+    <value>资料不存在</value>
+  </data>
+  <data name="M000266" xml:space="preserve">
+    <value>已冻结,不允许再扫描..</value>
+  </data>
+  <data name="M000267" xml:space="preserve">
+    <value>已解除冻结,恢复扫描..</value>
+  </data>
+  <data name="M000268" xml:space="preserve">
+    <value>请确认是否要生成成品料号 {0} 的新版本?</value>
+  </data>
+  <data name="M000269" xml:space="preserve">
+    <value>已生成新的版本:{0}</value>
+  </data>
+  <data name="M000270" xml:space="preserve">
+    <value>只有[0-编辑中]状态的版本才能被确认！</value>
+  </data>
+  <data name="M000271" xml:space="preserve">
+    <value>该料件测试ID:{0}没有维护测试参数或者校验参数！</value>
+  </data>
+  <data name="M000272" xml:space="preserve">
+    <value>该料件的扫描设置版本中已经有一笔被确认，不能再确认其他版本！</value>
+  </data>
+  <data name="M000273" xml:space="preserve">
+    <value>是否要确认</value>
+  </data>
+  <data name="M000274" xml:space="preserve">
+    <value>确认成功</value>
+  </data>
+  <data name="M000275" xml:space="preserve">
+    <value>此料号在系统中不存在，请确认料号是否输入正确！</value>
+  </data>
+  <data name="M000276" xml:space="preserve">
+    <value>不允许删除根节点！</value>
+  </data>
+  <data name="M000277" xml:space="preserve">
+    <value>不允许删除主条码！</value>
+  </data>
+  <data name="M000278" xml:space="preserve">
+    <value>根节点不能被上移！</value>
+  </data>
+  <data name="M000279" xml:space="preserve">
+    <value>请确认是否执行上移操作?</value>
+  </data>
+  <data name="M000280" xml:space="preserve">
+    <value>上移成功！</value>
+  </data>
+  <data name="M000281" xml:space="preserve">
+    <value>根节点不能被下移！</value>
+  </data>
+  <data name="M000282" xml:space="preserve">
+    <value>请确认是否执行下移操作?</value>
+  </data>
+  <data name="M000283" xml:space="preserve">
+    <value>下移成功！</value>
+  </data>
+  <data name="M000284" xml:space="preserve">
+    <value>该料件已经在列表中或已经选为部件料号！</value>
+  </data>
+  <data name="M000285" xml:space="preserve">
+    <value>部件料号不能与主料号相同！</value>
+  </data>
+  <data name="M000286" xml:space="preserve">
+    <value>请选择扫描工站编号信息！</value>
+  </data>
+  <data name="M000287" xml:space="preserve">
+    <value>请输入扫描部件料号！</value>
+  </data>
+  <data name="M000288" xml:space="preserve">
+    <value>截取的起止位及长度不能为空！</value>
+  </data>
+  <data name="M000289" xml:space="preserve">
+    <value>请输入扫描部件名称！</value>
+  </data>
+  <data name="M000290" xml:space="preserve">
+    <value>请选择该部件条码序号在外箱标签上显示的列位置！</value>
+  </data>
+  <data name="M000291" xml:space="preserve">
+    <value>请选择该部件条码序号需要测试的次数！</value>
+  </data>
+  <data name="M000292" xml:space="preserve">
+    <value>如需检查材料供应商部件是否成套,站点扫描顺序不能为空！</value>
+  </data>
+  <data name="M000293" xml:space="preserve">
+    <value>如需检查材料供应商部件是否成套,站点不能为空！</value>
+  </data>
+  <data name="M000294" xml:space="preserve">
+    <value>此料号在系统中存在扫描数据，取消后需要重新扫描，是否确认取消！</value>
+  </data>
+  <data name="M000295" xml:space="preserve">
+    <value>勾选打印成品条码时，请上传打印模版！</value>
+  </data>
+  <data name="M000296" xml:space="preserve">
+    <value>该版本已经作废，不能再设置为副流程！</value>
+  </data>
+  <data name="M000297" xml:space="preserve">
+    <value>是否要设置成品料号: {0}的{1}版本，为副流程？</value>
+  </data>
+  <data name="M000298" xml:space="preserve">
+    <value>设置副流程成功！</value>
+  </data>
+  <data name="M000299" xml:space="preserve">
+    <value>操作无效,工单选择状态不允许修改卡关权限</value>
+  </data>
+  <data name="M000300" xml:space="preserve">
+    <value>检测名称不能为空!</value>
+  </data>
+  <data name="M000301" xml:space="preserve">
+    <value>检测SQL语句不能为空</value>
+  </data>
+  <data name="M000302" xml:space="preserve">
+    <value>检测SQL语句失败</value>
+  </data>
+  <data name="M000303" xml:space="preserve">
+    <value>当主键栏位不为空的时候，检测SQL也不能为空</value>
+  </data>
+  <data name="M000304" xml:space="preserve">
+    <value>变量{0}不合法</value>
+  </data>
+  <data name="M000305" xml:space="preserve">
+    <value>SQL语法正常</value>
+  </data>
+  <data name="M000306" xml:space="preserve">
+    <value>作废失败</value>
+  </data>
+  <data name="M000307" xml:space="preserve">
+    <value>非新增或编辑模式不用保存</value>
+  </data>
+  <data name="M000308" xml:space="preserve">
+    <value>新增时请选择状态为有效</value>
+  </data>
+  <data name="M000309" xml:space="preserve">
+    <value>线别{0}没有用于生产不能维护，请确认</value>
+  </data>
+  <data name="M000310" xml:space="preserve">
+    <value>该料号不存在测试编号，请检查料件站点设置资料...</value>
+  </data>
+  <data name="M000311" xml:space="preserve">
+    <value>确定结案？</value>
+  </data>
+  <data name="M000312" xml:space="preserve">
+    <value>结案成功</value>
+  </data>
+  <data name="M000313" xml:space="preserve">
+    <value>结案失败</value>
+  </data>
+  <data name="M000314" xml:space="preserve">
+    <value>是否取消结案？</value>
+  </data>
+  <data name="M000315" xml:space="preserve">
+    <value>取消结案成功</value>
+  </data>
+  <data name="M000316" xml:space="preserve">
+    <value>取消结案失败</value>
+  </data>
+  <data name="M000317" xml:space="preserve">
+    <value>是否进行扫描冻结,将无法扫描</value>
+  </data>
+  <data name="M000318" xml:space="preserve">
+    <value>工单编号在ERP中不存在...</value>
+  </data>
+  <data name="M000319" xml:space="preserve">
+    <value>必须输入上级工单(包装站工单),如为成品工单则相同...</value>
+  </data>
+  <data name="M000320" xml:space="preserve">
+    <value>当前生产工单的扫描工艺流程未维护...</value>
+  </data>
+  <data name="M000321" xml:space="preserve">
+    <value>请选择出货的明细项...</value>
+  </data>
+  <data name="M000322" xml:space="preserve">
+    <value>栈板条码序号:{0},不存在......</value>
+  </data>
+  <data name="M000323" xml:space="preserve">
+    <value>栈板所属料号与出货单项的料件编号不符</value>
+  </data>
+  <data name="M000324" xml:space="preserve">
+    <value>系统在自动生成出货单号时,发生错误...</value>
+  </data>
+  <data name="M000325" xml:space="preserve">
+    <value>栈板包装数据大于出货单的出货数量...</value>
+  </data>
+  <data name="M000326" xml:space="preserve">
+    <value>扫描成功</value>
+  </data>
+  <data name="M000327" xml:space="preserve">
+    <value>扫描失败</value>
+  </data>
+  <data name="M000328" xml:space="preserve">
+    <value>选择:栈板+外箱出货扫描模式时,栈板编号不能为空...</value>
+  </data>
+  <data name="M000329" xml:space="preserve">
+    <value>该外箱条码不存在,或未进行包装记录...</value>
+  </data>
+  <data name="M000330" xml:space="preserve">
+    <value>线别：{0},在{1}--{2}时间段生产的产品被冻结，不允许出货扫描...</value>
+  </data>
+  <data name="M000331" xml:space="preserve">
+    <value>当前料号的所有产品被冻结，不允许出货扫描...</value>
+  </data>
+  <data name="M000332" xml:space="preserve">
+    <value>该外箱条码已经进行出货扫描,请检查外箱是否重复或实物未出货...</value>
+  </data>
+  <data name="M000333" xml:space="preserve">
+    <value>该外箱条码未进行包装完成,或被作废或被替换...</value>
+  </data>
+  <data name="M000334" xml:space="preserve">
+    <value>该外箱条码未进行条码检验作业,不允许出货扫描...</value>
+  </data>
+  <data name="M000335" xml:space="preserve">
+    <value>该栈板已经包装完成,不允许再进行外箱包装...</value>
+  </data>
+  <data name="M000336" xml:space="preserve">
+    <value>该外箱的箱装数量与已出货的外箱数量,超过了出货单号的数量...</value>
+  </data>
+  <data name="M000337" xml:space="preserve">
+    <value>出货成功...</value>
+  </data>
+  <data name="M000338" xml:space="preserve">
+    <value>该出货单项次已经扫描完成,不允许再扫描...</value>
+  </data>
+  <data name="M000339" xml:space="preserve">
+    <value>移除指定外箱时出错，请检查原因...</value>
+  </data>
+  <data name="M000340" xml:space="preserve">
+    <value>产品条码不存在,不允许扫描</value>
+  </data>
+  <data name="M000341" xml:space="preserve">
+    <value>该产品的打印参数值：{0}与出货扫描的Config值：{1} 不符...</value>
+  </data>
+  <data name="M000342" xml:space="preserve">
+    <value>该产品条码未经过产线包装扫描,不允许出货扫描...</value>
+  </data>
+  <data name="M000343" xml:space="preserve">
+    <value>该条码已扫描，请勿重复扫描</value>
+  </data>
+  <data name="M000344" xml:space="preserve">
+    <value>維修完成...</value>
+  </data>
+  <data name="M000345" xml:space="preserve">
+    <value>维修时发生错误</value>
+  </data>
+  <data name="M000346" xml:space="preserve">
+    <value>子工站为自动化工站时，需选择治具编码...</value>
+  </data>
+  <data name="M000347" xml:space="preserve">
+    <value>当前产品不允许选择维修OK，只允许作废处理...</value>
+  </data>
+  <data name="M000348" xml:space="preserve">
+    <value>不存在该内部固定条码或当前未进行任何绑定...</value>
+  </data>
+  <data name="M000349" xml:space="preserve">
+    <value>非系统打印条码</value>
+  </data>
+  <data name="M000350" xml:space="preserve">
+    <value>系统在自动生成维修单号时,发生错误...</value>
+  </data>
+  <data name="M000351" xml:space="preserve">
+    <value>未获取到主条码...</value>
+  </data>
+  <data name="M000352" xml:space="preserve">
+    <value>永新制品未绑定，请先选择线别</value>
+  </data>
+  <data name="M000353" xml:space="preserve">
+    <value>已报废或待确认的产品，不允许再进行不良判定...</value>
+  </data>
+  <data name="M000354" xml:space="preserve">
+    <value>产品:{0}，已判为不良品，请进行维修...</value>
+  </data>
+  <data name="M000355" xml:space="preserve">
+    <value>产品:{0}，判为不良品时，发生错误...</value>
+  </data>
+  <data name="M000356" xml:space="preserve">
+    <value>请输入要确认维修完成的产品条码序号</value>
+  </data>
+  <data name="M000357" xml:space="preserve">
+    <value>该产品条码序号未经过维修...</value>
+  </data>
+  <data name="M000358" xml:space="preserve">
+    <value>已经确认的条码，不允许再进行IPOC确认...</value>
+  </data>
+  <data name="M000359" xml:space="preserve">
+    <value>该产品已报废，不允许再进行IPOC确认...</value>
+  </data>
+  <data name="M000360" xml:space="preserve">
+    <value>IPOC确认完成，请将维修OK的产品，回流至对应站点</value>
+  </data>
+  <data name="M000361" xml:space="preserve">
+    <value>请输入产品条码</value>
+  </data>
+  <data name="M000362" xml:space="preserve">
+    <value>该产品没有被判不良或没有被扫描，不能恢复，请确认！！</value>
+  </data>
+  <data name="M000363" xml:space="preserve">
+    <value>产品条码误判恢复成功！</value>
+  </data>
+  <data name="M000364" xml:space="preserve">
+    <value>恢复失败</value>
+  </data>
+  <data name="M000365" xml:space="preserve">
+    <value>请先读取或扫描条码</value>
+  </data>
+  <data name="M000366" xml:space="preserve">
+    <value>未找到文件...</value>
+  </data>
+  <data name="M000367" xml:space="preserve">
+    <value>读取失败</value>
+  </data>
+  <data name="M000368" xml:space="preserve">
+    <value>指纹仪启动异常!，请安装正确驱动</value>
+  </data>
+  <data name="M000369" xml:space="preserve">
+    <value>验证成功,用户ID：{0}</value>
+  </data>
+  <data name="M000370" xml:space="preserve">
+    <value>指纹验证失败...</value>
+  </data>
+  <data name="M000371" xml:space="preserve">
+    <value>请验证您的指纹...</value>
+  </data>
+  <data name="M000372" xml:space="preserve">
+    <value>更新文件：{0} 进行中......</value>
+  </data>
+  <data name="M000373" xml:space="preserve">
+    <value>更新文件：{0} {1}%</value>
+  </data>
+  <data name="M000374" xml:space="preserve">
+    <value>检测到有{0}个文件需要更新,已完成{1}</value>
+  </data>
+  <data name="M000375" xml:space="preserve">
+    <value>启动程序{0}不存在!自动退出</value>
+  </data>
+  <data name="M000376" xml:space="preserve">
+    <value>检测更新文件列表</value>
+  </data>
+  <data name="M000377" xml:space="preserve">
+    <value>你的系統已是最新版</value>
+  </data>
+  <data name="M000378" xml:space="preserve">
+    <value>配置文件Loginlog.xml不存在，已生成新的基础配置文件Loginlog.xml信息，请修改服务器IP信息后再运行程序</value>
+  </data>
+  <data name="M000379" xml:space="preserve">
+    <value>加载配置文件Loginlog.xml参数失败</value>
+  </data>
+  <data name="M000380" xml:space="preserve">
+    <value>LUXSHARE-ICT自动更新程序-[{0}]在线升级</value>
+  </data>
+  <data name="M000381" xml:space="preserve">
+    <value>请输入正确的来料序号，确定条码是否有打印 ！</value>
+  </data>
+  <data name="M000382" xml:space="preserve">
+    <value>LOT: {0} 料号：{1}  扫入LOT以报废，请贴新条码扫入！</value>
+  </data>
+  <data name="M000383" xml:space="preserve">
+    <value>类型为外购件入库时需输入工单！</value>
+  </data>
+  <data name="M000384" xml:space="preserve">
+    <value>入库批号：{0} 的料号与料件编号不一致</value>
+  </data>
+  <data name="M000385" xml:space="preserve">
+    <value>{0}退料数量！不能超过实际库存数量</value>
+  </data>
+  <data name="M000386" xml:space="preserve">
+    <value>批次扫入不能为空！</value>
+  </data>
+  <data name="M000387" xml:space="preserve">
+    <value>已操作不能报废!</value>
+  </data>
+  <data name="M000388" xml:space="preserve">
+    <value>无符合条件的查询结果，请确认！</value>
+  </data>
+  <data name="M000389" xml:space="preserve">
+    <value>不良品移除记录</value>
+  </data>
+  <data name="M000390" xml:space="preserve">
+    <value>外箱替换记录</value>
+  </data>
+  <data name="M000391" xml:space="preserve">
+    <value>打标删除记录</value>
+  </data>
+  <data name="M000392" xml:space="preserve">
+    <value>混打标记录</value>
+  </data>
+  <data name="M000393" xml:space="preserve">
+    <value>站点{0}数量不正确...</value>
+  </data>
+  <data name="M000394" xml:space="preserve">
+    <value>起止时间必须为同一天...</value>
+  </data>
+  <data name="M000395" xml:space="preserve">
+    <value>当前的生产状况记录，已经发送给客户，不允许再维护...</value>
+  </data>
+  <data name="M000396" xml:space="preserve">
+    <value>记录笔数:{0}</value>
+  </data>
+  <data name="M000397" xml:space="preserve">
+    <value>记录笔数大于{0}，只显示前{1}笔记录</value>
+  </data>
+  <data name="M000398" xml:space="preserve">
+    <value>该线别没有维护对应的Mac信息，请确认</value>
+  </data>
+  <data name="M000399" xml:space="preserve">
+    <value>没有明细资料!</value>
+  </data>
+  <data name="M000400" xml:space="preserve">
+    <value>生成查询条件时发生错误!</value>
+  </data>
+  <data name="M000401" xml:space="preserve">
+    <value>该料号的卡关信息未设置</value>
+  </data>
+  <data name="M000402" xml:space="preserve">
+    <value>工单编号/产品序号为必输条件，请输入工单或产品序号</value>
+  </data>
+  <data name="M000403" xml:space="preserve">
+    <value>出货数量：</value>
+  </data>
+  <data name="M000404" xml:space="preserve">
+    <value>不允许设置父级菜单为本身！</value>
+  </data>
+  <data name="M000405" xml:space="preserve">
+    <value>请选择子菜单</value>
+  </data>
+  <data name="M000406" xml:space="preserve">
+    <value>请选择一条参数记录</value>
+  </data>
+  <data name="M000407" xml:space="preserve">
+    <value>已经到顶，不需再往上移动</value>
+  </data>
+  <data name="M000408" xml:space="preserve">
+    <value>已经到底，不需再往下移动</value>
+  </data>
+  <data name="M000409" xml:space="preserve">
+    <value>该菜单没有进行报表查询设置，请设置查询条件</value>
+  </data>
+  <data name="M000410" xml:space="preserve">
+    <value>请输入数字</value>
+  </data>
+  <data name="M000411" xml:space="preserve">
+    <value>外箱条码序号不能为空，请先扫描外箱条码序号...</value>
+  </data>
+  <data name="M000412" xml:space="preserve">
+    <value>该外箱序号包装的线别{0}，与重码校验的线别不相同...</value>
+  </data>
+  <data name="M000413" xml:space="preserve">
+    <value>当前线别存在未完成重码检测的外箱编号：{0}</value>
+  </data>
+  <data name="M000414" xml:space="preserve">
+    <value>外箱对应的工单没有对应的客户料号!...</value>
+  </data>
+  <data name="M000415" xml:space="preserve">
+    <value>外箱条码序号录入成功，请进行产品重码检测...</value>
+  </data>
+  <data name="M000416" xml:space="preserve">
+    <value>无法找到P06对应的P02主条码,请确认</value>
+  </data>
+  <data name="M000417" xml:space="preserve">
+    <value>条码的客户料号和系统中的不一致...</value>
+  </data>
+  <data name="M000418" xml:space="preserve">
+    <value>条码的客户料号和Tray的客户料号不一致..</value>
+  </data>
+  <data name="M000419" xml:space="preserve">
+    <value>无法找条码对应的客户料号,请确认</value>
+  </data>
+  <data name="M000420" xml:space="preserve">
+    <value>系统中已经存在该条码、请确认是否为重码...</value>
+  </data>
+  <data name="M000421" xml:space="preserve">
+    <value>该产品条码已经包装在外箱{0}中，混装...</value>
+  </data>
+  <data name="M000422" xml:space="preserve">
+    <value>该外箱不存在该产品，或该产品还未进行包装...</value>
+  </data>
+  <data name="M000423" xml:space="preserve">
+    <value>扫描数量不允许超过包装数量...</value>
+  </data>
+  <data name="M000424" xml:space="preserve">
+    <value>该箱产品序号校验通过，扫描下一外箱条码序号...</value>
+  </data>
+  <data name="M000425" xml:space="preserve">
+    <value>该产品序号校验通过，扫描下一产品条码序号...</value>
+  </data>
+  <data name="M000426" xml:space="preserve">
+    <value>该Tray扫描结束,请重新扫描Tray的客户料号...</value>
+  </data>
+  <data name="M000427" xml:space="preserve">
+    <value>第{0}层扫描完成</value>
+  </data>
+  <data name="M000428" xml:space="preserve">
+    <value>第{0}层未扫描完成</value>
+  </data>
+  <data name="M000429" xml:space="preserve">
+    <value>该tray盘有漏扫，漏扫数量:{0}</value>
+  </data>
+  <data name="M000430" xml:space="preserve">
+    <value>TRAY的客户料号和外箱对应的客户料号不一致,请检查!...</value>
+  </data>
+  <data name="M000431" xml:space="preserve">
+    <value>TRAY的客户料号扫描成功,请扫描产品条码</value>
+  </data>
+  <data name="M000432" xml:space="preserve">
+    <value>抽测数量不能为0</value>
+  </data>
+  <data name="M000433" xml:space="preserve">
+    <value>发送校验{0}成功</value>
+  </data>
+  <data name="M000434" xml:space="preserve">
+    <value>发送校验{0}失败</value>
+  </data>
+  <data name="M000435" xml:space="preserve">
+    <value>解锁成功...</value>
+  </data>
+  <data name="M000436" xml:space="preserve">
+    <value>解锁失败...</value>
+  </data>
+  <data name="M000437" xml:space="preserve">
+    <value>E75内容不符，请检查是否条码打印重复</value>
+  </data>
+  <data name="M000438" xml:space="preserve">
+    <value>系统中不存在该外箱条码，或已报废...</value>
+  </data>
+  <data name="M000439" xml:space="preserve">
+    <value>该关键物料未经过NI测试站，进行烧录...</value>
+  </data>
+  <data name="M000440" xml:space="preserve">
+    <value>扫描成功，该产品未混装..</value>
+  </data>
+  <data name="M000441" xml:space="preserve">
+    <value>该产品还未进行包装...</value>
+  </data>
+  <data name="M000442" xml:space="preserve">
+    <value>该产品对应的外箱，未包装完成，不允许该操作...</value>
+  </data>
+  <data name="M000443" xml:space="preserve">
+    <value>替换的新产品，已装箱，不允许替换...</value>
+  </data>
+  <data name="M000444" xml:space="preserve">
+    <value>替换的新产品与旧产品，必须为相同料号，否则不允许替换...</value>
+  </data>
+  <data name="M000445" xml:space="preserve">
+    <value>替換成功，請將新產品放入舊產品對應的外箱內...</value>
+  </data>
+  <data name="M000446" xml:space="preserve">
+    <value>替换失败</value>
+  </data>
+  <data name="M000447" xml:space="preserve">
+    <value>产品条码序号不能为空，请先扫描产品条码序号...</value>
+  </data>
+  <data name="M000448" xml:space="preserve">
+    <value>该外箱不存在该产品，或该产品还未进行包装..</value>
+  </data>
+  <data name="M000449" xml:space="preserve">
+    <value>系统中，不存在该外箱序号，或该外箱已进行过扫描..</value>
+  </data>
+  <data name="M000450" xml:space="preserve">
+    <value>新外箱的装箱数量超出...</value>
+  </data>
+  <data name="M000451" xml:space="preserve">
+    <value>尾数箱或新外箱，不允许为空..</value>
+  </data>
+  <data name="M000452" xml:space="preserve">
+    <value>包装完成的尾箱转新打印整箱进行扫描处理完成..</value>
+  </data>
+  <data name="M000453" xml:space="preserve">
+    <value>新外箱的应装箱数量必须等于两个尾数箱应装产品数量..</value>
+  </data>
+  <data name="M000454" xml:space="preserve">
+    <value>包装完成的尾箱转新打印整箱进行扫描处理完成...</value>
+  </data>
+  <data name="M000455" xml:space="preserve">
+    <value>批次状态已经更改,请确认绕线站能否扫描...</value>
+  </data>
+  <data name="M000456" xml:space="preserve">
+    <value>该条码在系统中不存在或未经过关联扫描</value>
+  </data>
+  <data name="M000457" xml:space="preserve">
+    <value>烧录完成...</value>
+  </data>
+  <data name="M000458" xml:space="preserve">
+    <value>请输入读取或烧录的指令...</value>
+  </data>
+  <data name="M000459" xml:space="preserve">
+    <value>烧录序号开始...</value>
+  </data>
+  <data name="M000460" xml:space="preserve">
+    <value>烧录序号发生错误</value>
+  </data>
+  <data name="M000461" xml:space="preserve">
+    <value>执行HID.EXE返回值</value>
+  </data>
+  <data name="M000462" xml:space="preserve">
+    <value>执行HID.EXE失败</value>
+  </data>
+  <data name="M000463" xml:space="preserve">
+    <value>请选择测试站点...</value>
+  </data>
+  <data name="M000464" xml:space="preserve">
+    <value>该条码在系统中不存在或未经过任何测试</value>
+  </data>
+  <data name="M000465" xml:space="preserve">
+    <value>不存在该外箱或已转移到历史库....</value>
+  </data>
+  <data name="M000466" xml:space="preserve">
+    <value>该产品条码对应的外箱{0}未包装完成,不允许移除......</value>
+  </data>
+  <data name="M000467" xml:space="preserve">
+    <value>操作成功</value>
+  </data>
+  <data name="M000468" xml:space="preserve">
+    <value>操作失败</value>
+  </data>
+  <data name="M000469" xml:space="preserve">
+    <value>该外箱序号，已经包装完成，不能进行操作...</value>
+  </data>
+  <data name="M000470" xml:space="preserve">
+    <value>该外箱还未进行包装扫描，不允许被替换...</value>
+  </data>
+  <data name="M000471" xml:space="preserve">
+    <value>外箱条码序号录入成功，请进行E75及产品重码检测...</value>
+  </data>
+  <data name="M000472" xml:space="preserve">
+    <value>该外箱序号关箱成功，请重新进行扫描设置，进行包装扫描...</value>
+  </data>
+  <data name="M000473" xml:space="preserve">
+    <value>目前只针对实物装满箱，但状态为N的外箱条码序号作关箱处理...</value>
+  </data>
+  <data name="M000474" xml:space="preserve">
+    <value>请确认读取的序号与打标在线材的序号一致...</value>
+  </data>
+  <data name="M000475" xml:space="preserve">
+    <value>该产品已打过标，不允许重复</value>
+  </data>
+  <data name="M000476" xml:space="preserve">
+    <value>该产品未删除过打标记录，不允许打标更新资料</value>
+  </data>
+  <data name="M000477" xml:space="preserve">
+    <value>NI烧录序号打印记录中不存在，或标刻读取错误</value>
+  </data>
+  <data name="M000478" xml:space="preserve">
+    <value>请输入多装的外箱条码及产品序号...</value>
+  </data>
+  <data name="M000479" xml:space="preserve">
+    <value>该产品外箱包装主表的包装数据，与明细包装数据不符...</value>
+  </data>
+  <data name="M000480" xml:space="preserve">
+    <value>该产品外箱实装数量并未大于应装数量...</value>
+  </data>
+  <data name="M000481" xml:space="preserve">
+    <value>外箱不存在或未包装</value>
+  </data>
+  <data name="M000482" xml:space="preserve">
+    <value>该产品外箱序号未短装或多装，不能进行处理...</value>
+  </data>
+  <data name="M000483" xml:space="preserve">
+    <value>恢复成功</value>
+  </data>
+  <data name="M000484" xml:space="preserve">
+    <value>该条码未进行替换或移除作业，不允许进行当前操作...</value>
+  </data>
+  <data name="M000485" xml:space="preserve">
+    <value>该产品已经进行包装，不允许作废，请采用替换作业...</value>
+  </data>
+  <data name="M000486" xml:space="preserve">
+    <value>新外箱已经扫描过，不允许替换...</value>
+  </data>
+  <data name="M000487" xml:space="preserve">
+    <value>旧外箱与新外箱所装的产品数量不符，不允许替换...</value>
+  </data>
+  <data name="M000488" xml:space="preserve">
+    <value>旧外箱与新外箱不属于同一个工单，不允许替换...</value>
+  </data>
+  <data name="M000489" xml:space="preserve">
+    <value>该E75芯片序号未进行打标或打标错误..</value>
+  </data>
+  <data name="M000490" xml:space="preserve">
+    <value>合并后数量与新箱数量不一致，请从新输入</value>
+  </data>
+  <data name="M000491" xml:space="preserve">
+    <value>新外箱已经扫描过，不允许替换...</value>
+  </data>
+  <data name="M000492" xml:space="preserve">
+    <value>维修日期更新成功</value>
+  </data>
+  <data name="M000493" xml:space="preserve">
+    <value>批量删除、更新时只能选择读取FSN或是自制条码</value>
+  </data>
+  <data name="M000494" xml:space="preserve">
+    <value>当前扫描站记录{0}，记录数：{1}</value>
+  </data>
+  <data name="M000495" xml:space="preserve">
+    <value>扫描过站记录{0}，记录数：{1}</value>
+  </data>
+  <data name="M000496" xml:space="preserve">
+    <value>关联扫描站记录{0}，记录数：{1}</value>
+  </data>
+  <data name="M000497" xml:space="preserve">
+    <value>该产品已包装，无法删除扫描记录</value>
+  </data>
+  <data name="M000498" xml:space="preserve">
+    <value>确定要清除扫描记录？</value>
+  </data>
+  <data name="M000499" xml:space="preserve">
+    <value>清除扫描过站记录</value>
+  </data>
+  <data name="M000500" xml:space="preserve">
+    <value>确定要清除扫描记录+测试记录</value>
+  </data>
+  <data name="M000501" xml:space="preserve">
+    <value>清除扫描过站记录+测试记录</value>
+  </data>
+  <data name="M000502" xml:space="preserve">
+    <value>请先读取E75数据</value>
+  </data>
+  <data name="M000503" xml:space="preserve">
+    <value>数据没有测试记录</value>
+  </data>
+  <data name="M000504" xml:space="preserve">
+    <value>该外包箱没有包装满箱或是已出货，请确认是否为尾数箱!!!!</value>
+  </data>
+  <data name="M000505" xml:space="preserve">
+    <value>该外箱重码校验的记录与实际包装数量不一样，请确认重码校验记录是否完成</value>
+  </data>
+  <data name="M000506" xml:space="preserve">
+    <value>该外箱为满箱状态或是已出货,不允许删除</value>
+  </data>
+  <data name="M000507" xml:space="preserve">
+    <value>条码为空，请输入</value>
+  </data>
+  <data name="M000508" xml:space="preserve">
+    <value>该产品非P16三层包装...</value>
+  </data>
+  <data name="M000509" xml:space="preserve">
+    <value>FA CHECK IN 成功</value>
+  </data>
+  <data name="M000510" xml:space="preserve">
+    <value>FA CHECK OUT 成功</value>
+  </data>
+  <data name="M000511" xml:space="preserve">
+    <value>该产品已移除成功，请检查外箱的实际装箱数量...</value>
+  </data>
+  <data name="M000512" xml:space="preserve">
+    <value>不良品序号或替换产品序号不能为空...</value>
+  </data>
+  <data name="M000513" xml:space="preserve">
+    <value>程序修改请填写备注原因</value>
+  </data>
+  <data name="M000514" xml:space="preserve">
+    <value>文件分类不能为空，请选择文件分类</value>
+  </data>
+  <data name="M000515" xml:space="preserve">
+    <value>上传文件不能为空，请选择上传文件</value>
+  </data>
+  <data name="M000516" xml:space="preserve">
+    <value>是不要重设置密码？</value>
+  </data>
+  <data name="M000517" xml:space="preserve">
+    <value>已经存在该用户编号</value>
+  </data>
+  <data name="M000518" xml:space="preserve">
+    <value>密码： {0}</value>
+  </data>
+  <data name="M000519" xml:space="preserve">
+    <value>比对帐号不能与当前设置帐号相同</value>
+  </data>
+  <data name="M000520" xml:space="preserve">
+    <value>输入的两次新密码不相同</value>
+  </data>
+  <data name="M000521" xml:space="preserve">
+    <value>解锁密码不能为空</value>
+  </data>
+  <data name="M000522" xml:space="preserve">
+    <value>輸入的兩次解锁密碼不相同</value>
+  </data>
+  <data name="M000523" xml:space="preserve">
+    <value>模块编号长度不能超过10位！</value>
+  </data>
+  <data name="M000524" xml:space="preserve">
+    <value>该模块还有子模块，只有没有子模块的模块才允许删除！</value>
+  </data>
+  <data name="M000525" xml:space="preserve">
+    <value>产品序号读取不完整,请重新插入产品进行读取...</value>
+  </data>
+  <data name="M000526" xml:space="preserve">
+    <value>产品序号为空,请确认产品问题或烧录工站未进行序号烧录...</value>
+  </data>
+  <data name="M000527" xml:space="preserve">
+    <value>黑产品类型为{0}，请进行用MP重测测试...</value>
+  </data>
+  <data name="M000528" xml:space="preserve">
+    <value>黑产品类型为C，不允许出货...</value>
+  </data>
+  <data name="M000529" xml:space="preserve">
+    <value>该产品不是黑名单产品...</value>
+  </data>
+  <data name="M000530" xml:space="preserve">
+    <value>2.完成</value>
+  </data>
+  <data name="M000531" xml:space="preserve">
+    <value>1.进行中</value>
+  </data>
+  <data name="M000532" xml:space="preserve">
+    <value>打印模板没有找到！</value>
+  </data>
+  <data name="M000533" xml:space="preserve">
+    <value>附件不能大于{0}MB！</value>
+  </data>
+  <data name="M000534" xml:space="preserve">
+    <value>新建问题成功！问题编号: {0}</value>
+  </data>
+  <data name="M000535" xml:space="preserve">
+    <value>不存在Loginlog.xml文件</value>
+  </data>
+  <data name="M000536" xml:space="preserve">
+    <value>联系资料不全！</value>
+  </data>
+  <data name="M000537" xml:space="preserve">
+    <value>请至少选择一组查询时间段！</value>
+  </data>
+  <data name="M000538" xml:space="preserve">
+    <value>请输入更详细的查询条件！</value>
+  </data>
+  <data name="M000539" xml:space="preserve">
+    <value>数据赋值失败！</value>
+  </data>
+  <data name="M000540" xml:space="preserve">
+    <value>发布成功！</value>
+  </data>
+  <data name="M000541" xml:space="preserve">
+    <value>发布失败！</value>
+  </data>
+  <data name="M000542" xml:space="preserve">
+    <value>取消成功！</value>
+  </data>
+  <data name="M000543" xml:space="preserve">
+    <value>取消失败！</value>
+  </data>
+  <data name="M000544" xml:space="preserve">
+    <value>绑定成功</value>
+  </data>
+  <data name="M000545" xml:space="preserve">
+    <value>外箱条码序号扫描成功，请扫描产品条码进行装箱...</value>
+  </data>
+  <data name="M000546" xml:space="preserve">
+    <value>读入的不是正确的E75信息</value>
+  </data>
+  <data name="M000547" xml:space="preserve">
+    <value>该箱产品已经装满，扫描下一外箱条码序号...</value>
+  </data>
+  <data name="M000548" xml:space="preserve">
+    <value>该箱产品已经装满，当前扫描的产品{0}没有装箱成功，请扫描其他外箱条码序号再进行包装，...</value>
+  </data>
+  <data name="M000549" xml:space="preserve">
+    <value>加载系统别失败！</value>
+  </data>
+  <data name="M000550" xml:space="preserve">
+    <value>Fail:IMEI条码{0}不存在.......</value>
+  </data>
+  <data name="M000551" xml:space="preserve">
+    <value>Fail:IMEI条码{0}没有进行Internet连接验证.......</value>
+  </data>
+  <data name="M000552" xml:space="preserve">
+    <value>副条码</value>
+  </data>
+  <data name="M000553" xml:space="preserve">
+    <value>请扫描下一个产品IMEI条码</value>
+  </data>
+  <data name="M000554" xml:space="preserve">
+    <value>Fail:条码{0}校验失败！{1}</value>
+  </data>
+  <data name="M000555" xml:space="preserve">
+    <value>BTMAC条码</value>
+  </data>
+  <data name="M000556" xml:space="preserve">
+    <value>IMEI条码</value>
+  </data>
+  <data name="M000557" xml:space="preserve">
+    <value>Fail:主条码{0}未經過T00010工站（4合1条码打印站）掃描，不允許进行Internet连接验证；</value>
+  </data>
+  <data name="M000558" xml:space="preserve">
+    <value>产品读取的BTMAC与条码对应的BTMAC不相符...</value>
+  </data>
+  <data name="M000559" xml:space="preserve">
+    <value>产品读取的WIFI_MAC与条码对应的WIFI_MAC不相符...</value>
+  </data>
+  <data name="M000560" xml:space="preserve">
+    <value>产品读取的HARDCODE与条码对应的HARDCODE不相符...</value>
+  </data>
+  <data name="M000561" xml:space="preserve">
+    <value>产品读取的ICCID与条码对应的ICCID不相符..</value>
+  </data>
+  <data name="M000562" xml:space="preserve">
+    <value>PASS 产品通过Internet连接验证，请扫描下一个产品</value>
+  </data>
+  <data name="M000563" xml:space="preserve">
+    <value>主条码</value>
+  </data>
+  <data name="M000564" xml:space="preserve">
+    <value>Fail:条码{0}进行Internet连接验证失败！{1}</value>
+  </data>
+  <data name="M000565" xml:space="preserve">
+    <value>无效QR码或无效手机号</value>
+  </data>
+  <data name="M000566" xml:space="preserve">
+    <value>短信下发错误</value>
+  </data>
+  <data name="M000567" xml:space="preserve">
+    <value>错误的手机号或iccid</value>
+  </data>
+  <data name="M000568" xml:space="preserve">
+    <value>QR码或手机号已经绑定过</value>
+  </data>
+  <data name="M000569" xml:space="preserve">
+    <value>qrcode非法</value>
+  </data>
+  <data name="M000570" xml:space="preserve">
+    <value>sim 卡号非法</value>
+  </data>
+  <data name="M000571" xml:space="preserve">
+    <value>参数错误</value>
+  </data>
+  <data name="M000572" xml:space="preserve">
+    <value>请插入移动硬件产品,自动读取校验产品信息</value>
+  </data>
+  <data name="M000573" xml:space="preserve">
+    <value>检测到插入移动设备</value>
+  </data>
+  <data name="M000574" xml:space="preserve">
+    <value>连接设备失败</value>
+  </data>
+  <data name="M000575" xml:space="preserve">
+    <value>连接设备成功</value>
+  </data>
+  <data name="M000576" xml:space="preserve">
+    <value>启动设备测试模式失败</value>
+  </data>
+  <data name="M000577" xml:space="preserve">
+    <value>启动设备测试模式成功</value>
+  </data>
+  <data name="M000578" xml:space="preserve">
+    <value>读取失败,请重新插拔产品</value>
+  </data>
+  <data name="M000579" xml:space="preserve">
+    <value>该条码{0}在系统中不存在</value>
+  </data>
+  <data name="M000580" xml:space="preserve">
+    <value>PASS 主条码{0}读取成功</value>
+  </data>
+  <data name="M000581" xml:space="preserve">
+    <value>PASS 产品通过Internet连接验证，请插入下一个产品</value>
+  </data>
+  <data name="M000582" xml:space="preserve">
+    <value>请插入下一个产品</value>
+  </data>
+  <data name="M000583" xml:space="preserve">
+    <value>请插入移动硬件产品,自动读取校验产品信息</value>
+  </data>
+  <data name="M000584" xml:space="preserve">
+    <value>检测不到产品信息,请检测是否插拔正确...</value>
+  </data>
+  <data name="M000585" xml:space="preserve">
+    <value>读取产品信息为空，请重新插拔产品...</value>
+  </data>
+  <data name="M000586" xml:space="preserve">
+    <value>产品读取的IMEI与条码对应的IMEI不相符...</value>
+  </data>
+  <data name="M000587" xml:space="preserve">
+    <value>产品读取的QRCODE与条码对应的QRCODE不相符...</value>
+  </data>
+  <data name="M000588" xml:space="preserve">
+    <value>校验成功</value>
+  </data>
+  <data name="M000589" xml:space="preserve">
+    <value>耗时：{0}</value>
+  </data>
+  <data name="M000590" xml:space="preserve">
+    <value>WIFIMAC值为空！</value>
+  </data>
+  <data name="M000591" xml:space="preserve">
+    <value>ICCID值为空！</value>
+  </data>
+  <data name="M000592" xml:space="preserve">
+    <value>SMINO值为空！</value>
+  </data>
+  <data name="M000593" xml:space="preserve">
+    <value>该产品WIFIMAC值已被其他产品{0}使用</value>
+  </data>
+  <data name="M000594" xml:space="preserve">
+    <value>该产品ICCID值已被其他产品{0}使用</value>
+  </data>
+  <data name="M000595" xml:space="preserve">
+    <value>该产品SMINO值已被其他产品{0}使用</value>
+  </data>
+  <data name="M000596" xml:space="preserve">
+    <value>多合一条码替换数量不一致</value>
+  </data>
+  <data name="M000597" xml:space="preserve">
+    <value>读取主条码已启动！</value>
+  </data>
+  <data name="M000598" xml:space="preserve">
+    <value>该料号并不是读取主条码进行包装！</value>
+  </data>
+  <data name="M000599" xml:space="preserve">
+    <value>开始打开端口...</value>
+  </data>
+  <data name="M000600" xml:space="preserve">
+    <value>请输入读取或烧录的指令...</value>
+  </data>
+  <data name="M000601" xml:space="preserve">
+    <value>读取序号开始...</value>
+  </data>
+  <data name="M000602" xml:space="preserve">
+    <value>多合一条码替换打印，条码之间请用英文逗号隔开扫描</value>
+  </data>
+  <data name="M000603" xml:space="preserve">
+    <value>标刻机IP地址：{0} ； 端口： {1}</value>
+  </data>
+  <data name="M000604" xml:space="preserve">
+    <value>读取ASN长度应为：{0}</value>
+  </data>
+  <data name="M000605" xml:space="preserve">
+    <value>打标时治具连接器读取异常，重复读取...</value>
+  </data>
+  <data name="M000606" xml:space="preserve">
+    <value>该产品已经过打标作业，不允许重复打标...</value>
+  </data>
+  <data name="M000607" xml:space="preserve">
+    <value>该产品NI测试结果为【FAIL】的不良品，不允许打标...</value>
+  </data>
+  <data name="M000608" xml:space="preserve">
+    <value>该产品NI测试结果未及时上传到SFCS系统，不允许打标..</value>
+  </data>
+  <data name="M000609" xml:space="preserve">
+    <value>治具连接器读取的数量，超过系统预设的6次...</value>
+  </data>
+  <data name="M000610" xml:space="preserve">
+    <value>该产品条码{0},未进行E75绑定或绑混...</value>
+  </data>
+  <data name="M000611" xml:space="preserve">
+    <value>数据传送打标成功!</value>
+  </data>
+  <data name="M000612" xml:space="preserve">
+    <value>是否删除已读取打标读取数据！</value>
+  </data>
+  <data name="M000613" xml:space="preserve">
+    <value>请选择打标作业方式...</value>
+  </data>
+  <data name="M000614" xml:space="preserve">
+    <value>读取的ASN序号为空或产品未经过NI烧录</value>
+  </data>
+  <data name="M000615" xml:space="preserve">
+    <value>当前产品都已读取成功...</value>
+  </data>
+  <data name="M000616" xml:space="preserve">
+    <value>输入数值错误：</value>
+  </data>
+  <data name="M000617" xml:space="preserve">
+    <value>扫描准备中..</value>
+  </data>
+  <data name="M000618" xml:space="preserve">
+    <value>请进行扫描设置...</value>
+  </data>
+  <data name="M000619" xml:space="preserve">
+    <value>扫描资料已设置...</value>
+  </data>
+  <data name="M000620" xml:space="preserve">
+    <value>请先设置好扫描基本信息！</value>
+  </data>
+  <data name="M000621" xml:space="preserve">
+    <value>请先输入产品代码！</value>
+  </data>
+  <data name="M000622" xml:space="preserve">
+    <value>主条码不能为空，请重新进行扫描设置..</value>
+  </data>
+  <data name="M000623" xml:space="preserve">
+    <value>当前产品的FW值：{0}，与设置检测值：{1}不符...</value>
+  </data>
+  <data name="M000624" xml:space="preserve">
+    <value>条码标签样式与成品的标准样式相同,确认E75是否绑混...</value>
+  </data>
+  <data name="M000625" xml:space="preserve">
+    <value>等待PCBA条码回传中！</value>
+  </data>
+  <data name="M000626" xml:space="preserve">
+    <value>读取到的产品中的PCBA条码为EMPTY，请确认是否有烧入PCBA条码成功！</value>
+  </data>
+  <data name="M000627" xml:space="preserve">
+    <value>产品回传的是主条码而不是PCBA条码，请确认！</value>
+  </data>
+  <data name="M000628" xml:space="preserve">
+    <value>烧录正在进行...</value>
+  </data>
+  <data name="M000629" xml:space="preserve">
+    <value>该产品及部件绑定完成...</value>
+  </data>
+  <data name="M000630" xml:space="preserve">
+    <value>扫描成功,请进行CQA检验...</value>
+  </data>
+  <data name="M000631" xml:space="preserve">
+    <value>舍弃主条码成功!</value>
+  </data>
+  <data name="M000632" xml:space="preserve">
+    <value>PCB烧录及读取完成...</value>
+  </data>
+  <data name="M000633" xml:space="preserve">
+    <value>请先设置扫描资料,才能进行批次扫描...</value>
+  </data>
+  <data name="M000634" xml:space="preserve">
+    <value>作废产品序号时，产品序号不能为空...</value>
+  </data>
+  <data name="M000635" xml:space="preserve">
+    <value>该产品序号已报废,不能再报废..</value>
+  </data>
+  <data name="M000636" xml:space="preserve">
+    <value>Module芯片序号，已成功作废...</value>
+  </data>
+  <data name="M000637" xml:space="preserve">
+    <value>该产品序号未经过IQC检验,不允许其它操作..</value>
+  </data>
+  <data name="M000638" xml:space="preserve">
+    <value>该产品序号已经过IQC检验,不允许重复作业..</value>
+  </data>
+  <data name="M000639" xml:space="preserve">
+    <value>该产品序号已出货给客户,不允许其它操作..</value>
+  </data>
+  <data name="M000640" xml:space="preserve">
+    <value>已报废不允许操作</value>
+  </data>
+  <data name="M000641" xml:space="preserve">
+    <value>该产品序号不在IQC检验状态,不允许原材料入库..</value>
+  </data>
+  <data name="M000642" xml:space="preserve">
+    <value>该产品序号不在原材料仓,不能进行原材料出库..</value>
+  </data>
+  <data name="M000643" xml:space="preserve">
+    <value>该原材料不是原材料在生产线上或实验室中，不允许退料..</value>
+  </data>
+  <data name="M000644" xml:space="preserve">
+    <value>该产品序号不在生产线上,不能进行半成品入库..</value>
+  </data>
+  <data name="M000645" xml:space="preserve">
+    <value>该产品序号不在半成品仓,不能进行半成品出库.</value>
+  </data>
+  <data name="M000646" xml:space="preserve">
+    <value>该产品序号不在生产线上,不能进行半成品入库或退库..</value>
+  </data>
+  <data name="M000647" xml:space="preserve">
+    <value>该产品序号不在成品仓,不能进行成品出库..</value>
+  </data>
+  <data name="M000648" xml:space="preserve">
+    <value>该产品在成品仓中不存在,不能进行半成品出库..</value>
+  </data>
+  <data name="M000649" xml:space="preserve">
+    <value>Module芯片序号读取成功...</value>
+  </data>
+  <data name="M000650" xml:space="preserve">
+    <value>客户名称或线别编码不能为空!</value>
+  </data>
+  <data name="M000651" xml:space="preserve">
+    <value>工单编号不能为空...</value>
+  </data>
+  <data name="M000652" xml:space="preserve">
+    <value>工站编号不能为空或该料号的工站资料未设置!</value>
+  </data>
+  <data name="M000653" xml:space="preserve">
+    <value>设置的条码扫描日期不得偏离当前日期10个月</value>
+  </data>
+  <data name="M000654" xml:space="preserve">
+    <value>您选择的开始时间大于当前时间!</value>
+  </data>
+  <data name="M000655" xml:space="preserve">
+    <value>当前登陆用户，没有线别编号{0}的扫描权限...</value>
+  </data>
+  <data name="M000656" xml:space="preserve">
+    <value>请选择需要扫描的料号</value>
+  </data>
+  <data name="M000657" xml:space="preserve">
+    <value>该站点没有设置需要扫描的部件！</value>
+  </data>
+  <data name="M000658" xml:space="preserve">
+    <value>该料号{0}未设置编码原则...</value>
+  </data>
+  <data name="M000659" xml:space="preserve">
+    <value>只有E75绑定站才可以取消线别校验卡关</value>
+  </data>
+  <data name="M000660" xml:space="preserve">
+    <value>请选择组件料号，才能进行来料批次扫描...</value>
+  </data>
+  <data name="M000661" xml:space="preserve">
+    <value>批次条码不能为空，请扫描来料批次条码...</value>
+  </data>
+  <data name="M000662" xml:space="preserve">
+    <value>请检查此批号经过IQC检验...</value>
+  </data>
+  <data name="M000663" xml:space="preserve">
+    <value>输入有误,类型为FAJ Semi时,LOT号必须为该部件料号打印...</value>
+  </data>
+  <data name="M000664" xml:space="preserve">
+    <value>Lot号长度应为{0}位...</value>
+  </data>
+  <data name="M000665" xml:space="preserve">
+    <value>Lot号后8位必须为数字...</value>
+  </data>
+  <data name="M000666" xml:space="preserve">
+    <value>Lot号第一位输入有误...</value>
+  </data>
+  <data name="M000667" xml:space="preserve">
+    <value>来料批次不允许有超过{0}笔相同的批次，输入有误..</value>
+  </data>
+  <data name="M000668" xml:space="preserve">
+    <value>一个工单,相同的零部件，只允许出现一家供应商的物料...</value>
+  </data>
+  <data name="M000669" xml:space="preserve">
+    <value>来料批次编号，已经成功修改...</value>
+  </data>
+  <data name="M000670" xml:space="preserve">
+    <value>来料批次条码，已经在该工单的组件中存在...</value>
+  </data>
+  <data name="M000671" xml:space="preserve">
+    <value>该成品的所有批次号，已全部扫描录入...</value>
+  </data>
+  <data name="M000672" xml:space="preserve">
+    <value>来料批次扫描成功...</value>
+  </data>
+  <data name="M000673" xml:space="preserve">
+    <value>来料批次扫描发生错误...</value>
+  </data>
+  <data name="M000674" xml:space="preserve">
+    <value>没有可以修改的料件批次数据行...</value>
+  </data>
+  <data name="M000675" xml:space="preserve">
+    <value>请在右边表格中，选择你要修改的数据行...</value>
+  </data>
+  <data name="M000676" xml:space="preserve">
+    <value>请维护好料件基础资料中的相关资料...</value>
+  </data>
+  <data name="M000677" xml:space="preserve">
+    <value>基础资料维护有误，出现超过1笔的须进行上料批次的记录</value>
+  </data>
+  <data name="M000678" xml:space="preserve">
+    <value>该产品Wiggle测试失败，不允许打标</value>
+  </data>
+  <data name="M000679" xml:space="preserve">
+    <value>该产品未做Wiggle测试，不允许打标</value>
+  </data>
+  <data name="M000680" xml:space="preserve">
+    <value>打标时读取时,第{0}文本框出现空字符内容，不允许打标...</value>
+  </data>
+  <data name="M000681" xml:space="preserve">
+    <value>成功读取序号的数量，与实际打标数量不符，不能进行打标！</value>
+  </data>
+  <data name="M000682" xml:space="preserve">
+    <value>无数据资料，不能进行打标...</value>
+  </data>
+  <data name="M000683" xml:space="preserve">
+    <value>标刻机连接错误.....</value>
+  </data>
+  <data name="M000684" xml:space="preserve">
+    <value>治具读取过程中，发生过错误提示，不允许打标...</value>
+  </data>
+  <data name="M000685" xml:space="preserve">
+    <value>请插入移动硬件产品,自动读取校验产品信息</value>
+  </data>
+  <data name="M000686" xml:space="preserve">
+    <value>读取校验成功，请重新插拔进行下一次校验</value>
+  </data>
+  <data name="M000687" xml:space="preserve">
+    <value>打开端口成功...</value>
+  </data>
+  <data name="M000688" xml:space="preserve">
+    <value>读取序号发生错误：端口未开启...</value>
+  </data>
+  <data name="M000689" xml:space="preserve">
+    <value>许可证反写失败</value>
+  </data>
+  <data name="M000690" xml:space="preserve">
+    <value>SD卡容量检测通过......</value>
+  </data>
+  <data name="M000691" xml:space="preserve">
+    <value>等待插入SD卡.....</value>
+  </data>
+  <data name="M000692" xml:space="preserve">
+    <value>不良品待维修,不允许扫描</value>
+  </data>
+  <data name="M000693" xml:space="preserve">
+    <value>维修OK待确认,不允许扫描</value>
+  </data>
+  <data name="M000694" xml:space="preserve">
+    <value>该PE袋已绕线,须E75绑定完成后才允许重新使用</value>
+  </data>
+  <data name="M000695" xml:space="preserve">
+    <value>本站投入数&gt;=工单总数</value>
+  </data>
+  <data name="M000696" xml:space="preserve">
+    <value>输入值不能大于默认整数箱{0}</value>
+  </data>
+  <data name="M000697" xml:space="preserve">
+    <value>请扫描内部PE袋</value>
+  </data>
+  <data name="M000698" xml:space="preserve">
+    <value>内部PE袋制程条码，须E75绑定完成才允许重新使用...</value>
+  </data>
+  <data name="M000699" xml:space="preserve">
+    <value>没有可用的内部PE袋制程条码，请进行打印生成...</value>
+  </data>
+  <data name="M000700" xml:space="preserve">
+    <value>内部PE袋制程条码，在系统中不存在...</value>
+  </data>
+  <data name="M000701" xml:space="preserve">
+    <value>该条码该工站已扫描成功。请勿重复扫描</value>
+  </data>
+  <data name="M000702" xml:space="preserve">
+    <value>内部PE袋制程条码 , 正在维修中，不允许扫描...</value>
+  </data>
+  <data name="M000703" xml:space="preserve">
+    <value>内部PE袋制程条码 , 正在维修完成待IPQC确认，不允许扫描...</value>
+  </data>
+  <data name="M000704" xml:space="preserve">
+    <value>该条码绕线站未扫描，请确认...</value>
+  </data>
+  <data name="M000705" xml:space="preserve">
+    <value>内部PE袋制程条码 , 正在维修中或是已报废，不允许扫描...</value>
+  </data>
+  <data name="M000706" xml:space="preserve">
+    <value>内部PE袋条码 的线别与当前扫描设定的线别不一致，实际线别为{0}请确认...</value>
+  </data>
+  <data name="M000707" xml:space="preserve">
+    <value>扫描条码中的校验码，计算结果不正确...</value>
+  </data>
+  <data name="M000708" xml:space="preserve">
+    <value>产品扫描数量不允许超过工单数量！</value>
+  </data>
+  <data name="M000709" xml:space="preserve">
+    <value>E75读取错误，请确认...</value>
+  </data>
+  <data name="M000710" xml:space="preserve">
+    <value>不匹配...</value>
+  </data>
+  <data name="M000711" xml:space="preserve">
+    <value>校验成功，请继续扫描产品条码</value>
+  </data>
+  <data name="M000712" xml:space="preserve">
+    <value>扫描成品条码成功，请继续扫描镭射条码！</value>
+  </data>
+  <data name="M000713" xml:space="preserve">
+    <value>成品条码与镭射的条码不相同...</value>
+  </data>
+  <data name="M000714" xml:space="preserve">
+    <value>请扫描Bin为C,D,E,F的条码!</value>
+  </data>
+  <data name="M000715" xml:space="preserve">
+    <value>扫描失败！E75绑定ASN失败,请用E75关联ASN功能再关联</value>
+  </data>
+  <data name="M000716" xml:space="preserve">
+    <value>扫描成功,请进行EUT检验..</value>
+  </data>
+  <data name="M000717" xml:space="preserve">
+    <value>请进行重新插拔产品</value>
+  </data>
+  <data name="M000718" xml:space="preserve">
+    <value>不良现象代码不存在...</value>
+  </data>
+  <data name="M000719" xml:space="preserve">
+    <value>主条码为空，不允许进行不良代码录入..</value>
+  </data>
+  <data name="M000720" xml:space="preserve">
+    <value>良现象代码{0}扫描成功</value>
+  </data>
+  <data name="M000721" xml:space="preserve">
+    <value>该条码未经过E75导通测试或是测试FAIL，请确认...</value>
+  </data>
+  <data name="M000722" xml:space="preserve">
+    <value>请先设置扫描资料,才能进行ASN关联...！</value>
+  </data>
+  <data name="M000723" xml:space="preserve">
+    <value>该料号并不是读取主条码进行包装！</value>
+  </data>
+  <data name="M000724" xml:space="preserve">
+    <value>该站点对应的次条码未扫描完整,不能再设置!</value>
+  </data>
+  <data name="M000725" xml:space="preserve">
+    <value>目录下不存在Bartender打印模版...</value>
+  </data>
+  <data name="M000726" xml:space="preserve">
+    <value>未正确安装Bartender打印模版...</value>
+  </data>
+  <data name="M000727" xml:space="preserve">
+    <value>栈板应装数量不能为0，设置有误..</value>
+  </data>
+  <data name="M000728" xml:space="preserve">
+    <value>外箱应装数量不能为0，设置有误...</value>
+  </data>
+  <data name="M000729" xml:space="preserve">
+    <value>扫描成功，请扫描大外箱或栈板条码！</value>
+  </data>
+  <data name="M000730" xml:space="preserve">
+    <value>该箱已经包装完成,请扫描下一箱...</value>
+  </data>
+  <data name="M000731" xml:space="preserve">
+    <value>新外箱条码已创建,请扫描下一箱产品条码...</value>
+  </data>
+  <data name="M000732" xml:space="preserve">
+    <value>该产品未经过关联扫描,不允许打印...</value>
+  </data>
+  <data name="M000733" xml:space="preserve">
+    <value>该产品P06客户料号未设置,请检查...</value>
+  </data>
+  <data name="M000734" xml:space="preserve">
+    <value>外箱装栈板时，发生异常...</value>
+  </data>
+  <data name="M000735" xml:space="preserve">
+    <value>外箱条码序号，扫描成功...</value>
+  </data>
+  <data name="M000736" xml:space="preserve">
+    <value>栈板条码序号不能为空</value>
+  </data>
+  <data name="M000737" xml:space="preserve">
+    <value>栈板标签序号扫描成功</value>
+  </data>
+  <data name="M000738" xml:space="preserve">
+    <value>请先设置打印资料！</value>
+  </data>
+  <data name="M000739" xml:space="preserve">
+    <value>当前箱未扫描完,不允许尾数设置！</value>
+  </data>
+  <data name="M000740" xml:space="preserve">
+    <value>正在扫描中,不允许尾数打印！</value>
+  </data>
+  <data name="M000741" xml:space="preserve">
+    <value>在线打印的外箱才能替换打印...</value>
+  </data>
+  <data name="M000742" xml:space="preserve">
+    <value>PCBA序号读取成功...</value>
+  </data>
+  <data name="M000743" xml:space="preserve">
+    <value>PCBA序号读取发生未知的错误...</value>
+  </data>
+  <data name="M000744" xml:space="preserve">
+    <value>工单不能为空</value>
+  </data>
+  <data name="M000745" xml:space="preserve">
+    <value>输入的条码不能为空</value>
+  </data>
+  <data name="M000746" xml:space="preserve">
+    <value>扫描的条码与编码规则长度不符...</value>
+  </data>
+  <data name="M000747" xml:space="preserve">
+    <value>条码标签样式不符...</value>
+  </data>
+  <data name="M000748" xml:space="preserve">
+    <value>产品扫描成功...</value>
+  </data>
+  <data name="M000749" xml:space="preserve">
+    <value>查询时间相隔最多请不要超过7天</value>
+  </data>
+  <data name="M000750" xml:space="preserve">
+    <value>请输入工单\条码\线别</value>
+  </data>
+  <data name="M000751" xml:space="preserve">
+    <value>客户名称不能为空!</value>
+  </data>
+  <data name="M000752" xml:space="preserve">
+    <value>工单编号不能为空!</value>
+  </data>
+  <data name="M000753" xml:space="preserve">
+    <value>资料未设置完整或工单编号不正确!</value>
+  </data>
+  <data name="M000754" xml:space="preserve">
+    <value>该工单未设置线别,请在工单维护中维护线别</value>
+  </data>
+  <data name="M000755" xml:space="preserve">
+    <value>設置的時間不得偏離當前時間一個月!</value>
+  </data>
+  <data name="M000756" xml:space="preserve">
+    <value>您选择的开始时间大于当前时间!</value>
+  </data>
+  <data name="M000757" xml:space="preserve">
+    <value>该料件编码的资料未确认或设置!</value>
+  </data>
+  <data name="M000758" xml:space="preserve">
+    <value>请输入正整数</value>
+  </data>
+  <data name="M000759" xml:space="preserve">
+    <value>密码错误...</value>
+  </data>
+  <data name="M000800" xml:space="preserve">
+    <value>你没有扫描设置的权限...</value>
+  </data>
+  <data name="M000801" xml:space="preserve">
+    <value>必须输入上级工单(后制程工单),如为成品工单则可以相同...</value>
+  </data>
+  <data name="M000802" xml:space="preserve">
+    <value>线别不能为空</value>
+  </data>
+  <data name="M000803" xml:space="preserve">
+    <value>当前生产工单的扫描工艺流程未维护...</value>
+  </data>
+  <data name="M000804" xml:space="preserve">
+    <value>已经存在该工单</value>
+  </data>
+  <data name="M000805" xml:space="preserve">
+    <value>当前输入密码没有替换打印权限...</value>
+  </data>
+  <data name="M000806" xml:space="preserve">
+    <value>外箱不存在，请选择存在的外箱编码</value>
+  </data>
+  <data name="M000807" xml:space="preserve">
+    <value>箱号：{0}</value>
+  </data>
+  <data name="M000808" xml:space="preserve">
+    <value>产品位置：{0}</value>
+  </data>
+  <data name="M000809" xml:space="preserve">
+    <value>请输入料件编号...</value>
+  </data>
+  <data name="M000810" xml:space="preserve">
+    <value>请先在Tiptop维护客户名称...</value>
+  </data>
+  <data name="M000811" xml:space="preserve">
+    <value>ERP中找不到该料件的信息...</value>
+  </data>
+  <data name="M000812" xml:space="preserve">
+    <value>该料件在ERP中的数据如下表所示...</value>
+  </data>
+  <data name="M000813" xml:space="preserve">
+    <value>工单{0}已经下载完成,请熟知!</value>
+  </data>
+  <data name="M000814" xml:space="preserve">
+    <value>工单{0}在TiTop中不存在!</value>
+  </data>
+  <data name="M001809" xml:space="preserve">
+    <value>料件</value>
+  </data>
+  <data name="M001810" xml:space="preserve">
+    <value>打印参数已确认！</value>
+  </data>
+  <data name="M001811" xml:space="preserve">
+    <value>的打印参数信息已被作废！</value>
+  </data>
+  <data name="M001812" xml:space="preserve">
+    <value>请选择需要修改的工单!</value>
+  </data>
+  <data name="M001813" xml:space="preserve">
+    <value>请先读取E75数据</value>
+  </data>
+  <data name="M001814" xml:space="preserve">
+    <value>没有成功获取ASN</value>
+  </data>
+  <data name="M001815" xml:space="preserve">
+    <value>作废成功！</value>
+  </data>
+  <data name="M001816" xml:space="preserve">
+    <value>请确认是否删除?</value>
+  </data>
+  <data name="M001817" xml:space="preserve">
+    <value>删除成功！</value>
+  </data>
+  <data name="M001818" xml:space="preserve">
+    <value>该格式已经作废，不允许作废！</value>
+  </data>
+  <data name="M001819" xml:space="preserve">
+    <value>你没有权限进行替换打印</value>
+  </data>
+  <data name="M001820" xml:space="preserve">
+    <value>多合一条码替换数量不一致</value>
+  </data>
+  <data name="M001821" xml:space="preserve">
+    <value>产品条码没有找到对应的客户料号,请检查!</value>
+  </data>
+  <data name="M001822" xml:space="preserve">
+    <value>当前条码对应的Lot号{0}有误...请确认…</value>
+  </data>
+  <data name="M001823" xml:space="preserve">
+    <value>没有该条码的任何资料…</value>
+  </data>
+  <data name="M001824" xml:space="preserve">
+    <value>该料件的打印格式，未上传打印模版…</value>
+  </data>
+  <data name="M001825" xml:space="preserve">
+    <value>该条码状态未包装,不允许打印</value>
+  </data>
+  <data name="M001826" xml:space="preserve">
+    <value>请使用E75工具进行扫描</value>
+  </data>
+  <data name="M001827" xml:space="preserve">
+    <value>读取主条码已启动！</value>
+  </data>
+  <data name="M001828" xml:space="preserve">
+    <value>料号并不是读取主条码进行包装！</value>
+  </data>
+  <data name="M001829" xml:space="preserve">
+    <value>条码序号读取成功,请拔出产品</value>
+  </data>
+  <data name="M001830" xml:space="preserve">
+    <value>条码序号读取发生未知的错误...</value>
+  </data>
+  <data name="M001831" xml:space="preserve">
+    <value>开始打开{0}端口...</value>
+  </data>
+  <data name="M001832" xml:space="preserve">
+    <value>打开{0}端口成功...</value>
+  </data>
+  <data name="M001833" xml:space="preserve">
+    <value>端口已打开...</value>
+  </data>
+  <data name="M001834" xml:space="preserve">
+    <value>端口打开时发生错误...</value>
+  </data>
+  <data name="M001835" xml:space="preserve">
+    <value>请输入读取或烧录的指令...</value>
+  </data>
+  <data name="M001836" xml:space="preserve">
+    <value>读取序号开始...</value>
+  </data>
+  <data name="M001837" xml:space="preserve">
+    <value>读取序号完成...</value>
+  </data>
+  <data name="M001838" xml:space="preserve">
+    <value>读取序号发生错误：{0}端口未开启...</value>
+  </data>
+  <data name="M001839" xml:space="preserve">
+    <value>条码序号读取成功...</value>
+  </data>
+  <data name="M001840" xml:space="preserve">
+    <value>打印成功，请拔出条码.</value>
+  </data>
+  <data name="M001841" xml:space="preserve">
+    <value>多合一条码替换打印，条码之间请用英文逗号隔开扫描</value>
+  </data>
+  <data name="M001842" xml:space="preserve">
+    <value>你没有权限进行替换打印</value>
+  </data>
+  <data name="M001843" xml:space="preserve">
+    <value>通讯端口尚未打开</value>
+  </data>
+  <data name="M001844" xml:space="preserve">
+    <value>通讯端口已关闭</value>
+  </data>
+  <data name="M001845" xml:space="preserve">
+    <value>端口已打开...</value>
+  </data>
+  <data name="M001846" xml:space="preserve">
+    <value>解锁密码不正确..</value>
+  </data>
+  <data name="M001847" xml:space="preserve">
+    <value>你没有设置时间参数的权限...</value>
+  </data>
+  <data name="M001848" xml:space="preserve">
+    <value>没有查询到相关的记录</value>
+  </data>
+  <data name="M001849" xml:space="preserve">
+    <value>产品替换成功</value>
+  </data>
+  <data name="M001850" xml:space="preserve">
+    <value>条码替换发生错误</value>
+  </data>
+  <data name="M001851" xml:space="preserve">
+    <value>厂区资料不存在...</value>
+  </data>
+  <data name="M001852" xml:space="preserve">
+    <value>该产品料号在料件站点资料里，没有设置包装站或已拆关联</value>
+  </data>
+  <data name="M001853" xml:space="preserve">
+    <value>该条码站点资料并没有前面工站...</value>
+  </data>
+  <data name="M001854" xml:space="preserve">
+    <value>拆分外箱关联{0}完成</value>
+  </data>
+  <data name="M001855" xml:space="preserve">
+    <value>拆分外箱关联时，发生错误</value>
+  </data>
+  <data name="M001856" xml:space="preserve">
+    <value>该条码已装箱，无法进行拆关联，请使用成品替换功能继续...</value>
+  </data>
+  <data name="M001857" xml:space="preserve">
+    <value>不存在该产品条码或已被拆关联...</value>
+  </data>
+  <data name="M001858" xml:space="preserve">
+    <value>该条码未设置站点资料或未进行关联扫描...</value>
+  </data>
+  <data name="M001859" xml:space="preserve">
+    <value>主条码拆分关联：{0} 完成</value>
+  </data>
+  <data name="M001860" xml:space="preserve">
+    <value>主条码拆分关联时，发生错误</value>
+  </data>
+  <data name="M001861" xml:space="preserve">
+    <value>不存在该产品信息的记录</value>
+  </data>
+  <data name="M001862" xml:space="preserve">
+    <value>工单编号或料件编号或产品条码或外箱编号必须输入一个...</value>
+  </data>
+  <data name="M001863" xml:space="preserve">
+    <value>该编码原则已经作废，不可再作废！</value>
+  </data>
+  <data name="M001864" xml:space="preserve">
+    <value>确定要作废此编码原则吗？</value>
+  </data>
+  <data name="M001865" xml:space="preserve">
+    <value>确定要作废此打印格式吗？</value>
+  </data>
+  <data name="M001866" xml:space="preserve">
+    <value>请选择白夜班...</value>
+  </data>
+  <data name="M001867" xml:space="preserve">
+    <value>请选择料号</value>
+  </data>
+  <data name="M001868" xml:space="preserve">
+    <value>料号不一致，不能混绑</value>
+  </data>
+  <data name="M001869" xml:space="preserve">
+    <value>请确认需导出的数据资料！</value>
+  </data>
+  <data name="M001870" xml:space="preserve">
+    <value>文件导出成功,导出位置：c:\tiptop\{0}{1}.csv !</value>
+  </data>
+  <data name="M001871" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="M001872" xml:space="preserve">
+    <value>专案查询权限,请确认...</value>
+  </data>
+  <data name="M001873" xml:space="preserve">
+    <value>专案查询权限,异常条码为</value>
+  </data>
+  <data name="M001874" xml:space="preserve">
+    <value>请先打印对应数量的Boxid！</value>
+  </data>
+  <data name="M001875" xml:space="preserve">
+    <value>站点查询权限,请确认...</value>
+  </data>
+  <data name="M001876" xml:space="preserve">
+    <value>类型传入错误(必须为0或1或2),请确认...</value>
+  </data>
+  <data name="M001877" xml:space="preserve">
+    <value>该外箱不存在此产品条码，请检查条码...</value>
+  </data>
+  <data name="M001878" xml:space="preserve">
+    <value>该外箱序号开箱成功，请重新进行扫描设置，进行包装扫描...</value>
+  </data>
+  <data name="M001879" xml:space="preserve">
+    <value>此批号的料号与部件编号不匹配！</value>
+  </data>
+  <data name="M001880" xml:space="preserve">
+    <value>你确定要作废这个{0}的来料批次号吗?</value>
+  </data>
+  <data name="M001881" xml:space="preserve">
+    <value>你已成功作废来料批次的组件料号...</value>
+  </data>
+  <data name="M001882" xml:space="preserve">
+    <value>作废来料批次的组件料号,发生错误...</value>
+  </data>
+  <data name="M001883" xml:space="preserve">
+    <value>此工令外箱标签总共申请了{0}张、还可申请{1}张,本次申请了{2}张，是否继续申请????</value>
+  </data>
+  <data name="M001884" xml:space="preserve">
+    <value>该工单总共申请了{0}张，已打印了{1}张，还可打印{2}张，本次打印数量为{3}张，是否继续打印????</value>
+  </data>
+  <data name="M001887" xml:space="preserve">
+    <value>查询数量过大，不允许工单\条码\线别\工站全选，请输入其中一项的详细信息</value>
+  </data>
+  <data name="M001888" xml:space="preserve">
+    <value>充电、读取PASS...</value>
+  </data>
+  <data name="M001889" xml:space="preserve">
+    <value>发生异常，异常原因：{0}</value>
+  </data>
+  <data name="M001890" xml:space="preserve">
+    <value>外箱条码已经进行杂发出货扫描,请检查外箱是否重复或实物未出货...</value>
+  </data>
+  <data name="M001891" xml:space="preserve">
+    <value>此箱号已锁定，不允许出货扫描...</value>
+  </data>
+  <data name="M001892" xml:space="preserve">
+    <value>锁定成功...</value>
+  </data>
+  <data name="M001893" xml:space="preserve">
+    <value>锁定失败...</value>
+  </data>
+  <data name="M001894" xml:space="preserve">
+    <value>旧箱号已出库，不允许被替换...</value>
+  </data>
+  <data name="M001895" xml:space="preserve">
+    <value>旧箱号已锁定，请先解锁再替换外箱标签...</value>
+  </data>
+  <data name="M001896" xml:space="preserve">
+    <value>箱号未满箱，解锁断续扫描</value>
+  </data>
+  <data name="M001897" xml:space="preserve">
+    <value>此箱号不存在</value>
+  </data>
+  <data name="Q000001" xml:space="preserve">
+    <value>你确定保存吗？</value>
+  </data>
+</root>

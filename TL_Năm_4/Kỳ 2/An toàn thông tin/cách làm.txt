@@ -1,0 +1,34 @@
+Đầu tiên viết mã sinh viên ra hệ nhị phân
+
+chia ra 32 bit đầu là L0 32 bit sau là R0
+
+Cho E đi qua L0 thu được bộ hoán vị 48 Bit là E(R0)
+
+Xong lấy bộ hoán vị xinh viên 64 bit cắt đi dòng cuối cùng bộ hoán vị 56 bit
+
+Tiếp lấy bộ hoán vị 56 bit đi qua Pc-1 ta thu được C0 và D0: C0 28 bit đầu D0 28 bit cuối
+
+Dịch 1 bit ta thu được C1 và D1 từ C1 và D1 cho đi qua Pc-2 ta thu được K1
+
+Tiếp đến ta lấy E(R0) tìm đc ở trên xor với K1 ta thu được bộ B từ B1 tới B8 
+
+Cho kết quả của bộ B đi qua các hộp từ S1 tới S8 ta thu được Bộ S
+
+Và từ bộ S cho đi qua bộ hoán vị P ta thu được F(Ri-1,Ki)
+
+Ta lại làm lại vòng 2 cho F(Ri-1,Ki) xor với L0 thì thu được R1 và L1 thì bằng R0 
+
+Cho E đi qua L1 ta thu đc bộ hoán vị 48 bit là E(R1)
+
+Từ C1 và D1 ta dịch bit và thu được C2 và D2 dịch cho đến C16 và D16 thì dừng
+
+Từ C2 và D2 choa đi qua pc-2 ta thu được K2
+
+Tiếp đến ta lấy E(R1) xor với K2 ta thu đc bộ B 
+
+CHo bộ B đia qua hộp S1->S8 thu đc bộ S 
+
+Và từ bộ S cho đi qua bộ hoán vị P ta thu được F(Ri-1,Ki)
+
+Vòng 3 tương tự còng 2
+ 

@@ -1,0 +1,22 @@
+<Info>
+  <stationid>P00001 - 产品包装站</stationid>
+  <lineid>NA-D28</lineid>
+  <moid>TEST0111</moid>
+  <IsScanCarton>Y</IsScanCarton>
+  <CartonStyle>L1LUC008-CS-H-VN</CartonStyle>
+  <CartonQty>600</CartonQty>
+  <QrCodeStyle>
+  </QrCodeStyle>
+  <IsScanSecond>Y</IsScanSecond>
+  <SecondStyle>TEST0111</SecondStyle>
+  <SecondQty>50</SecondQty>
+  <IsScanThird>N</IsScanThird>
+  <ThirdStyle>
+  </ThirdStyle>
+  <ThirdQty>
+  </ThirdQty>
+  <IsScanPpid>Y</IsScanPpid>
+  <PpidStyle>EAD64746102</PpidStyle>
+  <PpidQty>1</PpidQty>
+  <selType>2</selType>
+</Info>

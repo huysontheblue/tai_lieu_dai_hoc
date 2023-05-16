@@ -1,0 +1,328 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MainTainModule
+</name>
+</assembly>
+<members>
+<member name="M:MainTainModule.FrmMainTainHandleDG.IsLineConfirm">
+	<summary>
+ 生产若已回复了当日的柏拉图，不能再录入系统,以免数据产生变异
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDG.ExistsSnBarcode">
+	<summary>
+ 判断存在条码打印表
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDG.CheckDataIsRight_NoInput">
+	<summary>
+ 只需要维护处理方法，其他不做卡控
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDG.tabControl_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Tab 选择事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:MainTainModule.FrmMainTainRepairReport">
+	<summary>
+ 新增者： 田玉琳
+ 新增日： 2016/07/26
+ 新增内容：维修报表表示
+ </summary>
+	<remarks>显示维修报表和生成维修报表</remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.btnLoad_Click(System.Object,System.EventArgs)">
+	<summary>
+ 图片载入按钮单击事件响应
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存截剪后的图片
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.picArea_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ pictureBox控件重绘
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.picArea_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ pictureBox内鼠标单击事件响应，保证鼠标在矩形选框内才可响应鼠标移动事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.picArea_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ 鼠标矩形选框内移动事件响应，保证矩形选框始终在pictureBox控件内部
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.picArea_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ 鼠标按键弹起事件响应，保证鼠标没有按键按下时无法响应鼠标移动事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.picArea_SizeChanged(System.Object,System.EventArgs)">
+	<summary>
+ 保证pictureBox控件始终居中对齐
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.track_ValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 使用滑块动态调整矩形选框大小
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.maxPic_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 最大化图片和恢复图片原始尺寸显示方式的切换
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmPictureCut.KiCut(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 图片裁剪方法
+ </summary>
+	<param name="b">需裁剪的图片位图</param>
+	<param name="StartX">裁剪起始X坐标</param>
+	<param name="StartY">裁剪起始Y坐标</param>
+	<param name="iWidth">裁剪宽度</param>
+	<param name="iHeight">裁剪高度</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:MainTainModule.FrmPictureCut">
+	<summary>
+ 图片截取--共用图片截剪
+ 创建人：黄广都
+ 创建日期：2016-12-19
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDGNewD.ClearPicture(System.Windows.Forms.PictureBox,System.Windows.Forms.Button)">
+	<summary>
+ 清除图片
+ </summary>
+	<param name="pic"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:MainTainModule.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:MainTainModule.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="P:MainTainModule.My.Resources.Resources.noimage">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="T:MainTainModule.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxCodeTypeBig(System.Windows.Forms.ComboBox)">
+	<summary>
+ 不良现象大类
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxNG(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 不良现象
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxNG2(System.Windows.Forms.ComboBox,System.String,System.Collections.Generic.List{System.String}@)">
+	<summary>
+ 不良现象
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxStationId(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 工站类别
+ </summary>
+	<param name="ColComboBox"></param>
+	<param name="Ppid"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxStationType(System.Windows.Forms.ComboBox)">
+	<summary>
+ 工站名称
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxDateJie(System.Windows.Forms.ComboBox)">
+	<summary>
+ 时间节次,只显示
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxNGOperate(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 不良品维修作业
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxClass(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置课别
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxLineAll(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置线别
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxLine(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 设置线别
+ </summary>
+	<param name="ColComboBox"></param>
+	<param name="cboClass"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxStatus(System.Windows.Forms.ComboBox)">
+	<summary>
+ 设置状态
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxNGBig(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 不良现象
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxFASort(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 改善对策方法
+ </summary>
+	<param name="ColComboBox"></param>
+	<param name="code"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxTavcPart(System.Windows.Forms.ComboBox,System.String)">
+	<summary>
+ 报废部件
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.BindComboxCustomer(System.Windows.Forms.ComboBox)">
+	<summary>
+ 客户资料
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.GetAssyTsItemId(System.String)">
+	<summary>
+ 取得数据不良数据表Itemid
+ </summary>
+	<param name="ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.MainTainCommon.GetNGQtyByPPIDStaionID(System.String,System.String)">
+	<summary>
+ 工站SN历史NG个数(TotNGQty) 带P
+ </summary>
+	<param name="ppid"></param>
+	<param name="stationId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.frmOnProcessRework.CheckData">
+	<summary>
+ 资料填写检查
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:MainTainModule.frmOnProcessRework">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/03/31
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>品质抽检</remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDGNew.IsLineConfirm">
+	<summary>
+ 生产若已回复了当日的柏拉图，不能再录入系统,以免数据产生变异
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDGNew.ExistsSnBarcode">
+	<summary>
+ 判断存在条码打印表
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.FrmMainTainHandleDGNew.tabControl_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Tab 选择事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.frmPackingPGCheck.frmPackingPGCheck_Load(System.Object,System.EventArgs)">
+	<summary>
+ 初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.frmPackingPGCheck.toolQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.frmPackingPGCheck.toolExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 退出 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.frmPackingPGCheck.toolIPQC_Click(System.Object,System.EventArgs)">
+	<summary>
+ IPQC确认
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MainTainModule.frmPackingPGCheck.CheckDate(System.Windows.Forms.DateTimePicker,System.Windows.Forms.DateTimePicker,System.Boolean,System.Int32)">
+	<summary>
+ 检查时间
+ </summary>
+	<param name="starDT"></param>
+	<param name="endDT"></param>
+	<param name="checkt">默认检测时间间隔</param>
+	<param name="months">检测时间间隔月份数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

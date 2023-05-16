@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9221EC11-41F7-44FC-9956-65E0EAC4BE62}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EquipmentManagement</RootNamespace>
+    <AssemblyName>EquipmentManagement</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>EquipmentManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>EquipmentManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDTek.Oracle, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DDTek.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=9.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="MainFrame, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\MainFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="Pager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Pager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxUL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\TextBoxUL.dll</HintPath>
+    </Reference>
+    <Reference Include="ULControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\ULControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CheckUtils.vb" />
+    <Compile Include="Common\EquManageCommon.vb" />
+    <Compile Include="Common\LabelPrintHelper.vb" />
+    <Compile Include="FrmAccessquery.Designer.vb">
+      <DependentUpon>FrmAccessquery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAccessquery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceLog.Designer.vb">
+      <DependentUpon>FrmAssetMaintenanceLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetNonDayMaintenance.Designer.vb">
+      <DependentUpon>FrmAssetNonDayMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetNonDayMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoMadeData.Designer.vb">
+      <DependentUpon>FrmAutoMadeData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoMadeData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAsset.Designer.vb">
+      <DependentUpon>FrmAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetLend.Designer.vb">
+      <DependentUpon>FrmAssetLend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetLend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetLendBorrow.Designer.vb">
+      <DependentUpon>FrmAssetLendBorrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetLendBorrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetLendBorrowLog.Designer.vb">
+      <DependentUpon>FrmAssetLendBorrowLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetLendBorrowLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceDay.Designer.vb">
+      <DependentUpon>FrmAssetMaintenanceDay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceDay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceType.Designer.vb">
+      <DependentUpon>FrmAssetMaintenanceType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetReturn.Designer.vb">
+      <DependentUpon>FrmAssetReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBiotechnologyboard.designer.vb">
+      <DependentUpon>FrmBiotechnologyboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBiotechnologyboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBiotechnologyboard_Times.designer.vb">
+      <DependentUpon>FrmBiotechnologyboard_Times.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBiotechnologyboard_Times.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuyList.Designer.vb">
+      <DependentUpon>FrmBuyList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuyList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsumable.Designer.vb">
+      <DependentUpon>FrmConsumable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsumable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsumableIn.Designer.vb">
+      <DependentUpon>FrmConsumableIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsumableIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsumableLend.Designer.vb">
+      <DependentUpon>FrmConsumableLend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsumableLend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquConsumable.designer.vb">
+      <DependentUpon>FrmEquConsumable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquConsumable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentBorrow.Designer.vb">
+      <DependentUpon>FrmEquipmentBorrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentBorrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentDamage.Designer.vb">
+      <DependentUpon>FrmEquipmentDamage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentDamage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentLog.Designer.vb">
+      <DependentUpon>FrmEquipmentLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentManualApply.Designer.vb">
+      <DependentUpon>FrmEquipmentManualApply.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentManualApply.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipment.Designer.vb">
+      <DependentUpon>FrmEquipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentRepair.Designer.vb">
+      <DependentUpon>FrmEquipmentRepair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentRepair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentReqD.Designer.vb">
+      <DependentUpon>FrmEquipmentReqD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentReqD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentReturn.Designer.vb">
+      <DependentUpon>FrmEquipmentReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipmentStock.Designer.vb">
+      <DependentUpon>FrmEquipmentStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipmentStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquMaintenanceDay.designer.vb">
+      <DependentUpon>FrmEquMaintenanceDay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquMaintenanceDay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquMaintenanceMonth.designer.vb">
+      <DependentUpon>FrmEquMaintenanceMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquMaintenanceMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquMaintenanceType.Designer.vb">
+      <DependentUpon>FrmEquMaintenanceType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquMaintenanceType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquPartLink.Designer.vb">
+      <DependentUpon>FrmEquPartLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquPartLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEqupmentCategory.Designer.vb">
+      <DependentUpon>FrmEqupmentCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEqupmentCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLaserDailyInspection_Log.Designer.vb">
+      <DependentUpon>FrmLaserDailyInspection_Log.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLaserDailyInspection_Log.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeader.Designer.vb">
+      <DependentUpon>FrmLeader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLifecontrol.Designer.vb">
+      <DependentUpon>FrmLifecontrol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLifecontrol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineBorrow.Designer.vb">
+      <DependentUpon>FrmLineBorrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineBorrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineBorrowLog.Designer.vb">
+      <DependentUpon>FrmLineBorrowLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineBorrowLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceMonth.Designer.vb">
+      <DependentUpon>FrmAssetMaintenanceMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssetMaintenanceMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaintenanceDetails.Designer.vb">
+      <DependentUpon>FrmMaintenanceDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaintenanceDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaintenancePlan.Designer.vb">
+      <DependentUpon>FrmMaintenancePlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaintenancePlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaterialBaseQty.Designer.vb">
+      <DependentUpon>FrmMaterialBaseQty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaterialBaseQty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaterialReg.Designer.vb">
+      <DependentUpon>FrmMaterialReg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaterialReg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMJSMGK.Designer.vb">
+      <DependentUpon>FrmMJSMGK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMJSMGK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMoudleStorage.Designer.vb">
+      <DependentUpon>FrmMoudleStorage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMoudleStorage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldBasis.Designer.vb">
+      <DependentUpon>FrmMouldBasis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldBasis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldBasisLife.Designer.vb">
+      <DependentUpon>FrmMouldBasisLife.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldBasisLife.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldIn.Designer.vb">
+      <DependentUpon>FrmMouldIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldLife.Designer.vb">
+      <DependentUpon>FrmMouldLife.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldLife.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldManagement.Designer.vb">
+      <DependentUpon>FrmMouldManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldOut.Designer.vb">
+      <DependentUpon>FrmMouldOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldPic.Designer.vb">
+      <DependentUpon>FrmMouldPic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldPic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldRepair.Designer.vb">
+      <DependentUpon>FrmMouldRepair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldRepair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouldSetForm.Designer.vb">
+      <DependentUpon>FrmMouldSetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMouldSetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductEquipment.Designer.vb">
+      <DependentUpon>FrmProductEquipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductEquipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionLineBoard.Designer.vb">
+      <DependentUpon>FrmProductionLineBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionLineBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReg.Designer.vb">
+      <DependentUpon>FrmReg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegLog.Designer.vb">
+      <DependentUpon>FrmRegLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectLine.Designer.vb">
+      <DependentUpon>FrmSelectLine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectLine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowEquList.Designer.vb">
+      <DependentUpon>FrmShowEquList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowEquList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmslotdetails.Designer.vb">
+      <DependentUpon>Frmslotdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmslotdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWireslot.Designer.vb">
+      <DependentUpon>FrmWireslot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWireslot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAccessquery.resx">
+      <DependentUpon>FrmAccessquery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetMaintenanceLog.resx">
+      <DependentUpon>FrmAssetMaintenanceLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetNonDayMaintenance.resx">
+      <DependentUpon>FrmAssetNonDayMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoMadeData.resx">
+      <DependentUpon>FrmAutoMadeData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAsset.resx">
+      <DependentUpon>FrmAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetLend.resx">
+      <DependentUpon>FrmAssetLend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetLendBorrow.resx">
+      <DependentUpon>FrmAssetLendBorrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetLendBorrowLog.resx">
+      <DependentUpon>FrmAssetLendBorrowLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetMaintenanceDay.resx">
+      <DependentUpon>FrmAssetMaintenanceDay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetMaintenanceType.resx">
+      <DependentUpon>FrmAssetMaintenanceType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetReturn.resx">
+      <DependentUpon>FrmAssetReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBiotechnologyboard.resx">
+      <DependentUpon>FrmBiotechnologyboard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBiotechnologyboard_Times.resx">
+      <DependentUpon>FrmBiotechnologyboard_Times.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuyList.resx">
+      <DependentUpon>FrmBuyList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsumable.resx">
+      <DependentUpon>FrmConsumable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsumableIn.resx">
+      <DependentUpon>FrmConsumableIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsumableLend.resx">
+      <DependentUpon>FrmConsumableLend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquConsumable.resx">
+      <DependentUpon>FrmEquConsumable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentBorrow.resx">
+      <DependentUpon>FrmEquipmentBorrow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentDamage.resx">
+      <DependentUpon>FrmEquipmentDamage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentLog.resx">
+      <DependentUpon>FrmEquipmentLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentManualApply.resx">
+      <DependentUpon>FrmEquipmentManualApply.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipment.resx">
+      <DependentUpon>FrmEquipment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentRepair.resx">
+      <DependentUpon>FrmEquipmentRepair.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentReqD.resx">
+      <DependentUpon>FrmEquipmentReqD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentReturn.resx">
+      <DependentUpon>FrmEquipmentReturn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipmentStock.resx">
+      <DependentUpon>FrmEquipmentStock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquMaintenanceDay.resx">
+      <DependentUpon>FrmEquMaintenanceDay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquMaintenanceMonth.resx">
+      <DependentUpon>FrmEquMaintenanceMonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquMaintenanceType.resx">
+      <DependentUpon>FrmEquMaintenanceType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquPartLink.resx">
+      <DependentUpon>FrmEquPartLink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEqupmentCategory.resx">
+      <DependentUpon>FrmEqupmentCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLaserDailyInspection_Log.resx">
+      <DependentUpon>FrmLaserDailyInspection_Log.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeader.resx">
+      <DependentUpon>FrmLeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLifecontrol.resx">
+      <DependentUpon>FrmLifecontrol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineBorrow.resx">
+      <DependentUpon>FrmLineBorrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineBorrowLog.resx">
+      <DependentUpon>FrmLineBorrowLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssetMaintenanceMonth.resx">
+      <DependentUpon>FrmAssetMaintenanceMonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaintenanceDetails.resx">
+      <DependentUpon>FrmMaintenanceDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaintenancePlan.resx">
+      <DependentUpon>FrmMaintenancePlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaterialBaseQty.resx">
+      <DependentUpon>FrmMaterialBaseQty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaterialReg.resx">
+      <DependentUpon>FrmMaterialReg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMJSMGK.resx">
+      <DependentUpon>FrmMJSMGK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMoudleStorage.resx">
+      <DependentUpon>FrmMoudleStorage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldBasis.resx">
+      <DependentUpon>FrmMouldBasis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldBasisLife.resx">
+      <DependentUpon>FrmMouldBasisLife.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldIn.resx">
+      <DependentUpon>FrmMouldIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldLife.resx">
+      <DependentUpon>FrmMouldLife.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldManagement.resx">
+      <DependentUpon>FrmMouldManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldOut.resx">
+      <DependentUpon>FrmMouldOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldPic.resx">
+      <DependentUpon>FrmMouldPic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldRepair.resx">
+      <DependentUpon>FrmMouldRepair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouldSetForm.resx">
+      <DependentUpon>FrmMouldSetForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductEquipment.resx">
+      <DependentUpon>FrmProductEquipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionLineBoard.resx">
+      <DependentUpon>FrmProductionLineBoard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReg.resx">
+      <DependentUpon>FrmReg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegLog.resx">
+      <DependentUpon>FrmRegLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectLine.resx">
+      <DependentUpon>FrmSelectLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowEquList.resx">
+      <DependentUpon>FrmShowEquList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmslotdetails.resx">
+      <DependentUpon>Frmslotdetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWireslot.resx">
+      <DependentUpon>FrmWireslot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EquipmentManage.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{ec017007-adae-4cae-ac78-1f0a18a798f4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5ca79a79-689e-4c76-92ad-b2d7aa71da22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

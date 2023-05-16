@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MesWarehouseManage">
+</Property><Property Name="解决方案文件" Value="D:\软件\ouxiangfeng\mes\NMES System\NMES System\NMES System\NewWarehouseManage\MesWarehouseManage.sln">
+</Property><Property Name="Date" Value="2014年6月23日">
+</Property><Property Name="Time" Value="13:19">
+</Property></Properties><Event ErrorLevel="0" Project="MesWarehouseManage" Source="MesStorgeManage\MesWarehouseManage.vbproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="MesWarehouseManage" Source="MesStorgeManage\MesWarehouseManage.vbproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="MesWarehouseManage.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="MesWarehouseManage.sln" Description="Converted">
+</Event></UpgradeLog>

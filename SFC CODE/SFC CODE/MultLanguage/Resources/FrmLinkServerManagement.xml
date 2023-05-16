@@ -1,0 +1,180 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>btnAdd</Control_Id>
+    <Chs_Desc>添加</Chs_Desc>
+    <Cht_Desc>添加</Cht_Desc>
+    <En_Desc>Add</En_Desc>
+    <En_Full_Desc>Add</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnDelete</Control_Id>
+    <Chs_Desc>删除</Chs_Desc>
+    <Cht_Desc>刪除</Cht_Desc>
+    <En_Desc>Delete</En_Desc>
+    <En_Full_Desc>Delete</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnDisabled</Control_Id>
+    <Chs_Desc>停用</Chs_Desc>
+    <Cht_Desc>停用</Cht_Desc>
+    <En_Desc>Stop</En_Desc>
+    <En_Full_Desc>Stop</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnEdit</Control_Id>
+    <Chs_Desc>修改</Chs_Desc>
+    <Cht_Desc>修改</Cht_Desc>
+    <En_Desc>Modify</En_Desc>
+    <En_Full_Desc>Modify</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnEnable</Control_Id>
+    <Chs_Desc>启用</Chs_Desc>
+    <Cht_Desc>啟用</Cht_Desc>
+    <En_Desc>Start</En_Desc>
+    <En_Full_Desc>Start</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnQuery</Control_Id>
+    <Chs_Desc>查询</Chs_Desc>
+    <Cht_Desc>查詢</Cht_Desc>
+    <En_Desc>Query</En_Desc>
+    <En_Full_Desc>Query</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_0</Control_Id>
+    <Chs_Desc>LinkServerId</Chs_Desc>
+    <Cht_Desc>LinkServerId</Cht_Desc>
+    <En_Desc>LinkServerId</En_Desc>
+    <En_Full_Desc>LinkServerId</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_1</Control_Id>
+    <Chs_Desc>服务器名称</Chs_Desc>
+    <Cht_Desc>服務器名稱</Cht_Desc>
+    <En_Desc>Server Name</En_Desc>
+    <En_Full_Desc>Server Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_2</Control_Id>
+    <Chs_Desc>登录用户名</Chs_Desc>
+    <Cht_Desc>登錄用戶名</Cht_Desc>
+    <En_Desc>Login User</En_Desc>
+    <En_Full_Desc>Login User</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_3</Control_Id>
+    <Chs_Desc>说明</Chs_Desc>
+    <Cht_Desc>說明</Cht_Desc>
+    <En_Desc>Instructions</En_Desc>
+    <En_Full_Desc>Instructions</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_4</Control_Id>
+    <Chs_Desc>状态</Chs_Desc>
+    <Cht_Desc>狀態</Cht_Desc>
+    <En_Desc>Status</En_Desc>
+    <En_Full_Desc>Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_5</Control_Id>
+    <Chs_Desc>新增人</Chs_Desc>
+    <Cht_Desc>新增人</Cht_Desc>
+    <En_Desc>Added Man</En_Desc>
+    <En_Full_Desc>Added Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_6</Control_Id>
+    <Chs_Desc>新增时间</Chs_Desc>
+    <Cht_Desc>新增時間</Cht_Desc>
+    <En_Desc>Added Time</En_Desc>
+    <En_Full_Desc>Added Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_7</Control_Id>
+    <Chs_Desc>更新人</Chs_Desc>
+    <Cht_Desc>更新人</Cht_Desc>
+    <En_Desc>Update Man</En_Desc>
+    <En_Full_Desc>Update Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvLinkServer_8</Control_Id>
+    <Chs_Desc>更新时间</Chs_Desc>
+    <Cht_Desc>更新時間</Cht_Desc>
+    <En_Desc>Update Time</En_Desc>
+    <En_Full_Desc>Update Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmLinkServerManagement</Control_Id>
+    <Chs_Desc>链接数据库设置</Chs_Desc>
+    <Cht_Desc>鏈接數據庫設置</Cht_Desc>
+    <En_Desc>Linked Database</En_Desc>
+    <En_Full_Desc>Link.DB.setup</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+</NewDataSet>

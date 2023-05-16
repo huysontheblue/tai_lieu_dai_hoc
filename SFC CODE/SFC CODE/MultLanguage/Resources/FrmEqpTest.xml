@@ -1,0 +1,383 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>Button1</Control_Id>
+    <Chs_Desc>Read</Chs_Desc>
+    <Cht_Desc>Read</Cht_Desc>
+    <En_Desc>Reading</En_Desc>
+    <En_Full_Desc>Reading</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button2</Control_Id>
+    <Chs_Desc>Write</Chs_Desc>
+    <Cht_Desc>Write</Cht_Desc>
+    <En_Desc>Write</En_Desc>
+    <En_Full_Desc>Write</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>CheckBox1</Control_Id>
+    <Chs_Desc>标准波特率</Chs_Desc>
+    <Cht_Desc>標準波特率</Cht_Desc>
+    <En_Desc>Standard Buad Rate</En_Desc>
+    <En_Full_Desc>Standard BuadRate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkFalse</Control_Id>
+    <Chs_Desc>数据校验</Chs_Desc>
+    <Cht_Desc>數據校驗</Cht_Desc>
+    <En_Desc>Data Verify</En_Desc>
+    <En_Full_Desc>DataVerify</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>chkSync</Control_Id>
+    <Chs_Desc>同步</Chs_Desc>
+    <Cht_Desc>同步</Cht_Desc>
+    <En_Desc>Sync.</En_Desc>
+    <En_Full_Desc>Sync.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTestRecord_0</Control_Id>
+    <Chs_Desc>工站编号</Chs_Desc>
+    <Cht_Desc>工站編號</Cht_Desc>
+    <En_Desc>Station ID</En_Desc>
+    <En_Full_Desc>Station ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTestRecord_1</Control_Id>
+    <Chs_Desc>条码序号</Chs_Desc>
+    <Cht_Desc>條碼序號</Cht_Desc>
+    <En_Desc>Barcode Seq</En_Desc>
+    <En_Full_Desc>Barcode Sequence</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTestRecord_2</Control_Id>
+    <Chs_Desc>测试结果</Chs_Desc>
+    <Cht_Desc>測試結果</Cht_Desc>
+    <En_Desc>Test Result</En_Desc>
+    <En_Full_Desc>Test Result</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTestRecord_3</Control_Id>
+    <Chs_Desc>测试人员</Chs_Desc>
+    <Cht_Desc>測試人員</Cht_Desc>
+    <En_Desc>Test Man</En_Desc>
+    <En_Full_Desc>Test Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTestRecord_4</Control_Id>
+    <Chs_Desc>测试时间</Chs_Desc>
+    <Cht_Desc>測試時間</Cht_Desc>
+    <En_Desc>Test Time</En_Desc>
+    <En_Full_Desc>Test Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmEqpTest</Control_Id>
+    <Chs_Desc>机台测试作业</Chs_Desc>
+    <Cht_Desc>機臺測試作業</Cht_Desc>
+    <En_Desc>Machine Testing</En_Desc>
+    <En_Full_Desc>TestMachine</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc>条码扫描作业</Chs_Desc>
+    <Cht_Desc>條碼掃描作業</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>产品条码序号：</Chs_Desc>
+    <Cht_Desc>產品條碼序號：</Cht_Desc>
+    <En_Desc>Product Code No.</En_Desc>
+    <En_Full_Desc>Prod.BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>测试工站：</Chs_Desc>
+    <Cht_Desc>測試工站：</Cht_Desc>
+    <En_Desc>Testing Site</En_Desc>
+    <En_Full_Desc>TestStation</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>线别编号：</Chs_Desc>
+    <Cht_Desc>線別編號：</Cht_Desc>
+    <En_Desc>Lines No.</En_Desc>
+    <En_Full_Desc>LinesNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>接收方式：</Chs_Desc>
+    <Cht_Desc>接收方式：</Cht_Desc>
+    <En_Desc>Receive Method</En_Desc>
+    <En_Full_Desc>ReceiveWay</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc>读取方式：</Chs_Desc>
+    <Cht_Desc>讀取方式：</Cht_Desc>
+    <En_Desc>Reading Method</En_Desc>
+    <En_Full_Desc>ReadingWay</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label14</Control_Id>
+    <Chs_Desc>转换条码序号：</Chs_Desc>
+    <Cht_Desc>轉換條碼序號：</Cht_Desc>
+    <En_Desc>Switch Barcode No.</En_Desc>
+    <En_Full_Desc>Switch BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label15</Control_Id>
+    <Chs_Desc>开始时间：</Chs_Desc>
+    <Cht_Desc>開始時間：</Cht_Desc>
+    <En_Desc>Start Time</En_Desc>
+    <En_Full_Desc>StartTime</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label16</Control_Id>
+    <Chs_Desc>数量：</Chs_Desc>
+    <Cht_Desc>數量：</Cht_Desc>
+    <En_Desc>Qty.</En_Desc>
+    <En_Full_Desc>Qty.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label17</Control_Id>
+    <Chs_Desc>工作线别：</Chs_Desc>
+    <Cht_Desc>工作線別：</Cht_Desc>
+    <En_Desc>Production Lines</En_Desc>
+    <En_Full_Desc>WorkLines</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>P/N</En_Desc>
+    <En_Full_Desc>P/N</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>当前扫描工站：</Chs_Desc>
+    <Cht_Desc>當前掃描工站：</Cht_Desc>
+    <En_Desc>Current Scan Site</En_Desc>
+    <En_Full_Desc>Current ScanSite</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>通信端口：</Chs_Desc>
+    <Cht_Desc>通信端口：</Cht_Desc>
+    <En_Desc>Communication Port</En_Desc>
+    <En_Full_Desc>Communi.Port</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>波特率：</Chs_Desc>
+    <Cht_Desc>波特率：</Cht_Desc>
+    <En_Desc>Buad Rate</En_Desc>
+    <En_Full_Desc>BuadRate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>校验位：</Chs_Desc>
+    <Cht_Desc>校驗位：</Cht_Desc>
+    <En_Desc>Check Bit</En_Desc>
+    <En_Full_Desc>CheckBit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>数据位：</Chs_Desc>
+    <Cht_Desc>數據位：</Cht_Desc>
+    <En_Desc>Data Bits</En_Desc>
+    <En_Full_Desc>DataBits</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>停止位：</Chs_Desc>
+    <Cht_Desc>停止位：</Cht_Desc>
+    <En_Desc>Stop Bits</En_Desc>
+    <En_Full_Desc>StopBits</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>接收到的信息：</Chs_Desc>
+    <Cht_Desc>接收到的信息：</Cht_Desc>
+    <En_Desc>Received Info.</En_Desc>
+    <En_Full_Desc>ReceivedInfo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Lbl1</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO No.</En_Desc>
+    <En_Full_Desc>Manufacture Order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Lblmessage</Control_Id>
+    <Chs_Desc>Ready...</Chs_Desc>
+    <Cht_Desc>Ready...</Cht_Desc>
+    <En_Desc>Readingy…</En_Desc>
+    <En_Full_Desc>Readingy…</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblResult</Control_Id>
+    <Chs_Desc>PASS</Chs_Desc>
+    <Cht_Desc>PASS</Cht_Desc>
+    <En_Desc>PASS</En_Desc>
+    <En_Full_Desc>PASS</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolAddNew</Control_Id>
+    <Chs_Desc>设置通讯信息(&amp;S)</Chs_Desc>
+    <Cht_Desc>設置通訊信息(&amp;S)</Cht_Desc>
+    <En_Desc>Setup Contact Info.(&amp;S)</En_Desc>
+    <En_Full_Desc>Setup ContactInfo.(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolBack</Control_Id>
+    <Chs_Desc>返回(&amp;B)</Chs_Desc>
+    <Cht_Desc>返回(&amp;B)</Cht_Desc>
+    <En_Desc>Back(&amp;B)</En_Desc>
+    <En_Full_Desc>Back(&amp;B)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolCommit</Control_Id>
+    <Chs_Desc>提交(&amp;C)</Chs_Desc>
+    <Cht_Desc>提交(&amp;C)</Cht_Desc>
+    <En_Desc>Commit(&amp;C)</En_Desc>
+    <En_Full_Desc>Commit(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolDelTask</Control_Id>
+    <Chs_Desc>关闭端口(&amp;D)</Chs_Desc>
+    <Cht_Desc>關閉端口(&amp;D)</Cht_Desc>
+    <En_Desc>Shutdown(&amp;D)</En_Desc>
+    <En_Full_Desc>Shutdown(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolEditTask</Control_Id>
+    <Chs_Desc>保存设置资料(&amp;E)</Chs_Desc>
+    <Cht_Desc>保存設置資料(&amp;E)</Cht_Desc>
+    <En_Desc>Save Setting Info.(&amp;E)</En_Desc>
+    <En_Full_Desc>Save SetupInfo.(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExitFrom</Control_Id>
+    <Chs_Desc>退出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolFinish</Control_Id>
+    <Chs_Desc>打印完成(&amp;A)</Chs_Desc>
+    <Cht_Desc>打印完成(&amp;A)</Cht_Desc>
+    <En_Desc>Print Finish(&amp;A)</En_Desc>
+    <En_Full_Desc>PrintFinish(&amp;A)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolPrt</Control_Id>
+    <Chs_Desc>打印(&amp;P)</Chs_Desc>
+    <Cht_Desc>打印(&amp;P)</Cht_Desc>
+    <En_Desc>Print(&amp;P)</En_Desc>
+    <En_Full_Desc>Print(&amp;P)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolRefresh</Control_Id>
+    <Chs_Desc>刷新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷新(&amp;R)</Cht_Desc>
+    <En_Desc>Refresh(&amp;R)</En_Desc>
+    <En_Full_Desc>Refresh(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripButton1</Control_Id>
+    <Chs_Desc>查看</Chs_Desc>
+    <Cht_Desc>查看</Cht_Desc>
+    <En_Desc>View</En_Desc>
+    <En_Full_Desc>View</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel1</Control_Id>
+    <Chs_Desc>扫描人员：</Chs_Desc>
+    <Cht_Desc>掃描人員：</Cht_Desc>
+    <En_Desc>Scan Man:</En_Desc>
+    <En_Full_Desc>Scanning personnel:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

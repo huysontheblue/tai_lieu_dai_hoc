@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312"?>
+<filelist>
+  <isconsap>0</isconsap>
+  <ServerName>3110-立讯精密（义安）有限公司</ServerName>
+  <ProfitCenter>02J0(义安立讯BU2-保税)</ProfitCenter>
+  <UserName>11607857</UserName>
+  <SystemIP>data source=10.173.2.231;initial catalog=MESDB;uid=sfcuser;pwd=013012068009067051026008004090069083030</SystemIP>
+  <PrintFile>\\192.168.20.123\PrintFile2\</PrintFile>
+  <PrintData>D:\p01</PrintData>
+  <IsLinkErp>N</IsLinkErp>
+  <TestServer>172.17.32.13</TestServer>
+  <TestPFile>\\172.17.32.13\PrintFile\</TestPFile>
+  <ErpServer>192.168.200.26</ErpServer>
+  <Version>2016/01/30 12:04:33</Version>
+  <language>简体中文</language>
+  <AutoLogin>0</AutoLogin>
+  <SopFile>\\192.168.20.123\SopFile\</SopFile>
+  <systemipBak>data source=10.173.2.231;initial catalog=MESDB;uid=sfcuser;pwd=013012068009067051026008004090069083030</systemipBak>
+  <HelpCenter>
+    <Factory>LXXT-东莞讯滔</Factory>
+    <Type>01-设备问题,02-系统问题,03-网络问题</Type>
+    <FilePath>\\192.168.20.123\HelpCenter\IssueFile\</FilePath>
+    <FileMaxSize_MB>2</FileMaxSize_MB>
+    <SendEmail>Y</SendEmail>
+    <EmailAddressee>MES.IMS@luxshare-ict.com</EmailAddressee>
+    <EmailCC>Aimee.Lu@luxshare-ict.com</EmailCC>
+  </HelpCenter>
+</filelist>

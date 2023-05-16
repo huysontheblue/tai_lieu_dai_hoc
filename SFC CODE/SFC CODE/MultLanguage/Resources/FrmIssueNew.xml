@@ -1,0 +1,180 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BtnExit</Control_Id>
+    <Chs_Desc>退 出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退 出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BtnOpenFile</Control_Id>
+    <Chs_Desc>浏览</Chs_Desc>
+    <Cht_Desc>瀏覽</Cht_Desc>
+    <En_Desc>Skim</En_Desc>
+    <En_Full_Desc>Skim</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BtnReset</Control_Id>
+    <Chs_Desc>重置(&amp;R)</Chs_Desc>
+    <Cht_Desc>重置(&amp;R)</Cht_Desc>
+    <En_Desc>Reset(&amp;R)</En_Desc>
+    <En_Full_Desc>Reset(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BtnSave</Control_Id>
+    <Chs_Desc>保 存(&amp;S)</Chs_Desc>
+    <Cht_Desc>保 存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmIssueNew</Control_Id>
+    <Chs_Desc>新建问题</Chs_Desc>
+    <Cht_Desc>新建問題</Cht_Desc>
+    <En_Desc>Newbuild Question</En_Desc>
+    <En_Full_Desc>Newbuild Question</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>联系人:</Chs_Desc>
+    <Cht_Desc>聯系人:</Cht_Desc>
+    <En_Desc>Linkman</En_Desc>
+    <En_Full_Desc>Linkman</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>联系电话:</Chs_Desc>
+    <Cht_Desc>聯系電話:</Cht_Desc>
+    <En_Desc>Contact No.</En_Desc>
+    <En_Full_Desc>ContactNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>问题详情:</Chs_Desc>
+    <Cht_Desc>問題詳情:</Cht_Desc>
+    <En_Desc>Problem Details</En_Desc>
+    <En_Full_Desc>Probl.Details</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>邮件地址:</Chs_Desc>
+    <Cht_Desc>郵件地址:</Cht_Desc>
+    <En_Desc>Email Address</En_Desc>
+    <En_Full_Desc>MailAddress</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>附件资料:</Chs_Desc>
+    <Cht_Desc>附件資料:</Cht_Desc>
+    <En_Desc>Attached Info.</En_Desc>
+    <En_Full_Desc>Attach.Info.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>咨询编号:</Chs_Desc>
+    <Cht_Desc>咨詢編號:</Cht_Desc>
+    <En_Desc>Query No.</En_Desc>
+    <En_Full_Desc>Query No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>问题摘要:</Chs_Desc>
+    <Cht_Desc>問題摘要:</Cht_Desc>
+    <En_Desc>Problem Abstract</En_Desc>
+    <En_Full_Desc>Probl.Abstract</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPartID</Control_Id>
+    <Chs_Desc>类别:</Chs_Desc>
+    <Cht_Desc>類別:</Cht_Desc>
+    <En_Desc>Type</En_Desc>
+    <En_Full_Desc>Category</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LelTpart</Control_Id>
+    <Chs_Desc>厂区:</Chs_Desc>
+    <Cht_Desc>廠區:</Cht_Desc>
+    <En_Desc>Plant</En_Desc>
+    <En_Full_Desc>Plant</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+</NewDataSet>

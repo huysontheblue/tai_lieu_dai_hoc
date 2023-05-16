@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProgramRelease
+</name>
+</assembly>
+<members>
+<member name="P:ProgramRelease.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.add">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.back">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.check">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.Confirm">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.control_pause_blue">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.control_play_blue">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.delete">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.edit">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.mmmmm2">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.print">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.query">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.save">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.tree">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:ProgramRelease.My.Resources.Resources.z_2">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="T:ProgramRelease.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+</members>
+</doc>

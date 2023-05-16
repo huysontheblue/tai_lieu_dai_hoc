@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>CkbYesOrNo</Control_Id>
+    <Chs_Desc>有效否</Chs_Desc>
+    <Cht_Desc>有效否</Cht_Desc>
+    <En_Desc>
+Effective</En_Desc>
+    <En_Full_Desc>
+Effective</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_0</Control_Id>
+    <Chs_Desc>id</Chs_Desc>
+    <Cht_Desc>id</Cht_Desc>
+    <En_Desc>id</En_Desc>
+    <En_Full_Desc>id</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_1</Control_Id>
+    <Chs_Desc>类型代码</Chs_Desc>
+    <Cht_Desc>類型代碼</Cht_Desc>
+    <En_Desc>Style Code</En_Desc>
+    <En_Full_Desc>Style Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_2</Control_Id>
+    <Chs_Desc>类型名称</Chs_Desc>
+    <Cht_Desc>類型名稱</Cht_Desc>
+    <En_Desc>Style Name</En_Desc>
+    <En_Full_Desc>Style Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_3</Control_Id>
+    <Chs_Desc>公共密码</Chs_Desc>
+    <Cht_Desc>公共密碼</Cht_Desc>
+    <En_Desc>Public Pwd</En_Desc>
+    <En_Full_Desc>Public Password</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_4</Control_Id>
+    <Chs_Desc>有效否</Chs_Desc>
+    <Cht_Desc>有效否</Cht_Desc>
+    <En_Desc>
+Effective</En_Desc>
+    <En_Full_Desc>
+Effective</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_5</Control_Id>
+    <Chs_Desc>用户ID</Chs_Desc>
+    <Cht_Desc>用戶ID</Cht_Desc>
+    <En_Desc>UserID</En_Desc>
+    <En_Full_Desc>UserID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_6</Control_Id>
+    <Chs_Desc>时间</Chs_Desc>
+    <Cht_Desc>時間</Cht_Desc>
+    <En_Desc>Time</En_Desc>
+    <En_Full_Desc>Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmSuperPwd</Control_Id>
+    <Chs_Desc>公共解锁密码维护</Chs_Desc>
+    <Cht_Desc>公共解鎖密碼維護</Cht_Desc>
+    <En_Desc>Public Unlock Pwd</En_Desc>
+    <En_Full_Desc>Public Unlock Password Maintenance</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>密    码：</Chs_Desc>
+    <Cht_Desc>密    碼：</Cht_Desc>
+    <En_Desc>Pwd：</En_Desc>
+    <En_Full_Desc>Password：</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>密码类型：</Chs_Desc>
+    <Cht_Desc>密碼類型：</Cht_Desc>
+    <En_Desc>Pwd Type:</En_Desc>
+    <En_Full_Desc>Password Type:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel1</Control_Id>
+    <Chs_Desc>记录笔数:</Chs_Desc>
+    <Cht_Desc>記錄筆數:</Cht_Desc>
+    <En_Desc>Rec Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel3</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbClose</Control_Id>
+    <Chs_Desc>退出(&amp;C)</Chs_Desc>
+    <Cht_Desc>退出(&amp;C)</Cht_Desc>
+    <En_Desc>Exit(&amp;C)</En_Desc>
+    <En_Full_Desc>Exit(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbDelete</Control_Id>
+    <Chs_Desc>刪除(&amp;D)</Chs_Desc>
+    <Cht_Desc>刪除(&amp;D)</Cht_Desc>
+    <En_Desc>Delete(&amp;D)</En_Desc>
+    <En_Full_Desc>Delete(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbNew</Control_Id>
+    <Chs_Desc>新增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新增(&amp;N)</Cht_Desc>
+    <En_Desc>New(&amp;N)</En_Desc>
+    <En_Full_Desc>New(&amp;N)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbQuery</Control_Id>
+    <Chs_Desc>查詢(&amp;Q)</Chs_Desc>
+    <Cht_Desc>查詢(&amp;Q)</Cht_Desc>
+    <En_Desc>Query(&amp;Q)</En_Desc>
+    <En_Full_Desc>Query(&amp;Q)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbRefresh</Control_Id>
+    <Chs_Desc>刷新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷新(&amp;R)</Cht_Desc>
+    <En_Desc>Refresh(&amp;R)</En_Desc>
+    <En_Full_Desc>Refresh(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbReturn</Control_Id>
+    <Chs_Desc>返回(&amp;B)</Chs_Desc>
+    <Cht_Desc>返回(&amp;B)</Cht_Desc>
+    <En_Desc>Back(&amp;B)</En_Desc>
+    <En_Full_Desc>Back(&amp;B)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbSave</Control_Id>
+    <Chs_Desc>儲存(&amp;S)</Chs_Desc>
+    <Cht_Desc>儲存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbUpdate</Control_Id>
+    <Chs_Desc>修改(&amp;U)</Chs_Desc>
+    <Cht_Desc>修改(&amp;U)</Cht_Desc>
+    <En_Desc>Modify(&amp;U)</En_Desc>
+    <En_Full_Desc>Modify(&amp;U)</En_Full_Desc>
+  </Table>
+</NewDataSet>

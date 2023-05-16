@@ -1,0 +1,15 @@
+import cv2
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+img1 = cv2.blur(img,(3,3))
+gray = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY) 
+
+img2 = cv2.Laplacian(gray,cv2.CV_64F,ksize=3)
+
+result = cv2.convertScaleAbs(img2)
+cv2.imshow( 'Anh goc',img)
+cv2.imshow('Anh tach bien',result)
+cv2.imwrite("anh_lap.jpg",result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+

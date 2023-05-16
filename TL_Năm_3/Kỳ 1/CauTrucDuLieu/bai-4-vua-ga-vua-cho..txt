@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+inline int so_chan(int c) {
+    return 2*c+4*(36-c);
+}
+int main()
+{
+    int ans = -1;           // ans: so con ga, 36-c: so con cho
+    int left = 0, right = 36;
+    while (left <= right) {
+        int mid = (left+right)/2;
+        if (so_chan(mid) == 100) {
+            ans = mid;
+            break;
+        }
+        else if (so_chan(mid) < 100)
+            right = mid-1;
+        else
+            left = mid+1;
+    }
+    if (ans+1)
+        cout << "So con ga: " << ans << endl << "So con cho: " << (36-ans) << endl;
+    else
+        cout << "Bai toan khong co nghiem" << endl;
+    return 0;
+}

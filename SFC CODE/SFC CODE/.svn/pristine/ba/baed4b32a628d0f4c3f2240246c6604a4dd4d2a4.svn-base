@@ -1,0 +1,788 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UpdateConsole
+</name>
+</assembly>
+<members>
+<member name="T:UpdateConsole.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.ResourceManager">
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.Culture">
+<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.close">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.Close1">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.collapse_large_orange">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.expand_large_orange">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.G">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.L">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.Loading">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.Logo">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.minimize">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.minus">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.notification_wireless_disconnected">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:UpdateConsole.My.Resources.Resources.preferences_system_network">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="T:UpdateConsole.Common">
+ <summary>
+ 通用程序处理类
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:UpdateConsole.Common.GetFileVersion(System.Object@)">
+ <summary>
+ 说明：获取文件的版本信息
+ 作者：陈忠阳
+ </summary>
+ <param name="filePath">文件路径</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:UpdateConsole.Common.ByteSaveAsFile(System.Byte[]@,System.String@)">
+ <summary>
+ 保存文件流到指定目录
+ </summary>
+ <param name="fileByte"></param>
+ <param name="destinationFilePath"></param>
+ <remarks></remarks>
+</member>
+<member name="M:UpdateConsole.Common.CompareFileVersion(System.Object,System.Object)">
+ <summary>
+ 文件版本大小比较
+ </summary>
+ <param name="minVersion"></param>
+ <param name="maxVersion"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.GetConnString">
+ <summary>
+ 数据库密码全部使用加密字符串,从外部传入，为了不影响现有配置文件，目前写死的这些链接保留，以后新增SQL链接，不再修改MainFrame，直接从外部传入加密字符串  by hs ke 20140617
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.MakeParam(System.String,System.Data.SqlDbType,System.Object,System.Int32,System.Data.ParameterDirection,System.Int32)">
+ <summary>
+ 造一个存储过程的参数
+ </summary>
+ <param name="PName">参数名称</param>
+ <param name="PType">参数类型</param>
+ <param name="PValue">参数值</param>
+ <param name="PSize">参数SIZE</param>
+ <param name="PDirection">参数方向</param>
+ <param name="Scale">参数精确度</param>
+ <returns>返回参数</returns>
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.MakeParamN(System.String,System.Data.SqlDbType,System.Int32,System.Data.ParameterDirection,System.Int32)">
+ <summary>
+ 造一个存储过程的空白参数
+ </summary>
+ <param name="PName">参数名称</param>
+ <param name="PType">参数类型</param>
+ <param name="PSize">参数SIZE</param>
+ <param name="PDirection">参数方向</param>
+ <param name="Scale">参数精确度</param>
+ <returns>返回参数</returns>
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.FillDataReaderBySql(System.String,System.Data.SqlClient.SqlDataReader@,System.Data.IDataParameter[]@)">
+ ＜summary＞
+ 执行SQL命令，并返回SqlDataReader
+ ＜/summary＞
+ ＜param name="sql"＞SQL命令＜/param＞
+ ＜param name="sqlReader"＞包含查询结果的SqlDataReader＜/param＞
+ ＜param name="parameters"＞SQL参数＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.FillDataReaderByProc(System.String,System.Data.SqlClient.SqlDataReader@,System.Object[])">
+ ＜summary＞
+ 执行存储过程，传入参数值的数组，返回SqlDataReader
+ ＜/summary＞
+ ＜param name="spName"＞存储过程名＜/param＞
+ ＜param name="sqlReader"＞包含查询结果的SqlDataReader＜/param＞
+ ＜param name="parameterValues"＞参数值＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.FillDataReaderByProc(System.String,System.Data.SqlClient.SqlDataReader@,System.Data.IDataParameter[])">
+ ＜summary＞
+ 执行存储，传入SQL参数，并返回SqlDataReader
+ ＜/summary＞
+ ＜param name="spName"＞存储过程名＜/param＞
+ ＜param name="sqlReader"＞包含查询结果的SqlDataReader＜/param＞
+ ＜param name="parameters"＞存储过程SQL参数＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.FillDataSetBySql(System.String,System.Data.DataSet@,System.Data.IDataParameter[],System.String)">
+ ＜summary＞
+ 执行SQL命令，并返回DataSeet
+ ＜/summary＞
+ ＜param name="sql"＞SQL命令＜/param＞
+ ＜param name="ds"＞包含查询结果的DATASET＜/param＞
+ ＜param name="parameters"＞SQL参数＜/param＞
+ ＜param name="TableName"＞DATASET TABLENAME＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.FillDataSetByProc(System.String,System.Data.DataSet@,System.String,System.Object[])">
+ ＜summary＞
+ 执行存储过程，传入参数值的数组，并返回DataSet
+ ＜/summary＞
+ ＜param name="ProcName"＞存储过程名称＜/param＞
+ ＜param name="ds"＞包含查询结果的DATASET＜/param＞
+ ＜param name="parameterValues"＞参数值＜/param＞
+ ＜param name="TableName"＞DATASET TABLENAME＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.FillDataSetByProc(System.String,System.Data.DataSet@,System.Data.IDataParameter[],System.String)">
+ ＜summary＞
+ 执行存储过程，传入SQL参数，并返回DataSet
+ ＜/summary＞
+ ＜param name="ProcName"＞存储过程名称＜/param＞
+ ＜param name="ds"＞包含查询结果的DATASET＜/param＞
+ ＜param name="parameters"＞存储过程SQL参数＜/param＞
+ ＜param name="TableName"＞DATASET TABLENAME＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.GetRowsCount(System.String)">
+ <summary>
+ 获取总页数
+ </summary>
+ <param name="strSql">SQL语句</param>
+ <returns>返回总页数</returns>
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.ConvertNullToNothing(System.Object)">
+ <summary>
+ 转换DBNULL为NOTHING
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.ExecuteNonQureyByProc(System.String,System.Data.SqlClient.SqlParameter[])">
+ ＜summary＞
+ 执行存储过程，只需传入参数值的数组
+ ＜/summary＞
+ ＜param name="spName"＞存储过程名＜/param＞
+ ＜param name="parameterValues"＞参数值＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.DbClass.SysDataHandle.SysDataBaseClass.ExecuteProcWithErrMsg(System.String,System.String@,System.Data.SqlClient.SqlParameter[])">
+ ＜summary＞
+ 执行存储过程，只需传入参数值的数组
+ ＜/summary＞
+ ＜param name="spName"＞存储过程名＜/param＞
+ ＜param name="parameterValues"＞参数值＜/param＞
+ ＜returns＞返回错误信息，为空表示执行成功＜/returns＞
+</member>
+<member name="M:UpdateConsole.SysCheckData.TextHandle.DeleteUnVisibleChar(System.String)">
+ <summary>
+ 功能描述：删除不可见字符。
+ </summary>
+ <param name="sourceString">原字符串</param>
+ <returns></returns>
+</member>
+<member name="M:UpdateConsole.SysCheckData.TextHandle.TraditionalChinese(System.String,System.Boolean)">
+為真時簡體轉換為繁體 否則繁體轉換為簡單
+</member>
+<member name="T:UpdateConsole.MesDataServices.MESDataServices">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.#ctor">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetDataFromSFCCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.InsertDataToSFCCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetTiptopBOMInfoCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetCheckEquipmentCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.ExecEquipmentUpdateCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetEncrytStringCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.InsertCADVersionCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetPLMECNCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetECNBomCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.ExecECNBomUpdateCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetSystemAddressCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetSettingCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetSFCFileCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.ExecMaterialIssueCompleted">
+<remarks/>
+</member>
+<member name="E:UpdateConsole.MesDataServices.MESDataServices.GetSFCStatusCompleted">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetDataFromSFC(System.String,UpdateConsole.MesDataServices.SqlParam[])">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetDataFromSFCAsync(System.String,UpdateConsole.MesDataServices.SqlParam[])">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetDataFromSFCAsync(System.String,UpdateConsole.MesDataServices.SqlParam[],System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.InsertDataToSFC(System.String,UpdateConsole.MesDataServices.SqlParam[],System.Boolean@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.InsertDataToSFCAsync(System.String,UpdateConsole.MesDataServices.SqlParam[])">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.InsertDataToSFCAsync(System.String,UpdateConsole.MesDataServices.SqlParam[],System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetTiptopBOMInfo(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetTiptopBOMInfoAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetTiptopBOMInfoAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetCheckEquipment(System.String,System.String,System.String,System.Boolean@,System.Boolean@,System.Int32@,System.Boolean@,System.Int32@,System.Boolean@,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetCheckEquipmentAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetCheckEquipmentAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecEquipmentUpdate(System.String,System.String,System.String,System.String,System.Boolean@,System.Boolean@,System.Int32@,System.Boolean@,System.Int32@,System.Boolean@,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecEquipmentUpdateAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecEquipmentUpdateAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetEncrytString(System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetEncrytStringAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetEncrytStringAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.InsertCADVersion(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean@,System.Boolean@,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.InsertCADVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.InsertCADVersionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetPLMECN(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetPLMECNAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetPLMECNAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetECNBom(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetECNBomAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetECNBomAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecECNBomUpdate(System.String,System.String,System.Data.DataTable,System.String,System.String,System.Boolean@,System.Boolean@,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecECNBomUpdateAsync(System.String,System.String,System.Data.DataTable,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecECNBomUpdateAsync(System.String,System.String,System.Data.DataTable,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSystemAddress(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSystemAddressAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSystemAddressAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSetting(System.String,System.String,System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSettingAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSettingAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSFCFile(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSFCFileAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSFCFileAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecMaterialIssue(System.String,System.String,System.String,System.String,System.String,System.Single@,System.Boolean@,System.Single@,System.Boolean@,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecMaterialIssueAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.ExecMaterialIssueAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSFCStatus(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSFCStatusAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.GetSFCStatusAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:UpdateConsole.MesDataServices.MESDataServices.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.SqlParam">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.SqlParam._dateType">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.SqlParam._fieldName">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.SqlParam._fieldValue">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.DbType">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.AnsiString">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Binary">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Byte">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Boolean">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Currency">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Date">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.DateTime">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Decimal">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Double">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Guid">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Int16">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Int32">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Int64">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Object">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.SByte">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Single">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.String">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Time">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.UInt16">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.UInt32">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.UInt64">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.VarNumeric">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.AnsiStringFixedLength">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.StringFixedLength">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.Xml">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.DateTime2">
+<remarks/>
+</member>
+<member name="F:UpdateConsole.MesDataServices.DbType.DateTimeOffset">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetDataFromSFCCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetDataFromSFCCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetDataFromSFCCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.InsertDataToSFCCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.InsertDataToSFCCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.InsertDataToSFCCompletedEventArgs.InsertDataToSFCResult">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.InsertDataToSFCCompletedEventArgs.InsertDataToSFCResultSpecified">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetTiptopBOMInfoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetTiptopBOMInfoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetTiptopBOMInfoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetTiptopBOMInfoCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetTiptopBOMInfoCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.GetCheckEquipmentResult">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.GetCheckEquipmentResultSpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.Quantity">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.QuantitySpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.ValidQuantity">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.ValidQuantitySpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetCheckEquipmentCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.ExecEquipmentUpdateResult">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.ExecEquipmentUpdateResultSpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.Quantity">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.QuantitySpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.ValidQuantity">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.ValidQuantitySpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecEquipmentUpdateCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetEncrytStringCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetEncrytStringCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetEncrytStringCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.InsertCADVersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.InsertCADVersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.InsertCADVersionCompletedEventArgs.InsertCADVersionResult">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.InsertCADVersionCompletedEventArgs.InsertCADVersionResultSpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.InsertCADVersionCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.InsertCADVersionCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetPLMECNCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetPLMECNCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetPLMECNCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetPLMECNCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetPLMECNCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetECNBomCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetECNBomCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetECNBomCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetECNBomCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetECNBomCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.ExecECNBomUpdateCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.ExecECNBomUpdateCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecECNBomUpdateCompletedEventArgs.ExecECNBomUpdateResult">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecECNBomUpdateCompletedEventArgs.ExecECNBomUpdateResultSpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecECNBomUpdateCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecECNBomUpdateCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSystemAddressCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSystemAddressCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSystemAddressCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSystemAddressCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSystemAddressCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSettingCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSettingCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSettingCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSettingCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSettingCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSFCFileCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSFCFileCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSFCFileCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSFCFileCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSFCFileCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.RequirementQuantity">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.RequirementQuantitySpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.TransactionQuantity">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.TransactionQuantitySpecified">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.ExecMaterialIssueCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSFCStatusCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:UpdateConsole.MesDataServices.GetSFCStatusCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSFCStatusCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSFCStatusCompletedEventArgs.rtValue">
+<remarks/>
+</member>
+<member name="P:UpdateConsole.MesDataServices.GetSFCStatusCompletedEventArgs.rtMsg">
+<remarks/>
+</member>
+</members>
+</doc>

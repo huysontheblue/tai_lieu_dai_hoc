@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71C8E041-FF45-4B9D-975D-E8D3CF414FA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RunCard</RootNamespace>
+    <AssemblyName>RunCard</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>RunCard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>RunCard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=5.3.1.0, Culture=neutral, PublicKeyToken=9ec0ff091d04b091, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=9.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\ShareFile\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL" />
+    <Reference Include="luxshare.RouteDesign, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\luxshare.RouteDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile_Public\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Pager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\ShareFile\Pager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxUL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\ShareFile\TextBoxUL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLotReportRegister.Designer.vb">
+      <DependentUpon>FrmLotReportRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotReportRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotScan.Designer.vb">
+      <DependentUpon>FrmLotScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotSplit.Designer.vb">
+      <DependentUpon>FrmLotSplit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotSplit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMaintainBom.Designer.vb">
+      <DependentUpon>FrmMaintainBom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMaintainBom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMoMain.Designer.vb">
+      <DependentUpon>FrmMoMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMoMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPartNumber.Designer.vb">
+      <DependentUpon>FrmPartNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPartNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintCard.Designer.vb">
+      <DependentUpon>FrmPrintCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessParametersImport.Designer.vb">
+      <DependentUpon>FrmProcessParametersImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessParametersImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessParametersMaintain.Designer.vb">
+      <DependentUpon>FrmProcessParametersMaintain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessParametersMaintain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRPartStation.designer.vb">
+      <DependentUpon>FrmRPartStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRPartStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRPartStationRules.Designer.vb">
+      <DependentUpon>FrmRPartStationRules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRPartStationRules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRStationSet.Designer.vb">
+      <DependentUpon>FrmRStationSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRStationSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCard.Designer.vb">
+      <DependentUpon>FrmRunCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardBodyEdit.Designer.vb">
+      <DependentUpon>FrmRunCardBodyEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardBodyEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardBodyModify.Designer.vb">
+      <DependentUpon>FrmRunCardBodyModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardBodyModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardCopy.Designer.vb">
+      <DependentUpon>FrmRunCardCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardHeaderEdit.Designer.vb">
+      <DependentUpon>FrmRunCardHeaderEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardHeaderEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardImportStation.Designer.vb">
+      <DependentUpon>FrmRunCardImportStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardImportStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardPartDetail.Designer.vb">
+      <DependentUpon>FrmRunCardPartDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardPartDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardQuery.Designer.vb">
+      <DependentUpon>FrmRunCardQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardShowPicture.Designer.vb">
+      <DependentUpon>FrmRunCardShowPicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardShowPicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardStationCopy.Designer.vb">
+      <DependentUpon>FrmRunCardStationCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardStationCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowPictureDetail.Designer.vb">
+      <DependentUpon>FrmShowPictureDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowPictureDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowRunCard.Designer.vb">
+      <DependentUpon>FrmShowRunCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowRunCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowRunCardDetail.Designer.vb">
+      <DependentUpon>FrmShowRunCardDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowRunCardDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStation.Designer.vb">
+      <DependentUpon>FrmStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStationCheckItemMaintaince.Designer.vb">
+      <DependentUpon>FrmStationCheckItemMaintaince.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStationCheckItemMaintaince.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserMaintaince.Designer.vb">
+      <DependentUpon>FrmUserMaintaince.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserMaintaince.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkSheet.Designer.vb">
+      <DependentUpon>FrmWorkSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkSheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWpartNumber.Designer.vb">
+      <DependentUpon>FrmWpartNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWpartNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelHelper.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web References\com.luxshare-ict.plm\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DcsWebReference\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmLotReportRegister.resx">
+      <DependentUpon>FrmLotReportRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotScan.resx">
+      <DependentUpon>FrmLotScan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotSplit.resx">
+      <DependentUpon>FrmLotSplit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMaintainBom.resx">
+      <DependentUpon>FrmMaintainBom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMoMain.resx">
+      <DependentUpon>FrmMoMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPartNumber.resx">
+      <DependentUpon>FrmPartNumber.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintCard.resx">
+      <DependentUpon>FrmPrintCard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessParametersImport.resx">
+      <DependentUpon>FrmProcessParametersImport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessParametersMaintain.resx">
+      <DependentUpon>FrmProcessParametersMaintain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRPartStation.resx">
+      <DependentUpon>FrmRPartStation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRPartStationRules.resx">
+      <DependentUpon>FrmRPartStationRules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRStationSet.resx">
+      <DependentUpon>FrmRStationSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCard.resx">
+      <DependentUpon>FrmRunCard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardBodyEdit.resx">
+      <DependentUpon>FrmRunCardBodyEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardBodyModify.resx">
+      <DependentUpon>FrmRunCardBodyModify.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardCopy.resx">
+      <DependentUpon>FrmRunCardCopy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardHeaderEdit.resx">
+      <DependentUpon>FrmRunCardHeaderEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardImportStation.resx">
+      <DependentUpon>FrmRunCardImportStation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardPartDetail.resx">
+      <DependentUpon>FrmRunCardPartDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardQuery.resx">
+      <DependentUpon>FrmRunCardQuery.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardShowPicture.resx">
+      <DependentUpon>FrmRunCardShowPicture.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardStationCopy.resx">
+      <DependentUpon>FrmRunCardStationCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowPictureDetail.resx">
+      <DependentUpon>FrmShowPictureDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowRunCard.resx">
+      <DependentUpon>FrmShowRunCard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowRunCardDetail.resx">
+      <DependentUpon>FrmShowRunCardDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStation.resx">
+      <DependentUpon>FrmStation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStationCheckItemMaintaince.resx">
+      <DependentUpon>FrmStationCheckItemMaintaince.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserMaintaince.resx">
+      <DependentUpon>FrmUserMaintaince.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkSheet.resx">
+      <DependentUpon>FrmWorkSheet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWpartNumber.resx">
+      <DependentUpon>FrmWpartNumber.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{EC017007-ADAE-4CAE-AC78-1F0A18A798F4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5ca79a79-689e-4c76-92ad-b2d7aa71da22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://elearning.luxshare-ict.com/axis/WorkStation.jws%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DcsWebReference\</RelPath>
+      <UpdateFromURL>http://elearning.luxshare-ict.com/axis/WorkStation.jws%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RunCard_DcsWebReference_WorkStationService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://plm.luxshare-ict.com/plmws/WebService1.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.luxshare-ict.plm\</RelPath>
+      <UpdateFromURL>http://plm.luxshare-ict.com/plmws/WebService1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RunCard_com_luxshare_ict_plm_WebService1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\com.luxshare-ict.plm\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\com.luxshare-ict.plm\WebService1.disco" />
+    <None Include="Web References\com.luxshare-ict.plm\WebService1.wsdl" />
+    <None Include="Web References\DcsWebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\DcsWebReference\WorkStation.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RunCard.sql" />
+    <Content Include="RunCard_Versionlog.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

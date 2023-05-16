@@ -1,0 +1,369 @@
+﻿[2019-09-25 19:19:07]
+select Factoryid,Factoryid+'-'+Shortname name from m_Dcompany_t where usey='Y' and SapState='Y' select PROFITCENTER_CODE=Factoryid, Factoryid+'('+Shortname+')' AS PROFITCENTER_NAME,FACTORY_ID=PCompany  from m_Factory_t where usey='Y'  
+[2019-09-25 19:19:07]
+select Factoryid,Factoryid+'-'+Shortname name from m_Dcompany_t where usey='Y' and SapState='Y' select PROFITCENTER_CODE=Factoryid, Factoryid+'('+Shortname+')' AS PROFITCENTER_NAME,FACTORY_ID=PCompany  from m_Factory_t where usey='Y'  
+[2019-09-25 19:20:50]
+select Factoryid,Factoryid+'-'+Shortname name from m_Dcompany_t where usey='Y' and SapState='Y' select PROFITCENTER_CODE=Factoryid, Factoryid+'('+Shortname+')' AS PROFITCENTER_NAME,FACTORY_ID=PCompany  from m_Factory_t where usey='Y'  
+[2019-09-25 19:20:51]
+select Factoryid,Factoryid+'-'+Shortname name from m_Dcompany_t where usey='Y' and SapState='Y' select PROFITCENTER_CODE=Factoryid, Factoryid+'('+Shortname+')' AS PROFITCENTER_NAME,FACTORY_ID=PCompany  from m_Factory_t where usey='Y'  
+[2019-09-25 19:20:56]
+ select UserName,Dept,StyleID=isnull(StyleID,99),IsOutUser = isnull(IsOutUser,''),usey = isnull(usey,''),OMd = isnull(OMd,'')  from m_Users_t where UserID='L042481'
+[2019-09-25 19:20:57]
+ DECLARE @strmsgid varchar(1), @strmsgText nvarchar(150) EXEC [GetCheckUserRight] 'L042481','0251','',@strmsgid OUTPUT ,@strmsgText OUTPUT  SELECT @strmsgid,@strmsgText
+[2019-09-25 19:20:58]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='L042481' AND PARAMETER_CODE='FactoryCode') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'1140-兴宁立讯精密',UPDATETIME=GETDATE() WHERE USERID='L042481' AND PARAMETER_CODE='FactoryCode' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('L042481','FactoryCode',N'1140-兴宁立讯精密','L042481') END
+[2019-09-25 19:20:58]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='L042481' AND PARAMETER_CODE='ProfitCenter') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'0251(兴宁BU2(华为)-非保税)',UPDATETIME=GETDATE() WHERE USERID='L042481' AND PARAMETER_CODE='ProfitCenter' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('L042481','ProfitCenter',N'0251(兴宁BU2(华为)-非保税)','L042481') END
+[2019-09-25 19:20:59]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='L042481' AND PARAMETER_CODE='AutoLogin') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'0',UPDATETIME=GETDATE() WHERE USERID='L042481' AND PARAMETER_CODE='AutoLogin' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('L042481','AutoLogin',N'0','L042481') END
+[2019-09-25 19:20:59]
+declare @remark nvarchar(250)=N'用户登录验证通过，主机名称：DGLX-OF00-0005'declare @Userid varchar(30)='L042481' INSERT INTO [m_UserOperateLog_t]([user_id],[modle_type],[action_type],[remark],[user_ip],[intime]) VALUES (@Userid,N'DGLX-OF00-0005','Login',@remark,'172.22.92.239',GETDATE()) 
+[2019-09-25 19:20:59]
+exec usp_User_InLoad 'L042481'
+[2019-09-25 19:21:00]
+update m_Users_t set StyleID='6' where UserID='L042481' 
+[2019-09-25 19:21:06]
+ exec Proc_ModifyTopMenu 'm1033_','ProductionPlan.FrmProductionPlanUpdate',N'派工资料更新','L042481',N'DGLX-OF00-0005'
+[2019-09-25 19:21:25]
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-01' AND PartId='904094991-01')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-01','904094991-01',NULL,'001000000130','20000','20000',N'XN052',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN052' WHERE Moid='001000000130-01'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN052',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-01' AND PartId='904094991-01'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-02' AND PartId='904094991-02')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-02','904094991-02',NULL,'001000000130','20000','20000',N'XN088',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN088' WHERE Moid='001000000130-02'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN088',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-02' AND PartId='904094991-02'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-03' AND PartId='904094991-03')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-03','904094991-03',NULL,'001000000130','20000','20000',N'XN052',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN052' WHERE Moid='001000000130-03'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN052',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-03' AND PartId='904094991-03'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-04' AND PartId='904094991-04')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-04','904094991-04',NULL,'001000000130','20000','20000',N'XN069',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN069' WHERE Moid='001000000130-04'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN069',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-04' AND PartId='904094991-04'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-05' AND PartId='904094991-05')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-05','904094991-05',NULL,'001000000130','20000','20000',N'XN052',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN052' WHERE Moid='001000000130-05'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN052',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-05' AND PartId='904094991-05'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-06' AND PartId='904094991-06')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-06','904094991-06',NULL,'001000000130','20000','20000',N'XN115',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN115' WHERE Moid='001000000130-06'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN115',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-06' AND PartId='904094991-06'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-07' AND PartId='904094991-07')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-07','904094991-07',NULL,'001000000130','20000','20000',N'XN076',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN076' WHERE Moid='001000000130-07'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN076',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-07' AND PartId='904094991-07'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-09' AND PartId='904094991-09')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-09','904094991-09',NULL,'001000000130','20000','20000',N'XN087',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN087' WHERE Moid='001000000130-09'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN087',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-09' AND PartId='904094991-09'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-10' AND PartId='904094991-10')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-10','904094991-10',NULL,'001000000130','20000','20000',N'XN106',
+'','','','',N'',N'',N'',getdate(),'L042481','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN106' WHERE Moid='001000000130-10'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN106',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='L042481'
+ WHERE MOID='001000000130-10' AND PartId='904094991-10'  END  END;
+
+[2019-09-25 19:21:26]
+ BEGIN
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-01' moid,'904094991-01' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN052' WHERE moid = '001000000130-01' and partid = '904094991-01'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-01','904094991-01','20000','XN052','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-02' moid,'904094991-02' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN088' WHERE moid = '001000000130-02' and partid = '904094991-02'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-02','904094991-02','20000','XN088','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-03' moid,'904094991-03' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN052' WHERE moid = '001000000130-03' and partid = '904094991-03'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-03','904094991-03','20000','XN052','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-04' moid,'904094991-04' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN069' WHERE moid = '001000000130-04' and partid = '904094991-04'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-04','904094991-04','20000','XN069','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-05' moid,'904094991-05' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN052' WHERE moid = '001000000130-05' and partid = '904094991-05'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-05','904094991-05','20000','XN052','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-06' moid,'904094991-06' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN115' WHERE moid = '001000000130-06' and partid = '904094991-06'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-06','904094991-06','20000','XN115','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-07' moid,'904094991-07' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN076' WHERE moid = '001000000130-07' and partid = '904094991-07'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-07','904094991-07','20000','XN076','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-09' moid,'904094991-09' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN087' WHERE moid = '001000000130-09' and partid = '904094991-09'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-09','904094991-09','20000','XN087','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-10' moid,'904094991-10' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN106' WHERE moid = '001000000130-10' and partid = '904094991-10'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-10','904094991-10','20000','XN106','001000000130','0251',''); 
+ COMMIT;
+ END;
+
+[2019-09-25 19:21:26]
+ exec [GetTiptopMainMoList]'','','Y','2019-09-19','2019-09-26','Y'
+[2019-09-25 19:24:13]
+select Factoryid,Factoryid+'-'+Shortname name from m_Dcompany_t where usey='Y' and SapState='Y' select PROFITCENTER_CODE=Factoryid, Factoryid+'('+Shortname+')' AS PROFITCENTER_NAME,FACTORY_ID=PCompany  from m_Factory_t where usey='Y'  
+[2019-09-25 19:24:14]
+select Factoryid,Factoryid+'-'+Shortname name from m_Dcompany_t where usey='Y' and SapState='Y' select PROFITCENTER_CODE=Factoryid, Factoryid+'('+Shortname+')' AS PROFITCENTER_NAME,FACTORY_ID=PCompany  from m_Factory_t where usey='Y'  
+[2019-09-25 19:24:22]
+ select UserName,Dept,StyleID=isnull(StyleID,99),IsOutUser = isnull(IsOutUser,''),usey = isnull(usey,''),OMd = isnull(OMd,'')  from m_Users_t where UserID='C060148'
+[2019-09-25 19:24:24]
+ DECLARE @strmsgid varchar(1), @strmsgText nvarchar(150) EXEC [GetCheckUserRight] 'C060148','0251','',@strmsgid OUTPUT ,@strmsgText OUTPUT  SELECT @strmsgid,@strmsgText
+[2019-09-25 19:24:25]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='C060148' AND PARAMETER_CODE='FactoryCode') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'1140-兴宁立讯精密',UPDATETIME=GETDATE() WHERE USERID='C060148' AND PARAMETER_CODE='FactoryCode' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('C060148','FactoryCode',N'1140-兴宁立讯精密','C060148') END
+[2019-09-25 19:24:25]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='C060148' AND PARAMETER_CODE='ProfitCenter') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'0251(兴宁BU2(华为)-非保税)',UPDATETIME=GETDATE() WHERE USERID='C060148' AND PARAMETER_CODE='ProfitCenter' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('C060148','ProfitCenter',N'0251(兴宁BU2(华为)-非保税)','C060148') END
+[2019-09-25 19:24:25]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='C060148' AND PARAMETER_CODE='AutoLogin') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'0',UPDATETIME=GETDATE() WHERE USERID='C060148' AND PARAMETER_CODE='AutoLogin' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('C060148','AutoLogin',N'0','C060148') END
+[2019-09-25 19:24:26]
+declare @remark nvarchar(250)=N'用户登录验证通过，主机名称：DGLX-OF00-0005'declare @Userid varchar(30)='C060148' INSERT INTO [m_UserOperateLog_t]([user_id],[modle_type],[action_type],[remark],[user_ip],[intime]) VALUES (@Userid,N'DGLX-OF00-0005','Login',@remark,'172.22.92.239',GETDATE()) 
+[2019-09-25 19:24:26]
+exec usp_User_InLoad 'C060148'
+[2019-09-25 19:24:27]
+update m_Users_t set StyleID='1' where UserID='C060148' 
+[2019-09-25 19:24:31]
+ exec Proc_ModifyTopMenu 'm1033_','ProductionPlan.FrmProductionPlanUpdate',N'派工资料更新','C060148',N'DGLX-OF00-0005'
+[2019-09-25 19:24:45]
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_MoidAlter_t WHERE Moid='001000000130' and remark ='planmo' )
+INSERT INTO m_MoidAlter_t(MOID,PARTID,FACTORYID,PROFITCENTER,STATUS,USERID,REMARK,intime) VALUES(
+'001000000130','904094991','0251','','N','C060148','planmo',getdate()) end
+
+[2019-09-25 19:24:45]
+DECLARE  @RTVALUE varchar(1), @RTMSG nvarchar(128) EXEC	 [dbo].[GetTiptopMainMoSap] @RTVALUE = @RTVALUE OUTPUT, @RTMSG = @RTMSG OUTPUT, @FACTORYID = N'0251', @PROFITCENTER = N'',@USERID = N'C060148'SELECT	@RTMSG  ,@RTVALUE  
+[2019-09-25 19:24:53]
+ exec [GetTiptopMainMoList]'001000000130,','','Y','2019-09-19','2019-09-26','Y'
+[2019-09-25 19:25:20]
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_MoidAlter_t WHERE Moid='001000000130' and remark ='planmo' )
+INSERT INTO m_MoidAlter_t(MOID,PARTID,FACTORYID,PROFITCENTER,STATUS,USERID,REMARK,intime) VALUES(
+'001000000130','904094991','0251','','N','C060148','planmo',getdate()) end
+
+[2019-09-25 19:25:20]
+DECLARE  @RTVALUE varchar(1), @RTMSG nvarchar(128) EXEC	 [dbo].[GetTiptopMainMoSap] @RTVALUE = @RTVALUE OUTPUT, @RTMSG = @RTMSG OUTPUT, @FACTORYID = N'0251', @PROFITCENTER = N'',@USERID = N'C060148'SELECT	@RTMSG  ,@RTVALUE  
+[2019-09-25 19:25:30]
+ exec [GetTiptopMainMoList]'001000000130,','','Y','2019-09-19','2019-09-26','Y'
+[2019-09-25 19:27:25]
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130' AND PartId='904094991')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130','904094991',NULL,'001000000130','20000','20000',N'XN081',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN081',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130' AND PartId='904094991'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-01' AND PartId='904094991-01')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-01','904094991-01',NULL,'001000000130','20000','20000',N'XN082',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN082' WHERE Moid='001000000130-01'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN082',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-01' AND PartId='904094991-01'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-02' AND PartId='904094991-02')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-02','904094991-02',NULL,'001000000130','20000','20000',N'XN083',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN083' WHERE Moid='001000000130-02'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN083',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-02' AND PartId='904094991-02'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-03' AND PartId='904094991-03')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-03','904094991-03',NULL,'001000000130','20000','20000',N'XN084',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN084' WHERE Moid='001000000130-03'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN084',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-03' AND PartId='904094991-03'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-04' AND PartId='904094991-04')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-04','904094991-04',NULL,'001000000130','20000','20000',N'XN085',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN085' WHERE Moid='001000000130-04'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN085',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-04' AND PartId='904094991-04'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-05' AND PartId='904094991-05')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-05','904094991-05',NULL,'001000000130','20000','20000',N'XN086',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN086' WHERE Moid='001000000130-05'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN086',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-05' AND PartId='904094991-05'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-06' AND PartId='904094991-06')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-06','904094991-06',NULL,'001000000130','20000','20000',N'XN087',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN087' WHERE Moid='001000000130-06'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN087',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-06' AND PartId='904094991-06'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-07' AND PartId='904094991-07')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-07','904094991-07',NULL,'001000000130','20000','20000',N'XN088',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN088' WHERE Moid='001000000130-07'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN088',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-07' AND PartId='904094991-07'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-09' AND PartId='904094991-09')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-09','904094991-09',NULL,'001000000130','20000','20000',N'XN089',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN089' WHERE Moid='001000000130-09'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN089',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-09' AND PartId='904094991-09'  END  END;
+BEGIN IF NOT EXISTS (SELECT MOID FROM m_TiptopPlanItemUP_t WHERE Moid='001000000130-10' AND PartId='904094991-10')
+BEGIN INSERT INTO m_TiptopPlanItemUP_t([Moid],[PartId],[Specification],[ParentMoid],[Quantity],[SQuantity],[LineId],[ManPower],[Effectiveness],[WorkingHours],[DeliveryTime],[ActualDelivery],[FinishDate],[Remark],[CreateTime],[CreateUserId],[PlanStartTime])
+ VALUES ( '001000000130-10','904094991-10',NULL,'001000000130','20000','20000',N'XN090',
+'','','','',N'',N'',N'',getdate(),'C060148','2019-09-25')  
+ UPDATE m_tiptopdownmo_t SET LINEID='XN090' WHERE Moid='001000000130-10'
+ END ELSE BEGIN UPDATE   m_TiptopPlanItemUP_t SET LineId='XN090',ManPower='',Effectiveness='',WorkingHours='',DeliveryTime='',
+ ActualDelivery=N'',FinishDate=N'',Remark=N'' ,UpdateTime=getdate(),UpdateUserId='C060148'
+ WHERE MOID='001000000130-10' AND PartId='904094991-10'  END  END;
+
+[2019-09-25 19:27:27]
+ BEGIN
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130' moid,'904094991' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN081' WHERE moid = '001000000130' and partid = '904094991'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130','904094991','20000','XN081','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-01' moid,'904094991-01' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN082' WHERE moid = '001000000130-01' and partid = '904094991-01'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-01','904094991-01','20000','XN082','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-02' moid,'904094991-02' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN083' WHERE moid = '001000000130-02' and partid = '904094991-02'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-02','904094991-02','20000','XN083','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-03' moid,'904094991-03' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN084' WHERE moid = '001000000130-03' and partid = '904094991-03'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-03','904094991-03','20000','XN084','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-04' moid,'904094991-04' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN085' WHERE moid = '001000000130-04' and partid = '904094991-04'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-04','904094991-04','20000','XN085','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-05' moid,'904094991-05' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN086' WHERE moid = '001000000130-05' and partid = '904094991-05'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-05','904094991-05','20000','XN086','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-06' moid,'904094991-06' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN087' WHERE moid = '001000000130-06' and partid = '904094991-06'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-06','904094991-06','20000','XN087','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-07' moid,'904094991-07' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN088' WHERE moid = '001000000130-07' and partid = '904094991-07'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-07','904094991-07','20000','XN088','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-09' moid,'904094991-09' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN089' WHERE moid = '001000000130-09' and partid = '904094991-09'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-09','904094991-09','20000','XN089','001000000130','0251',''); 
+     MERGE INTO ZTMM0020 T1
+   USING (SELECT '001000000130-10' moid,'904094991-10' partid FROM DUAL) T2     ON (T1.moid = T2.moid AND T1.partid = T2.partid)
+     WHEN MATCHED THEN
+       UPDATE SET T1.LINEID = 'XN090' WHERE moid = '001000000130-10' and partid = '904094991-10'     WHEN NOT MATCHED THEN
+     INSERT (Moid,PartId,MOQty,LineId,Parentmo,profitcenter,Remark) 
+   VALUES('001000000130-10','904094991-10','20000','XN090','001000000130','0251',''); 
+ COMMIT;
+ END;
+
+[2019-09-25 19:27:27]
+ exec [GetTiptopMainMoList]'001000000130,','','Y','2019-09-19','2019-09-26','Y'
+[2019-09-25 19:27:42]
+ exec [GetTiptopMainMoList]'001000000130,','','Y','2019-09-19','2019-09-26','Y'
+[2019-09-25 19:27:48]
+select a.Tkey,Tparent,Ttext,Enname,TreeTag,ReportUsey=isnull(ReportUsey,'N') from (select * from  m_Logtree_t where Tparent='m09_' or Tkey='m09_' or Tparent in (  select Tkey from m_Logtree_t where Tparent='m09_' )) a  join m_UserRight_t b on a.Tkey=b.Tkey where  b.userid='C060148' and ReportUsey='Y' order by Tparent,OrderBy 
+[2019-09-25 19:27:49]
+ select a.Ttext,b.SqlScript,b.SqlUsey,DetScript,DetUsey,ChartScript,ChartTitle,SummaryTitle,ChartType,ChartUsey from m_Logtree_t a left join m_Logtree_Det_t b on a.Tkey=b.Tkey  where a.Tkey='m09_'  select * from m_Logtree_Qry_t where  Tkey='m09_' order by QRYSEQ  
+[2019-09-25 19:27:50]
+ exec Proc_ModifyTopMenu 'm011f_','BasicFindReport.FrmReportMain',N'通用报表','C060148',N'DGLX-OF00-0005'
+[2019-09-25 19:27:52]
+ select a.Ttext,b.SqlScript,b.SqlUsey,DetScript,DetUsey,ChartScript,ChartTitle,SummaryTitle,ChartType,ChartUsey from m_Logtree_t a left join m_Logtree_Det_t b on a.Tkey=b.Tkey  where a.Tkey='m097D_'  select * from m_Logtree_Qry_t where  Tkey='m097D_' order by QRYSEQ  
+[2019-09-25 19:27:52]
+SELECT Factoryid+'('+Shortname+')'  FROM m_factory_t WHERE Usey = 'Y'
+[2019-09-25 19:27:58]
+ select a.Ttext,b.SqlScript,b.SqlUsey,DetScript,DetUsey,ChartScript,ChartTitle,SummaryTitle,ChartType,ChartUsey from m_Logtree_t a left join m_Logtree_Det_t b on a.Tkey=b.Tkey  where a.Tkey='m097E_'  select * from m_Logtree_Qry_t where  Tkey='m097E_' order by QRYSEQ  
+[2019-09-25 19:28:01]
+ select a.Ttext,b.SqlScript,b.SqlUsey,DetScript,DetUsey,ChartScript,ChartTitle,SummaryTitle,ChartType,ChartUsey from m_Logtree_t a left join m_Logtree_Det_t b on a.Tkey=b.Tkey  where a.Tkey='m097D_'  select * from m_Logtree_Qry_t where  Tkey='m097D_' order by QRYSEQ  
+[2019-09-25 19:28:02]
+SELECT Factoryid+'('+Shortname+')'  FROM m_factory_t WHERE Usey = 'Y'
+[2019-09-25 19:28:05]
+ select a.Ttext,b.SqlScript,b.SqlUsey,DetScript,DetUsey,ChartScript,ChartTitle,SummaryTitle,ChartType,ChartUsey from m_Logtree_t a left join m_Logtree_Det_t b on a.Tkey=b.Tkey  where a.Tkey='m097C_'  select * from m_Logtree_Qry_t where  Tkey='m097C_' order by QRYSEQ  

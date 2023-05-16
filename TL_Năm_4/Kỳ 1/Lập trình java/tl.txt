@@ -1,0 +1,2 @@
+final: là k thể sinh ra đc nữa là vô sinh
+static: là biến tĩnh có thể lấy in ra trực tiếp 

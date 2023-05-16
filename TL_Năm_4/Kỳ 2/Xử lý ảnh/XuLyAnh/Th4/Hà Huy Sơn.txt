@@ -1,0 +1,115 @@
+=========================================================================Bài thực hành số 4===============================================================================
+===========================================================================Hà Huy Sơn=====================================================================================
+========================================================================MSSV: 18574802010055==============================================================================
+Câu 1: Tách biên ảnh bằng phương pháp Sobel. Lưu lại ảnh sau khi tách biên
+import cv2
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+img1 = cv2.blur(img,(3,3))
+gray = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
+    
+Gx = cv2.Sobel(gray,cv2.CV_16S,1,0,ksize=3)
+Gy = cv2.Sobel(gray,cv2.CV_16S,0,1,ksize=3)
+absGx = cv2.convertScaleAbs(Gx)
+absGy = cv2. convertScaleAbs(Gy)
+result = cv2.addWeighted(absGx,3.5, absGy,0.5,0) 
+cv2.imshow( 'Anh goc',img)
+cv2.imshow( 'Anh tach bien',result)
+cv2.imwrite("anh_sobel.jpg",result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu 2: Tách biên ảnh bằng phương pháp Laplace. Lưu lại ảnh sau khi tách biên
+import cv2
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+img1 = cv2.blur(img,(3,3))
+gray = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY) 
+
+img2 = cv2.Laplacian(gray,cv2.CV_64F,ksize=3)
+
+result = cv2.convertScaleAbs(img2)
+cv2.imshow( 'Anh goc',img)
+cv2.imshow('Anh tach bien',result)
+cv2.imwrite("anh_lap.jpg",result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu 3: Tách biên ảnh bằng phương pháp Canny.
+import cv2
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+img1 = cv2.blur(img,(3,3))
+gray = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
+    
+result = cv2.Canny(gray,100,200)
+cv2.imshow( 'Anh gọc',img)
+cv2.imshow('Anh tach bien',result)
+#cv2.imwrite("anh_canny.jpg",result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu 4: Sử dụng các phương pháp tách biên cho cùng 1 ảnh, hiện các kết quả trên matplotlib.
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+img1 = cv2.blur(img_rgb,(3,3))
+gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+
+Gx = cv2.Sobel(gray,cv2.CV_16S,1,0,ksize=3)
+Gy = cv2.Sobel(gray,cv2.CV_16S,0,1,ksize=3)
+absGx = cv2.convertScaleAbs(Gx)
+absGy = cv2.convertScaleAbs(Gy)
+result1 = cv2.addWeighted(absGx,3.5,absGy,0.5,0)
+img_result1 = cv2.cvtColor(result1, cv2.COLOR_BGR2RGB)
+
+img2 = cv2.Laplacian(gray,cv2.CV_64F,ksize=3)
+result2 = cv2.convertScaleAbs(img2)
+img_result2 = cv2.cvtColor(result2, cv2.COLOR_BGR2RGB)
+
+gray = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
+result3 = cv2.Canny(gray,100,200)
+img_result3 = cv2.cvtColor(result3, cv2.COLOR_BGR2RGB)
+
+plt.subplot(2,2,1).axis('off')
+plt.title("ảnh gốc")
+plt1 = plt.imshow(img_rgb)
+plt.subplot(2,2,2).axis('off')
+plt.title("Tách biên Sobel")
+plt2 = plt.imshow(img_result1)
+plt.subplot(2,2,3).axis('off')
+plt.title("Tách biên Laplace")
+plt3 = plt.imshow(img_result2)
+plt.subplot(2,2,4).axis('off')
+plt.title("Tách biên Canny")
+plt4 = plt.imshow(img_result3)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu 5: Tách biên ảnh bằng phương pháp Canny. Tạo trackbar để chọn ngưỡng dưới, ngưỡng trên lấy bằng 3 lần ngưỡng dưới
+import cv2
+import numpy as np
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg",0)
+
+img2 = cv2.blur(img,(3,3))    
+
+def get_value(x):
+    get_value.value = x
+get_value.value = 0
+
+cv2.namedWindow("a")
+
+cv2.createTrackbar('1','a',1,85,get_value)
+
+while(True):
+    a = get_value.value
+    b = a*3
+    img3 = cv2.Canny(img,a,b)
+    cv2.imshow("a",img3)
+    if cv2.waitKey(5) == ord("q"):
+        break
+cv2.destroyAllWindows()

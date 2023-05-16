@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FrmAutoLaserPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmAutoLaserPrint.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmBarScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmBarScan.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmCheckRecordQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmCheckRecordQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmCodeSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmCodeSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmDataHistoryManagement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmDataHistoryManagement.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmDeptID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmDeptID.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmDeptLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmDeptLine.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmEqpTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmEqpTest.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmExceptionHandleQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmExceptionHandleQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmIssueNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmIssueNew.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmIssueReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmIssueReport.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmIssueSolve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmIssueSolve.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmIssueTrace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmIssueTrace.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmLaserPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmLaserPrint.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmLinkServerManagement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmLinkServerManagement.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmLogin.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="frmMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\frmMain.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmMainTainHandleDG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmMainTainHandleDG.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmMainTainHandleNEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmMainTainHandleNEW.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmModuleManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmModuleManage.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmMoMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmMoMain.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmMoveHistoryDataBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmMoveHistoryDataBack.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmMsgEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmMsgEdit.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmNcauseCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmNcauseCode.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmNCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmNCode.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmNGSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmNGSearch.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmNiRecordAnalyseQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmNiRecordAnalyseQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmNiRecordQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmNiRecordQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPackForScrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPackForScrap.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPackQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPackQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPartContrast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPartContrast.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPartTranc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPartTranc.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPasswordch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPasswordch.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPrintQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPrintQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmProduceLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmProduceLine.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPrtSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPrtSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPrtTask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPrtTask.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmQueryAppUseStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmQueryAppUseStatus.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmQueryScrapCarton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmQueryScrapCarton.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmRPartStation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmRPartStation.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmRStationSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmRStationSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmScanAberrantHandle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmScanAberrantHandle.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmScanCheckRule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmScanCheckRule.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmScanQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmScanQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSendAsnMacMaintain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSendAsnMacMaintain.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSnQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSnQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSystemFileManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSystemFileManage.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmTestRecordQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmTestRecordQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmUserManage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmUserManage.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmWhOutQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmWhOutQuery.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmWmsOutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmWmsOutter.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmWorkSheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmWorkSheet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmWorkStantScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmWorkStantScan.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MultMessage_CHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\multmessage_CHS.resx;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MultMessage_CHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MultMessage_CHT.resx;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MultMessage_EN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MultMessage_EN.resx;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmListPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmListPrint.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmRepeatCheck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmRepeatCheck.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmStantPackScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmStantPackScan.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmLineLookUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmLineLookUp.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmVoltageTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmVoltageTest.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmQueryAppUseStatusDetail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmQueryAppUseStatusDetail.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmWait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmWait.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="CheckSnCodeIni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CheckSnCodeIni.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FrmCartonLastSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmCartonLastSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmCartonReplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmCartonReplace.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmLinkAsn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmLinkAsn.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmMBarReplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmMBarReplace.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmOptionSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmOptionSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPartition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPartition.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSetLock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSetLock.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmShareSetForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmShareSetForm.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmVerify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmVerify.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSnSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSnSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSharedOptionSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSharedOptionSet.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmCheckDigitPrt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmCheckDigitPrt.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSelectRole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSelectRole.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmSuperPwd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmSuperPwd.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmPartLotScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmPartLotScan.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FrmScanErrPrompt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FrmScanErrPrompt.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>

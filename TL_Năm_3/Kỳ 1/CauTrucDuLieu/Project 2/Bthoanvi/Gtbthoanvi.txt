@@ -1,0 +1,23 @@
+Hoán vị là sự sắp xếp của một tập hợp các đối tượng theo một cách có thứ tự. Việc bổ sung một số hạn chế làm phát sinh tình huống hoán vị có hạn chế. Chẳng hạn như, trong ví dụ ở trên về việc lựa chọn một sinh viên cho một bài cụ thể dựa trên sự hạn chế về số điểm mà anh ấy / cô ấy đạt được. Rõ ràng, số lượng cách chọn học sinh giảm cùng với sự gia tăng số lượng các giới hạn.
+Các loại hạn chế phổ biến nhất là chúng tôi chỉ có thể bao gồm hoặc loại trừ một số lượng nhỏ các đối tượng. Nói cách khác, một tập hợp các đối tượng nhất định sẽ đi cùng nhau hoặc luôn luôn rời xa nhau. Điều này có nghĩa là không phải tất cả các đối tượng cần phải được đặt hàng.
+Các loại hoán vị hạn chế phổ biến là:
+Hình thành các số có chữ số với một số chữ số ở vị trí cố định.
+Một tập hợp các đối tượng luôn luôn xảy ra hoặc không bao giờ xảy ra.
+Xây dựng từ với một số chữ cái có vị trí cố định.
+Các nguyên âm hoặc phụ âm xảy ra cùng nhau.
+Hạn chế đối với hoán vị vòng.
+Trong cuộc sống hàng ngày, chúng ta có thể tìm thấy rất nhiều ví dụ về sự hoán vị với những hạn chế như quyết định thứ tự ăn uống, lựa chọn trang phục để mặc, kết hợp màu sắc để tạo ra v.v.
+Các quy tắc cơ bản trong hoán vị
+Giả sử chúng ta có n chữ cái hoặc vật phẩm trong đó t cùng loại và các phần còn lại đều khác nhau = n! T !.
+Số hoán vị của n mục, lấy t tại một thời điểm, khi chúng ta đưa một mục cụ thể vào mỗi lần sắp xếp là n - 1 P t - 1 × t
+Khi một điều cụ thể được cố định, số hoán vị của n mục trong đó không có. trong tổng số các mục được lấy tại một thời điểm = n − 1Pt − 1
+Số hoán vị của n mục, được lấy t tại thời điểm khi một thứ cụ thể không bao giờ được lấy = n − 1 P t
+Số hoán vị của n mục, lấy t tại thời điểm p xác định luôn đi kèm với nhau = n! × (n - p + 1) !.
+Hạn chế cũng có thể áp dụng cho các hoán vị vòng tròn.
+Các ví dụ đã giải quyết cho bạn
+Vấn đề: Hãy xem xét một từ ‘CHÍNH BẠN’. Có bao nhiêu cách sắp xếp chữ cái nếu U và S luôn đi cùng nhau và ‘U’ luôn đứng trước ‘S’?
+Giải pháp: Từ ‘YOURSELVES’ có 11 chữ cái, trong đó ‘S’ lặp lại hai lần và ‘E’ lặp lại ba lần. Còn lại tất cả đều khác nhau.
+Nếu ký tự ‘U’ và ‘S’ kết hợp với nhau, chúng được coi là một chữ cái. 10 chữ cái còn lại có thể tự sắp xếp lại thành 10! ⁄ (2! 3!) = 302400 cách.
+
+
+https://www.techiedelight.com/generate-permutations-string-java-recursive-iterative/

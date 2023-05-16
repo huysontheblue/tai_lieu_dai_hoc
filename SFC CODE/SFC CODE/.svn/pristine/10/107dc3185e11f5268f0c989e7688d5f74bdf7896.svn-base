@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://elearning.luxshare-ict.com/axis/WorkStation.jws" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://elearning.luxshare-ict.com/axis/WorkStation.jws" targetNamespace="http://elearning.luxshare-ict.com/axis/WorkStation.jws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="insertPersonResponse">
+    <wsdl:part name="insertPersonReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getLicenceCodeResponse">
+    <wsdl:part name="getLicenceCodeReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getLicenceCodeRequest">
+    <wsdl:part name="jobnumber" type="xsd:string" />
+    <wsdl:part name="stationCode" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="insertPersonRequest">
+    <wsdl:part name="name" type="xsd:string" />
+    <wsdl:part name="age" type="xsd:int" />
+    <wsdl:part name="address" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="WorkStation">
+    <wsdl:operation name="getLicenceCode" parameterOrder="jobnumber stationCode">
+      <wsdl:input name="getLicenceCodeRequest" message="impl:getLicenceCodeRequest" />
+      <wsdl:output name="getLicenceCodeResponse" message="impl:getLicenceCodeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="insertPerson" parameterOrder="name age address">
+      <wsdl:input name="insertPersonRequest" message="impl:insertPersonRequest" />
+      <wsdl:output name="insertPersonResponse" message="impl:insertPersonResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WorkStationSoapBinding" type="impl:WorkStation">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getLicenceCode">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getLicenceCodeRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getLicenceCodeResponse">
+        <wsdlsoap:body use="encoded" namespace="http://elearning.luxshare-ict.com/axis/WorkStation.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertPerson">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="insertPersonRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="insertPersonResponse">
+        <wsdlsoap:body use="encoded" namespace="http://elearning.luxshare-ict.com/axis/WorkStation.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WorkStationService">
+    <wsdl:port name="WorkStation" binding="impl:WorkStationSoapBinding">
+      <wsdlsoap:address location="http://elearning.luxshare-ict.com/axis/WorkStation.jws" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

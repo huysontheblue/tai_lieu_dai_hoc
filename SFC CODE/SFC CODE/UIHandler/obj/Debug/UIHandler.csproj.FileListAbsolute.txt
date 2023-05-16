@@ -1,0 +1,70 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\UIHandler.dll.config
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\UIHandler.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\UIHandler.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\UIHandler\obj\Debug\RowMergeView.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\UIHandler.dll.config
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\UIHandler.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\UIHandler.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\UIHandler\obj\Debug\UIHandler.csprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\UIHandler\obj\Debug\RowMergeView.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\UIHandler\obj\Debug\UIHandler.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\UIHandler\obj\Debug\UIHandler.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\UIHandler.dll.config
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\UIHandler.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\UIHandler.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.csprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\UIHandler\obj\Debug\RowMergeView.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.Cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\UIHandler.dll.config
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\UIHandler.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\UIHandler.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\UIHandler\obj\Debug\RowMergeView.resources
+C:\Users\matech\Desktop\VN\VN\DEV\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\UIHandler\obj\Debug\UIHandler.csproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\UIHandler\obj\Debug\UIHandler.dll
+C:\Users\matech\Desktop\VN\VN\DEV\UIHandler\obj\Debug\UIHandler.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\UIHandler\obj\Debug\UIHandler.csprojAssemblyReference.cache
+D:\义安SFC\DEV\ShareFile\UIHandler.dll.config
+D:\义安SFC\DEV\ShareFile\UIHandler.dll
+D:\义安SFC\DEV\ShareFile\UIHandler.pdb
+D:\义安SFC\DEV\UIHandler\obj\Debug\UIHandler.csprojAssemblyReference.cache
+D:\义安SFC\DEV\UIHandler\obj\Debug\RowMergeView.resources
+D:\义安SFC\DEV\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.cache
+D:\义安SFC\DEV\UIHandler\obj\Debug\UIHandler.dll
+D:\义安SFC\DEV\UIHandler\obj\Debug\UIHandler.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\UIHandler.dll.config
+D:\VNSFC\NV-SFC\DEV\ShareFile\UIHandler.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\UIHandler.pdb
+D:\VNSFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.csprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\UIHandler\obj\Debug\RowMergeView.resources
+D:\VNSFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.dll
+D:\VNSFC\NV-SFC\DEV\UIHandler\obj\Debug\UIHandler.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\UIHandler.dll.config
+D:\work\svn\SFC\NV_SFC\code\ShareFile\UIHandler.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\UIHandler.pdb
+D:\work\svn\SFC\NV_SFC\code\UIHandler\obj\Debug\RowMergeView.resources
+D:\work\svn\SFC\NV_SFC\code\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\UIHandler\obj\Debug\UIHandler.dll
+D:\work\svn\SFC\NV_SFC\code\UIHandler\obj\Debug\UIHandler.pdb
+D:\SFC CODE\ShareFile\UIHandler.dll.config
+D:\SFC CODE\ShareFile\UIHandler.dll
+D:\SFC CODE\ShareFile\UIHandler.pdb
+D:\SFC CODE\UIHandler\obj\Debug\UIHandler.csprojResolveAssemblyReference.cache
+D:\SFC CODE\UIHandler\obj\Debug\RowMergeView.resources
+D:\SFC CODE\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.Cache
+D:\SFC CODE\UIHandler\obj\Debug\UIHandler.dll
+D:\SFC CODE\UIHandler\obj\Debug\UIHandler.pdb
+E:\SFC CODE\SFC CODE\ShareFile\UIHandler.dll.config
+E:\SFC CODE\SFC CODE\ShareFile\UIHandler.dll
+E:\SFC CODE\SFC CODE\ShareFile\UIHandler.pdb
+E:\SFC CODE\SFC CODE\UIHandler\obj\Debug\RowMergeView.resources
+E:\SFC CODE\SFC CODE\UIHandler\obj\Debug\UIHandler.csproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\UIHandler\obj\Debug\UIHandler.dll
+E:\SFC CODE\SFC CODE\UIHandler\obj\Debug\UIHandler.pdb

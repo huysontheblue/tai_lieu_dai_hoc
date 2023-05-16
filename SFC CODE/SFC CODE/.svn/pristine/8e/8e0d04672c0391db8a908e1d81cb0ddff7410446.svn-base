@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BarCodeScan
+</name>
+</assembly>
+<members>
+<member name="M:BarCodeScan.FrmHWPackScan.CheckQRCodeQty(System.String,System.String)">
+	<summary>
+ 检查二维码的数量和【箱或者栈板】的数量是否一致。
+ </summary>
+	<param name="strQRCode"></param>
+	<param name="strBarCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmHWPackScan.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlinePrintBarcode.ScanFinishStatus.None">
+	<summary>
+ 无
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlinePrintBarcode.ScanFinishStatus.Finsh">
+	<summary>
+ 整箱完成
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlinePrintBarcode.ScanFinishStatus.NoFinsh">
+	<summary>
+ 整箱未完成
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlinePrintBarcode.ScanFinishStatus.MoidFinsh">
+	<summary>
+ 整个工单已完成
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlinePrintBarcode.GetCodeRule2">
+	<summary>
+ 二层外箱生成不打印对应的编码原则
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlinePrintBarcode.StandardReworkScan">
+	<summary>
+ 重工扫描
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlinePrintBarcode.SavePpLinkData">
+	<summary>
+ 保存条码PPlink
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlinePrintBarcode.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlinePrintBarcode.TxtCartonID_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ Add by cq 20180601, for GP 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlinePrintBarcode.SetMenuRight">
+	<summary>
+ 设置菜单权限-用户权限设定
+ </summary>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resources.delete_row">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resources.edit">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resources.mmmmm2">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resources.query">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resources.Tick">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="T:BarCodeScan.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="F:BarCodeScan.FrmQCReject.m_ChkboxAll">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/01/13
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>品质抽检-拒收区</remarks>
+</member><member name="M:BarCodeScan.FrmQCReject.m_ChkboxAll_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 全选
+ </summary>
+</member><member name="M:BarCodeScan.FrmQCReject.CheckCidIsSelectHandle(System.String)">
+	<summary>
+ 检查本批次是否已存在挑选
+ </summary>
+	<param name="Cid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCReject.GetCheckMainBatchData(System.String)">
+	<summary>
+ 获取检验批次主数量
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCReject.SetScrapData">
+	<summary>
+ 报废
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCReject.SetAcceptedData">
+	<summary>
+ 特采
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCReject.SetSelectData">
+	<summary>
+ 挑选
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCReject.SetQCCheckRejectHandle(System.String,System.String,System.String,System.String)">
+	<summary>
+ 拒收区数据处理
+ </summary>
+	<param name="cId">批次号</param>
+	<param name="CheckType">类型（特采 T、挑选 S、报废 F） </param>
+	<param name="Ppid">产品条码</param>
+	<param name="ReStationid">返回工站</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmStantLotScan.DispScanData">
+	<summary>
+ 显示数量和次数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmConfigSet.DeleteUnVisibleChar(System.String)">
+	<summary>
+ 功能描述：删除不可见字符。
+ </summary>
+	<param name="sourceString">原字符串</param>
+	<returns></returns>
+</member><member name="M:BarCodeScan.FrmWorkStantScanPpidWeight.FrmNewStantPackScanPpidWeight_Load(System.Object,System.EventArgs)">
+	<summary>
+ 初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScanPpidWeight.btnClose_Click(System.Object,System.EventArgs)">
+	<summary>
+ 关闭
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScanPpidWeight.CheckIsScan">
+	<summary>
+ 品管数据是否确认
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScanPpidWeight.CheckIsPGConfirm">
+	<summary>
+ 品管数据是否确认
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScanPpidWeight.InsertWeight">
+	<summary>
+ 空条码不保存
+ </summary>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmWorkStantScanPpidWeight">
+	<summary>
+ 称重扫描
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan.CheckErrLockData">
+	<summary>
+ 判断是否存在异常解锁情况
+ </summary>
+	<returns>返回发生异常解锁的条码</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan.CheckScanIsFinish(System.String)">
+	<summary>
+ 确认包括子件条码是否完成扫描
+ 完成为TRUE,未完成为FALSE
+ </summary>
+	<param name="BarCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan.EquimentLiftWebChartSend">
+	<summary>
+ 工治具寿命微信推送
+ add by 马跃平
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan.SetMenuRight">
+	<summary>
+ 设置菜单权限-用户权限设定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan.PauseWait(System.Int64)">
+	<summary>
+ 等待
+ </summary>
+	<param name="HowLong"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewShareSetForm.DeleteUnVisibleChar(System.String)">
+	<summary>
+ 功能描述：删除不可见字符。
+ </summary>
+	<param name="sourceString">原字符串</param>
+	<returns></returns>
+</member><member name="M:BarCodeScan.FrmDateCodeInput.checkdata">
+	<summary>
+ 检查输入的是否合法
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlineWeightPrint.m_IsLinePrintFullCode">
+	<summary>
+ 是否打印外箱，Y 称重打印 N代表只称重不打印
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlineWeightPrint.m_UpLimitWeight">
+	<summary>
+ 箱称重上限
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlineWeightPrint.m_LowLimitWeight">
+	<summary>
+ 箱称重下限
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmOnlineWeightPrint.m_Rs232Pars">
+	<summary>
+ RS232端口参数字符串
+ </summary>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmOnlineWeightPrint.ThreadControl">
+	<summary>
+ 控制項賦值必須使用委託
+ </summary>
+	<param name="val"></param>
+	<param name="obj"></param>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmOnlineWeightPrint">
+	<summary>
+ 称重打印
+ </summary>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmSplitBox">
+	<summary>
+ 创建者：田玉琳
+ 创建日期：2019/01/03
+ 说明：
+ 箱拆分
+ 目的是把旧箱数据重新放在新箱中
+ 可以把旧箱数量全部拆分，拆成空箱会删除箱表和条码记录表
+ 可以把旧箱数据拆多个箱，装满一箱，要换新箱再拆。
+ 拆分记录日志表：m_CartonSplit_t（拆分 类型1，替换类型为2）
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmAutoWorkStantScan.IsLineConfirm">
+	<summary>
+ 生产若已回复了当日的柏拉图，不能再录入系统,以免数据产生变异
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmAutoWorkStantScan.GetNgQtyStaionId(System.String,System.String)">
+	<summary>
+ 获取不良个数
+ </summary>
+	<param name="moid">工单</param>
+	<param name="stationId">站点</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmAutoWorkStantScan.GetAssyTsItemId(System.String)">
+	<summary>
+ 取得数据不良数据表Itemid
+ </summary>
+	<param name="ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmAutoWorkStantScan.CheckChildBarcode(System.String)">
+	<summary>
+ 校验子件1
+ </summary>
+	<param name="BarCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmFixedCodeScan.list">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2019/11/29
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>g固定码校验</remarks>
+</member><member name="M:BarCodeScan.FrmOutOfBoxCheck.CheckErrLockData">
+	<summary>
+ 判断是否存在异常解锁情况
+ </summary>
+	<returns>返回发生异常解锁的条码</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOutOfBoxCheck.LoadCheckedList">
+	<summary>
+显示已经开箱检查的记录列表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmAutoScanSendData.SetMenuRight">
+	<summary>
+ 设置菜单权限-用户权限设定
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmQCCheck.m_ItemPpid">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/01/13
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>品质抽检</remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SaveBatchJudgeResult(System.String)">
+	<summary>
+ 综合判定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SetCheckSnAllResult(System.String,System.String)">
+	<summary>
+ 单PCS产品判定
+ </summary>
+	<param name="Ppid">产品</param>
+	<param name="Result">结果</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.ScanData">
+	<summary>
+ 扫描产品
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.CheckScanData">
+	<summary>
+ 扫描验证
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SnCheckInput">
+	<summary>
+ 检查产品是否已进入维修
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.CheckSnIsExistsFail(System.String)">
+	<summary>
+ 检查该产品是否已存在FAIL记录
+ </summary>
+	<param name="Ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.CheckSnIsHandle(System.String)">
+	<summary>
+ 检查单PCS产品是否已全部检验
+ </summary>
+	<param name="Ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.CheckSnAllJudgeHandle(System.String)">
+	<summary>
+ 检查单PCS产品是否已判定
+ </summary>
+	<param name="Ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.GetQcData(System.String)">
+	<summary>
+ 获取检验批次相关信息
+ </summary>
+	<param name="cid"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.GetAQLData">
+	<summary>
+ 获取抽验计划
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.GetCheckSn">
+	<summary>
+ 获取已检验的SN
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.GetCheckSnDetail">
+	<summary>
+ 获取产品检验细项
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.CheckQCCheckJudgeCondition">
+	<summary>
+ 检查是否达到综合判定条件
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SetCheckType">
+	<summary>
+ 获取检验类型
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SetBigTestItem">
+	<summary>
+ 获取检验大项
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SetMenuRight">
+	<summary>
+ 设置菜单权限-用户权限设定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheck.SetFormControl">
+	<summary>
+ 设置界面
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmScanExceptionHandle.toolsProductUnDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 恢复删除的数据
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmMultiPackScanDetail">
+	<summary>
+ 创建者：田玉琳
+ 创建时间：20181127
+ 创建内容：多层包装删除
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmStantPackScan.SetPLPackVersion">
+	<summary>
+ '----------powerlink包装前封套条码校验设置 by hske
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmHWITScan.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheckList.GetCheckSn">
+	<summary>
+ 获取已检验的SN
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheckList.CheckNgCodeExists(System.String)">
+	<summary>
+ 检查不良现象是否存在
+ </summary>
+	<param name="NgCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheckList.CheckScanData">
+	<summary>
+ 扫描验证
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheckList.SnCheckInput">
+	<summary>
+ 检查产品是否已进入维修
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCCheckList.UploadNgPicture(System.String)">
+	<summary>
+ 上传图片
+ </summary>
+	<param name="irow"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmQCCheckList">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/03/02
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>品质抽检-批量检验</remarks>
+</member><member name="M:BarCodeScan.FrmBOMCheckSet.BindBOMGridSearch_Select(System.String)">
+	<summary>
+ 查询 该父料号的 下面的BOM组成明细清单
+ </summary>
+	<param name="where"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmBOMCheckSet.BindBOMGridAll(System.String)">
+	<summary>
+	</summary>
+	<param name="where"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodeSet.IsRightCartonQty">
+	<summary>
+ 在已包装箱中，输入的包装数量大于已装箱数量
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodeSet.IsRightQty">
+	<summary>
+ 已包装数量和工单比较
+ </summary>
+	<returns></returns>
+	<remarks>输入的包装数量+已装箱数量&gt;工单数量</remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodeSet.GetPackingQty">
+	<summary>
+ 取得包装数量
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.FrmProductionBoard.PmoidID">
+	<summary>
+ 工单号
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.FrmProductionBoard.PLineId">
+	<summary>
+ 线别
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmProductionBoard.FrmProductionBoard_Load(System.Object,System.EventArgs)">
+	<summary>
+ 初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmProductionBoard">
+	<summary>
+ 显示看板
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmRePrint.GetReprintInfo">
+	<summary>
+ 抓取重复打印的信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmRePrint.CheckInput">
+	<summary>
+ 检查界面输入
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmShowDetail">
+	<summary>
+ 修改者：田玉琳
+ 修改日期：20181204
+ 修改内容：更新查询明细方法
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_L01.CheckErrLockData">
+	<summary>
+ 判断是否存在异常解锁情况
+ </summary>
+	<returns>返回发生异常解锁的条码</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_L01.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_L01.SetMenuRight">
+	<summary>
+ 设置菜单权限-用户权限设定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_L01.ToolStripButton1_Click(System.Object,System.EventArgs)">
+	<summary>
+ Mac条码打印，输入mac 打印mac, 联想8合一
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOBACheck.BindComboxStatus(System.Windows.Forms.ComboBox)">
+	<summary>
+ OBA
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.PrintBarcode.IsTrunk">
+	<summary>
+ 是否是尾箱
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.MakeStyle">
+	<summary>
+ 產生樣式
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.GetPrintTemplatePathOfS(System.String,System.String@,System.String@,System.String)">
+	<summary>
+ 抓取S类型的标签模板路径
+ </summary>
+	<param name="partId"></param>
+	<param name="TemplatePath"></param>
+	<param name="CartonQty"></param>
+	<param name="StationId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.GetPrintTemplatePath(System.String,System.String@,System.String@,System.String@)">
+	<summary>
+ 取得打印模板
+ 还要取得设置的料号
+ 增加取模板的条件，多工站时取不到在线打印数据
+ </summary>
+	<param name="partId"></param>
+	<param name="TemplatePath"></param>
+	<param name="PN"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.PrintL01PES(System.String,System.String,System.String)">
+	<summary>
+ 在线打印PE袋条码,初次标签打印没有使用MES
+ </summary>
+	<param name="ppid"></param>
+	<param name="partId"></param>
+	<param name="StationId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.CMainMarkSCode(System.Boolean)">
+	<summary>
+ 生成对应PE袋条码
+ 以后不用就删除
+ </summary>
+	<param name="o_blnPrint"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.MainMarkCCode(System.String@)">
+	<summary>
+ 生成PE袋条码号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.MarkSBCode(System.Text.StringBuilder,System.Int16,System.Int16,System.String[0:,0:],System.Data.DataTable)">
+	<summary>
+ 生成流水号
+ </summary>
+	<param name="TempSBCode"></param>
+	<param name="CurrCodePos"></param>
+	<param name="SBCodeLEN"></param>
+	<param name="SBCodeUnit"></param>
+	<param name="CurrCodeUnitTable"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.FileToBarCodePrint(System.String,System.String)">
+	<summary>
+ 条码打印
+ </summary>
+	<param name="pFilePath"></param>
+	<param name="printName"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.PrintBarcode.GenOuterCartonID(System.String)">
+	<summary>
+ 自动生成箱号
+ </summary>
+	<param name="AxTempCode"></param>
+	<returns>string</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.InitialUI">
+	<summary>
+ 初始化
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.LoadDataToDataGrid">
+	<summary>
+ 取得扫描数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.GenOuterCartonID(System.String)">
+	<summary>
+ 自动生成箱号(料件编号加流水)
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.UpdateCatonQty(System.Int32)">
+	<summary>
+ 更新箱包装容量
+ </summary>
+	<param name="iNewCatonQty"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.PackProcessLoad">
+	<summary>
+ 取得包装数量
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.RefeshPackedQty">
+	<summary>
+ 取得包装数量
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.GetDatatable(System.Int32,System.Int32,System.String)">
+	<summary>
+ 共通取得箱号和更新数据
+ </summary>
+	<param name="iCurrentPackQty"></param>
+	<param name="cartonQty"></param>
+	<param name="type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNoBarCodePack.BindComboxDateJie(System.Windows.Forms.ComboBox)">
+	<summary>
+ 时间节次,只显示
+ </summary>
+	<param name="ColComboBox"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_HWHL.IsLineConfirm">
+	<summary>
+ 生产若已回复了当日的柏拉图，不能再录入系统,以免数据产生变异
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_HWHL.GetNgQtyStaionId(System.String,System.String)">
+	<summary>
+ 获取不良个数
+ </summary>
+	<param name="moid">工单</param>
+	<param name="stationId">站点</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_HWHL.GetAssyTsItemId(System.String)">
+	<summary>
+ 取得数据不良数据表Itemid
+ </summary>
+	<param name="ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_HWHL.CheckChildBarcode(System.String)">
+	<summary>
+ 校验子件1
+ </summary>
+	<param name="BarCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmWorkStantScan_HWHL.ThreadControl">
+	<summary>
+ 控制項賦值必須使用委託
+ </summary>
+	<param name="val"></param>
+	<param name="obj"></param>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.SapCommon">
+	<summary>
+ 创建者：田玉琳
+ 创建日期：20190516
+ 内容：SAP关联查询共通化
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmQCAddBatch.m_CId">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/01/13
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>品质抽检新增批号</remarks>
+</member><member name="M:BarCodeScan.FrmQCAddBatch.SetFunCheckRatio(System.String)">
+	<summary>
+ 设置功能抽验比例
+ </summary>
+	<param name="moid"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCAddBatch.RegexNumber(System.String)">
+	<summary>
+ 校验是否是数字
+ </summary>
+	<param name="strNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmQCAddBatch.CheckQCMaxSync(System.String)">
+	<summary>
+ 工单已有空批次，则不允许新增批次
+ </summary>
+	<param name="strMoid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmOnlineWorkPrintScanBar.CheckIsPrint(System.String)">
+	<summary>
+ 检查是否已经打印
+ </summary>
+	<param name="sn"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.ScanCommon.SaveEquipmentNoOfZCTest(System.String,System.String,System.String)">
+	<summary>
+ 中测等非包装扫描寿命管控
+ </summary>
+	<param name="Moid"></param>
+	<param name="Lineid"></param>
+	<param name="EquipmentList"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.ScanCommon.SaveCheckBOMList(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 保存 该父料号需要检查哪些物料号
+ </summary>
+</member><member name="T:BarCodeScan.FrmMultiShowDetail">
+	<summary>
+ 创建者：田玉琳
+ 创建日期：20181204
+ 创建内容：新查询明细方法
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewEquipmentSetForm.BindEquipmentGridSearch(System.String)">
+	<summary>
+ 查询
+ </summary>
+	<param name="where"></param>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmQcQuery.m_CId">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/01/13
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>品质抽检-查询</remarks>
+</member><member name="M:BarCodeScan.FrmShareSetForm.DeleteUnVisibleChar(System.String)">
+	<summary>
+ 功能描述：删除不可见字符。
+ </summary>
+	<param name="sourceString">原字符串</param>
+	<returns></returns>
+</member><member name="T:BarCodeScan.NoSortHashtable.NoSortHashtable">
+	<summary> 
+ Summary description for NoSortedHashtable. 
+ </summary>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.SetWeightDown(System.String,System.String)">
+	<summary>
+ 电子称和手输入统一
+ </summary>
+	<param name="strWeight"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.IsLineConfirm">
+	<summary>
+ 生产若已回复了当日的柏拉图，不能再录入系统,以免数据产生变异
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.GetNgQtyStaionId(System.String,System.String)">
+	<summary>
+ 获取不良个数
+ </summary>
+	<param name="moid">工单</param>
+	<param name="stationId">站点</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.GetAssyTsItemId(System.String)">
+	<summary>
+ 取得数据不良数据表Itemid
+ </summary>
+	<param name="ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.CheckChildBarcode(System.String)">
+	<summary>
+ 校验子件1
+ </summary>
+	<param name="BarCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.CheckGetPPidLink(System.String)">
+	<summary>
+ ppid link确认扫描
+ 增加人员 田玉琳 20200525
+ </summary>
+	<param name="ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.ScanPpidWeight(System.String)">
+	<summary>
+ 处理不良重量
+ </summary>
+	<param name="weight"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan.BarePpidOnlineWeight(System.String)">
+	<summary>
+ 在线裸机称重
+ </summary>
+	<param name="BarCode"></param>
+	<remarks></remarks>
+</member><member name="T:BarCodeScan.FrmWorkStantScan.ThreadControl">
+	<summary>
+ 控制項賦值必須使用委託
+ </summary>
+	<param name="val"></param>
+	<param name="obj"></param>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.My.Resources.Resource1.ResourceManager">
+	<summary>
+  返回此类使用的缓存 ResourceManager 实例。
+</summary>
+</member><member name="P:BarCodeScan.My.Resources.Resource1.Culture">
+	<summary>
+  为使用此强类型资源类的所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:BarCodeScan.My.Resources.Resource1">
+	<summary>
+  强类型资源类，用于查找本地化字符串等。
+</summary>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_HWHL.CheckErrLockData">
+	<summary>
+ 判断是否存在异常解锁情况
+ </summary>
+	<returns>返回发生异常解锁的条码</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_HWHL.EquimentLiftWebChartSend">
+	<summary>
+ 工治具寿命微信推送
+ add by 马跃平
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_HWHL.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNewStantPackScan_HWHL.SetMenuRight">
+	<summary>
+ 设置菜单权限-用户权限设定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_L01.IsLineConfirm">
+	<summary>
+ 生产若已回复了当日的柏拉图，不能再录入系统,以免数据产生变异
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_L01.GetNgQtyStaionId(System.String,System.String)">
+	<summary>
+ 获取不良个数
+ </summary>
+	<param name="moid">工单</param>
+	<param name="stationId">站点</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_L01.GetAssyTsItemId(System.String)">
+	<summary>
+ 取得数据不良数据表Itemid
+ </summary>
+	<param name="ppid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmWorkStantScan_L01.CheckChildBarcode(System.String)">
+	<summary>
+ 校验子件1
+ </summary>
+	<param name="BarCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.ModuleClass.CheckDate(System.Windows.Forms.DateTimePicker,System.Windows.Forms.DateTimePicker,System.Boolean,System.Int32)">
+	<summary>
+ 检查时间
+ </summary>
+	<param name="starDT"></param>
+	<param name="endDT"></param>
+	<param name="checkt">默认检测时间间隔</param>
+	<param name="months">检测时间间隔月份数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.ModuleClass.LoadDataToExcel(System.Windows.Forms.DataGridView,System.String)">
+	<summary>
+ DataGridView数据导出excel 公共方法
+ </summary>
+	<param name="DgMoData">DataGridView控件ID</param>
+	<param name="tbname">导出文件名称</param>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.WorkStantOption.vRepeatParaChild1">
+	<summary>
+ 子料号1的参数
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.WorkStantOption.vRepeatStyleChild1">
+	<summary>
+ 子料号1的校验
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BarCodeScan.WorkStantOption.IsAssemblyStation">
+	<summary>
+ 是否为制程扫描工位 paul 2015/03/11
+ </summary>
+	<value></value>
+	<returns>0:否 1:是</returns>
+</member><member name="M:BarCodeScan.FrmNewEquipmentSetFormZCTest.BindEquipmentGridSearch(System.String)">
+	<summary>
+ 查询
+ </summary>
+	<param name="where"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmNGBarLink.btnLink_Click(System.Object,System.EventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmMultiPackScan.OnlineCartonID">
+	<summary>
+ 在线生成箱号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmMultiPackScan.CheckErrLockData">
+	<summary>
+ 判断是否存在异常解锁情况
+ </summary>
+	<returns>返回发生异常解锁的条码</returns>
+	<remarks></remarks>
+</member><member name="F:BarCodeScan.FrmQCTestItem._PicDirector">
+	<summary>
+ 修改者： 黄广都
+ 修改日： 2020/01/18
+ 修改内容：
+ -------------------修改记录---------------------
+ 
+ </summary>
+	<remarks>检验项目</remarks>
+</member><member name="M:BarCodeScan.FrmQCTestItem.CheckNgCodeExists(System.String)">
+	<summary>
+ 检查不良现象是否存在
+ </summary>
+	<param name="NgCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmScanErrPrompt.IsCreateErrData">
+	<summary>
+ 判断登录用户是否高级用户
+ </summary>
+	<returns>true代表高级用户，false代表普通用户</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmScanErrPrompt.IsPowerUser">
+	<summary>
+ 判断登录用户是否高级用户
+ </summary>
+	<returns>true代表高级用户，false代表普通用户</returns>
+	<remarks></remarks>
+</member><member name="M:BarCodeScan.FrmScanErrPrompt.FillCombox(System.Windows.Forms.ComboBox)">
+	<summary>
+ 绑定默认错误解决方案
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

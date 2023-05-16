@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>DataGridView2_0</Control_Id>
+    <Chs_Desc>外箱条码序号</Chs_Desc>
+    <Cht_Desc>外箱條碼序號</Cht_Desc>
+    <En_Desc>carton barcode No.</En_Desc>
+    <En_Full_Desc>carton barcode No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView2_1</Control_Id>
+    <Chs_Desc>产品条码序号</Chs_Desc>
+    <Cht_Desc>產品條碼序號</Cht_Desc>
+    <En_Desc>product barcode No.</En_Desc>
+    <En_Full_Desc>product barcode No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView2_2</Control_Id>
+    <Chs_Desc>扫描人员</Chs_Desc>
+    <Cht_Desc>掃描人員</Cht_Desc>
+    <En_Desc>Scan Man</En_Desc>
+    <En_Full_Desc>Scanning personnel</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView2_3</Control_Id>
+    <Chs_Desc>扫描时间</Chs_Desc>
+    <Cht_Desc>掃描時間</Cht_Desc>
+    <En_Desc>Scan Time</En_Desc>
+    <En_Full_Desc>Scan Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmPackForScrap</Control_Id>
+    <Chs_Desc>报废品包装扫描作业</Chs_Desc>
+    <Cht_Desc>報廢品包裝掃描作業</Cht_Desc>
+    <En_Desc>Scraps Packing Query</En_Desc>
+    <En_Full_Desc>ScrapsPack Query</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>工单：</Chs_Desc>
+    <Cht_Desc>工單：</Cht_Desc>
+    <En_Desc>MO</En_Desc>
+    <En_Full_Desc>Manufacture Order</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label24</Control_Id>
+    <Chs_Desc>外箱条码序号：</Chs_Desc>
+    <Cht_Desc>外箱條碼序號：</Cht_Desc>
+    <En_Desc>Carton Code No.</En_Desc>
+    <En_Full_Desc>CartonCode No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label25</Control_Id>
+    <Chs_Desc>产品条码序号：</Chs_Desc>
+    <Cht_Desc>產品條碼序號：</Cht_Desc>
+    <En_Desc>Product Code No.</En_Desc>
+    <En_Full_Desc>Prod.BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label26</Control_Id>
+    <Chs_Desc>提示信息</Chs_Desc>
+    <Cht_Desc>提示信息</Cht_Desc>
+    <En_Desc>Prompts</En_Desc>
+    <En_Full_Desc>Prompts</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label27</Control_Id>
+    <Chs_Desc>可装箱数量：</Chs_Desc>
+    <Cht_Desc>可裝箱數量：</Cht_Desc>
+    <En_Desc>Permitted Packed Qty.</En_Desc>
+    <En_Full_Desc>PermitPack Qty.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label29</Control_Id>
+    <Chs_Desc>当前扫描数量：</Chs_Desc>
+    <Cht_Desc>當前掃描數量：</Cht_Desc>
+    <En_Desc>Current Scan Qty.</En_Desc>
+    <En_Full_Desc>CurrentScan Qty.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label32</Control_Id>
+    <Chs_Desc>扫描前已装数量：</Chs_Desc>
+    <Cht_Desc>掃描前已裝數量：</Cht_Desc>
+    <En_Desc>Before Scan Packed Qty</En_Desc>
+    <En_Full_Desc>PreScan PackedQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lbBefore</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lbNowPack</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lbTotal</Control_Id>
+    <Chs_Desc>1000000</Chs_Desc>
+    <Cht_Desc>1000000</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>toolExit</Control_Id>
+    <Chs_Desc>退出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolOption</Control_Id>
+    <Chs_Desc>参数设置(&amp;O)</Chs_Desc>
+    <Cht_Desc>參數設置(&amp;O)</Cht_Desc>
+    <En_Desc>Parameters Setting(&amp;O)</En_Desc>
+    <En_Full_Desc>Param.Setup(&amp;O)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolReplace</Control_Id>
+    <Chs_Desc>产品条码替换打印(R)</Chs_Desc>
+    <Cht_Desc>產品條碼替換打印(R)</Cht_Desc>
+    <En_Desc>Product Code Replacing Print</En_Desc>
+    <En_Full_Desc>Prod.BarcodeSubsi.Print</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolScanSet</Control_Id>
+    <Chs_Desc>混装检测(&amp;F1)</Chs_Desc>
+    <Cht_Desc>混裝檢測(&amp;F1)</Cht_Desc>
+    <En_Desc>Mixed Pack Inspection(&amp;F1)</En_Desc>
+    <En_Full_Desc>MixPack Inspection(&amp;F1)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripButton1</Control_Id>
+    <Chs_Desc>产品条码重码校验(C)</Chs_Desc>
+    <Cht_Desc>產品條碼重碼校驗(C)</Cht_Desc>
+    <En_Desc>Product Code Repeated Codes Verify</En_Desc>
+    <En_Full_Desc>Prod.RepeatedCode Verify</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel1</Control_Id>
+    <Chs_Desc>扫描人员:</Chs_Desc>
+    <Cht_Desc>掃描人員:</Cht_Desc>
+    <En_Desc>Scan Man:</En_Desc>
+    <En_Full_Desc>Scanning personnel:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripStatusLabel2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

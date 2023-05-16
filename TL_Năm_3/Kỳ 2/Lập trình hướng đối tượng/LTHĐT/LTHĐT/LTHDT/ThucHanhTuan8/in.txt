@@ -1,0 +1,20 @@
+cannon
+600 8
+
+epson
+720 4
+
+nikon n7000
+1900 8
+
+hp printer
+1200 6
+
+atell 900
+1200 6
+
+mio 986
+720 8
+
+samsung
+1200 4

@@ -1,0 +1,31 @@
+USE [MESDB]
+GO
+
+/****** Object:  Table [dbo].[m_RoleRight_t]    Script Date: 2016/3/18 17:10:21 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[m_RoleRight_t](
+	[Role_Id] [varchar](10) NOT NULL,
+	[TKey] [varchar](10) NOT NULL,
+	[Createuser] [varchar](10) NULL,
+	[Intime] [datetime] NULL,
+ CONSTRAINT [PK_m_RoleRight_t] PRIMARY KEY CLUSTERED 
+(
+	[Role_Id] ASC,
+	[TKey] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

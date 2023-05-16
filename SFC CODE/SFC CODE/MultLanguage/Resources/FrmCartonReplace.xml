@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>FrmCartonReplace</Control_Id>
+    <Chs_Desc>外箱替换打印作业</Chs_Desc>
+    <Cht_Desc>外箱替換打印作業</Cht_Desc>
+    <En_Desc>Outer Box Replacement Print</En_Desc>
+    <En_Full_Desc>Outer Box Replacement Print Operation</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>旧箱箱号：</Chs_Desc>
+    <Cht_Desc>舊箱箱號：</Cht_Desc>
+    <En_Desc>OldBoxID:</En_Desc>
+    <En_Full_Desc>Old Box ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>解锁密码：</Chs_Desc>
+    <Cht_Desc>解鎖密碼：</Cht_Desc>
+    <En_Desc>Unlock Pwd:</En_Desc>
+    <En_Full_Desc>Unlock Password:</En_Full_Desc>
+  </Table>
+</NewDataSet>

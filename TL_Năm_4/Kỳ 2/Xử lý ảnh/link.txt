@@ -1,0 +1,24 @@
+https://codelungtung.wordpress.com/2018/01/12/image-transformations/
+https://phamdinhkhanh.github.io/2020/01/06/ImagePreprocessing.html#214-bi%E1%BA%BFn-%C4%91%E1%BB%95i-ph%E1%BB%91i-c%E1%BA%A3nh-perspective-transform
+https://aicurious.io/posts/2018-09-29-loc-anh-image-filtering/
+https://www.stdio.vn/computer-vision/phep-tich-chap-trong-xu-ly-anh-convolution-r1vHu1
+https://123docz.net//document/1257002-mot-so-phuong-phap-loc-nhieu-da-duoc-hoc.htm
+https://ichi.pro/vi/bo-loc-hinh-anh-bang-python-42806119651282
+https://aiots.vn/phan-9-loc-anh-su-dung-tich-chap-trong-opencv/#1
+
+
+
+
+
+
+
+
+
+
+
+
+
+viền ảnh
+https://blog.vietnamlab.vn/xu-ly-anh-voi-opencv/
+https://vinbigdata.com/phan-vung-anh-la-gi-mot-so-ky-thuat-phan-vung-pho-bien/
+https://ladigi.vn/phan-vung-anh-la-gi-chi-tiet-ve-phan-vung-anh-moi-nhat-2021

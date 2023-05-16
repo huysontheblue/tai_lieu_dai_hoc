@@ -1,0 +1,16 @@
+Sử dụng Jupiter:
+ALT + Enter: Tạo dòng mới
+CTRT + Enter: Chạy lệnh
+
+Đọc file:
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+df=pd.read_csv('dirtydata.csv') // dirtydata là file
+print(df.to_string())
+
+
+- Vẽ đồ thị
+plt.plot()
+plt.show()

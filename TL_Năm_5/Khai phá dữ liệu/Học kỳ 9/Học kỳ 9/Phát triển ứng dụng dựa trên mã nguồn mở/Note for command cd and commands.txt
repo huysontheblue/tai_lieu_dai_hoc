@@ -1,0 +1,47 @@
+Cách lệnh thông dụng đối với đường dẫn tương đối và tuyệt đối:
++ Di chuyển về thư mục gốc: cd /
+
++ Di chuyển đến 1 vị trí bất kì khi biết đường dẫn tuyệt đối: cd /etc/networks
+
++ Di chuyển đến thư mục con nằm trong thư mục hiện tại: cd docs hoặc ./docs
+
++ Di chuyển đến thư mục mẹ:
+
+cd ..
+
+cd ../.. : di chuyển về thư mục mẹ 2 lần
+
++ Lệnh cd không có tham số, sẽ đưa bạn về home directory (thư mục chính), dù bất kể bạn đang ở đâu: cd hoặc cd ~
+
++ Lệnh cd dùng để quay về thư mục trước đó mà trước đây chúng ta đã làm việc với lệnh: cd -
+
+Có nhiều cách di chuyển nhanh bằng cd như sau:
++ cd .. (với 2 chấm) để chuyển lên 1 cấp thư mục trên
++ cd để tới thẳng thư mục home
++ cd- (với dấu gạch ngang) để chuyển tới thư mục bạn đã ở trước đó
+
+-------------------------------------------------------
+
+Command pwd được dùng để tìm đường dẫn của thư mục hiện tại (folder) mà bạn đang ở trong đó
+
+-------------------------------------------------------
+
+Command ls được dùng để xem nội dung thư mục. 
+Mặc định là command này sẽ hiển thị danh sách file trong thư mục hiện tại.
+Có nhiều phiên bản để dùng với lệnh ls như sau:
++ ls -R liệt kê các file bao gồm cả các thư mục phụ bên trong
++ ls -a liệt kê những file ẩn
++ ls -al liệt kê tất cả file và thư mục với thông tin chi tiết như phân quyền, kích thước, chủ sở hữu, ...
+
+
+-------------------------------------------------------
+
+Cat được dùng để xem nội dung file trên output tiêu chuẩn (sdout)
+Để chạy lệnh này, gõ cat theo sau là tên file và phần mở rộng. Ví dụ: cat file.txt.
+
+Có nhiều cách để sử dụng cat command linux:
++ cat > filename tạo ra file mới
++ cat filename1 filename2>filename3 nhập 2 files (1 và 2) để lưu kết quả vào file (3)
++ Để chuyển một file từ in thường tới in hoa hoặc ngược lại, cat filename | tr a-z A-Z >output.txt
+
+install discourse

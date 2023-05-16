@@ -1,0 +1,67 @@
+﻿
+
+
+RCard  V1.0.0.3   2015/12/08
+==========================================
+Requirement:
+当时成套MO时，可能导致子工单不能查询出来打印
+Action:
+1.Modify table m_PartContrast_t set ExpirationDate = null 
+where ExpirationDate is string.empty
+
+
+RCard  V1.0.0.2   2015/11/17
+==========================================
+Requirement:
+1. 新增流程卡head部分，描述和规格颠倒
+  -- Add redownload BOM PN info function
+2. 工站资料维护界面，点击新建工站的标准工时栏，弹出 非本身的标准工时项（如D点击工站编号R01623——弹出R01622工站的标准工时项）
+  -- Modify BasicMangement.FrmStationSet 
+3. 流程卡界面选择工站时，需点开多个窗口，点击多个按钮
+  -- Add  automatch function
+4. 手工修改成品尺寸，工时自动变成0了
+  -- Check whether maintain base data
+5. 流程卡明细表（成套子件需配置数进行配套）对不上, 同时实现明细表打印功能
+  -- Modify sql , not add print function
+6. 流程卡界面，点击工站，右端的物料无法显示
+  --  Modify  FrmRunCard.GetRunCardPart function,  add  ISNULL(PC.TYPE,'R') = 'R'
+7. 新建新流程卡head部分时，BOM没有自动下载
+  -- Add auto download bom info
+8. 打印模板，1.治具设备栏太宽；2.无最近修改日期；3.创建人&审核人：为工号
+  -- Modify FrmRunCardImportStation, Add ModifyTime, alter userID show chinese name.
+9. 变量输入，数值未变化，公式计算有误
+  -- Check Base data
+10.SOP无法在工站里面进行修改，需要进入工站资料库进行修改
+  -- No Action
+11.修改工站项需要点击右键，进入工站资料库，点击查询所要修改后的工站
+   -- Add Auto match function
+12.流程卡无法批量导入
+  -- Modfiy loop folder's all excel file
+13.流程卡创建人BUG（904090573-03）创建时间：2014/11/5，创建人：何岗（本人今年才加入立讯）
+  -- Not update m_RCardM_t.UserID
+14.工单资料查询，增加打印流程卡(如单根工艺流程设置的打印，但需含工单、线别、工单数量等信息)。
+  -- To Do
+15.修改工艺标准时，加工参数页面要带出原有的设置的值。
+  -- Need check the TVPN and WirePN whether maintain base data
+16.加工工艺参数导出时合压线材数据丢失
+  -- Add WirePN2,3,4 & WireDes2,3,4 in code and excel template.
+
+
+RCard  V1.0.0.0   2015/11/09
+==========================================
+Requeset:
+1. 需要多个厂区公用，调整表结构，新版流程卡发布。
+Action:
+1. 取消流程卡模块料件基础资料维护 & BOM下载的两个程序， 功能统一合并到：基础资料维护==》料件基础资料
+2. 取消流程卡模块流程卡工单维护 & 流程卡工单查询的两个程序。功能统一合并到基础资料维护工单资料维护 & 工单资料查询。
+3. 工单资料查询：增加打印流程卡的功能。
+①复制原有做法，打印子工单的流程卡。
+②功能条码样式变更：F/工单/料号流水号/工站流水号==》 F/工单/工站编码  
+③工单状态参考修改：before（M_MOSTATE_T）After（mostate）
+4. 取消流程卡模块工站资料维护的程序
+5. 功能统一合并到基础资料维护工单资料维护 & 工单资料查询。
+6. 增加标准工时功能
+7. 流程卡扫描:
+a. 功能条码样式变更：F/工单/料号流水号/工站流水号F/工单/工站编码。
+b. 增加区分厂区和利润中心。
+c. 对应增删查改的数据表统一修改为新的表。

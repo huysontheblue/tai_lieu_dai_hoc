@@ -1,0 +1,794 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>ChkACtn</Control_Id>
+    <Chs_Desc>整箱需求：</Chs_Desc>
+    <Cht_Desc>整箱需求：</Cht_Desc>
+    <En_Desc>Full Container Request</En_Desc>
+    <En_Full_Desc>FullPack Request</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkBobcatAsn</Control_Id>
+    <Chs_Desc>依线别分配条码</Chs_Desc>
+    <Cht_Desc>依線別分配條碼</Cht_Desc>
+    <En_Desc>Distribution Barcode By Line</En_Desc>
+    <En_Full_Desc>Distribution Barcode By Line</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkCarton</Control_Id>
+    <Chs_Desc>外箱条码：</Chs_Desc>
+    <Cht_Desc>外箱條碼：</Cht_Desc>
+    <En_Desc>Carton Code</En_Desc>
+    <En_Full_Desc>CartonCode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkNotPrint</Control_Id>
+    <Chs_Desc>生成记录文件，不打印</Chs_Desc>
+    <Cht_Desc>生成記錄文件，不打印</Cht_Desc>
+    <En_Desc>Only Create File</En_Desc>
+    <En_Full_Desc>Only Create File Do Not Print</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkNppid</Control_Id>
+    <Chs_Desc>无流水码</Chs_Desc>
+    <Cht_Desc>無流水碼</Cht_Desc>
+    <En_Desc>None Serial Code</En_Desc>
+    <En_Full_Desc>Non.SerialCode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkNserier</Control_Id>
+    <Chs_Desc>栈板标签</Chs_Desc>
+    <Cht_Desc>棧板標簽</Cht_Desc>
+    <En_Desc>Pallet Label</En_Desc>
+    <En_Full_Desc>PalletLabel</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkPCtn</Control_Id>
+    <Chs_Desc>尾箱需求：</Chs_Desc>
+    <Cht_Desc>尾箱需求：</Cht_Desc>
+    <En_Desc>Incomplete-filled Container Request</En_Desc>
+    <En_Full_Desc>IncompletedPack Request</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkPPID</Control_Id>
+    <Chs_Desc>产品条码：</Chs_Desc>
+    <Cht_Desc>產品條碼：</Cht_Desc>
+    <En_Desc>Product Code No.</En_Desc>
+    <En_Full_Desc>Prod.Barcode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>chkSerialCon</Control_Id>
+    <Chs_Desc>打印多个相同条码</Chs_Desc>
+    <Cht_Desc>打印多個相同條碼</Cht_Desc>
+    <En_Desc>Print Serveral Identical Barcodes</En_Desc>
+    <En_Full_Desc>Print MultiIdenti.Barcodes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_0</Control_Id>
+    <Chs_Desc>单据编号</Chs_Desc>
+    <Cht_Desc>單據編號</Cht_Desc>
+    <En_Desc>Bill Code</En_Desc>
+    <En_Full_Desc>Bill Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_1</Control_Id>
+    <Chs_Desc>单据状态</Chs_Desc>
+    <Cht_Desc>單據狀態</Cht_Desc>
+    <En_Desc>Bill Status</En_Desc>
+    <En_Full_Desc>Bill Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_10</Control_Id>
+    <Chs_Desc>打印机型号</Chs_Desc>
+    <Cht_Desc>打印機型號</Cht_Desc>
+    <En_Desc>Printer Model</En_Desc>
+    <En_Full_Desc>Printer Model</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_11</Control_Id>
+    <Chs_Desc>温度</Chs_Desc>
+    <Cht_Desc>溫度</Cht_Desc>
+    <En_Desc>Temperature
+</En_Desc>
+    <En_Full_Desc>
+
+Temperature
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_12</Control_Id>
+    <Chs_Desc>碳带</Chs_Desc>
+    <Cht_Desc>碳帶</Cht_Desc>
+    <En_Desc>
+
+Ribbon
+</En_Desc>
+    <En_Full_Desc>
+
+Ribbon
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_13</Control_Id>
+    <Chs_Desc>部门名称</Chs_Desc>
+    <Cht_Desc>部門名稱</Cht_Desc>
+    <En_Desc>Dept Name</En_Desc>
+    <En_Full_Desc>Dept Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_14</Control_Id>
+    <Chs_Desc>打印人员</Chs_Desc>
+    <Cht_Desc>打印人員</Cht_Desc>
+    <En_Desc>Print Man</En_Desc>
+    <En_Full_Desc>Print Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_15</Control_Id>
+    <Chs_Desc>完成时间</Chs_Desc>
+    <Cht_Desc>完成時間</Cht_Desc>
+    <En_Desc>Finished Time</En_Desc>
+    <En_Full_Desc>Finished Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_16</Control_Id>
+    <Chs_Desc>申请人员</Chs_Desc>
+    <Cht_Desc>申請人員</Cht_Desc>
+    <En_Desc>Applicant</En_Desc>
+    <En_Full_Desc>Applicant</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_17</Control_Id>
+    <Chs_Desc>申请时间</Chs_Desc>
+    <Cht_Desc>申請時間</Cht_Desc>
+    <En_Desc>Apply Time</En_Desc>
+    <En_Full_Desc>Apply Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_18</Control_Id>
+    <Chs_Desc>领取人员</Chs_Desc>
+    <Cht_Desc>領取人員</Cht_Desc>
+    <En_Desc>Rec Man</En_Desc>
+    <En_Full_Desc>Receive Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_19</Control_Id>
+    <Chs_Desc>领取时间</Chs_Desc>
+    <Cht_Desc>領取時間</Cht_Desc>
+    <En_Desc>Rec Time</En_Desc>
+    <En_Full_Desc>Receive Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_2</Control_Id>
+    <Chs_Desc>标签类型</Chs_Desc>
+    <Cht_Desc>標簽類型</Cht_Desc>
+    <En_Desc>Label Type</En_Desc>
+    <En_Full_Desc>Label Type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_20</Control_Id>
+    <Chs_Desc>备注</Chs_Desc>
+    <Cht_Desc>備注</Cht_Desc>
+    <En_Desc>Remark</En_Desc>
+    <En_Full_Desc>Remark</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_21</Control_Id>
+    <Chs_Desc>工厂</Chs_Desc>
+    <Cht_Desc>工廠</Cht_Desc>
+    <En_Desc>Factory
+</En_Desc>
+    <En_Full_Desc>Factory
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_22</Control_Id>
+    <Chs_Desc>部门简码</Chs_Desc>
+    <Cht_Desc>部門簡碼</Cht_Desc>
+    <En_Desc>Dept Code</En_Desc>
+    <En_Full_Desc>Department Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_23</Control_Id>
+    <Chs_Desc>班别</Chs_Desc>
+    <Cht_Desc>班別</Cht_Desc>
+    <En_Desc>Class</En_Desc>
+    <En_Full_Desc>Class</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_24</Control_Id>
+    <Chs_Desc>线别简码</Chs_Desc>
+    <Cht_Desc>線別簡碼</Cht_Desc>
+    <En_Desc>Line Code</En_Desc>
+    <En_Full_Desc>Line Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_25</Control_Id>
+    <Chs_Desc>版本号</Chs_Desc>
+    <Cht_Desc>版本號</Cht_Desc>
+    <En_Desc>Ver</En_Desc>
+    <En_Full_Desc>Version</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_26</Control_Id>
+    <Chs_Desc>产品DriFlag</Chs_Desc>
+    <Cht_Desc>產品DriFlag</Cht_Desc>
+    <En_Desc>Prod DriFlag</En_Desc>
+    <En_Full_Desc>Product DriFlag</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_27</Control_Id>
+    <Chs_Desc>BuildAttribute</Chs_Desc>
+    <Cht_Desc>BuildAttribute</Cht_Desc>
+    <En_Desc>BuildAttribute</En_Desc>
+    <En_Full_Desc>BuildAttribute</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_28</Control_Id>
+    <Chs_Desc>外箱类型</Chs_Desc>
+    <Cht_Desc>外箱類型</Cht_Desc>
+    <En_Desc>Outer Box Type</En_Desc>
+    <En_Full_Desc>Outer Box Type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_3</Control_Id>
+    <Chs_Desc>线别编号</Chs_Desc>
+    <Cht_Desc>線別編號</Cht_Desc>
+    <En_Desc>Line ID</En_Desc>
+    <En_Full_Desc>Line ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_4</Control_Id>
+    <Chs_Desc>工单编号</Chs_Desc>
+    <Cht_Desc>工單編號</Cht_Desc>
+    <En_Desc>MO ID</En_Desc>
+    <En_Full_Desc>Manufacture Order ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_5</Control_Id>
+    <Chs_Desc>料件编号</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_6</Control_Id>
+    <Chs_Desc>空白标签</Chs_Desc>
+    <Cht_Desc>空白標簽</Cht_Desc>
+    <En_Desc>Blank Label</En_Desc>
+    <En_Full_Desc>Blank Label</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_7</Control_Id>
+    <Chs_Desc>图面文件</Chs_Desc>
+    <Cht_Desc>圖面文件</Cht_Desc>
+    <En_Desc>Map File</En_Desc>
+    <En_Full_Desc>Map File</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_8</Control_Id>
+    <Chs_Desc>需求数量</Chs_Desc>
+    <Cht_Desc>需求數量</Cht_Desc>
+    <En_Desc>Demand Qty</En_Desc>
+    <En_Full_Desc>Demand quantity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgTask_9</Control_Id>
+    <Chs_Desc>需求时间</Chs_Desc>
+    <Cht_Desc>需求時間</Cht_Desc>
+    <En_Desc>Demand Time</En_Desc>
+    <En_Full_Desc>Demand Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmPrtTask</Control_Id>
+    <Chs_Desc>打印申请作业</Chs_Desc>
+    <Cht_Desc>打印申請作業</Cht_Desc>
+    <En_Desc>Print Application </En_Desc>
+    <En_Full_Desc>RequestPrint </En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc>打印方式</Chs_Desc>
+    <Cht_Desc>打印方式</Cht_Desc>
+    <En_Desc>Print Mode</En_Desc>
+    <En_Full_Desc>Print Mode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>部门名称：</Chs_Desc>
+    <Cht_Desc>部門名稱：</Cht_Desc>
+    <En_Desc>Dept. Name</En_Desc>
+    <En_Full_Desc>Dept.Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>需求数量：</Chs_Desc>
+    <Cht_Desc>需求數量：</Cht_Desc>
+    <En_Desc>Demand Qty</En_Desc>
+    <En_Full_Desc>DemandQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>线别编号：</Chs_Desc>
+    <Cht_Desc>線別編號：</Cht_Desc>
+    <En_Desc>Lines No.</En_Desc>
+    <En_Full_Desc>LinesNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>标签类型：</Chs_Desc>
+    <Cht_Desc>標簽類型：</Cht_Desc>
+    <En_Desc>Label Type</En_Desc>
+    <En_Full_Desc>LabelType</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc>箱装数量：</Chs_Desc>
+    <Cht_Desc>箱裝數量：</Cht_Desc>
+    <En_Desc>Packing Qty</En_Desc>
+    <En_Full_Desc>ContanierQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label14</Control_Id>
+    <Chs_Desc>申请单号：</Chs_Desc>
+    <Cht_Desc>申請單號：</Cht_Desc>
+    <En_Desc>Application Time</En_Desc>
+    <En_Full_Desc>RequestSheetNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label15</Control_Id>
+    <Chs_Desc>需求数量：</Chs_Desc>
+    <Cht_Desc>需求數量：</Cht_Desc>
+    <En_Desc>Demand Qty</En_Desc>
+    <En_Full_Desc>DemandQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label16</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label17</Control_Id>
+    <Chs_Desc>单据描述：</Chs_Desc>
+    <Cht_Desc>單據描述：</Cht_Desc>
+    <En_Desc>Receipts Descr.</En_Desc>
+    <En_Full_Desc>ReceiptsDescr.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label18</Control_Id>
+    <Chs_Desc>无流水已打印：</Chs_Desc>
+    <Cht_Desc>無流水已打印：</Cht_Desc>
+    <En_Desc>None Flow Printed</En_Desc>
+    <En_Full_Desc>NonFlow Printed</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label19</Control_Id>
+    <Chs_Desc>单据编号：</Chs_Desc>
+    <Cht_Desc>單據編號：</Cht_Desc>
+    <En_Desc>Receipts No.</En_Desc>
+    <En_Full_Desc>ReceiptsNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>单据状态：</Chs_Desc>
+    <Cht_Desc>單據狀態：</Cht_Desc>
+    <En_Desc>Receipts Status</En_Desc>
+    <En_Full_Desc>ReceiptsState</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label20</Control_Id>
+    <Chs_Desc>线别编号：</Chs_Desc>
+    <Cht_Desc>線別編號：</Cht_Desc>
+    <En_Desc>Lines No.</En_Desc>
+    <En_Full_Desc>LinesNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label21</Control_Id>
+    <Chs_Desc>申请时间：</Chs_Desc>
+    <Cht_Desc>申請時間：</Cht_Desc>
+    <En_Desc>Application Time</En_Desc>
+    <En_Full_Desc>RequestTime</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label22</Control_Id>
+    <Chs_Desc>至：</Chs_Desc>
+    <Cht_Desc>至：</Cht_Desc>
+    <En_Desc>Till</En_Desc>
+    <En_Full_Desc>Till</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label23</Control_Id>
+    <Chs_Desc>生产班別：</Chs_Desc>
+    <Cht_Desc>生產班別：</Cht_Desc>
+    <En_Desc>Production Line</En_Desc>
+    <En_Full_Desc>Manufac.Line</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label25</Control_Id>
+    <Chs_Desc>需求数量：</Chs_Desc>
+    <Cht_Desc>需求數量：</Cht_Desc>
+    <En_Desc>Demand Qty</En_Desc>
+    <En_Full_Desc>DemandQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label26</Control_Id>
+    <Chs_Desc>产品DriFlag：</Chs_Desc>
+    <Cht_Desc>產品DriFlag：</Cht_Desc>
+    <En_Desc>Product DriFlag</En_Desc>
+    <En_Full_Desc>Prod.DriFlag</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label27</Control_Id>
+    <Chs_Desc>BuildAttribute：</Chs_Desc>
+    <Cht_Desc>BuildAttribute：</Cht_Desc>
+    <En_Desc>Build Attribute：</En_Desc>
+    <En_Full_Desc>BuildAttribute</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label28</Control_Id>
+    <Chs_Desc>外箱类型：</Chs_Desc>
+    <Cht_Desc>外箱類型：</Cht_Desc>
+    <En_Desc>Carton Type</En_Desc>
+    <En_Full_Desc>CartonType</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label29</Control_Id>
+    <Chs_Desc>产品条码版本号：</Chs_Desc>
+    <Cht_Desc>產品條碼版本號：</Cht_Desc>
+    <En_Desc>Product Code Ver No.</En_Desc>
+    <En_Full_Desc>Prod.Code VerNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>备注：</Chs_Desc>
+    <Cht_Desc>備注：</Cht_Desc>
+    <En_Desc>Notes</En_Desc>
+    <En_Full_Desc>Notes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label31</Control_Id>
+    <Chs_Desc>外箱条码版本号：</Chs_Desc>
+    <Cht_Desc>外箱條碼版本號：</Cht_Desc>
+    <En_Desc>Carton Code Ver No.</En_Desc>
+    <En_Full_Desc>CartonCode VerNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label32</Control_Id>
+    <Chs_Desc>无流水码版本号：</Chs_Desc>
+    <Cht_Desc>無流水碼版本號：</Cht_Desc>
+    <En_Desc>None Serial Code Ver No.</En_Desc>
+    <En_Full_Desc>Non.SerialCode VerNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label33</Control_Id>
+    <Chs_Desc>栈板条码版本号：</Chs_Desc>
+    <Cht_Desc>棧板條碼版本號：</Cht_Desc>
+    <En_Desc>Pallet Code Ver No.</En_Desc>
+    <En_Full_Desc>PalletCode VerNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label34</Control_Id>
+    <Chs_Desc>自定义栏位</Chs_Desc>
+    <Cht_Desc>自定義欄位</Cht_Desc>
+    <En_Desc>User-defined Toolbar</En_Desc>
+    <En_Full_Desc>UserDefined Toolbar</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label35</Control_Id>
+    <Chs_Desc>自定义栏位</Chs_Desc>
+    <Cht_Desc>自定義欄位</Cht_Desc>
+    <En_Desc>User-defined Toolbar</En_Desc>
+    <En_Full_Desc>UserDefined Toolbar</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>P/N</En_Desc>
+    <En_Full_Desc>P/N</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>外箱已打印：</Chs_Desc>
+    <Cht_Desc>外箱已打印：</Cht_Desc>
+    <En_Desc>Carton Printed</En_Desc>
+    <En_Full_Desc>CartonPrinted</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO No.</En_Desc>
+    <En_Full_Desc>Manufacture Order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>部门名称：</Chs_Desc>
+    <Cht_Desc>部門名稱：</Cht_Desc>
+    <En_Desc>Dept. Name</En_Desc>
+    <En_Full_Desc>Dept.Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>产品已打印：</Chs_Desc>
+    <Cht_Desc>產品已打印：</Cht_Desc>
+    <En_Desc>Product Printed</En_Desc>
+    <En_Full_Desc>Prod.Printed</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>工单总量：</Chs_Desc>
+    <Cht_Desc>工單總量：</Cht_Desc>
+    <En_Desc>MO Qty</En_Desc>
+    <En_Full_Desc>Manufacture Order TotalQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Lbl1</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO No.</En_Desc>
+    <En_Full_Desc>Manufacture Order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Lbl8</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>P/N</En_Desc>
+    <En_Full_Desc>P/N</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblCartonPrinted</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblCreatDate</Control_Id>
+    <Chs_Desc>需求时间：</Chs_Desc>
+    <Cht_Desc>需求時間：</Cht_Desc>
+    <En_Desc>Demand Time</En_Desc>
+    <En_Full_Desc>DemandTime</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblDeptName</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LblMoidqty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblNserier</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPackqty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPPIDPrinted</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblRemark</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LblTaskid</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>RadioButton1</Control_Id>
+    <Chs_Desc>打印条码标签</Chs_Desc>
+    <Cht_Desc>打印條碼標簽</Cht_Desc>
+    <En_Desc>Pirnt Barcode</En_Desc>
+    <En_Full_Desc>Print Barcode Label</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadNprintFile</Control_Id>
+    <Chs_Desc>生成打印记录，不打印</Chs_Desc>
+    <Cht_Desc>生成打印記錄，不打印</Cht_Desc>
+    <En_Desc>Only Create Print File</En_Desc>
+    <En_Full_Desc>Only Crate Reord Do Not Print Barcode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolAddNew</Control_Id>
+    <Chs_Desc>新建(&amp;N)</Chs_Desc>
+    <Cht_Desc>新建(&amp;N)</Cht_Desc>
+    <En_Desc>New Build(&amp;N)</En_Desc>
+    <En_Full_Desc>New Build(&amp;N)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolBack</Control_Id>
+    <Chs_Desc>返回(&amp;B)</Chs_Desc>
+    <Cht_Desc>返回(&amp;B)</Cht_Desc>
+    <En_Desc>Back(&amp;B)</En_Desc>
+    <En_Full_Desc>Back(&amp;B)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolBTask</Control_Id>
+    <Chs_Desc>驳回(&amp;K)</Chs_Desc>
+    <Cht_Desc>駁回(&amp;K)</Cht_Desc>
+    <En_Desc>Refusal(&amp;K)</En_Desc>
+    <En_Full_Desc>Refusal(&amp;K)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolCommit</Control_Id>
+    <Chs_Desc>提交(&amp;C)</Chs_Desc>
+    <Cht_Desc>提交(&amp;C)</Cht_Desc>
+    <En_Desc>Commit(&amp;C)</En_Desc>
+    <En_Full_Desc>Commit(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolDelTask</Control_Id>
+    <Chs_Desc>作废(&amp;D)</Chs_Desc>
+    <Cht_Desc>作廢(&amp;D)</Cht_Desc>
+    <En_Desc>Delete(&amp;D)</En_Desc>
+    <En_Full_Desc>Delete(&amp;D)</En_Full_Desc>
+  </Table>
+    <Table>
+    <Control_Id>ToolHoldsn</Control_Id>
+    <Chs_Desc>HoldSN(&amp;H)</Chs_Desc>
+    <Cht_Desc>HoldSN(&amp;H)</Cht_Desc>
+    <En_Desc>HoldSN(&amp;H)</En_Desc>
+    <En_Full_Desc>HoldSN(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolEditTask</Control_Id>
+    <Chs_Desc>修改(&amp;E)</Chs_Desc>
+    <Cht_Desc>修改(&amp;E)</Cht_Desc>
+    <En_Desc>Edit(&amp;E)</En_Desc>
+    <En_Full_Desc>Edit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExcel</Control_Id>
+    <Chs_Desc>汇出(&amp;O)</Chs_Desc>
+    <Cht_Desc>匯出(&amp;O)</Cht_Desc>
+    <En_Desc>Export(&amp;O)</En_Desc>
+    <En_Full_Desc>Export(&amp;O)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExitFrom</Control_Id>
+    <Chs_Desc>退出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolFinish</Control_Id>
+    <Chs_Desc>打印完成(&amp;A)</Chs_Desc>
+    <Cht_Desc>打印完成(&amp;A)</Cht_Desc>
+    <En_Desc>Print Finish(&amp;A)</En_Desc>
+    <En_Full_Desc>PrintFinish(&amp;A)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolLblCount</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolPrt</Control_Id>
+    <Chs_Desc>打印(&amp;P)</Chs_Desc>
+    <Cht_Desc>打印(&amp;P)</Cht_Desc>
+    <En_Desc>Print(&amp;P)</En_Desc>
+    <En_Full_Desc>Print(&amp;P)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolRefresh</Control_Id>
+    <Chs_Desc>刷新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷新(&amp;R)</Cht_Desc>
+    <En_Desc>Refresh(&amp;R)</En_Desc>
+    <En_Full_Desc>Refresh(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStopTask</Control_Id>
+    <Chs_Desc>结案(&amp;V)</Chs_Desc>
+    <Cht_Desc>結案(&amp;V)</Cht_Desc>
+    <En_Desc>Case Closed(&amp;V)</En_Desc>
+    <En_Full_Desc>CaseClosed(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripStatusLabel1</Control_Id>
+    <Chs_Desc>记录笔数：</Chs_Desc>
+    <Cht_Desc>記錄筆數：</Cht_Desc>
+    <En_Desc>Record Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF84DB34-A76C-4F72-9D1D-974110684F32}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ProductionSchedule</RootNamespace>
+    <AssemblyName>ProductionSchedule</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>ProductionSchedule.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProductionSchedule.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\ShareFile\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Interop.Excel">
+      <HintPath>..\ShareFile\Interop.Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="iTextAsian">
+      <HintPath>..\ShareFile\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsianCmaps">
+      <HintPath>..\ShareFile\iTextAsianCmaps.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\ShareFile\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MainFrame">
+      <HintPath>..\ShareFile\MainFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="MainTainModule">
+      <HintPath>..\ShareFile\MainTainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VbCommClass, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\VbCommClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLineQuery.designer.vb">
+      <DependentUpon>FrmLineQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineSeriesType.designer.vb">
+      <DependentUpon>FrmLineSeriesType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineSeriesType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionSchedule.designer.vb">
+      <DependentUpon>FrmProductionSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStopDate.Designer.vb">
+      <DependentUpon>FrmStopDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStopDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetMesData.vb" />
+    <Compile Include="iTextSharpHelp.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmLineQuery.resx">
+      <DependentUpon>FrmLineQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineSeriesType.resx">
+      <DependentUpon>FrmLineSeriesType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionSchedule.resx">
+      <DependentUpon>FrmProductionSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStopDate.resx">
+      <DependentUpon>FrmStopDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\PlanExportTemplate.xlsx" />
+    <None Include="Resources\ProductionPlanTemplate.xlsx" />
+    <None Include="Resources\ProductionPlanTemplateA.xlsx" />
+    <None Include="Resources\ProductionPlanTemplateB.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\add.gif" />
+    <Content Include="Resources\back.gif" />
+    <Content Include="Resources\check.gif" />
+    <Content Include="Resources\Confirm.gif" />
+    <Content Include="Resources\delete.gif" />
+    <Content Include="Resources\edit.gif" />
+    <Content Include="Resources\end.gif" />
+    <Content Include="Resources\G.gif" />
+    <Content Include="Resources\L.gif" />
+    <Content Include="Resources\mmmmm2.bmp" />
+    <Content Include="Resources\print.gif" />
+    <Content Include="Resources\query.gif" />
+    <Content Include="Resources\refresh1.png" />
+    <Content Include="Resources\restore.gif" />
+    <Content Include="Resources\save.gif" />
+    <Content Include="Resources\tree.gif" />
+    <Content Include="Resources\z-2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

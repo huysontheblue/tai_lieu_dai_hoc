@@ -1,0 +1,125 @@
+D:\SFC CODE\ShareFile\BasicFindReport.dll
+D:\SFC CODE\ShareFile\BasicFindReport.pdb
+D:\SFC CODE\ShareFile\BasicFindReport.xml
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.vbprojResolveAssemblyReference.cache
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmAmazonQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmBarcodeBack.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmCustomerOrderQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmDashboardModule.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmHLTestDataQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmHWHLProductTrace.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmHWHLTestResultDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmKpartYield.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmL01PackQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmMOQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmNGRepairQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmNGSearch.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmPackingCheckQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmPackQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmPrintQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductInfoQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGDayQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGDayQuerySub.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGMonthQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductPlanQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQry.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryAppUseStatus.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryAppUseStatusDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryInfo.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryLotInfo.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryLotInfo_KS.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryMaterialInOut.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryPpidLinkData.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionInfo.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionNGDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionRecord.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionRecordIBU.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionUPH.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionWIP.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmReportAdm.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmReportChar.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmReportMain.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmRugenProductTrace.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmScanQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmScanUnlockQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmSearchyyyyy.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmSeriesNGQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.Frmshipreport.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmShowDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmShowSearchDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmSnQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmTaskTime.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmTestRecordQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmTestResultDetail.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmWait.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmWhOutQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmWhStockQuery.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.InputText.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.Resources.resources
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.vbproj.GenerateResource.Cache
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.dll
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.xml
+D:\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.pdb
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.vbprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmAmazonQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmBarcodeBack.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmCustomerOrderQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmDashboardModule.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmHLTestDataQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmHWHLProductTrace.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmHWHLTestResultDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmKpartYield.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmL01PackQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmMOQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmNGRepairQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmNGSearch.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmPackingCheckQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmPackQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmPrintQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductInfoQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGDayQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGDayQuerySub.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGMonthQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductNGQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmProductPlanQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQry.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryAppUseStatus.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryAppUseStatusDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryInfo.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryLotInfo.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryLotInfo_KS.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryMaterialInOut.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryPpidLinkData.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionInfo.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionNGDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionRecord.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionRecordIBU.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionUPH.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmQueryProductionWIP.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmReportAdm.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmReportChar.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmReportMain.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmRugenProductTrace.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmScanQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmScanUnlockQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmSearchyyyyy.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmSeriesNGQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.Frmshipreport.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmShowDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmShowSearchDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmSnQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmTaskTime.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmTestRecordQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmTestResultDetail.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmWait.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmWhOutQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.FrmWhStockQuery.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.InputText.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.Resources.resources
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.vbproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.dll
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.xml
+E:\SFC CODE\SFC CODE\BasicFindReport\obj\Debug\BasicFindReport.pdb

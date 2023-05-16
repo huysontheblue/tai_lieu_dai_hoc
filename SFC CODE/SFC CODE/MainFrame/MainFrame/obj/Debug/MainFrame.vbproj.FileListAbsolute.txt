@@ -1,0 +1,76 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\MainFrame.dll.config
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\MainFrame.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\MainFrame.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\MainFrame.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\MainFrame.dll.config
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\MainFrame.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\MainFrame.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\MainFrame.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\MainFrame.dll.config
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\MainFrame.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\MainFrame.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\MainFrame.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\MainFrame.dll.config
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\MainFrame.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\MainFrame.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\MainFrame.xml
+C:\Users\matech\Desktop\VN\VN\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+C:\Users\matech\Desktop\VN\VN\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+C:\Users\matech\Desktop\VN\VN\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+D:\义安SFC\DEV\ShareFile\MainFrame.dll.config
+D:\义安SFC\DEV\ShareFile\MainFrame.dll
+D:\义安SFC\DEV\ShareFile\MainFrame.pdb
+D:\义安SFC\DEV\ShareFile\MainFrame.xml
+D:\义安SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojAssemblyReference.cache
+D:\义安SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbproj.CopyComplete
+D:\义安SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+D:\义安SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+D:\义安SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\MainFrame.dll.config
+D:\VNSFC\NV-SFC\DEV\ShareFile\MainFrame.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\MainFrame.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\MainFrame.xml
+D:\VNSFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.vbproj.CopyComplete
+D:\VNSFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+D:\VNSFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+D:\VNSFC\NV-SFC\DEV\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\MainFrame.dll.config
+D:\work\svn\SFC\NV_SFC\code\ShareFile\MainFrame.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\MainFrame.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\MainFrame.xml
+D:\work\svn\SFC\NV_SFC\code\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+D:\work\svn\SFC\NV_SFC\code\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+D:\work\svn\SFC\NV_SFC\code\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+D:\SFC CODE\ShareFile\MainFrame.dll.config
+D:\SFC CODE\ShareFile\MainFrame.dll
+D:\SFC CODE\ShareFile\MainFrame.pdb
+D:\SFC CODE\ShareFile\MainFrame.xml
+D:\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojResolveAssemblyReference.cache
+D:\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+D:\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+D:\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.pdb
+E:\SFC CODE\SFC CODE\ShareFile\MainFrame.dll.config
+E:\SFC CODE\SFC CODE\ShareFile\MainFrame.dll
+E:\SFC CODE\SFC CODE\ShareFile\MainFrame.pdb
+E:\SFC CODE\SFC CODE\ShareFile\MainFrame.xml
+E:\SFC CODE\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.vbprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.dll
+E:\SFC CODE\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.xml
+E:\SFC CODE\SFC CODE\MainFrame\MainFrame\obj\Debug\MainFrame.pdb

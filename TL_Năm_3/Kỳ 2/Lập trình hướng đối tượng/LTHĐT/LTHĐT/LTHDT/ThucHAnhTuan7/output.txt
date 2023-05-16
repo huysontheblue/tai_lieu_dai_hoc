@@ -1,0 +1,6 @@
+----------Hien thi thong tin nao may cung---------
+D/M/Y                Name                   Address     Phone    Salary
+8-10-1989Phan Thi Huong Tra                  59 linh Tien    74123                   3
+20-11-2000Truong Huy Manh                   38 Ha Tinh       01234                   3
+3-7-2001Ha Huy Son                          Cam Xuyen       555666                  3
+7-8-0                                                              3

@@ -1,0 +1,316 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\ProductionPlan.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\ProductionPlan.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\ProductionPlan.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\ProductionPlan.dll
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\ProductionPlan.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\ProductionPlan.xml
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbprojResolveAssemblyReference.cache
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.Cache
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.dll
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.xml
+D:\Users\C060148\Desktop\BDTest\DEV\ProductionPlan\obj\Debug\ProductionPlan.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\ProductionPlan.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\ProductionPlan.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\ProductionPlan.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ProductionPlan\obj\Debug\ProductionPlan.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\ProductionPlan.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\ProductionPlan.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\ProductionPlan.xml
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.xml
+C:\Users\matech\Desktop\VN\VN\DEV\ProductionPlan\obj\Debug\ProductionPlan.pdb
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.dll
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.xml
+D:\VNSFC\NV-SFC\DEV\ProductionPlan\obj\Debug\ProductionPlan.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\ProductionPlan.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\ProductionPlan.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\ProductionPlan.xml
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.vbprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.dll
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.xml
+D:\work\svn\SFC\NV_SFC\code\ProductionPlan\obj\Debug\ProductionPlan.pdb
+D:\SFC CODE\ShareFile\ProductionPlan.dll
+D:\SFC CODE\ShareFile\ProductionPlan.pdb
+D:\SFC CODE\ShareFile\ProductionPlan.xml
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.vbprojResolveAssemblyReference.cache
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.Cache
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.dll
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.xml
+D:\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.pdb
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.vbprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmAddEMCPEPT.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmBZAutoSchedule.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmCategory.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmClassSet.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmColumnVisiableSetting.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmCopyPeiZhi.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmEditEMCPEPT.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCEquipmentconfig.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmEMCPEPT.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmImport.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmInput.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCD.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLeanProCDInfo.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLineQuery.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmLineSeriesType.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmManpowerMaster.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmMOOutDate.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmPartCategory.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmPlanReport.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProdBoard.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanManagement.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanMaster.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanQuery.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionPlanUpdate.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionSchedule.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductionTimeMaster.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmProductivityMaster.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmTiptopPlanMaster.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlan.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkDayPlanInfo.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.FrmWorkOrder.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.Resources.resources
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.vbproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.dll
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.xml
+E:\SFC CODE\SFC CODE\ProductionPlan\obj\Debug\ProductionPlan.pdb

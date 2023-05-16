@@ -1,0 +1,257 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>btnNext</Control_Id>
+    <Chs_Desc>下一板</Chs_Desc>
+    <Cht_Desc>下一板</Cht_Desc>
+    <En_Desc>Next Pallet</En_Desc>
+    <En_Full_Desc>NextPallet</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnPrevious</Control_Id>
+    <Chs_Desc>上一板</Chs_Desc>
+    <Cht_Desc>上一板</Cht_Desc>
+    <En_Desc>Last Pallet</En_Desc>
+    <En_Full_Desc>LastPallet</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmExceptionHandleQuery</Control_Id>
+    <Chs_Desc>采集异常处理报表查询</Chs_Desc>
+    <Cht_Desc>采集異常處理報表查詢</Cht_Desc>
+    <En_Desc>Collect Exception Handle Report</En_Desc>
+    <En_Full_Desc>ExceptionHandle Report</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc>查询条件</Chs_Desc>
+    <Cht_Desc>查詢條件</Cht_Desc>
+    <En_Desc>Query Criteria</En_Desc>
+    <En_Full_Desc>Query Criteria</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc>查询条件</Chs_Desc>
+    <Cht_Desc>查詢條件</Cht_Desc>
+    <En_Desc>Query Criteria</En_Desc>
+    <En_Full_Desc>Query Criteria</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox3</Control_Id>
+    <Chs_Desc>查询条件</Chs_Desc>
+    <Cht_Desc>查詢條件</Cht_Desc>
+    <En_Desc>Query Criteria</En_Desc>
+    <En_Full_Desc>Query Criteria</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>groupbx</Control_Id>
+    <Chs_Desc>查询条件</Chs_Desc>
+    <Cht_Desc>查詢條件</Cht_Desc>
+    <En_Desc>Query Criteria</En_Desc>
+    <En_Full_Desc>Query Criteria</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>条码序号:</Chs_Desc>
+    <Cht_Desc>條碼序號:</Cht_Desc>
+    <En_Desc>Barcode No.</En_Desc>
+    <En_Full_Desc>BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>E75读取:</Chs_Desc>
+    <Cht_Desc>E75讀取:</Cht_Desc>
+    <En_Desc>E75 Reading</En_Desc>
+    <En_Full_Desc>E75 Reading</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>旧条码序号:</Chs_Desc>
+    <Cht_Desc>舊條碼序號:</Cht_Desc>
+    <En_Desc>Old Barcode No.</En_Desc>
+    <En_Full_Desc>Old BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>新条码序号:</Chs_Desc>
+    <Cht_Desc>新條碼序號:</Cht_Desc>
+    <En_Desc>New Barcode No.</En_Desc>
+    <En_Full_Desc>New BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc>12码条码序号:</Chs_Desc>
+    <Cht_Desc>12碼條碼序號:</Cht_Desc>
+    <En_Desc>12 Digit Barcode No.</En_Desc>
+    <En_Full_Desc>12digit BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label14</Control_Id>
+    <Chs_Desc>替换起始日期:</Chs_Desc>
+    <Cht_Desc>替換起始日期:</Cht_Desc>
+    <En_Desc>Replace Start Date</En_Desc>
+    <En_Full_Desc>Subsi.StartDate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label15</Control_Id>
+    <Chs_Desc>替换结束日期:</Chs_Desc>
+    <Cht_Desc>替換結束日期:</Cht_Desc>
+    <En_Desc>Replace Finish Date</En_Desc>
+    <En_Full_Desc>Subsi.FinishDate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>E75读取:</Chs_Desc>
+    <Cht_Desc>E75讀取:</Cht_Desc>
+    <En_Desc>E75 Reading</En_Desc>
+    <En_Full_Desc>E75 Reading</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>移除起始日期:</Chs_Desc>
+    <Cht_Desc>移除起始日期:</Cht_Desc>
+    <En_Desc>Start Date Removal</En_Desc>
+    <En_Full_Desc>StartDate Removal</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>移除结束日期:</Chs_Desc>
+    <Cht_Desc>移除結束日期:</Cht_Desc>
+    <En_Desc>Finish Date Removal</En_Desc>
+    <En_Full_Desc>FinishDate Removal</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>17码条码序号:</Chs_Desc>
+    <Cht_Desc>17碼條碼序號:</Cht_Desc>
+    <En_Desc>17 Digit Barcode No.</En_Desc>
+    <En_Full_Desc>17digit BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>E75读取:</Chs_Desc>
+    <Cht_Desc>E75讀取:</Cht_Desc>
+    <En_Desc>E75 Reading</En_Desc>
+    <En_Full_Desc>E75 Reading</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>删除结束日期:</Chs_Desc>
+    <Cht_Desc>刪除結束日期:</Cht_Desc>
+    <En_Desc>Delete Finish Date</En_Desc>
+    <En_Full_Desc>Delete FinishDate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>删除起始日期:</Chs_Desc>
+    <Cht_Desc>刪除起始日期:</Cht_Desc>
+    <En_Desc>Delete Start Date</En_Desc>
+    <En_Full_Desc>Delete StartDate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>条码序号:</Chs_Desc>
+    <Cht_Desc>條碼序號:</Cht_Desc>
+    <En_Desc>Barcode No.</En_Desc>
+    <En_Full_Desc>BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblEndId</Control_Id>
+    <Chs_Desc>结束ID</Chs_Desc>
+    <Cht_Desc>結束ID</Cht_Desc>
+    <En_Desc>Finish ID</En_Desc>
+    <En_Full_Desc>FinishID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblSpoint</Control_Id>
+    <Chs_Desc>打标机台</Chs_Desc>
+    <Cht_Desc>打標機臺</Cht_Desc>
+    <En_Desc>Marking Machine</En_Desc>
+    <En_Full_Desc>Mark.Machine</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblStartId</Control_Id>
+    <Chs_Desc>起始ID</Chs_Desc>
+    <Cht_Desc>起始ID</Cht_Desc>
+    <En_Desc>Start ID</En_Desc>
+    <En_Full_Desc>StartID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblTotal</Control_Id>
+    <Chs_Desc>共 {0} 笔</Chs_Desc>
+    <Cht_Desc>共 {0} 筆</Cht_Desc>
+    <En_Desc>Total (0) </En_Desc>
+    <En_Full_Desc>Total(0)order</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExcel</Control_Id>
+    <Chs_Desc>汇出</Chs_Desc>
+    <Cht_Desc>匯出</Cht_Desc>
+    <En_Desc>Export</En_Desc>
+    <En_Full_Desc>Export</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExit</Control_Id>
+    <Chs_Desc>退    出</Chs_Desc>
+    <Cht_Desc>退    出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolReflsh</Control_Id>
+    <Chs_Desc>刷    新</Chs_Desc>
+    <Cht_Desc>刷    新</Cht_Desc>
+    <En_Desc>Refresh</En_Desc>
+    <En_Full_Desc>Refresh</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tpDelete</Control_Id>
+    <Chs_Desc>打标删除记录查询</Chs_Desc>
+    <Cht_Desc>打標刪除記錄查詢</Cht_Desc>
+    <En_Desc>Marking Delete Record</En_Desc>
+    <En_Full_Desc>DeleteMark Record</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tpMix</Control_Id>
+    <Chs_Desc>混打标异常记录查询</Chs_Desc>
+    <Cht_Desc>混打標異常記錄查詢</Cht_Desc>
+    <En_Desc>Mixed Mark Exception Record</En_Desc>
+    <En_Full_Desc>MixMark Exceptions</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tpReject</Control_Id>
+    <Chs_Desc>不良品移除查询</Chs_Desc>
+    <Cht_Desc>不良品移除查詢</Cht_Desc>
+    <En_Desc>Rejects Removal Query</En_Desc>
+    <En_Full_Desc>RejectsRemoval</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tpReplace</Control_Id>
+    <Chs_Desc>外箱替换记录查询</Chs_Desc>
+    <Cht_Desc>外箱替換記錄查詢</Cht_Desc>
+    <En_Desc>Carton Replacing Record</En_Desc>
+    <En_Full_Desc>Carton Subsi.Record</En_Full_Desc>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetCADClassification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCADClassificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCADClassificationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pw" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getIDENTITY">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applyid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getIDENTITYResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getIDENTITYResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFactory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applyid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFactoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFactoryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProfitcenters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applyid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProfitcentersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getProfitcentersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckBatDownVer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ver" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckBatDownVerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckBatDownVerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMDocument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pw" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMDocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMDocumentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMSAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="applyid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="profitcenter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="customer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rdname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMSAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMSAPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMClassificationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMCADD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classification" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMCADDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMCADDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationECN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationECNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMClassificationECNResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationECN2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usefactory" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="producttype" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usearea" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationECN2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMClassificationECN2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationECN3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="part" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMClassificationECN3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMClassificationECN3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMDocumentUses">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPLMDocumentUsesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMDocumentUsesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModifyDesc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ECN_number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModifyDescResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetModifyDescResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckRDNExist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RDN_number" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RDN_Item" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckRDNExistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckRDNExistResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRDNData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="encryption" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rdn_number" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rdn_item" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="applyid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="starttimestart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="starttimeend" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endtimestart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endtimeend" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isend" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRDNDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRDNDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBOMData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBOMDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBOMDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="item_number" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="encryption" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetPLMDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMDataById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cdid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="encryption" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMDataByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMDataByIdResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMData_current">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="item_number" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="encryption" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPLMData_currentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPLMData_currentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Error" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertLogResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertPermissions">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Factory" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="profitcenter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Roles" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="vault" type="tns:PlmVault" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="PlmVault">
+        <s:restriction base="s:string">
+          <s:enumeration value="Default" />
+          <s:enumeration value="BzVault" />
+          <s:enumeration value="JxVault" />
+          <s:enumeration value="KsVault" />
+          <s:enumeration value="TwVault" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="InsertPermissionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertPermissionsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="factory" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="deptno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="vault" type="tns:PlmVault" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUser_st">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="vault" type="tns:PlmVault" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUser_stResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertUser_stResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCADClassificationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCADClassification" />
+  </wsdl:message>
+  <wsdl:message name="GetCADClassificationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCADClassificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductCode" />
+  </wsdl:message>
+  <wsdl:message name="GetProductCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIDENTITYSoapIn">
+    <wsdl:part name="parameters" element="tns:getIDENTITY" />
+  </wsdl:message>
+  <wsdl:message name="getIDENTITYSoapOut">
+    <wsdl:part name="parameters" element="tns:getIDENTITYResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFactorySoapIn">
+    <wsdl:part name="parameters" element="tns:getFactory" />
+  </wsdl:message>
+  <wsdl:message name="getFactorySoapOut">
+    <wsdl:part name="parameters" element="tns:getFactoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProfitcentersSoapIn">
+    <wsdl:part name="parameters" element="tns:getProfitcenters" />
+  </wsdl:message>
+  <wsdl:message name="getProfitcentersSoapOut">
+    <wsdl:part name="parameters" element="tns:getProfitcentersResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckBatDownVerSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckBatDownVer" />
+  </wsdl:message>
+  <wsdl:message name="CheckBatDownVerSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckBatDownVerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMDocument" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMSAPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMSAP" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMSAPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMSAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMClassification" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMCADDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMCADD" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMCADDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMCADDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationECNSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationECN" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationECNSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationECNResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationECN2SoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationECN2" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationECN2SoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationECN2Response" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationECN3SoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationECN3" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMClassificationECN3SoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMClassificationECN3Response" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDocumentUsesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMDocumentUses" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDocumentUsesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMDocumentUsesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetModifyDescSoapIn">
+    <wsdl:part name="parameters" element="tns:GetModifyDesc" />
+  </wsdl:message>
+  <wsdl:message name="GetModifyDescSoapOut">
+    <wsdl:part name="parameters" element="tns:GetModifyDescResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckRDNExistSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckRDNExist" />
+  </wsdl:message>
+  <wsdl:message name="CheckRDNExistSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckRDNExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRDNDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRDNData" />
+  </wsdl:message>
+  <wsdl:message name="GetRDNDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRDNDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBOMDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBOMData" />
+  </wsdl:message>
+  <wsdl:message name="GetBOMDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBOMDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMData" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDataByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMDataById" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMDataByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMDataByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMData_currentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPLMData_current" />
+  </wsdl:message>
+  <wsdl:message name="GetPLMData_currentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPLMData_currentResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertLogSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertLog" />
+  </wsdl:message>
+  <wsdl:message name="InsertLogSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertPermissionsSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertPermissions" />
+  </wsdl:message>
+  <wsdl:message name="InsertPermissionsSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertPermissionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUser" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUser_stSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUser_st" />
+  </wsdl:message>
+  <wsdl:message name="InsertUser_stSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUser_stResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="GetCADClassification">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">通过料号取蓝图</wsdl:documentation>
+      <wsdl:input message="tns:GetCADClassificationSoapIn" />
+      <wsdl:output message="tns:GetCADClassificationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductCode">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">PLM根据料号查询所有成品用到的料号</wsdl:documentation>
+      <wsdl:input message="tns:GetProductCodeSoapIn" />
+      <wsdl:output message="tns:GetProductCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getIDENTITY">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">PLM角色</wsdl:documentation>
+      <wsdl:input message="tns:getIDENTITYSoapIn" />
+      <wsdl:output message="tns:getIDENTITYSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFactory">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取公司</wsdl:documentation>
+      <wsdl:input message="tns:getFactorySoapIn" />
+      <wsdl:output message="tns:getFactorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getProfitcenters">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取利润中心</wsdl:documentation>
+      <wsdl:input message="tns:getProfitcentersSoapIn" />
+      <wsdl:output message="tns:getProfitcentersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckBatDownVer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">PLM图文档批量下载工具版本检测</wsdl:documentation>
+      <wsdl:input message="tns:CheckBatDownVerSoapIn" />
+      <wsdl:output message="tns:CheckBatDownVerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDocument">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">PLM图文档批量下载-取图档信息</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMDocumentSoapIn" />
+      <wsdl:output message="tns:GetPLMDocumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMSAP">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据厂区代码、客户代码、利润中心、单据状态、研发姓名查询样品申请单</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMSAPSoapIn" />
+      <wsdl:output message="tns:GetPLMSAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassification">
+      <wsdl:input message="tns:GetPLMClassificationSoapIn" />
+      <wsdl:output message="tns:GetPLMClassificationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMCADD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据料号及类别获取图纸</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMCADDSoapIn" />
+      <wsdl:output message="tns:GetPLMCADDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据料号获取图纸加ECN单号</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMClassificationECNSoapIn" />
+      <wsdl:output message="tns:GetPLMClassificationECNSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据料号、应用厂区、产品类型、应用领域获取图纸加ECN单号</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMClassificationECN2SoapIn" />
+      <wsdl:output message="tns:GetPLMClassificationECN2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN3">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据文件名称获取图纸加ECN单号</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMClassificationECN3SoapIn" />
+      <wsdl:output message="tns:GetPLMClassificationECN3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDocumentUses">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取应用厂区、产品类型、应用领域资料</wsdl:documentation>
+      <wsdl:input message="tns:GetPLMDocumentUsesSoapIn" />
+      <wsdl:output message="tns:GetPLMDocumentUsesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModifyDesc">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据ECN单号获取修改履历</wsdl:documentation>
+      <wsdl:input message="tns:GetModifyDescSoapIn" />
+      <wsdl:output message="tns:GetModifyDescSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckRDNExist">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">判断RDN号是否存在</wsdl:documentation>
+      <wsdl:input message="tns:CheckRDNExistSoapIn" />
+      <wsdl:output message="tns:CheckRDNExistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRDNData">
+      <wsdl:input message="tns:GetRDNDataSoapIn" />
+      <wsdl:output message="tns:GetRDNDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBOMData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取BOM信息</wsdl:documentation>
+      <wsdl:input message="tns:GetBOMDataSoapIn" />
+      <wsdl:output message="tns:GetBOMDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMData">
+      <wsdl:input message="tns:GetPLMDataSoapIn" />
+      <wsdl:output message="tns:GetPLMDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDataById">
+      <wsdl:input message="tns:GetPLMDataByIdSoapIn" />
+      <wsdl:output message="tns:GetPLMDataByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMData_current">
+      <wsdl:input message="tns:GetPLMData_currentSoapIn" />
+      <wsdl:output message="tns:GetPLMData_currentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLog">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">插入错误信息</wsdl:documentation>
+      <wsdl:input message="tns:InsertLogSoapIn" />
+      <wsdl:output message="tns:InsertLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertPermissions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">自动创建用户及角色,返回Y 表示成功</wsdl:documentation>
+      <wsdl:input message="tns:InsertPermissionsSoapIn" />
+      <wsdl:output message="tns:InsertPermissionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">插入用户信息</wsdl:documentation>
+      <wsdl:input message="tns:InsertUserSoapIn" />
+      <wsdl:output message="tns:InsertUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser_st">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">插入宣德用户信息</wsdl:documentation>
+      <wsdl:input message="tns:InsertUser_stSoapIn" />
+      <wsdl:output message="tns:InsertUser_stSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCADClassification">
+      <soap:operation soapAction="http://tempuri.org/GetCADClassification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductCode">
+      <soap:operation soapAction="http://tempuri.org/GetProductCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getIDENTITY">
+      <soap:operation soapAction="http://tempuri.org/getIDENTITY" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFactory">
+      <soap:operation soapAction="http://tempuri.org/getFactory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProfitcenters">
+      <soap:operation soapAction="http://tempuri.org/getProfitcenters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBatDownVer">
+      <soap:operation soapAction="http://tempuri.org/CheckBatDownVer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDocument">
+      <soap:operation soapAction="http://tempuri.org/GetPLMDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMSAP">
+      <soap:operation soapAction="http://tempuri.org/GetPLMSAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassification">
+      <soap:operation soapAction="http://tempuri.org/GetPLMClassification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMCADD">
+      <soap:operation soapAction="http://tempuri.org/GetPLMCADD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN">
+      <soap:operation soapAction="http://tempuri.org/GetPLMClassificationECN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN2">
+      <soap:operation soapAction="http://tempuri.org/GetPLMClassificationECN2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN3">
+      <soap:operation soapAction="http://tempuri.org/GetPLMClassificationECN3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDocumentUses">
+      <soap:operation soapAction="http://tempuri.org/GetPLMDocumentUses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModifyDesc">
+      <soap:operation soapAction="http://tempuri.org/GetModifyDesc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckRDNExist">
+      <soap:operation soapAction="http://tempuri.org/CheckRDNExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRDNData">
+      <soap:operation soapAction="http://tempuri.org/GetRDNData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBOMData">
+      <soap:operation soapAction="http://tempuri.org/GetBOMData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMData">
+      <soap:operation soapAction="http://tempuri.org/GetPLMData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDataById">
+      <soap:operation soapAction="http://tempuri.org/GetPLMDataById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMData_current">
+      <soap:operation soapAction="http://tempuri.org/GetPLMData_current" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLog">
+      <soap:operation soapAction="http://tempuri.org/InsertLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPermissions">
+      <soap:operation soapAction="http://tempuri.org/InsertPermissions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser">
+      <soap:operation soapAction="http://tempuri.org/InsertUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser_st">
+      <soap:operation soapAction="http://tempuri.org/InsertUser_st" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCADClassification">
+      <soap12:operation soapAction="http://tempuri.org/GetCADClassification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductCode">
+      <soap12:operation soapAction="http://tempuri.org/GetProductCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getIDENTITY">
+      <soap12:operation soapAction="http://tempuri.org/getIDENTITY" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFactory">
+      <soap12:operation soapAction="http://tempuri.org/getFactory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProfitcenters">
+      <soap12:operation soapAction="http://tempuri.org/getProfitcenters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBatDownVer">
+      <soap12:operation soapAction="http://tempuri.org/CheckBatDownVer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDocument">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMDocument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMSAP">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMSAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassification">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMClassification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMCADD">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMCADD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMClassificationECN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN2">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMClassificationECN2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMClassificationECN3">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMClassificationECN3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDocumentUses">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMDocumentUses" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModifyDesc">
+      <soap12:operation soapAction="http://tempuri.org/GetModifyDesc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckRDNExist">
+      <soap12:operation soapAction="http://tempuri.org/CheckRDNExist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRDNData">
+      <soap12:operation soapAction="http://tempuri.org/GetRDNData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBOMData">
+      <soap12:operation soapAction="http://tempuri.org/GetBOMData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMData">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMDataById">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMDataById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPLMData_current">
+      <soap12:operation soapAction="http://tempuri.org/GetPLMData_current" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLog">
+      <soap12:operation soapAction="http://tempuri.org/InsertLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPermissions">
+      <soap12:operation soapAction="http://tempuri.org/InsertPermissions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser">
+      <soap12:operation soapAction="http://tempuri.org/InsertUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUser_st">
+      <soap12:operation soapAction="http://tempuri.org/InsertUser_st" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://plm.luxshare-ict.com/plmws/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://plm.luxshare-ict.com/plmws/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

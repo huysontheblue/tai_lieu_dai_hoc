@@ -1,0 +1,66 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+namespace TestHill
+{
+    public class BestFirstSearch
+    {
+        public static List<Node> Find(Node start, Node Target)
+        {
+            // 1.khởi tạo danh sách L chỉ chứa trạng thái ban đầu.
+            List<Node> L = new List<Node>();
+            L.Add(start);
+
+            List<Node> Visited = new List<Node>();
+
+            //2.loop do
+            while (true)
+            {
+                // if L rỗng then {thông báo thất bại;stop}
+                if(L.Count == 0)
+                {
+                    MessageBox.Show("Tìm kiếm thất bại !");
+                    return  Visited;
+                }
+
+                //2.2 Loại trạng thái u ở đầu danh sách L
+                Node node = new Node();
+                node.name = L[0].name;
+                node.h = L[0].h;
+                for (int i = 0; i < L[0].Next.Count; i++)
+                {
+                    node.Next.Add(L[0].Next[i]);
+                }
+
+                L.RemoveAt(0);
+                
+
+                //2.3 if u là trạng thái kết thúc then {thông báo thành công} 
+                if(node.name == Target.name)
+                {
+                    Visited.Add(node);
+                    MessageBox.Show("Thành công!");
+                    return Visited;
+                }
+
+                //2.4 for mỗi trạng thái v kề u do
+                //xen v vào danh sách L sao cho L được sắp xếp theo thứ tự tăng dần của hàm đánh giá. end.
+                if(node.Next.Count != 0)
+                {
+                    Visited.Add(node);
+                    for (int i = 0; i < node.Next.Count; i++)
+                    {
+                        L.Add(node.Next[i]);
+                    }
+
+                    L.Sort();
+
+                }
+                
+            }
+        }
+    }
+}

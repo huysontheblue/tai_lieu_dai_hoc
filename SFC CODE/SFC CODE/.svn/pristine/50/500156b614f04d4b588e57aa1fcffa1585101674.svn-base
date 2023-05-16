@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Artboard_Copy_72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 72.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 41.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 44.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 93.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 95.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 100.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 79.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 58.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 70.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 55.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 37.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 77.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basemaintaince" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basemaintaince.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 96.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 78.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repair.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 54.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 88.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 38.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 46.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 102.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_151213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\151213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 84.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dayreport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dayreport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 59.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 68.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 66.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 69.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="relation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\relation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 67.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 80.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 57.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 35.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 75.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 51.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_151214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\151214.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scanLot.Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scanLot.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15125.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LineBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LineBoard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 56.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 42.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Critical_details" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Critical details.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BiotechBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BiotechBoard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_151211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\151211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 49.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 43.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 76.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 47.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="configset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\configset.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sets.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 40.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 71.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NgscanAlert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NgscanAlert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 91.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 65.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printLot.Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printLot.Image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 63.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="produce_plan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\produce_plan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 82.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 45.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Order.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 60.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_printer_alt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_printer-alt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 52.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 53.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 83.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 85.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_151212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\151212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 39.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 98.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 62.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15127.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="autoScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\autoScan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 86.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 74.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 92.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 81.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 50.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 94.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 99.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 36.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 73.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 61.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moidproduct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moidproduct.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 97.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 87.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="productstaus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\productstaus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 90.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Artboard Copy 89.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\artboard copy 104.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Artboard_Copy_105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\artboard copy 105.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logobackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logobackground.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skin\bg01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skin\bg02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skin\bg03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skin\bg04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

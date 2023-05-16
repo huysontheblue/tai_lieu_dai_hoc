@@ -1,0 +1,629 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BackRole</Control_Id>
+    <Chs_Desc>返回</Chs_Desc>
+    <Cht_Desc>返回</Cht_Desc>
+    <En_Desc>Back</En_Desc>
+    <En_Full_Desc>Back</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Btcontrast</Control_Id>
+    <Chs_Desc>权限对照</Chs_Desc>
+    <Cht_Desc>權限對照</Cht_Desc>
+    <En_Desc>Privilege Contrast</En_Desc>
+    <En_Full_Desc>PrivilegeContrast</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BtnQuery</Control_Id>
+    <Chs_Desc>查 詢</Chs_Desc>
+    <Cht_Desc>查 詢</Cht_Desc>
+    <En_Desc>Inquiry</En_Desc>
+    <En_Full_Desc>Query</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnSetFinger</Control_Id>
+    <Chs_Desc>绑定指纹</Chs_Desc>
+    <Cht_Desc>綁定指紋</Cht_Desc>
+    <En_Desc>Binding Finger Print</En_Desc>
+    <En_Full_Desc>Bind FingerPrint</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button_Role_S</Control_Id>
+    <Chs_Desc>查 詢</Chs_Desc>
+    <Cht_Desc>查 詢</Cht_Desc>
+    <En_Desc>Inquiry</En_Desc>
+    <En_Full_Desc>Query</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button2</Control_Id>
+    <Chs_Desc>退出</Chs_Desc>
+    <Cht_Desc>退出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChBusey</Control_Id>
+    <Chs_Desc>是否有效</Chs_Desc>
+    <Cht_Desc>是否有效</Cht_Desc>
+    <En_Desc>Valid or not</En_Desc>
+    <En_Full_Desc>Valid?</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>CheckBox_Status</Control_Id>
+    <Chs_Desc>是否有效</Chs_Desc>
+    <Cht_Desc>是否有效</Cht_Desc>
+    <En_Desc>Valid or not</En_Desc>
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>ChRFuser</Control_Id>
+    <Chs_Desc>是否RF员工</Chs_Desc>
+    <Cht_Desc>是否RF員工</Cht_Desc>
+    <En_Desc>RF Staff</En_Desc>
+    <En_Full_Desc>Whether RF Staff</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView_Role_0</Control_Id>
+    <Chs_Desc>角色编号</Chs_Desc>
+    <Cht_Desc>角色編號</Cht_Desc>
+    <En_Desc>role No.</En_Desc>
+    <En_Full_Desc>role No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView_Role_1</Control_Id>
+    <Chs_Desc>角色名称</Chs_Desc>
+    <Cht_Desc>角色名稱</Cht_Desc>
+    <En_Desc>role name</En_Desc>
+    <En_Full_Desc>role name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView_Role_2</Control_Id>
+    <Chs_Desc>角色说明</Chs_Desc>
+    <Cht_Desc>角色說明</Cht_Desc>
+    <En_Desc>role description</En_Desc>
+    <En_Full_Desc>role description</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DataGridView_Role_3</Control_Id>
+    <Chs_Desc>是否有效</Chs_Desc>
+    <Cht_Desc>是否有效</Cht_Desc>
+    <En_Desc>valid or not</En_Desc>
+    <En_Full_Desc>valid or not</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Delete</Control_Id>
+    <Chs_Desc>刪除</Chs_Desc>
+    <Cht_Desc>刪除</Cht_Desc>
+    <En_Desc>Delete</En_Desc>
+    <En_Full_Desc>Delete</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DeleteRole</Control_Id>
+    <Chs_Desc>刪除</Chs_Desc>
+    <Cht_Desc>刪除</Cht_Desc>
+    <En_Desc>Delete</En_Desc>
+    <En_Full_Desc>Delete</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_0</Control_Id>
+    <Chs_Desc>选择</Chs_Desc>
+    <Cht_Desc>選擇</Cht_Desc>
+    <En_Desc>select</En_Desc>
+    <En_Full_Desc>select</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_1</Control_Id>
+    <Chs_Desc>用户工号</Chs_Desc>
+    <Cht_Desc>用戶工號</Cht_Desc>
+    <En_Desc>user staff No.</En_Desc>
+    <En_Full_Desc>user staff No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_10</Control_Id>
+    <Chs_Desc>备注</Chs_Desc>
+    <Cht_Desc>備注</Cht_Desc>
+    <En_Desc>notes</En_Desc>
+    <En_Full_Desc>notes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_11</Control_Id>
+    <Chs_Desc>有效否</Chs_Desc>
+    <Cht_Desc>有效否</Cht_Desc>
+    <En_Desc>valid or not</En_Desc>
+    <En_Full_Desc>valid or not</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_2</Control_Id>
+    <Chs_Desc>用户姓名</Chs_Desc>
+    <Cht_Desc>用戶姓名</Cht_Desc>
+    <En_Desc>user name</En_Desc>
+    <En_Full_Desc>user name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_3</Control_Id>
+    <Chs_Desc>部门编号</Chs_Desc>
+    <Cht_Desc>部門編號</Cht_Desc>
+    <En_Desc>dept. No.</En_Desc>
+    <En_Full_Desc>dept. No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_4</Control_Id>
+    <Chs_Desc>部门名称</Chs_Desc>
+    <Cht_Desc>部門名稱</Cht_Desc>
+    <En_Desc>dept.name</En_Desc>
+    <En_Full_Desc>dept.name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_5</Control_Id>
+    <Chs_Desc>职位</Chs_Desc>
+    <Cht_Desc>職位</Cht_Desc>
+    <En_Desc>position</En_Desc>
+    <En_Full_Desc>position</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_6</Control_Id>
+    <Chs_Desc>部门组别</Chs_Desc>
+    <Cht_Desc>部門組別</Cht_Desc>
+    <En_Desc>dept. group</En_Desc>
+    <En_Full_Desc>dept. group</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_7</Control_Id>
+    <Chs_Desc>群组</Chs_Desc>
+    <Cht_Desc>群組</Cht_Desc>
+    <En_Desc>group</En_Desc>
+    <En_Full_Desc>group</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_8</Control_Id>
+    <Chs_Desc>营运中心</Chs_Desc>
+    <Cht_Desc>營運中心</Cht_Desc>
+    <En_Desc>operation center</En_Desc>
+    <En_Full_Desc>operation center</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DGriduser_9</Control_Id>
+    <Chs_Desc>自动编号</Chs_Desc>
+    <Cht_Desc>自動編號</Cht_Desc>
+    <En_Desc>automatic order No.</En_Desc>
+    <En_Full_Desc>automatic order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>EditFile</Control_Id>
+    <Chs_Desc>修改</Chs_Desc>
+    <Cht_Desc>修改</Cht_Desc>
+    <En_Desc>Edit</En_Desc>
+    <En_Full_Desc>Edit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>EditRole</Control_Id>
+    <Chs_Desc>修改</Chs_Desc>
+    <Cht_Desc>修改</Cht_Desc>
+    <En_Desc>Edit</En_Desc>
+    <En_Full_Desc>Edit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ExitFrom</Control_Id>
+    <Chs_Desc>退出</Chs_Desc>
+    <Cht_Desc>退出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ExitRole</Control_Id>
+    <Chs_Desc>退出</Chs_Desc>
+    <Cht_Desc>退出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Export</Control_Id>
+    <Chs_Desc>汇出</Chs_Desc>
+    <Cht_Desc>匯出</Cht_Desc>
+    <En_Desc>Export</En_Desc>
+    <En_Full_Desc>Export</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FileRefresh</Control_Id>
+    <Chs_Desc>刷新</Chs_Desc>
+    <Cht_Desc>刷新</Cht_Desc>
+    <En_Desc>Refresh</En_Desc>
+    <En_Full_Desc>Refresh</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmUserManage</Control_Id>
+    <Chs_Desc>用戶信息管理</Chs_Desc>
+    <Cht_Desc>用戶信息管理</Cht_Desc>
+    <En_Desc>User Data Manage</En_Desc>
+    <En_Full_Desc>UserData Manage</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GpUserRight</Control_Id>
+    <Chs_Desc>权限设置</Chs_Desc>
+    <Cht_Desc>權限設置</Cht_Desc>
+    <En_Desc>Permission Settings</En_Desc>
+    <En_Full_Desc>Permission Settings</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc>权限拥有用户</Chs_Desc>
+    <Cht_Desc>權限擁有用戶</Cht_Desc>
+    <En_Desc>Permissions Users</En_Desc>
+    <En_Full_Desc>Permissions Users</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabDept</Control_Id>
+    <Chs_Desc>用户部门：</Chs_Desc>
+    <Cht_Desc>用戶部門：</Cht_Desc>
+    <En_Desc>User Dept.</En_Desc>
+    <En_Full_Desc>UserDept.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabDescript</Control_Id>
+    <Chs_Desc>自动编号：</Chs_Desc>
+    <Cht_Desc>自動編號：</Cht_Desc>
+    <En_Desc>Auto Number</En_Desc>
+    <En_Full_Desc>Auto.Numbering</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>备注：</Chs_Desc>
+    <Cht_Desc>備注：</Cht_Desc>
+    <En_Desc>Notes</En_Desc>
+    <En_Full_Desc>Notes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>角色名称：</Chs_Desc>
+    <Cht_Desc>角色名稱：</Cht_Desc>
+    <En_Desc>Role Name</En_Desc>
+    <En_Full_Desc>RoleName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>角色编号：</Chs_Desc>
+    <Cht_Desc>角色編號：</Cht_Desc>
+    <En_Desc>Role No.</En_Desc>
+    <En_Full_Desc>RoleNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>角色编号：</Chs_Desc>
+    <Cht_Desc>角色編號：</Cht_Desc>
+    <En_Desc>Role No.</En_Desc>
+    <En_Full_Desc>RoleNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc>角色名称：</Chs_Desc>
+    <Cht_Desc>角色名稱：</Cht_Desc>
+    <En_Desc>Role Name</En_Desc>
+    <En_Full_Desc>RoleName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label14</Control_Id>
+    <Chs_Desc>角色说明：</Chs_Desc>
+    <Cht_Desc>角色說明：</Cht_Desc>
+    <En_Desc>Role Descr.</En_Desc>
+    <En_Full_Desc>RoleDescr.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>用户部门</Chs_Desc>
+    <Cht_Desc>用戶部門</Cht_Desc>
+    <En_Desc>User Dept.</En_Desc>
+    <En_Full_Desc>UserDept.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>用户工号：</Chs_Desc>
+    <Cht_Desc>用戶工號：</Cht_Desc>
+    <En_Desc>User Staff No.</En_Desc>
+    <En_Full_Desc>User StaffNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>用户部门：
+</Chs_Desc>
+    <Cht_Desc>用戶部門：</Cht_Desc>
+    <En_Desc>User Dept.</En_Desc>
+    <En_Full_Desc>UserDept.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>用户姓名：</Chs_Desc>
+    <Cht_Desc>用戶姓名：</Cht_Desc>
+    <En_Desc>User Name</En_Desc>
+    <En_Full_Desc>UserName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>用户职称：</Chs_Desc>
+    <Cht_Desc>用戶職稱：</Cht_Desc>
+    <En_Desc>User Title</En_Desc>
+    <En_Full_Desc>UserTitle</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>用户姓名：</Chs_Desc>
+    <Cht_Desc>用戶姓名：</Cht_Desc>
+    <En_Desc>User Name</En_Desc>
+    <En_Full_Desc>UserName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>权限描述：</Chs_Desc>
+    <Cht_Desc>權限描述：</Cht_Desc>
+    <En_Desc>Privilege Descr.</En_Desc>
+    <En_Full_Desc>PrivilegeDescr.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>验证方式：</Chs_Desc>
+    <Cht_Desc>驗證方式：</Cht_Desc>
+    <En_Desc>Verify Name</En_Desc>
+    <En_Full_Desc>VerifyMethod</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabFactory</Control_Id>
+    <Chs_Desc>营运中心：</Chs_Desc>
+    <Cht_Desc>營運中心：</Cht_Desc>
+    <En_Desc>Operation Center</En_Desc>
+    <En_Full_Desc>Oper.Center</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabGroup</Control_Id>
+    <Chs_Desc>用户群组：</Chs_Desc>
+    <Cht_Desc>用戶群組：</Cht_Desc>
+    <En_Desc>User Group</En_Desc>
+    <En_Full_Desc>UserGroups</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabJobs</Control_Id>
+    <Chs_Desc>用户职称：</Chs_Desc>
+    <Cht_Desc>用戶職稱：</Cht_Desc>
+    <En_Desc>User Title</En_Desc>
+    <En_Full_Desc>UserTitle</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabTeam</Control_Id>
+    <Chs_Desc>部门组别：</Chs_Desc>
+    <Cht_Desc>部門組別：</Cht_Desc>
+    <En_Desc>Dept. Group</En_Desc>
+    <En_Full_Desc>Dept.Group</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabUserid</Control_Id>
+    <Chs_Desc>用户工号：</Chs_Desc>
+    <Cht_Desc>用戶工號：</Cht_Desc>
+    <En_Desc>User Staff No.</En_Desc>
+    <En_Full_Desc>User StaffNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabUserID_R</Control_Id>
+    <Chs_Desc>用户工号：</Chs_Desc>
+    <Cht_Desc>用戶工號：</Cht_Desc>
+    <En_Desc>User Staff No.</En_Desc>
+    <En_Full_Desc>User StaffNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabUsername</Control_Id>
+    <Chs_Desc>用户姓名：</Chs_Desc>
+    <Cht_Desc>用戶姓名：</Cht_Desc>
+    <En_Desc>User Name</En_Desc>
+    <En_Full_Desc>UserName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>NewFile</Control_Id>
+    <Chs_Desc>新增</Chs_Desc>
+    <Cht_Desc>新增</Cht_Desc>
+    <En_Desc>New Build</En_Desc>
+    <En_Full_Desc>New Build</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>NewRole</Control_Id>
+    <Chs_Desc>新增</Chs_Desc>
+    <Cht_Desc>新增</Cht_Desc>
+    <En_Desc>New Build</En_Desc>
+    <En_Full_Desc>New Build</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ReSetPw</Control_Id>
+    <Chs_Desc>设置密码</Chs_Desc>
+    <Cht_Desc>設置密碼</Cht_Desc>
+    <En_Desc>Setting Password</En_Desc>
+    <En_Full_Desc>PasswordSetup</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Save</Control_Id>
+    <Chs_Desc>保存</Chs_Desc>
+    <Cht_Desc>保存</Cht_Desc>
+    <En_Desc>Save</En_Desc>
+    <En_Full_Desc>Save</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>SaveRole</Control_Id>
+    <Chs_Desc>保存</Chs_Desc>
+    <Cht_Desc>保存</Cht_Desc>
+    <En_Desc>Save</En_Desc>
+    <En_Full_Desc>Save</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Search</Control_Id>
+    <Chs_Desc>查找</Chs_Desc>
+    <Cht_Desc>查找</Cht_Desc>
+    <En_Desc>Find</En_Desc>
+    <En_Full_Desc>Find</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>SearchRole</Control_Id>
+    <Chs_Desc>查找</Chs_Desc>
+    <Cht_Desc>查找</Cht_Desc>
+    <En_Desc>Find</En_Desc>
+    <En_Full_Desc>Find</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>SetRole</Control_Id>
+    <Chs_Desc>设置角色</Chs_Desc>
+    <Cht_Desc>設置角色</Cht_Desc>
+    <En_Desc>Setting Role</En_Desc>
+    <En_Full_Desc>RoleSetup</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>StopFile</Control_Id>
+    <Chs_Desc>作废</Chs_Desc>
+    <Cht_Desc>作廢</Cht_Desc>
+    <En_Desc>Cancel</En_Desc>
+    <En_Full_Desc>Cancel</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>StopRole</Control_Id>
+    <Chs_Desc>作废</Chs_Desc>
+    <Cht_Desc>作廢</Cht_Desc>
+    <En_Desc>Cancel</En_Desc>
+    <En_Full_Desc>Cancel</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TabPage1</Control_Id>
+    <Chs_Desc>角色管理</Chs_Desc>
+    <Cht_Desc>角色管理</Cht_Desc>
+    <En_Desc>Role Manage</En_Desc>
+    <En_Full_Desc>RoleManage</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolSuperPwd</Control_Id>
+    <Chs_Desc>超级密码管理</Chs_Desc>
+    <Cht_Desc>超級密碼管理</Cht_Desc>
+    <En_Desc>Super Password Manage</En_Desc>
+    <En_Full_Desc>SuperPassword Manage</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TpRight</Control_Id>
+    <Chs_Desc>用户权限管理</Chs_Desc>
+    <Cht_Desc>用戶權限管理</Cht_Desc>
+    <En_Desc>User Access Manage</En_Desc>
+    <En_Full_Desc>UserAccess Manage</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TpUser</Control_Id>
+    <Chs_Desc>用户基本信息</Chs_Desc>
+    <Cht_Desc>用戶基本信息</Cht_Desc>
+    <En_Desc>User Basic Data</En_Desc>
+    <En_Full_Desc>User BasicData</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UnDo</Control_Id>
+    <Chs_Desc>返回</Chs_Desc>
+    <Cht_Desc>返回</Cht_Desc>
+    <En_Desc>Back</En_Desc>
+    <En_Full_Desc>Back</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_0</Control_Id>
+    <Chs_Desc>用户ID</Chs_Desc>
+    <Cht_Desc>用戶ID</Cht_Desc>
+    <En_Desc>user ID</En_Desc>
+    <En_Full_Desc>user ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_1</Control_Id>
+    <Chs_Desc>用户名</Chs_Desc>
+    <Cht_Desc>用戶名</Cht_Desc>
+    <En_Desc>user name</En_Desc>
+    <En_Full_Desc>user name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_10</Control_Id>
+    <Chs_Desc>有效否</Chs_Desc>
+    <Cht_Desc>有效否</Cht_Desc>
+    <En_Desc>valid or not</En_Desc>
+    <En_Full_Desc>valid or not</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_11</Control_Id>
+    <Chs_Desc>验证方式</Chs_Desc>
+    <Cht_Desc>驗證方式</Cht_Desc>
+    <En_Desc>verification method</En_Desc>
+    <En_Full_Desc>verification method</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_2</Control_Id>
+    <Chs_Desc>部门编号</Chs_Desc>
+    <Cht_Desc>部門編號</Cht_Desc>
+    <En_Desc>dept. No.</En_Desc>
+    <En_Full_Desc>dept. No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_3</Control_Id>
+    <Chs_Desc>部门名称</Chs_Desc>
+    <Cht_Desc>部門名稱</Cht_Desc>
+    <En_Desc>dept. name</En_Desc>
+    <En_Full_Desc>dept. name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_4</Control_Id>
+    <Chs_Desc>职称</Chs_Desc>
+    <Cht_Desc>職稱</Cht_Desc>
+    <En_Desc>position</En_Desc>
+    <En_Full_Desc>position</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_5</Control_Id>
+    <Chs_Desc>部门组别</Chs_Desc>
+    <Cht_Desc>部門組別</Cht_Desc>
+    <En_Desc>dept. group</En_Desc>
+    <En_Full_Desc>dept. group</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_6</Control_Id>
+    <Chs_Desc>群组</Chs_Desc>
+    <Cht_Desc>群組</Cht_Desc>
+    <En_Desc>group</En_Desc>
+    <En_Full_Desc>group</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_7</Control_Id>
+    <Chs_Desc>营运中心</Chs_Desc>
+    <Cht_Desc>營運中心</Cht_Desc>
+    <En_Desc>operation center</En_Desc>
+    <En_Full_Desc>operation center</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_8</Control_Id>
+    <Chs_Desc>自动编码</Chs_Desc>
+    <Cht_Desc>自動編碼</Cht_Desc>
+    <En_Desc>automatic order No.</En_Desc>
+    <En_Full_Desc>automatic order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UserinfDg_9</Control_Id>
+    <Chs_Desc>描述</Chs_Desc>
+    <Cht_Desc>描述</Cht_Desc>
+    <En_Desc>describe</En_Desc>
+    <En_Full_Desc>describe</En_Full_Desc>
+  </Table>
+</NewDataSet>

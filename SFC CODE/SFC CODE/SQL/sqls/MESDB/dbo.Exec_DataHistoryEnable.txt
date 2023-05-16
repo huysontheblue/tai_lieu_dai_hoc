@@ -1,0 +1,99 @@
+
+-- ===========================================================
+-- Exec_DataHistoryEnable,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROC [dbo].[Exec_DataHistoryEnable]
+	@RTVALUE NVARCHAR(1) OUTPUT,
+	@RTMSG NVARCHAR(128) OUTPUT,
+	@USERID VARCHAR(32) = '',
+	@DATAHISTORYID VARCHAR(32) = ''
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (ISNULL(@DATAHISTORYID,'')='')
+	BEGIN
+		SET @RTMSG = N'数据迁移ID不能为空!'
+		SET @RTVALUE = '0'
+		RETURN;
+	END
+
+	IF EXISTS(SELECT TOP 1 DataHistoryId FROM m_DataHistory_t WHERE DataHistoryId = @DATAHISTORYID AND StatusFlag = 'Y')
+	BEGIN
+		SET @RTMSG = N'启用失败,当前迁移定义已经启用!'
+		SET @RTVALUE = '0'
+		RETURN;
+	END
+
+	BEGIN TRY
+	--BEGIN TRAN 
+
+		DECLARE @SERVERNAME NVARCHAR(32), @LOGINNAME NVARCHAR(32), @jobId BINARY(16), @DBNAME NVARCHAR(32), @JOBNAME VARCHAR(256), @STEPNAME VARCHAR(256), @SCHEDULENAME VARCHAR(256), @EXECSQL VARCHAR(256), @session_id VARCHAR(16),
+			@DataHistoryTableName VARCHAR(128), @LinkServerName VARCHAR(128), @TargetDataBaseName VARCHAR(128), @TargetTableName VARCHAR(128), @ExecutionInterval INT, @IntervalFrequency INT, @IntervalType INT, @StartTime INT, @EndTime INT
+		SET @SERVERNAME = CONVERT(NVARCHAR, SERVERPROPERTY(N'servername'))
+		SET @LOGINNAME = SUSER_SNAME()
+		SET @DBNAME = DB_NAME()
+		SELECT @DataHistoryTableName=DataHistoryTableName, @LinkServerName=LinkServerName, @TargetDataBaseName=TargetDataBaseName, @TargetTableName=TargetTableName,
+			@ExecutionInterval=ExecutionInterval, @IntervalFrequency=IntervalFrequency, @IntervalType=IntervalType, @StartTime= CONVERT(INT, REPLACE(StartTime, '/', '')), @EndTime= CONVERT(INT, REPLACE(EndTime, '/', ''))
+		FROM m_DataHistory_t WHERE DataHistoryId=@DATAHISTORYID
+		IF(ISNULL(@EndTime,0)=0)
+		BEGIN
+			SET @EndTime=99991231
+		END
+		SET @JOBNAME = @DataHistoryTableName+ '_' + @LinkServerName + '_' + @TargetTableName + '_Job'
+		SET @STEPNAME = @DataHistoryTableName+ '_' + @LinkServerName + '_' + @TargetTableName + '_Station'
+		SET @SCHEDULENAME = @DataHistoryTableName+ '_' + @LinkServerName + '_' + @TargetTableName + '_Plan'
+		SET @EXECSQL = ' DECLARE @rtValue VARCHAR(8), @rtMsg NVARCHAR(256) EXEC Exec_DataHistory @rtValue OUTPUT, @rtMsg OUTPUT,@DATAHISTORYID=''' + @DATAHISTORYID +''''
+		EXEC  msdb.dbo.sp_add_job @job_name=@JOBNAME, @enabled=1, 
+				@notify_level_eventlog=0, @notify_level_email=2, @notify_level_netsend=2, @notify_level_page=2, @delete_level=0, 
+				@category_name=N'[Uncategorized (Local)]', @owner_login_name = @LOGINNAME, @job_id = @jobId OUTPUT
+		SELECT @jobId=job_id FROM msdb.dbo.sysjobs WHERE [name]=@JOBNAME
+		EXEC msdb.dbo.sp_add_jobserver @job_id=@jobId, @server_name = @SERVERNAME
+		--exec sp_executesql N'EXECUTE msdb.dbo.sp_sqlagent_refresh_job @job_id = @P1',N'@P1 uniqueidentifier',@jobId
+		--exec sp_executesql N'EXECUTE msdb.dbo.sp_help_jobschedule @job_id = @P1, @include_description = 0',N'@P1 uniqueidentifier',@jobId
+		SELECT @session_id = MAX(session_id) FROM msdb.dbo.sysjobactivity
+		--exec sp_executesql N'INSERT msdb.dbo.sysjobactivity(session_id, job_id) VALUES(@P1, @P2)',N'@P1 int,@P2 uniqueidentifier',@session_id,@jobId
+		exec sp_executesql N'UPDATE msdb.dbo.sysjobactivity SET next_scheduled_run_date = NULL WHERE session_id = @P1 AND job_id = @P2',N'@P1 int,@P2 uniqueidentifier',@session_id,@jobId
+		EXEC msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=@STEPNAME, 
+				@step_id=1, @cmdexec_success_code=0, @on_success_action=1, @on_fail_action=2, @retry_attempts=0, 
+				@retry_interval=0, @os_run_priority=0, @subsystem=N'TSQL', @command=@EXECSQL, 
+				@database_name=@DBNAME, @flags=0
+		--exec sp_executesql N'EXECUTE msdb.dbo.sp_sqlagent_refresh_job @job_id = @P1',N'@P1 uniqueidentifier',@jobId
+		EXEC msdb.dbo.sp_update_job @job_id=@jobId, @start_step_id=1
+		DECLARE @schedule_id int
+		EXEC msdb.dbo.sp_add_jobschedule @job_id=@jobId, @name=@SCHEDULENAME, 
+				@enabled=1, @freq_type=4, @freq_interval=@ExecutionInterval, @freq_subday_type=@IntervalType, @freq_subday_interval=@IntervalFrequency, 
+				@freq_relative_interval=0, @freq_recurrence_factor=1, @active_start_date=@StartTime, @active_end_date=@EndTime, 
+				@active_start_time=0, @active_end_time=235959, @schedule_id = @schedule_id OUTPUT
+		--exec sp_executesql N'EXECUTE msdb.dbo.sp_help_schedule @schedule_id = @P1, @attached_schedules_only = 1, @include_description = 0',N'@P1 int',@schedule_id
+		exec sp_executesql N'DECLARE @nextScheduledRunDate DATETIME SET @nextScheduledRunDate = msdb.dbo.agent_datetime(@P1, @P2) UPDATE msdb.dbo.sysjobactivity SET next_scheduled_run_date = @nextScheduledRunDate WHERE session_id = @P3 AND job_id = @P4',N'@P1 int,@P2 int,@P3 int,@P4 uniqueidentifier',20150923,180000,@session_id,@jobId
+
+		UPDATE m_DataHistory_t SET JobID = @jobId, ScheduleID=@schedule_id, StepId=1, StatusFlag='Y', EnableUserId = @USERID, EnableTime = GETDATE() WHERE DataHistoryId=@DATAHISTORYID
+
+		--COMMIT TRAN
+
+		SET @RTMSG = N''
+		SET @RTVALUE = '1'
+	END TRY 
+	BEGIN CATCH 
+		--ROLLBACK TRAN 
+		SET @RTMSG = ERROR_MESSAGE() + CONVERT(VARCHAR(16), @EndTime)
+		--N'執行失敗，請聯繫開發人員！'  ERROR_MESSAGE()
+		SET @RTVALUE = '0'
+	END CATCH 
+END 
+
+GO
+
+

@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[luxshare.Route.csproj]
+SCC_Aux_Path = "\\192.168.20.136\mescode"
+SCC_Project_Name = "$/MES/MES_DG/MES/luxshare.Route", NYBBAAAA
+
+[RouteManagement.csproj]
+SCC_Aux_Path = "\\192.168.20.136\mescode"
+SCC_Project_Name = "$/MES/Main/MES/RouteManagment", TYBBAAAA

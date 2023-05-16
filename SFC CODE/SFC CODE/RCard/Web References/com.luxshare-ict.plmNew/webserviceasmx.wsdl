@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="plant" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="days" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="lx_getDocument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="part_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="local_path" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="lx_getDocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lx_getDocumentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getKSRFInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="getKSRFInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getKSRFInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCADDocument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="part_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classification" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCADDocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getCADDocumentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDocument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="part_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="guid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDocumentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getInfo" />
+  </wsdl:message>
+  <wsdl:message name="getInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="lx_getDocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:lx_getDocument" />
+  </wsdl:message>
+  <wsdl:message name="lx_getDocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:lx_getDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getKSRFInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getKSRFInfo" />
+  </wsdl:message>
+  <wsdl:message name="getKSRFInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getKSRFInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCADDocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:getCADDocument" />
+  </wsdl:message>
+  <wsdl:message name="getCADDocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:getCADDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:getDocument" />
+  </wsdl:message>
+  <wsdl:message name="getDocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:getDocumentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="webserviceasmxSoap">
+    <wsdl:operation name="getInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询项目信息</wsdl:documentation>
+      <wsdl:input message="tns:getInfoSoapIn" />
+      <wsdl:output message="tns:getInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="lx_getDocument">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据料号查询类型为工程文件/制作流程表/立讯精密的文件</wsdl:documentation>
+      <wsdl:input message="tns:lx_getDocumentSoapIn" />
+      <wsdl:output message="tns:lx_getDocumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getKSRFInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询昆山射频厂区（KSRF)项目信息(XML)</wsdl:documentation>
+      <wsdl:input message="tns:getKSRFInfoSoapIn" />
+      <wsdl:output message="tns:getKSRFInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCADDocument">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据料号和图纸类型查询图纸信息（目前图纸类型只限 蓝图/亳州联滔/... ）</wsdl:documentation>
+      <wsdl:input message="tns:getCADDocumentSoapIn" />
+      <wsdl:output message="tns:getCADDocumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDocument">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据料号和文档类型查询文档信息（目前文档类型只限 工程文件/制作流程表/立讯精密 ）</wsdl:documentation>
+      <wsdl:input message="tns:getDocumentSoapIn" />
+      <wsdl:output message="tns:getDocumentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="webserviceasmxSoap" type="tns:webserviceasmxSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getInfo">
+      <soap:operation soapAction="http://tempuri.org/getInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="lx_getDocument">
+      <soap:operation soapAction="http://tempuri.org/lx_getDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getKSRFInfo">
+      <soap:operation soapAction="http://tempuri.org/getKSRFInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCADDocument">
+      <soap:operation soapAction="http://tempuri.org/getCADDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDocument">
+      <soap:operation soapAction="http://tempuri.org/getDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="webserviceasmxSoap12" type="tns:webserviceasmxSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getInfo">
+      <soap12:operation soapAction="http://tempuri.org/getInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="lx_getDocument">
+      <soap12:operation soapAction="http://tempuri.org/lx_getDocument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getKSRFInfo">
+      <soap12:operation soapAction="http://tempuri.org/getKSRFInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCADDocument">
+      <soap12:operation soapAction="http://tempuri.org/getCADDocument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDocument">
+      <soap12:operation soapAction="http://tempuri.org/getDocument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="webserviceasmx">
+    <wsdl:port name="webserviceasmxSoap" binding="tns:webserviceasmxSoap">
+      <soap:address location="http://plm.luxshare-ict.com/getdata/webserviceasmx.asmx" />
+    </wsdl:port>
+    <wsdl:port name="webserviceasmxSoap12" binding="tns:webserviceasmxSoap12">
+      <soap12:address location="http://plm.luxshare-ict.com/getdata/webserviceasmx.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

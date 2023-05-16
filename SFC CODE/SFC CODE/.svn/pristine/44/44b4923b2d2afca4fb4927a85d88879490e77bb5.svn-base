@@ -1,0 +1,432 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>ChkAlter</Control_Id>
+    <Chs_Desc>是否预警物料</Chs_Desc>
+    <Cht_Desc>是否預警物料</Cht_Desc>
+    <En_Desc>Alternative Materials</En_Desc>
+    <En_Full_Desc>Whether Alternative Materials</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkAssemble</Control_Id>
+    <Chs_Desc>组装扫描部件</Chs_Desc>
+    <Cht_Desc>組裝掃描部件</Cht_Desc>
+    <En_Desc>Combine Scan Component</En_Desc>
+    <En_Full_Desc>Assemb.ScanParts</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chkcheck</Control_Id>
+    <Chs_Desc>原材料盘点预警</Chs_Desc>
+    <Cht_Desc>原材料盤點預警</Cht_Desc>
+    <En_Desc>Raw Spot-check Alert</En_Desc>
+    <En_Full_Desc>RawMaterial StockCount Warning</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkIsLot</Control_Id>
+    <Chs_Desc>是否扫描部件批次</Chs_Desc>
+    <Cht_Desc>是否掃描部件批次</Cht_Desc>
+    <En_Desc>Scan Component Batch</En_Desc>
+    <En_Full_Desc>Whether Scan Component Batch</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChKisUpload</Control_Id>
+    <Chs_Desc>是否上传Panda</Chs_Desc>
+    <Cht_Desc>是否上傳Panda</Cht_Desc>
+    <En_Desc>Upload Panda</En_Desc>
+    <En_Full_Desc>Whether Upload Panda</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chklot</Control_Id>
+    <Chs_Desc>是否扫描部件批次</Chs_Desc>
+    <Cht_Desc>是否掃描部件批次</Cht_Desc>
+    <En_Desc>Scan Component Batch</En_Desc>
+    <En_Full_Desc>Whether Scan Component Batch</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chkolot</Control_Id>
+    <Chs_Desc>批号是否为可为其它厂区录入</Chs_Desc>
+    <Cht_Desc>批號是否為可為其它廠區錄入</Cht_Desc>
+    <En_Desc>Batch No. Input for Other Plant</En_Desc>
+    <En_Full_Desc>BatchNo.whether Inputby otherPlant</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkOthLot</Control_Id>
+    <Chs_Desc>批号是否为可为其它厂区录入</Chs_Desc>
+    <Cht_Desc>批號是否為可為其它廠區錄入</Cht_Desc>
+    <En_Desc>Batch No. Input forOther Plant</En_Desc>
+    <En_Full_Desc>BatchNo. whether Input for otherPlant</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkPanda</Control_Id>
+    <Chs_Desc>是否上传Panda</Chs_Desc>
+    <Cht_Desc>是否上傳Panda</Cht_Desc>
+    <En_Desc>Upload Panda</En_Desc>
+    <En_Full_Desc>Whether Upload Panda</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chkpd</Control_Id>
+    <Chs_Desc>原材料盘点预警</Chs_Desc>
+    <Cht_Desc>原材料盤點預警</Cht_Desc>
+    <En_Desc>Raw Spot-check Alert</En_Desc>
+    <En_Full_Desc>RawMaterial StockCount Warning</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chkpz</Control_Id>
+    <Chs_Desc>是否抛转资料</Chs_Desc>
+    <Cht_Desc>是否拋轉資料</Cht_Desc>
+    <En_Desc>Pass On Data</En_Desc>
+    <En_Full_Desc>Whether Pass On Data</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkReplace</Control_Id>
+    <Chs_Desc>是否替代料</Chs_Desc>
+    <Cht_Desc>是否替代料</Cht_Desc>
+    <En_Desc>Alternative Materials</En_Desc>
+    <En_Full_Desc>Whether Alternative Materials</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chktd</Control_Id>
+    <Chs_Desc>是否替代料</Chs_Desc>
+    <Cht_Desc>是否替代料</Cht_Desc>
+    <En_Desc>Alternative</En_Desc>
+    <En_Full_Desc>Whether Alternative Materials</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkTransData</Control_Id>
+    <Chs_Desc>是否抛转资料</Chs_Desc>
+    <Cht_Desc>是否拋轉資料</Cht_Desc>
+    <En_Desc>Pass on Data</En_Desc>
+    <En_Full_Desc>Whether Pass on Data</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Chkyj</Control_Id>
+    <Chs_Desc>是否预警物料</Chs_Desc>
+    <Cht_Desc>是否預警物料</Cht_Desc>
+    <En_Desc>Warning Materials</En_Desc>
+    <En_Full_Desc>Whether Warning Materials</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Ckeckzz</Control_Id>
+    <Chs_Desc>组装扫描部件</Chs_Desc>
+    <Cht_Desc>組裝掃描部件</Cht_Desc>
+    <En_Desc>Combine Scan Comp</En_Desc>
+    <En_Full_Desc>Assemb.ScanParts</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Delete</Control_Id>
+    <Chs_Desc>删除(&amp;D)</Chs_Desc>
+    <Cht_Desc>刪除(&amp;D)</Cht_Desc>
+    <En_Desc>Delete(&amp;D)</En_Desc>
+    <En_Full_Desc>Delete(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_0</Control_Id>
+    <Chs_Desc>料件编号</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_1</Control_Id>
+    <Chs_Desc>上级料件编号</Chs_Desc>
+    <Cht_Desc>上級料件編號</Cht_Desc>
+    <En_Desc>Parent PartID</En_Desc>
+    <En_Full_Desc>Parent Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_2</Control_Id>
+    <Chs_Desc>客户名称</Chs_Desc>
+    <Cht_Desc>客戶名稱</Cht_Desc>
+    <En_Desc>Cust Name</En_Desc>
+    <En_Full_Desc>Customer Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_3</Control_Id>
+    <Chs_Desc>客户料号</Chs_Desc>
+    <Cht_Desc>客戶料號</Cht_Desc>
+    <En_Desc>Cust PartID</En_Desc>
+    <En_Full_Desc>Customer Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_4</Control_Id>
+    <Chs_Desc>状态</Chs_Desc>
+    <Cht_Desc>狀態</Cht_Desc>
+    <En_Desc>Status</En_Desc>
+    <En_Full_Desc>Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_5</Control_Id>
+    <Chs_Desc>维护人员</Chs_Desc>
+    <Cht_Desc>維護人員</Cht_Desc>
+    <En_Desc>maint. staff</En_Desc>
+    <En_Full_Desc>maint. staff</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgPartContrast_6</Control_Id>
+    <Chs_Desc>维护时间</Chs_Desc>
+    <Cht_Desc>維護時間</Cht_Desc>
+    <En_Desc>maint. time</En_Desc>
+    <En_Full_Desc>maint. time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>EditFile</Control_Id>
+    <Chs_Desc>修 改(&amp;E)</Chs_Desc>
+    <Cht_Desc>修 改(&amp;E)</Cht_Desc>
+    <En_Desc>Edit(&amp;E)</En_Desc>
+    <En_Full_Desc>Edit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnERP</Control_Id>
+    <Chs_Desc>从ERP下载(&amp;P)</Chs_Desc>
+    <Cht_Desc>從ERP下載(&amp;P)</Cht_Desc>
+    <En_Desc>ERP Download(&amp;P)</En_Desc>
+    <En_Full_Desc>ERP Download(&amp;P)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ExitFrom</Control_Id>
+    <Chs_Desc>退 出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退 出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Export</Control_Id>
+    <Chs_Desc>复 制(&amp;O)</Chs_Desc>
+    <Cht_Desc>復 制(&amp;O)</Cht_Desc>
+    <En_Desc>Copy(&amp;O)</En_Desc>
+    <En_Full_Desc>Copy(&amp;O)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FileRefresh</Control_Id>
+    <Chs_Desc>刷 新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷 新(&amp;R)</Cht_Desc>
+    <En_Desc>Refresh(&amp;R)</En_Desc>
+    <En_Full_Desc>Refresh(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmPartContrast</Control_Id>
+    <Chs_Desc>料件基本资料</Chs_Desc>
+    <Cht_Desc>料件基本資料</Cht_Desc>
+    <En_Desc>Part Basic Data</En_Desc>
+    <En_Full_Desc>Part BasicData</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox3</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>客户名称：</Chs_Desc>
+    <Cht_Desc>客戶名稱：</Cht_Desc>
+    <En_Desc>Cust Name:</En_Desc>
+    <En_Full_Desc>Customer Name:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>客户料号：</Chs_Desc>
+    <Cht_Desc>客戶料號：</Cht_Desc>
+    <En_Desc>Cust P/N:</En_Desc>
+    <En_Full_Desc>Customer P/N</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>供应商代码：</Chs_Desc>
+    <Cht_Desc>供應商代碼：</Cht_Desc>
+    <En_Desc>Supplier Code:</En_Desc>
+    <En_Full_Desc>Supplier Code:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>料件类别：</Chs_Desc>
+    <Cht_Desc>料件類別：</Cht_Desc>
+    <En_Desc>Part Type:</En_Desc>
+    <En_Full_Desc>Part Type:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>料件类别：</Chs_Desc>
+    <Cht_Desc>料件類別：</Cht_Desc>
+    <En_Desc>Part Type:</En_Desc>
+    <En_Full_Desc>Part Type:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>料件专案代码：</Chs_Desc>
+    <Cht_Desc>料件專案代碼：</Cht_Desc>
+    <En_Desc>Part Prj Code:</En_Desc>
+    <En_Full_Desc>Part Project Code:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>供应商代码：</Chs_Desc>
+    <Cht_Desc>供應商代碼：</Cht_Desc>
+    <En_Desc>Supplier Code:</En_Desc>
+    <En_Full_Desc>SupplierCode:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>料件专案代码：</Chs_Desc>
+    <Cht_Desc>料件專案代碼：</Cht_Desc>
+    <En_Desc>Part Prj Code:</En_Desc>
+    <En_Full_Desc>Part Project Code:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPartID</Control_Id>
+    <Chs_Desc>上级料号：</Chs_Desc>
+    <Cht_Desc>上級料號：</Cht_Desc>
+    <En_Desc>Parent Part:</En_Desc>
+    <En_Full_Desc>Parent Part ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LelTpart</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>P/N</En_Desc>
+    <En_Full_Desc>P/N</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>NewFile</Control_Id>
+    <Chs_Desc>新 增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新 增(&amp;N)</Cht_Desc>
+    <En_Desc>New Build(&amp;N)</En_Desc>
+    <En_Full_Desc>New Build(&amp;N)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Save</Control_Id>
+    <Chs_Desc>保 存(&amp;S)</Chs_Desc>
+    <Cht_Desc>保 存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Search</Control_Id>
+    <Chs_Desc>查 找(&amp;F)</Chs_Desc>
+    <Cht_Desc>查 找(&amp;F)</Cht_Desc>
+    <En_Desc>Find(&amp;F)</En_Desc>
+    <En_Full_Desc>Find(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>StatusLabel</Control_Id>
+    <Chs_Desc>记录笔数：</Chs_Desc>
+    <Cht_Desc>記錄筆數：</Cht_Desc>
+    <En_Desc>Record Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolCancelOutDJ</Control_Id>
+    <Chs_Desc>出货扫描取消冻结(&amp;D)</Chs_Desc>
+    <Cht_Desc>出貨掃描取消凍結(&amp;D)</Cht_Desc>
+    <En_Desc>Delivery Scan Cancel Freeze(&amp;D)</En_Desc>
+    <En_Full_Desc>Deliv.Scan CancelFreeze(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolOutDJ</Control_Id>
+    <Chs_Desc>出货扫描冻结(&amp;D)</Chs_Desc>
+    <Cht_Desc>出貨掃描凍結(&amp;D)</Cht_Desc>
+    <En_Desc>Delivery Scan Freeze(&amp;D)</En_Desc>
+    <En_Full_Desc>Deliv.ScanFreeze(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>UnDo</Control_Id>
+    <Chs_Desc>返回(&amp;C)</Chs_Desc>
+    <Cht_Desc>返回(&amp;C)</Cht_Desc>
+    <En_Desc>Back(&amp;C)</En_Desc>
+    <En_Full_Desc>Back(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TabPage1</Control_Id>
+    <Chs_Desc>原物料</Chs_Desc>
+    <Cht_Desc>原物料</Cht_Desc>
+    <En_Desc>Materials</En_Desc>
+    <En_Full_Desc>Materials</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TabPage2</Control_Id>
+    <Chs_Desc>ERP料件资料</Chs_Desc>
+    <Cht_Desc>ERP料件資料</Cht_Desc>
+    <En_Desc>ERP PART</En_Desc>
+    <En_Full_Desc>ERP PART</En_Full_Desc>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,147 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\Equipment.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\Equipment.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\Equipment.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.BaseInfo.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipCheck.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipReport.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.Lend.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.Resources.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\Equipment\obj\Debug\Equipment.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\Equipment.dll
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\Equipment.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\Equipment.xml
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.BaseInfo.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.EquipCheck.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.EquipReport.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.Lend.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.Resources.resources
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.dll
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.xml
+D:\Users\C060148\Desktop\BDTest\DEV\Equipment\obj\Debug\Equipment.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\Equipment.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\Equipment.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\Equipment.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.BaseInfo.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.EquipCheck.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.EquipReport.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.Lend.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.Resources.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\Equipment\obj\Debug\Equipment.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\Equipment.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\Equipment.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\Equipment.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.BaseInfo.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipCheck.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipReport.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.Lend.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.Resources.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\Equipment.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\Equipment.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\Equipment.xml
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.vbprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.BaseInfo.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.EquipCheck.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.EquipReport.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.Lend.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.Resources.resources
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.vbproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.vbproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.dll
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.xml
+C:\Users\matech\Desktop\VN\VN\DEV\Equipment\obj\Debug\Equipment.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\Equipment.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\Equipment.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\Equipment.xml
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.BaseInfo.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipCheck.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.EquipReport.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.Lend.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.Resources.resources
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.vbproj.CopyComplete
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.dll
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.xml
+D:\VNSFC\NV-SFC\DEV\Equipment\obj\Debug\Equipment.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\Equipment.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\Equipment.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\Equipment.xml
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.BaseInfo.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.EquipCheck.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.EquipReport.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.Lend.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.Resources.resources
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.dll
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.xml
+D:\work\svn\SFC\NV_SFC\code\Equipment\obj\Debug\Equipment.pdb
+D:\SFC CODE\ShareFile\Equipment.dll
+D:\SFC CODE\ShareFile\Equipment.pdb
+D:\SFC CODE\ShareFile\Equipment.xml
+D:\SFC CODE\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+D:\SFC CODE\Equipment\obj\Debug\Equipment.BaseInfo.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.EquipCheck.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.EquipReport.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.Lend.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.Resources.resources
+D:\SFC CODE\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+D:\SFC CODE\Equipment\obj\Debug\Equipment.dll
+D:\SFC CODE\Equipment\obj\Debug\Equipment.xml
+D:\SFC CODE\Equipment\obj\Debug\Equipment.pdb
+E:\SFC CODE\SFC CODE\ShareFile\Equipment.dll
+E:\SFC CODE\SFC CODE\ShareFile\Equipment.pdb
+E:\SFC CODE\SFC CODE\ShareFile\Equipment.xml
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.vbprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.BaseInfo.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.EquipBorrow.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.EquipCheck.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.EquipDetailInfo.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.EquipmentInfo.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.EquipReport.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.Lend.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.Resources.resources
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.vbproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.dll
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.xml
+E:\SFC CODE\SFC CODE\Equipment\obj\Debug\Equipment.pdb

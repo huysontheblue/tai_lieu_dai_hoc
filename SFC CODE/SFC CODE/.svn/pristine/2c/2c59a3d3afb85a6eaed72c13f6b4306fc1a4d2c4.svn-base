@@ -1,0 +1,229 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>CkbUsey</Control_Id>
+    <Chs_Desc>发布状态</Chs_Desc>
+    <Cht_Desc>發布狀態</Cht_Desc>
+    <En_Desc>Release Status</En_Desc>
+    <En_Full_Desc>ReleaseState</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_0</Control_Id>
+    <Chs_Desc>id</Chs_Desc>
+    <Cht_Desc>id</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_1</Control_Id>
+    <Chs_Desc>类型</Chs_Desc>
+    <Cht_Desc>類型</Cht_Desc>
+    <En_Desc>types</En_Desc>
+    <En_Full_Desc>types</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_2</Control_Id>
+    <Chs_Desc>标题</Chs_Desc>
+    <Cht_Desc>標題</Cht_Desc>
+    <En_Desc>title</En_Desc>
+    <En_Full_Desc>title</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_3</Control_Id>
+    <Chs_Desc>内容</Chs_Desc>
+    <Cht_Desc>內容</Cht_Desc>
+    <En_Desc>content</En_Desc>
+    <En_Full_Desc>content</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_4</Control_Id>
+    <Chs_Desc>链接</Chs_Desc>
+    <Cht_Desc>鏈接</Cht_Desc>
+    <En_Desc>chain</En_Desc>
+    <En_Full_Desc>chain</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_5</Control_Id>
+    <Chs_Desc>起始时间</Chs_Desc>
+    <Cht_Desc>起始時間</Cht_Desc>
+    <En_Desc>start time</En_Desc>
+    <En_Full_Desc>start time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_6</Control_Id>
+    <Chs_Desc>截止时间</Chs_Desc>
+    <Cht_Desc>截止時間</Cht_Desc>
+    <En_Desc>deadline</En_Desc>
+    <En_Full_Desc>deadline</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_7</Control_Id>
+    <Chs_Desc>发布状态</Chs_Desc>
+    <Cht_Desc>發布狀態</Cht_Desc>
+    <En_Desc>release status</En_Desc>
+    <En_Full_Desc>release status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvShowTb_8</Control_Id>
+    <Chs_Desc>时间</Chs_Desc>
+    <Cht_Desc>時間</Cht_Desc>
+    <En_Desc>time</En_Desc>
+    <En_Full_Desc>time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmMsgEdit</Control_Id>
+    <Chs_Desc>系统信息公告</Chs_Desc>
+    <Cht_Desc>系統信息公告</Cht_Desc>
+    <En_Desc>System Notice</En_Desc>
+    <En_Full_Desc>Sys.Notice</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>标题：</Chs_Desc>
+    <Cht_Desc>標題：</Cht_Desc>
+    <En_Desc>Title</En_Desc>
+    <En_Full_Desc>Title</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>内容：</Chs_Desc>
+    <Cht_Desc>內容：</Cht_Desc>
+    <En_Desc>Content</En_Desc>
+    <En_Full_Desc>Content</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>链接：</Chs_Desc>
+    <Cht_Desc>鏈接：</Cht_Desc>
+    <En_Desc>Link</En_Desc>
+    <En_Full_Desc>Link</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>类型：</Chs_Desc>
+    <Cht_Desc>類型：</Cht_Desc>
+    <En_Desc>Type</En_Desc>
+    <En_Full_Desc>Type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>有效期：</Chs_Desc>
+    <Cht_Desc>有效期：</Cht_Desc>
+    <En_Desc>Validity</En_Desc>
+    <En_Full_Desc>Validity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>至</Chs_Desc>
+    <Cht_Desc>至</Cht_Desc>
+    <En_Desc>Till</En_Desc>
+    <En_Full_Desc>Till</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbClose</Control_Id>
+    <Chs_Desc>退出(&amp;C)</Chs_Desc>
+    <Cht_Desc>退出(&amp;C)</Cht_Desc>
+    <En_Desc>Exit(&amp;C)</En_Desc>
+    <En_Full_Desc>Exit(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbDelete</Control_Id>
+    <Chs_Desc>删除(&amp;D)</Chs_Desc>
+    <Cht_Desc>刪除(&amp;D)</Cht_Desc>
+    <En_Desc>Delete(&amp;D)</En_Desc>
+    <En_Full_Desc>Delete(&amp;D)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbNew</Control_Id>
+    <Chs_Desc>新增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新增(&amp;N)</Cht_Desc>
+    <En_Desc>New Build(&amp;N)</En_Desc>
+    <En_Full_Desc>New Build(&amp;N)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbPublish</Control_Id>
+    <Chs_Desc>公告发布</Chs_Desc>
+    <Cht_Desc>公告發布</Cht_Desc>
+    <En_Desc>Notice Release</En_Desc>
+    <En_Full_Desc>NoticeRelease</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbPublishCancle</Control_Id>
+    <Chs_Desc>取消发布</Chs_Desc>
+    <Cht_Desc>取消發布</Cht_Desc>
+    <En_Desc>Cancel Release</En_Desc>
+    <En_Full_Desc>CancelRelease</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbQuery</Control_Id>
+    <Chs_Desc>查询(&amp;Q)</Chs_Desc>
+    <Cht_Desc>查詢(&amp;Q)</Cht_Desc>
+    <En_Desc>Query(&amp;Q)</En_Desc>
+    <En_Full_Desc>Query(&amp;Q)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbRefresh</Control_Id>
+    <Chs_Desc>刷新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷新(&amp;R)</Cht_Desc>
+    <En_Desc>Refresh(&amp;R)</En_Desc>
+    <En_Full_Desc>Refresh(&amp;R)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbReturn</Control_Id>
+    <Chs_Desc>返回(&amp;B)</Chs_Desc>
+    <Cht_Desc>返回(&amp;B)</Cht_Desc>
+    <En_Desc>Back(&amp;B)</En_Desc>
+    <En_Full_Desc>Back(&amp;B)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbSave</Control_Id>
+    <Chs_Desc>储存(&amp;S)</Chs_Desc>
+    <Cht_Desc>儲存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbUpdate</Control_Id>
+    <Chs_Desc>修改(&amp;U)</Chs_Desc>
+    <Cht_Desc>修改(&amp;U)</Cht_Desc>
+    <En_Desc>Revise(&amp;U)</En_Desc>
+    <En_Full_Desc>Revise(&amp;U)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TsbView</Control_Id>
+    <Chs_Desc>公告预览</Chs_Desc>
+    <Cht_Desc>公告預覽</Cht_Desc>
+    <En_Desc>Notice Preview</En_Desc>
+    <En_Full_Desc>NoticePreview</En_Full_Desc>
+  </Table>
+</NewDataSet>

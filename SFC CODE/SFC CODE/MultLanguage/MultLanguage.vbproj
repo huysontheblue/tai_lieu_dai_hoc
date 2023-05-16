@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D36BB758-1747-4D62-A0BC-FC6AF560B73C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MultLanguage</RootNamespace>
+    <AssemblyName>MultLanguage</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>MultLanguage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MultLanguage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=14.0.0.15, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.0.0.15, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Language.vb" />
+    <Compile Include="MessageBox.Designer.vb">
+      <DependentUpon>MessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultMessage.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TipForm.Designer.vb">
+      <DependentUpon>TipForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TipForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tips.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MessageBox.resx">
+      <DependentUpon>MessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx" />
+    <EmbeddedResource Include="TipForm.resx">
+      <DependentUpon>TipForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\MultMessage_EN.resx">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\MultMessage_CHT.resx">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\multmessage_CHS.resx">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmMain.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmAutoLaserPrint.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmBarScan.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmCheckRecordQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmDataHistoryManagement.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmDeptID.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmDeptLine.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmEqpTest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmExceptionHandleQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmIssueNew.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmIssueReport.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmIssueSolve.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmIssueTrace.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmLaserPrint.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmLineLookUp.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmLinkServerManagement.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmListPrint.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmLogin.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmModuleManage.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMoveHistoryDataBack.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMsgEdit.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmNCode.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmNGSearch.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmNiRecordQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPackForScrap.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPackQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPartTranc.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPasswordch.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPrintQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmProduceLine.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPrtSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmQueryAppUseStatus.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmQueryAppUseStatusDetail.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmQueryScrapCarton.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmRStationSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmScanCheckRule.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmScanQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSendAsnMacMaintain.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSnQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSystemFileManage.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmTestRecordQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmUserManage.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmVoltageTest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmWait.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmWhOutQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckSnCodeIni.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmCartonLastSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmCartonReplace.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmLinkAsn.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmOptionSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSetLock.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmShareSetForm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmVerify.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmNiRecordAnalyseQuery.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSnSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmStantPackScan.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmWorkStantScan.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmRepeatCheck.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmCodeSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmWmsOutter.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPrtTask.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPartContrast.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmNcauseCode.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMainTainHandleNEW.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMainTainHandleDG.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSharedOptionSet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmScanAberrantHandle.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmRPartStation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmWorkSheet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMoMain.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmCheckDigitPrt.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSelectRole.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmSuperPwd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPartition.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmScanErrPrompt.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMBarReplace.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmPartLotScan.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

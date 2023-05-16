@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F52D45D-E202-4658-8C7C-4941FF3E5583}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WmsManagement</RootNamespace>
+    <AssemblyName>WmsManagement</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>WmsManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>WmsManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=5.3.1.0, Culture=neutral, PublicKeyToken=9ec0ff091d04b091, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetBarcode, Version=2.4.2480.34660, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DotNetBarcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=9.40.2.1, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsian, Version=2.1.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsianCmaps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\iTextAsianCmaps.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MainFrame, Version=2.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\MainFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="MultLanguage">
+      <HintPath>..\..\..\Users\C060148\Desktop\C#源码\新建文件夹\JXSX_VN_SFC\ShareFile\MultLanguage.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="SysBasicClass, Version=2.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Users\C060148\Desktop\C#源码\新建文件夹\JXSX_VN_SFC\ShareFile\SysBasicClass.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxUL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\dll\TextBoxUL.dll</HintPath>
+    </Reference>
+    <Reference Include="ULControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\dll\ULControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\PartRetrospective.vb" />
+    <Compile Include="FrmBBYPONumber.Designer.vb">
+      <DependentUpon>FrmBBYPONumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBBYPONumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHMshipment.Designer.vb">
+      <DependentUpon>FrmHMshipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHMshipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWPONumber.Designer.vb">
+      <DependentUpon>FrmHWPONumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWPONumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocaion.Designer.vb">
+      <DependentUpon>FrmLocaion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocaion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocationSet.Designer.vb">
+      <DependentUpon>FrmLocationSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocationSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPartRetrospective.Designer.vb">
+      <DependentUpon>FrmPartRetrospective.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPartRetrospective.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRYPONumber.Designer.vb">
+      <DependentUpon>FrmRYPONumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRYPONumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShippingEditCheckQuantity.Designer.vb">
+      <DependentUpon>FrmShippingEditCheckQuantity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShippingEditCheckQuantity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShippingExport.Designer.vb">
+      <DependentUpon>FrmShippingExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShippingExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShippingQCCheck.Designer.vb">
+      <DependentUpon>FrmShippingQCCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShippingQCCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShippingWarehouseCheck.Designer.vb">
+      <DependentUpon>FrmShippingWarehouseCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShippingWarehouseCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWareHouseFind.Designer.vb">
+      <DependentUpon>FrmWareHouseFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWareHouseFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWareHouseIn.Designer.vb">
+      <DependentUpon>FrmWareHouseIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWareHouseIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWareHouseInDetail.Designer.vb">
+      <DependentUpon>FrmWareHouseInDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWareHouseInDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWareHouseOut.Designer.vb">
+      <DependentUpon>FrmWareHouseOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWareHouseOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWareHouseOutDetail.Designer.vb">
+      <DependentUpon>FrmWareHouseOutDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWareHouseOutDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWmsOutterBBY.Designer.vb">
+      <DependentUpon>FrmWmsOutterBBY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWmsOutterBBY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetMesData.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmBBYPONumber.resx">
+      <DependentUpon>FrmBBYPONumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHMshipment.resx">
+      <DependentUpon>FrmHMshipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWPONumber.resx">
+      <DependentUpon>FrmHWPONumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocaion.resx">
+      <DependentUpon>FrmLocaion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocationSet.resx">
+      <DependentUpon>FrmLocationSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPartRetrospective.resx">
+      <DependentUpon>FrmPartRetrospective.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRYPONumber.resx">
+      <DependentUpon>FrmRYPONumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShippingEditCheckQuantity.resx">
+      <DependentUpon>FrmShippingEditCheckQuantity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShippingExport.resx">
+      <DependentUpon>FrmShippingExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShippingQCCheck.resx">
+      <DependentUpon>FrmShippingQCCheck.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShippingWarehouseCheck.resx">
+      <DependentUpon>FrmShippingWarehouseCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWareHouseFind.resx">
+      <DependentUpon>FrmWareHouseFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWareHouseIn.resx">
+      <DependentUpon>FrmWareHouseIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWareHouseInDetail.resx">
+      <DependentUpon>FrmWareHouseInDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWareHouseOut.resx">
+      <DependentUpon>FrmWareHouseOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWareHouseOutDetail.resx">
+      <DependentUpon>FrmWareHouseOutDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWmsOutterBBY.resx">
+      <DependentUpon>FrmWmsOutterBBY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5CA79A79-689E-4C76-92AD-B2D7AA71DA22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chimes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chord.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\err.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mmmmm2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ringin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\query.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confirm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

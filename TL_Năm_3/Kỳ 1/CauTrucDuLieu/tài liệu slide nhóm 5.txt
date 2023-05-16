@@ -1,0 +1,25 @@
+https://nguyenvanhieu.vn/liet-ke-cac-hoan-vi/
+https://sites.google.com/site/kc97ble/algorithm/backtracking-cpp
+https://expressmagazine.net/development/4019/cc-liet-ke-cac-hoan-vi-cua-tap-n-phan-tu-bang-thuat-toan-back-track
+https://www.youtube.com/watch?v=1m9faFvyUxs
+
+
+tài liệu bt nhóm 2 local search
+
+http://proceeding.vap.ac.vn/index.php/proceedingvap/article/viewFile/2017.00018/333
+https://123doc.net/document/1434849-tim-hieu-va-cai-dat-thuat-toan-gts.htm
+https://www.researchgate.net/publication/225939903_Guided_Local_Search
+https://vnoi.info/wiki/algo/search/Local-Search.md
+https://tailieu.vn/doc/bai-giang-phan-tich-va-thiet-ke-thuat-toan-tim-kiem-cuc-bo-local-search-pham-the-bao-1802831.html
+https://simpleai.readthedocs.io/en/latest/local_search_problems.html
+https://www.sciencedirect.com/topics/computer-science/local-search-algorithm
+https://www.dreamincode.net/forums/topic/29531-iterated-local-search/
+http://mpc.zib.de/archive/2010/2/Groer2010_Article_ALibraryOfLocalSearchHeuristic.pdf
+https://www.intechopen.com/online-first/cuda-accelerated-2-opt-local-search-for-the-traveling-salesman-problem
+https://docs.google.com/document/d/1cDQEaf_YabpefiG7PiQZErHbr7AJIFjt7IIiDv9n4N4/edit#
+http://mobile-kungfu.blogspot.com/2010/01/giai-thuat-leo-oi.html
+https://sharecode.vn/tim-kiem.htm?tu-khoa=t%c3%acm+ki%e1%ba%bfm+leo+%c4%91%e1%bb%93i%5c&ngon-ngu=0
+
+https://youtu.be/Ad29SjJ1GwA
+https://youtu.be/XUNGtxoBbPQ
+https://youtu.be/vx9l8pHNUU8

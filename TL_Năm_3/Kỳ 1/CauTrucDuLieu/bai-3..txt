@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int n, a[100100], sum[100100];
+int s;
+
+
+int main() {
+   
+    cin >> n;
+    sum[0] = 0;
+    for (int i = 1; i<= n; i++) {
+        cin >> a[i];
+        sum[i] = sum[i-1] + a[i];
+    }
+    cin >> s;
+    int minProblem = INT_MAX;
+    for (int i = 1; i<n; i++) {
+        int search_value = sum[i-1] + s;
+        int left = i+1, right = n, answer = -1;
+        while (left <= right) {
+            int mid = (left+right)/2;// lay moc so sanh
+            if (sum[mid] >= search_value) {
+                answer = mid;// dung
+                right = mid-1;// tim tiep day con  a left..a mid-1
+            }
+            else {
+                left = mid+1;/// tìm tiep dãy con a mid+1…a right
+            }
+        }
+        if (answer+1) {
+            minProblem = min(minProblem, answer-i+1);
+        }
+    }
+    cout << minProblem;
+    return 0;
+}
+

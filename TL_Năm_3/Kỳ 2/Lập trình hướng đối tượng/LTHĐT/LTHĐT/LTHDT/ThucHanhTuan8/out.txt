@@ -1,0 +1,62 @@
+---------------------DANH SACH BAN DAU---------------------
+
+Ho ten : cannon
+dpi : 600
+Mau sac : 8
+
+Ho ten : epson
+dpi : 720
+Mau sac : 4
+
+Ho ten : nikon n7000
+dpi : 1900
+Mau sac : 8
+
+Ho ten : hp printer
+dpi : 1200
+Mau sac : 6
+
+Ho ten : atell 900
+dpi : 1200
+Mau sac : 6
+
+Ho ten : mio 986
+dpi : 720
+Mau sac : 8
+
+Ho ten : samsung
+dpi : 1200
+Mau sac : 4
+
+-------------------DANH SACH SAU SAP XEP--------------------
+
+
+
+Ho ten : atell 900
+dpi : 1200
+Mau sac : 6
+
+Ho ten : cannon
+dpi : 600
+Mau sac : 8
+
+Ho ten : epson
+dpi : 720
+Mau sac : 4
+
+Ho ten : hp printer
+dpi : 1200
+Mau sac : 6
+
+Ho ten : mio 986
+dpi : 720
+Mau sac : 8
+
+Ho ten : nikon n7000
+dpi : 1900
+Mau sac : 8
+
+Ho ten : samsung
+dpi : 1200
+Mau sac : 4
+

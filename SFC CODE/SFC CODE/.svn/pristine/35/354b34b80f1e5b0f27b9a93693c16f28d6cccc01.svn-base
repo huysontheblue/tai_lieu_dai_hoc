@@ -1,0 +1,236 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>dgvResult_0</Control_Id>
+    <Chs_Desc>ID</Chs_Desc>
+    <Cht_Desc>ID</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_1</Control_Id>
+    <Chs_Desc>线别编号</Chs_Desc>
+    <Cht_Desc>線別編號</Cht_Desc>
+    <En_Desc>lines No.</En_Desc>
+    <En_Full_Desc>lines No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_2</Control_Id>
+    <Chs_Desc>MAC编号</Chs_Desc>
+    <Cht_Desc>MAC編號</Cht_Desc>
+    <En_Desc>MAC No.</En_Desc>
+    <En_Full_Desc>MAC No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_3</Control_Id>
+    <Chs_Desc>IP地址</Chs_Desc>
+    <Cht_Desc>IP地址</Cht_Desc>
+    <En_Desc>IP address</En_Desc>
+    <En_Full_Desc>IP address</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_4</Control_Id>
+    <Chs_Desc>登录账号</Chs_Desc>
+    <Cht_Desc>登錄賬號</Cht_Desc>
+    <En_Desc>login account</En_Desc>
+    <En_Full_Desc>login account</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_5</Control_Id>
+    <Chs_Desc>登录密码</Chs_Desc>
+    <Cht_Desc>登錄密碼</Cht_Desc>
+    <En_Desc>login password</En_Desc>
+    <En_Full_Desc>login password</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_6</Control_Id>
+    <Chs_Desc>共享目录</Chs_Desc>
+    <Cht_Desc>共享目錄</Cht_Desc>
+    <En_Desc>shared folder</En_Desc>
+    <En_Full_Desc>shared folder</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_7</Control_Id>
+    <Chs_Desc>共享文件名</Chs_Desc>
+    <Cht_Desc>共享文件名</Cht_Desc>
+    <En_Desc>shared file name</En_Desc>
+    <En_Full_Desc>shared file name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_8</Control_Id>
+    <Chs_Desc>工站编号</Chs_Desc>
+    <Cht_Desc>工站編號</Cht_Desc>
+    <En_Desc>station No.</En_Desc>
+    <En_Full_Desc>station No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvResult_9</Control_Id>
+    <Chs_Desc>可用否</Chs_Desc>
+    <Cht_Desc>可用否</Cht_Desc>
+    <En_Desc>effective or not</En_Desc>
+    <En_Full_Desc>effective or not</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmSendAsnMacMaintain</Control_Id>
+    <Chs_Desc>线别Mac对照维护</Chs_Desc>
+    <Cht_Desc>線別Mac對照維護</Cht_Desc>
+    <En_Desc>line Mac referenced maint.</En_Desc>
+    <En_Full_Desc>line Mac referenced maint.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>线别:</Chs_Desc>
+    <Cht_Desc>線別:</Cht_Desc>
+    <En_Desc>lines</En_Desc>
+    <En_Full_Desc>lines</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>Mac编号:</Chs_Desc>
+    <Cht_Desc>Mac編號:</Cht_Desc>
+    <En_Desc>Mac No.</En_Desc>
+    <En_Full_Desc>Mac No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>IP地址:</Chs_Desc>
+    <Cht_Desc>IP地址:</Cht_Desc>
+    <En_Desc>IP adddress</En_Desc>
+    <En_Full_Desc>IP adddress</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>登录用户:</Chs_Desc>
+    <Cht_Desc>登錄用戶:</Cht_Desc>
+    <En_Desc>login account </En_Desc>
+    <En_Full_Desc>login account </En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>登录密码:</Chs_Desc>
+    <Cht_Desc>登錄密碼:</Cht_Desc>
+    <En_Desc>login password</En_Desc>
+    <En_Full_Desc>login password</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>共享目录:</Chs_Desc>
+    <Cht_Desc>共享目錄:</Cht_Desc>
+    <En_Desc>shared directory</En_Desc>
+    <En_Full_Desc>shared directory</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>共享文件名:</Chs_Desc>
+    <Cht_Desc>共享文件名:</Cht_Desc>
+    <En_Desc>shared document name</En_Desc>
+    <En_Full_Desc>shared document name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>工站编号:</Chs_Desc>
+    <Cht_Desc>工站編號:</Cht_Desc>
+    <En_Desc>station No.</En_Desc>
+    <En_Full_Desc>station No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>状态:</Chs_Desc>
+    <Cht_Desc>狀態:</Cht_Desc>
+    <En_Desc>status</En_Desc>
+    <En_Full_Desc>status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblId</Control_Id>
+    <Chs_Desc>Label10</Chs_Desc>
+    <Cht_Desc>Label10</Cht_Desc>
+    <En_Desc>Label10</En_Desc>
+    <En_Full_Desc>Label10</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblTotal</Control_Id>
+    <Chs_Desc>103</Chs_Desc>
+    <Cht_Desc>103</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>toolAbandon</Control_Id>
+    <Chs_Desc>作 廢(&amp;D)</Chs_Desc>
+    <Cht_Desc>作 廢(&amp;D)</Cht_Desc>
+    <En_Desc>cancel</En_Desc>
+    <En_Full_Desc>cancel</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolAdd</Control_Id>
+    <Chs_Desc>新 增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新 增(&amp;N)</Cht_Desc>
+    <En_Desc>newly build</En_Desc>
+    <En_Full_Desc>newly build</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolBack</Control_Id>
+    <Chs_Desc>返 回(&amp;B)</Chs_Desc>
+    <Cht_Desc>返 回(&amp;B)</Cht_Desc>
+    <En_Desc>back</En_Desc>
+    <En_Full_Desc>back</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolEdit</Control_Id>
+    <Chs_Desc>修 改(&amp;E)</Chs_Desc>
+    <Cht_Desc>修 改(&amp;E)</Cht_Desc>
+    <En_Desc>edit</En_Desc>
+    <En_Full_Desc>edit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolExit</Control_Id>
+    <Chs_Desc>退 出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退 出(&amp;X)</Cht_Desc>
+    <En_Desc>exit</En_Desc>
+    <En_Full_Desc>exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolQuery</Control_Id>
+    <Chs_Desc>查  询(&amp;F)</Chs_Desc>
+    <Cht_Desc>查  詢(&amp;F)</Cht_Desc>
+    <En_Desc>find</En_Desc>
+    <En_Full_Desc>find</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolRefresh</Control_Id>
+    <Chs_Desc>刷新(&amp;R)</Chs_Desc>
+    <Cht_Desc>刷新(&amp;R)</Cht_Desc>
+    <En_Desc>refresh</En_Desc>
+    <En_Full_Desc>refresh</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolSave</Control_Id>
+    <Chs_Desc>保 存(&amp;S)</Chs_Desc>
+    <Cht_Desc>保 存(&amp;S)</Cht_Desc>
+    <En_Desc>save</En_Desc>
+    <En_Full_Desc>save</En_Full_Desc>
+  </Table>
+</NewDataSet>

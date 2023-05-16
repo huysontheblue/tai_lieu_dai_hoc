@@ -1,0 +1,18 @@
+﻿[2020-10-21 11:19:27]
+ select UserName,Dept,StyleID=isnull(StyleID,99),IsOutUser = isnull(IsOutUser,''),usey = isnull(usey,''),OMd = isnull(OMd,'')  from m_Users_t where UserID='C060148'
+[2020-10-21 11:19:30]
+ select UserName,Dept,StyleID=isnull(StyleID,99),IsOutUser = isnull(IsOutUser,''),usey = isnull(usey,''),OMd = isnull(OMd,'')  from m_Users_t where UserID='C060148'
+[2020-10-21 11:19:39]
+ select UserName,Dept,StyleID=isnull(StyleID,99),IsOutUser = isnull(IsOutUser,''),usey = isnull(usey,''),OMd = isnull(OMd,'')  from m_Users_t where UserID='C060148'
+[2020-10-21 11:19:40]
+ DECLARE @strmsgid varchar(1), @strmsgText nvarchar(150) EXEC [GetCheckUserRight] 'C060148','0190','',@strmsgid OUTPUT ,@strmsgText OUTPUT  SELECT @strmsgid,@strmsgText
+[2020-10-21 11:19:42]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='C060148' AND PARAMETER_CODE='FactoryCode') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'3100-立讯精密（越南）有限公司',UPDATETIME=GETDATE() WHERE USERID='C060148' AND PARAMETER_CODE='FactoryCode' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('C060148','FactoryCode',N'3100-立讯精密（越南）有限公司','C060148') END
+[2020-10-21 11:19:48]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='C060148' AND PARAMETER_CODE='ProfitCenter') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'0190(立讯精密(越南)BU1-保税)',UPDATETIME=GETDATE() WHERE USERID='C060148' AND PARAMETER_CODE='ProfitCenter' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('C060148','ProfitCenter',N'0190(立讯精密(越南)BU1-保税)','C060148') END
+[2020-10-21 11:19:49]
+IF EXISTS(SELECT * FROM M_USERSETTING_T WHERE USERID='C060148' AND PARAMETER_CODE='AutoLogin') BEGIN UPDATE M_USERSETTING_T SET PARAMETER_VALUES=N'0',UPDATETIME=GETDATE() WHERE USERID='C060148' AND PARAMETER_CODE='AutoLogin' END ELSE BEGIN INSERT INTO M_USERSETTING_T(USERID,PARAMETER_CODE,PARAMETER_VALUES,UPDATEUSER_ID) VALUES('C060148','AutoLogin',N'0','C060148') END
+[2020-10-21 11:19:52]
+declare @remark nvarchar(250)=N'用户登录验证通过，主机名称：DGLX-OF00-0005'declare @Userid varchar(30)='C060148' INSERT INTO [m_UserOperateLog_t]([user_id],[modle_type],[action_type],[remark],[user_ip],[intime]) VALUES (@Userid,N'DGLX-OF00-0005','Login',@remark,'192.168.125.145',GETDATE()) 
+[2020-10-21 11:19:58]
+exec usp_User_InLoad 'C060148'

@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>Back</Control_Id>
+    <Chs_Desc>返回</Chs_Desc>
+    <Cht_Desc>返回</Cht_Desc>
+    <En_Desc>Back</En_Desc>
+    <En_Full_Desc>Back</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button1</Control_Id>
+    <Chs_Desc>...</Chs_Desc>
+    <Cht_Desc>...</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>DataRefresh</Control_Id>
+    <Chs_Desc>刷新</Chs_Desc>
+    <Cht_Desc>刷新</Cht_Desc>
+    <En_Desc>Refresh</En_Desc>
+    <En_Full_Desc>Refresh</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Delete</Control_Id>
+    <Chs_Desc>删除</Chs_Desc>
+    <Cht_Desc>刪除</Cht_Desc>
+    <En_Desc>Delete</En_Desc>
+    <En_Full_Desc>Delete</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>EditFile</Control_Id>
+    <Chs_Desc>修改</Chs_Desc>
+    <Cht_Desc>修改</Cht_Desc>
+    <En_Desc>Edit</En_Desc>
+    <En_Full_Desc>Edit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ExitFrom</Control_Id>
+    <Chs_Desc>退出</Chs_Desc>
+    <Cht_Desc>退出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmModuleManage</Control_Id>
+    <Chs_Desc>前台模块设置</Chs_Desc>
+    <Cht_Desc>前臺模塊設置</Cht_Desc>
+    <En_Desc>Foreground Module Setting</En_Desc>
+    <En_Full_Desc>Foregro.ModuleSetup</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox_Ico</Control_Id>
+    <Chs_Desc>图标设置</Chs_Desc>
+    <Cht_Desc>圖標設置</Cht_Desc>
+    <En_Desc>Icon Settings</En_Desc>
+    <En_Full_Desc>Icon Settings</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>模块编号</Chs_Desc>
+    <Cht_Desc>模塊編號</Cht_Desc>
+    <En_Desc>Module No.</En_Desc>
+    <En_Full_Desc>ModuleNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>模块名称</Chs_Desc>
+    <Cht_Desc>模塊名稱</Cht_Desc>
+    <En_Desc>Module Name</En_Desc>
+    <En_Full_Desc>ModuleName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>模块窗口</Chs_Desc>
+    <Cht_Desc>模塊窗口</Cht_Desc>
+    <En_Desc>Module Window</En_Desc>
+    <En_Full_Desc>ModuleWindow</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>父模块编号</Chs_Desc>
+    <Cht_Desc>父模塊編號</Cht_Desc>
+    <En_Desc>Origin Module No.</En_Desc>
+    <En_Full_Desc>Ori.ModuleNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>父模块名称</Chs_Desc>
+    <Cht_Desc>父模塊名稱</Cht_Desc>
+    <En_Desc>Origin Module Name</En_Desc>
+    <En_Full_Desc>Ori.ModuleName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>按钮编号</Chs_Desc>
+    <Cht_Desc>按鈕編號</Cht_Desc>
+    <En_Desc>Button No.</En_Desc>
+    <En_Full_Desc>ButtonNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>图标文件</Chs_Desc>
+    <Cht_Desc>圖標文件</Cht_Desc>
+    <En_Desc>Icon File</En_Desc>
+    <En_Full_Desc>Icon File</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>注：请选择48*48分辨率的图片做为图标！</Chs_Desc>
+    <Cht_Desc>注：請選擇48*48分辨率的圖片做為圖標！</Cht_Desc>
+    <En_Desc>Notice: Please select 48*48 pic as icon.</En_Desc>
+    <En_Full_Desc>Notice: Please select 48*48 pic as icon.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>NewFile</Control_Id>
+    <Chs_Desc>新增</Chs_Desc>
+    <Cht_Desc>新增</Cht_Desc>
+    <En_Desc>New Build</En_Desc>
+    <En_Full_Desc>New Build</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Save</Control_Id>
+    <Chs_Desc>保存</Chs_Desc>
+    <Cht_Desc>保存</Cht_Desc>
+    <En_Desc>Save</En_Desc>
+    <En_Full_Desc>Save</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>TabPage1</Control_Id>
+    <Chs_Desc>模块&amp;图标设置</Chs_Desc>
+    <Cht_Desc>模塊&amp;圖標設置</Cht_Desc>
+    <En_Desc>Module &amp; Icon Setting</En_Desc>
+    <En_Full_Desc>Module&amp;Icon Setup</En_Full_Desc>
+  </Table>
+</NewDataSet>

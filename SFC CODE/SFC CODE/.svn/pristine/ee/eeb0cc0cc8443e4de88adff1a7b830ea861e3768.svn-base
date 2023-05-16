@@ -1,0 +1,60 @@
+
+-- ===========================================================
+-- Exec_InsertMachineShift,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROC [dbo].[Exec_InsertMachineShift]
+	
+	@RTMSG NVARCHAR(128) OUTPUT,
+	
+	@Machine_Code VARCHAR(10)='',
+	@TouchUser VARCHAR(30)='',
+	@LineName VARCHAR(30)='',
+	@Remark	NVARCHAR(200)='',
+	@Usey VARCHAR(8)='',
+	@CREATEUSERNAME VARCHAR(30)='',
+	@CREATEDATETIME datetime='',
+	@FactoryName  VARCHAR(60)='',
+	@Profitcenter   VARCHAR(60)=''
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	DECLARE @OUTWHID VARCHAR(32)
+
+	BEGIN TRY
+		BEGIN TRAN
+	    BEGIN
+			
+			INSERT INTO m_Equ_MachineShift_t VALUES(
+				@Machine_Code,@TouchUser,@Remark, @Usey, @CREATEUSERNAME, @CREATEDATETIME,null, null,@LineName,@FactoryName,@Profitcenter
+			)
+		END
+		update m_Equ_MachineM_t set TouchUser=@TouchUser,LineName=@LineName where Machine_Code=@Machine_Code
+		COMMIT TRAN
+	END TRY 
+	BEGIN CATCH 
+		ROLLBACK TRAN
+	
+		SET @RTMSG=N'÷¥––“Ï≥£'
+		
+	END CATCH 
+END
+
+
+
+GO
+
+

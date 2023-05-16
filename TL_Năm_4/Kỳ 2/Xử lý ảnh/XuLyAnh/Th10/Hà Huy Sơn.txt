@@ -1,0 +1,63 @@
+=========================================================================Bài thực hành số 10===============================================================================
+=============================================================================Hà Huy Sơn=====================================================================================
+========================================================================MSSV: 18574802010055==============================================================================
+
+---------------------Câu 1-------------------------------
+import cv2
+import numpy as np
+
+circles = np.zeros((4,2), np.int32)
+counter = 0
+def mouse(event,x,y,flags,params):
+    global counter
+    if event == cv2.EVENT_LBUTTONDOWN:
+        circles[counter] = x,y
+        counter = counter+1
+        print(circles)
+        cv2.circle(im,(x,y), 3,(0,255,0),-1)
+im = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+cv2.namedWindow('Original') 
+while True:
+    cv2.imshow('Original', im)
+    cv2.setMouseCallback('Original', mouse)
+    if counter == 4:
+        w, h = 250,350
+        MT1 = np.float32([circles[0],circles[1],circles[2],circles[3]])
+        MT2 = np.float32([[0,0],[w,0],[0,h],[w,h]])
+        
+        M = cv2.getPerspectiveTransform(MT1, MT2)
+        output = cv2.warpPerspective(im, M, (w,h))
+        cv2.imshow('Out', output)
+        
+    if cv2.waitKey(5) == ord('q'):
+        break
+cv2.destroyAllWindows()
+
+
+---------------------Câu 2-------------------------------
+import cv2
+# đọc ảnh
+im = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+r = cv2.selectROI(im)
+imCrop = im[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])]
+cv2.imshow("Image", imCrop)
+#lưu ảnh
+cv2.imwrite("D:\\XuLyAnh\\anhaukhicat.jpg", imCrop)
+cv2.waitKey(5) == ord('Esc')
+cv2.destroyAllWindows()
+
+---------------------Câu 3-------------------------------
+import cv2 as cv
+img = cv.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+imgray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+ret, thresh = cv.threshold(imgray, 127, 255, 0)
+contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+cv.drawContours(img, contours, -1, (0,255,0), 3)
+cv.drawContours(img, contours, 3, (0,255,0), 3)
+cnt = contours[4]
+cv.drawContours(img, [cnt], 0, (0,255,0), 3)
+
+cv.imshow("coin",img)
+
+cv.waitKey(0)
+cv.destroyAllWindows()

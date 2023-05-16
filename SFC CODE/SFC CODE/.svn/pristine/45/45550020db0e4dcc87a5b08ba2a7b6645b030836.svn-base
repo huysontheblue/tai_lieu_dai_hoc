@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendFQC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="tns:SendFQCModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SendFQCModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Line" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WorkOrderCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="StorageQuantity" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="BiaoQianTime" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProducDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="BiaoQianWeek" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendFQCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendFQCResult" type="tns:BizResultOfSendFQCResultModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BizResultOfSendFQCResultModel">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BizResult">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Result" type="tns:SendFQCResultModel" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="BizResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SendFQCResultModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SPCNO" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendSubFQC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="tns:SendFQCModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSubFQCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSubFQCResult" type="tns:BizResultOfSendFQCResultModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DelFQC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="tns:DelFQCModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DelFQCModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPCNO" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DelFQCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DelFQCResult" type="tns:BizResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendFQCSoapIn">
+    <wsdl:part name="parameters" element="tns:SendFQC" />
+  </wsdl:message>
+  <wsdl:message name="SendFQCSoapOut">
+    <wsdl:part name="parameters" element="tns:SendFQCResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSubFQCSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSubFQC" />
+  </wsdl:message>
+  <wsdl:message name="SendSubFQCSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSubFQCResponse" />
+  </wsdl:message>
+  <wsdl:message name="DelFQCSoapIn">
+    <wsdl:part name="parameters" element="tns:DelFQC" />
+  </wsdl:message>
+  <wsdl:message name="DelFQCSoapOut">
+    <wsdl:part name="parameters" element="tns:DelFQCResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FQCSoap">
+    <wsdl:operation name="SendFQC">
+      <wsdl:input message="tns:SendFQCSoapIn" />
+      <wsdl:output message="tns:SendFQCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSubFQC">
+      <wsdl:input message="tns:SendSubFQCSoapIn" />
+      <wsdl:output message="tns:SendSubFQCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DelFQC">
+      <wsdl:input message="tns:DelFQCSoapIn" />
+      <wsdl:output message="tns:DelFQCSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FQCSoap" type="tns:FQCSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendFQC">
+      <soap:operation soapAction="http://tempuri.org/SendFQC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSubFQC">
+      <soap:operation soapAction="http://tempuri.org/SendSubFQC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelFQC">
+      <soap:operation soapAction="http://tempuri.org/DelFQC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FQCSoap12" type="tns:FQCSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendFQC">
+      <soap12:operation soapAction="http://tempuri.org/SendFQC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSubFQC">
+      <soap12:operation soapAction="http://tempuri.org/SendSubFQC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelFQC">
+      <soap12:operation soapAction="http://tempuri.org/DelFQC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FQC">
+    <wsdl:port name="FQCSoap" binding="tns:FQCSoap">
+      <soap:address location="http://spc.luxshare-ict.com/WebService/FQC.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FQCSoap12" binding="tns:FQCSoap12">
+      <soap12:address location="http://spc.luxshare-ict.com/WebService/FQC.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

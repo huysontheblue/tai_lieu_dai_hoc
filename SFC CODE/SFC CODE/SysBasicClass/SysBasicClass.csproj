@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC017007-ADAE-4CAE-AC78-1F0A18A798F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SysBasicClass</RootNamespace>
+    <AssemblyName>SysBasicClass</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDTek.Oracle">
+      <HintPath>..\ShareFile_Public\DDTek.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile_Public\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs" />
+    <Compile Include="ApiHelper.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="Control\InputText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control\InputText.Designer.cs">
+      <DependentUpon>InputText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Pager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Pager.Designer.cs">
+      <DependentUpon>Pager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\waitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control\waitForm.Designer.cs">
+      <DependentUpon>waitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\waitFormService.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="DbOracleForSpcHelperSQL.cs" />
+    <Compile Include="DbOracleHelperSQL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OracleOperateUtils.cs" />
+    <Compile Include="DESEncrypt.cs" />
+    <Compile Include="Export.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FormMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMessageBox.Designer.cs">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LDAPHelper.cs" />
+    <Compile Include="LogHelper.cs" />
+    <Compile Include="Master.cs" />
+    <Compile Include="OracleCommandInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WeChat.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Control\InputText.resx">
+      <DependentUpon>InputText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Pager.resx">
+      <DependentUpon>Pager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\waitForm.resx">
+      <DependentUpon>waitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMessageBox.resx">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

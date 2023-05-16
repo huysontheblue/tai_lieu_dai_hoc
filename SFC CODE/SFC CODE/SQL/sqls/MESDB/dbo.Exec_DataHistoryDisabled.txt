@@ -1,0 +1,75 @@
+
+-- ===========================================================
+-- Exec_DataHistory,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROC [dbo].[Exec_DataHistoryDisabled]
+	@RTVALUE NVARCHAR(1) OUTPUT,
+	@RTMSG NVARCHAR(128) OUTPUT,
+	@USERID VARCHAR(32) = '',
+	@DATAHISTORYID VARCHAR(32) = ''
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (ISNULL(@DATAHISTORYID,'')='')
+	BEGIN
+		SET @RTMSG = N'数据迁移ID不能为空!'
+		SET @RTVALUE = '0'
+		RETURN;
+	END
+
+	IF EXISTS(SELECT TOP 1 DataHistoryId FROM m_DataHistory_t WHERE DataHistoryId = @DATAHISTORYID AND StatusFlag = 'N')
+	BEGIN
+		SET @RTMSG = N'停用失败,当前迁移定义已经停用!'
+		SET @RTVALUE = '0'
+		RETURN;
+	END
+
+	DECLARE @JOBID VARCHAR(64)
+	BEGIN TRY
+	--BEGIN TRAN 
+		SELECT @JOBID=JobID FROM m_DataHistory_t WHERE DataHistoryId=@DATAHISTORYID
+		EXEC msdb.dbo.sp_update_job @job_id=@JOBID, @enabled=0
+		UPDATE m_DataHistory_t SET StatusFlag='N', DisabledUserId = @USERID, DisabledTime = GETDATE() WHERE DataHistoryId=@DATAHISTORYID
+		--COMMIT TRAN
+		SET @RTMSG = N''
+		SET @RTVALUE = '1'
+	END TRY 
+	BEGIN CATCH 
+		--ROLLBACK TRAN 
+		SET @RTMSG = N'執行失敗，請聯繫開發人員！'
+		SET @RTVALUE = '0'
+	END CATCH 
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO
+
+

@@ -1,0 +1,12 @@
+
+STT    Tên môn                        STC    Số tiền 1 tín       Hệ số     Tổng tiền 1 môn
+1      Cơ sở dữ liệu nâng cao          3           380            1.07        1.219.800 
+2      Hệ thống thông tin quản lý      3           380             1          1.140.000
+3      Khai phá dữ liệu                3           380            1.07        1.219.800
+4      Phát triển ứng dụng dựa trên    3           380            1.10        1.219.800
+       mã nguồn mở
+5      Thực tập chuyên ngành           3           380            1.40        1.482.000
+                                                                
+                                                                  Tổng tiền = 6.281.400
+                                                                             
+https://github.com/Vetrivel-VP?tab=repositories&q=&type=&language=&sort=

@@ -1,0 +1,11 @@
+D:\DEVMES\DEV\ShareFile\SFCSUpdate.exe.config
+D:\DEVMES\DEV\ShareFile\SFCSUpdate.exe
+D:\DEVMES\DEV\ShareFile\SFCSUpdate.pdb
+D:\DEVMES\DEV\ShareFile\SFCSUpdate.xml
+D:\DEVMES\DEV\UpdateApp\obj\Debug\SFCSUpdate.FrmUpdate.resources
+D:\DEVMES\DEV\UpdateApp\obj\Debug\SFCSUpdate.FrmUpdateForm.resources
+D:\DEVMES\DEV\UpdateApp\obj\Debug\SFCSUpdate.Resources.resources
+D:\DEVMES\DEV\UpdateApp\obj\Debug\UpdateApp.vbproj.GenerateResource.Cache
+D:\DEVMES\DEV\UpdateApp\obj\Debug\SFCSUpdate.exe
+D:\DEVMES\DEV\UpdateApp\obj\Debug\SFCSUpdate.xml
+D:\DEVMES\DEV\UpdateApp\obj\Debug\SFCSUpdate.pdb

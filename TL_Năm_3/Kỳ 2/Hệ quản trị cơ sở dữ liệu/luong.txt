@@ -1,0 +1,21 @@
+Cho cơ sở dữ liệu LUONG gồm các bảng:
+Bảng Khoa để lưu các khoa. 
+- MaKhoa	char(4)	(mã khoa - trường khóa)
+- TenKhoa	nvarchar(35)	(tên khoa, ví dụ Khoa CNTT, Khoa Toán,…)
+Bảng Canbo để lưu danh sách cán bộ.	
+- MaCanBo	char(4)	(mã cán bộ - trường khóa)
+- MaKhoa	char(4)	(mã khoa)
+- TenCanBo	nvarchar(35)	(họ và tên cán bộ)
+- Ngaysinh	char(10)	(ngày sinh)
+Bảng Luong để lưu lương của các cán bộ.			
+- MaCanBo	char(4)	(mã cán bộ - trường khóa)
+- HeSoLuong	float		(hệ số lương)	
+- Luong	money	 	(lương = hệ số lương * 1350000)
+1. Nhập nội dung cho các bảng, trong đó bảng CanBo và Luong có ít nhất 5 bản ghi. 
+2. Tạo thủ tục đưa ra họ tên cán bộ, hệ số lương với tham số vào là Tên khoa. 
+Trong trường hợp nếu gọi 
+thủ tục mà không truyền tham số thì đưa ra thông tin trên của tất cả cán bộ có 
+trong cơ sở dữ liệu
+3. Viết hàm tạo bảng gồm họ tên cán bộ, hệ số lương, lương, tên khoa của những 
+cán bộ có hệ số lương >=A,  
+với A là một hệ số lương nào đó.

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProductionSchedule
+</name>
+</assembly>
+<members>
+<member name="P:ProductionSchedule.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ProductionSchedule.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ProductionSchedule.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ProductionSchedule.FrmProductionSchedule.LoadDataToExcel(System.Windows.Forms.DataGridView,System.String)">
+	<summary>
+ DataGridView数据导出excel 公共方法
+ </summary>
+	<param name="DgMoData">DataGridView控件ID</param>
+	<param name="tbname">导出文件名称</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

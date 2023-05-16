@@ -1,0 +1,10 @@
+https://tailieu.vn/doc/chuong-2-process-threads-tien-trinh-luong--404015.html
+https://123doc.net//document/4205879-nghien-cuu-tim-hieu-ve-quan-ly-tien-trinh-trong-he-dieu-hanh-windows.htm
+https://www.slideshare.net/realpotter/h-iu-hnh-chng-2
+https://voer.edu.vn/c/quan-ly-tien-trinh/a039fa79/8ddbad72
+
+
+// tai liệu lập lịch
+https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/
+https://www.geeksforgeeks.org/program-for-fcfs-cpu-scheduling-set-1/
+https://123doc.net/document/1257963-xay-dung-chuong-trinh-mo-phong-cac-giai-thuat-dinh-thoi-cho-cpu.htm

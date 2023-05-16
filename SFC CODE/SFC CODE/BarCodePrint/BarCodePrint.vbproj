@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{953C2C10-BF59-4592-8F58-9E8B3DC335A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BarCodePrint</RootNamespace>
+    <AssemblyName>BarCodePrint</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>BarCodePrint.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>BarCodePrint.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDTek.Oracle, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DDTek.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=9.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile_Public\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="MainFrame.SysCheckData" />
+    <Import Include="MainFrame.SysDataHandle" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonPrint.vb" />
+    <Compile Include="Common\SapCommon.vb" />
+    <Compile Include="FrmChildPrint.Designer.vb">
+      <DependentUpon>FrmChildPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChildPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChildPrintMoNum.Designer.vb">
+      <DependentUpon>FrmChildPrintMoNum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChildPrintMoNum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineMOQuery.Designer.vb">
+      <DependentUpon>FrmLineMOQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineMOQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintRepairBar.Designer.vb">
+      <DependentUpon>FrmPrintRepairBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintRepairBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm2DPrt.designer.vb">
+      <DependentUpon>Frm2DPrt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm2DPrt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmA20Prt.Designer.vb">
+      <DependentUpon>FrmA20Prt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmA20Prt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBarM.Designer.vb">
+      <DependentUpon>FrmBarM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBarM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCartonTypeEdit.Designer.vb">
+      <DependentUpon>FrmCartonTypeEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonTypeEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCodeSet.Designer.vb">
+      <DependentUpon>FrmCodeSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCodeSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmComplementApplication.Designer.vb">
+      <DependentUpon>FrmComplementApplication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmComplementApplication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDistributionSel.Designer.vb">
+      <DependentUpon>FrmDistributionSel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDistributionSel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditTime.Designer.vb">
+      <DependentUpon>FrmEditTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmH3Print.Designer.vb">
+      <DependentUpon>FrmH3Print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmH3Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKETPrintSetting.Designer.vb">
+      <DependentUpon>FrmKETPrintSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKETPrintSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListOthePrint.Designer.vb">
+      <DependentUpon>FrmListOthePrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListPrint.Designer.vb">
+      <DependentUpon>FrmListPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListPrintJX.Designer.vb">
+      <DependentUpon>FrmListPrintJX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListPrintJX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListPrintLine.Designer.vb">
+      <DependentUpon>FrmListPrintLine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListPrintLine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListTemplate.Designer.vb">
+      <DependentUpon>FrmListTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotPrint.Designer.vb">
+      <DependentUpon>FrmLotPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoSerial.Designer.vb">
+      <DependentUpon>FrmNoSerial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoSerial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPalletPrint.Designer.vb">
+      <DependentUpon>FrmPalletPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPEPrint.Designer.vb">
+      <DependentUpon>FrmPEPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPEPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrinterMaster.Designer.vb">
+      <DependentUpon>FrmPrinterMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrinterMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrintQCCheck.Designer.vb">
+      <DependentUpon>FrmPrintQCCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrintQCCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrtSet.designer.vb">
+      <DependentUpon>FrmPrtSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrtSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrtTask.designer.vb">
+      <DependentUpon>FrmPrtTask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrtTask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrtVer.Designer.vb">
+      <DependentUpon>FrmPrtVer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrtVer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReprint.Designer.vb">
+      <DependentUpon>FrmReprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReprintQuery.Designer.vb">
+      <DependentUpon>FrmReprintQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReprintQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelAddPrtInfo.Designer.vb">
+      <DependentUpon>FrmSelAddPrtInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelAddPrtInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetPrintQTY.designer.vb">
+      <DependentUpon>FrmSetPrintQTY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetPrintQTY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelEcnChangeRemind.Designer.vb">
+      <DependentUpon>FrmSelEcnChangeRemind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelEcnChangeRemind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShipSheetPrint.designer.vb">
+      <DependentUpon>FrmShipSheetPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShipSheetPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSNDistributionQuery.Designer.vb">
+      <DependentUpon>FrmSNDistributionQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSNDistributionQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSpecialPrint.Designer.vb">
+      <DependentUpon>FrmSpecialPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSpecialPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTiptopPrtTask.designer.vb">
+      <DependentUpon>FrmTiptopPrtTask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTiptopPrtTask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConvetCodeRule.Designer.vb">
+      <DependentUpon>FrmConvetCodeRule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConvetCodeRule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LotPrint.vb" />
+    <Compile Include="ModuleClass.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PrintJLabel.vb" />
+    <Compile Include="ReelPrint.vb" />
+    <Compile Include="ShipPrint.vb" />
+    <Compile Include="SqlClass.vb" />
+    <Compile Include="PrintJLabelNew.vb" />
+    <Compile Include="FrmCartonV2.designer.vb">
+      <DependentUpon>FrmCartonV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckDigitPrt.designer.vb">
+      <DependentUpon>FrmCheckDigitPrt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckDigitPrt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocationPrint.Designer.vb">
+      <DependentUpon>FrmLocationPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocationPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmChildPrint.resx">
+      <DependentUpon>FrmChildPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChildPrintMoNum.resx">
+      <DependentUpon>FrmChildPrintMoNum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineMOQuery.resx">
+      <DependentUpon>FrmLineMOQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintRepairBar.resx">
+      <DependentUpon>FrmPrintRepairBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm2DPrt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm2DPrt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmA20Prt.resx">
+      <DependentUpon>FrmA20Prt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBarM.resx">
+      <DependentUpon>FrmBarM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonTypeEdit.resx">
+      <DependentUpon>FrmCartonTypeEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCodeSet.resx">
+      <DependentUpon>FrmCodeSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmComplementApplication.resx">
+      <DependentUpon>FrmComplementApplication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDistributionSel.resx">
+      <DependentUpon>FrmDistributionSel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEditTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmH3Print.resx">
+      <DependentUpon>FrmH3Print.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKETPrintSetting.resx">
+      <DependentUpon>FrmKETPrintSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListOthePrint.resx">
+      <DependentUpon>FrmListOthePrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListPrint.resx">
+      <DependentUpon>FrmListPrint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListPrintJX.resx">
+      <DependentUpon>FrmListPrintJX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListPrintLine.resx">
+      <DependentUpon>FrmListPrintLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListTemplate.resx">
+      <DependentUpon>FrmListTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotPrint.resx">
+      <DependentUpon>FrmLotPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoSerial.resx">
+      <DependentUpon>FrmNoSerial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPalletPrint.resx">
+      <DependentUpon>FrmPalletPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPEPrint.resx">
+      <DependentUpon>FrmPEPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrinterMaster.resx">
+      <DependentUpon>FrmPrinterMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrintQCCheck.resx">
+      <DependentUpon>FrmPrintQCCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrtSet.resx">
+      <DependentUpon>FrmPrtSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrtTask.resx">
+      <DependentUpon>FrmPrtTask.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrtVer.resx">
+      <DependentUpon>FrmPrtVer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReprint.resx">
+      <DependentUpon>FrmReprint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReprintQuery.resx">
+      <DependentUpon>FrmReprintQuery.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelAddPrtInfo.resx">
+      <DependentUpon>FrmSelAddPrtInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetPrintQTY.resx">
+      <DependentUpon>FrmSetPrintQTY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelEcnChangeRemind.resx">
+      <DependentUpon>FrmSelEcnChangeRemind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShipSheetPrint.resx">
+      <DependentUpon>FrmShipSheetPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSNDistributionQuery.resx">
+      <DependentUpon>FrmSNDistributionQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSpecialPrint.resx">
+      <DependentUpon>FrmSpecialPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTiptopPrtTask.resx">
+      <DependentUpon>FrmTiptopPrtTask.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConvetCodeRule.resx">
+      <DependentUpon>FrmConvetCodeRule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonV2.resx">
+      <DependentUpon>FrmCartonV2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckDigitPrt.resx">
+      <DependentUpon>FrmCheckDigitPrt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocationPrint.resx">
+      <DependentUpon>FrmLocationPrint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmListOthePrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPalletPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <SubType>
+      </SubType>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snap3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditTableHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintPreviewHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNew.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rnew.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FillLeftHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FillRightHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inport.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BartenderFile\LocationBarcode.btw" />
+    <None Include="BartenderFile\ReelBarcode.btw" />
+    <None Include="Resources\5-120601152202-51.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{EC017007-ADAE-4CAE-AC78-1F0A18A798F4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5CA79A79-689E-4C76-92AD-B2D7AA71DA22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_key.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

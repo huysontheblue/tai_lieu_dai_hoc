@@ -1,0 +1,24 @@
+* Nhật ký làm việc nhóm
+1.Ngày 25/05/2021 chọn đề tài và Nhóm trưởng phân công nhiệm vụ
+  Cả nhóm tìm hiểu chung về thực trạng và đề ra mục tiêu của hệ thống quản lý thư viện
+  Hà Huy Sơn làm word thiết kế powpoint vẽ biểu đổ use case và biểu đồ lớp
+  Trần Trung Kiên phác thảo cơ sở dữ liệu các biểu đồ hoạt động về quản lý thư viện 
+  Trương Huy Mạnh tìm hiểu về quản lý thư viện xem xét các ứng dụng để từ đó có thể phác họa giao diện
+2.Ngày 30/05/2021 
+  Tổng hợp lại các ý kiến từ đó thảo luận để nêu ra thực trạng và mục tiêu đầy đủ nhất của đề tài để đưa vào word
+3.Ngày 02/06/2021 
+  Tổng hợp lại các biểu đồ từ biểu đồ phân cấp chức năng, biểu đồ use case, biểu đồ lớp biểu đồ hoạt động và thiết kế cơ sở dữ liệu
+  Thảo luận lại và đưa ra các ý kiến bởi các thành viên rồi mới chốt phương án tối ưu nhất để có thể tiếp tục thêm vào word
+4.Ngày 05/06/2021 
+  Thống nhất chung của cả nhóm thiết kế xong báo cáo word chuyển tiếp là làm slide và giao diện thiết kế
+  Trong ngày 05/06/2021 thiết kế powpoint dựa trên báo cáo word và làm xong powpoint trong ngày 05/06/2021
+5.Ngày 06/06/2021 lên ý tưởng thiết kế giao diện
+  Tất cả các thành viên trong nhóm cùng lên ý tưởng để phác thảo giao diện 
+  Tham khảo qua các app đã có 
+6.Ngày 16/06/2021 
+  Thực hiện xong bản thiết kế giao diện  
+* Khảo sát thực trạng
+  Do thời gian gấp rút và dịch bệnh nên chúng em chỉ có thêm xem qua các trang mạng như thư viện nguyễn thúc hào cũng như xem qua các mô hình app trên điện thoại
+  và các tài liệu tham khảo khác nên chúng em chưa có thể làm được bản đồ án tốt nhất có thể
+ 
+  

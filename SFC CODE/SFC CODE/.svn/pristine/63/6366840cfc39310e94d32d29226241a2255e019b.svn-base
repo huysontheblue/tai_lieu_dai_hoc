@@ -1,0 +1,659 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MESUserManage
+</name>
+</assembly>
+<members>
+<member name="M:MESUserManage.FrmSelectMenuTree.LoadData">
+	<summary>
+ 窗体加载初始化数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuTree.GetAllMenu(System.String)">
+	<summary>
+ 系统菜单数据源
+ </summary>
+	<param name="strWhre">查询条件</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuTree.LoadMenuTree(System.Data.DataTable,System.Windows.Forms.TreeNodeCollection,System.String)">
+	<summary>
+ 加载系统菜单
+ </summary>
+	<param name="dt">系统菜单数据源</param>
+	<param name="treeNodeList">treeNode节点集合</param>
+	<param name="tParent">树状父节点</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuTree.FrmSelectMenuTree_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗体的默认加载事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuTree.tvMenu_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+	<summary>
+ 选中节点后，显示到文本框内
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.FrmSelectMenuTree">
+	<summary>
+ 弹出窗口：系统菜单树
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmAberrantErrPrompt.IsPowerUser">
+	<summary>
+ 判断登录用户是否高级用户
+ </summary>
+	<returns>true代表高级用户，false代表普通用户</returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmAberrantErrPrompt.FillCombox(System.Windows.Forms.ComboBox)">
+	<summary>
+ 绑定默认错误解决方案
+ </summary>
+	<remarks></remarks>
+</member><member name="P:MESUserManage.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:MESUserManage.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:MESUserManage.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="M:MESUserManage.FrmUserManage.LoadDataToCob(System.String,System.Windows.Forms.ComboBox)">
+	<summary>
+ 填充文本框 
+ </summary>
+	<param name="strSQL"></param>
+	<param name="cboName"></param>
+	<remarks>关晓艳 add 2018-04-24</remarks>
+</member><member name="M:MESUserManage.FrmUserManage.cboSecond_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ 二级菜单改变 三级菜单也改变
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>关晓艳 add 2018-04-24</remarks>
+</member><member name="M:MESUserManage.FrmUserManage.btnSecarch_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询 用户权限管理
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>关晓艳 add 2018-04-24</remarks>
+</member><member name="T:MESUserManage.FrmUserManage">
+	<summary>
+ 修改者：田玉琳
+ 修改日期：2018/11/12
+ 修改内容：优化代码，去除乱码
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmHW19ASNCheck.txtOld19Code_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmHWASNCheck.txtOldASNQRCode_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.LoadDataToDatagridview(System.String)">
+	<summary>
+ 填充角色datagridview
+ </summary>
+	<param name="sqlWhere"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.ToolBtnState(System.Int16)">
+	<summary>
+ 设置按钮及Textbox状态
+ </summary>
+	<param name="flag"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CheckData">
+	<summary>
+ 保存之前进行判断
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.TreeLoad">
+	<summary>
+ 加载TreeView树
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CreateTree(System.Windows.Forms.TreeView,System.String,System.Windows.Forms.TreeNode,System.Data.DataTable)">
+	<summary>
+ 递归遍历权限表到TreeView中
+ </summary>
+	<param name="treeview"></param>
+	<param name="parentId"></param>
+	<param name="pNode"></param>
+	<param name="treeDt"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.RightAddorDel(System.String,System.Windows.Forms.TreeNode,System.String,System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+ '选中时插入权限 取消时 删除权限
+ </summary>
+	<param name="nodeName"></param>
+	<param name="node"></param>
+	<param name="roleId"></param>
+	<param name="nodesCount"></param>
+	<param name="addOrDel"></param>
+	<param name="nodeChecky"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CheckAllParentNodes(System.Windows.Forms.TreeNode,System.String,System.Boolean)">
+	<summary>
+ 选中该节点时 若父节点未选中 选中并插入数据库表
+ </summary>
+	<param name="treeNode"></param>
+	<param name="roleId"></param>
+	<param name="nodeChecky"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CheckAllChildNodes(System.Windows.Forms.TreeNode,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ 选中时  选中所有子节点 取消时  取消所有子节点
+ </summary>
+	<param name="treeNode"></param>
+	<param name="roleId"></param>
+	<param name="nodeChecked"></param>
+	<param name="nodeChecky"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CheckTree">
+	<summary>
+ 角色对应权限
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CheckData(System.String)">
+	<summary>
+ 角色的对应权限在treeview中进行勾选
+ </summary>
+	<param name="roleId"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.ClearAllCheck(System.Windows.Forms.TreeNode)">
+	<summary>
+ 清空TreeView所有节点
+ </summary>
+	<param name="userNode"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmRoleManage.CheckSet(System.Windows.Forms.TreeNode,System.String)">
+	<summary>
+ 根据权限勾选treeview对应的节点
+ </summary>
+	<param name="userNode"></param>
+	<param name="nodeString"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmMsgEditAdv.ZoomInout(System.Boolean)">
+	<summary>
+ 控制字体变大或变小
+ </summary>
+	<param name="isZoomOut"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmMsgEditAdv.GetRichAdv">
+	<summary>
+ 获取公告详情
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmMsgEditAdv.GetFamily">
+	<summary>
+ 获取系统字体
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.FrmMsgEditAdv">
+	<summary>
+ 公告详情 实现图文并茂
+ add by 关晓艳 2018/08/31
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.InitComboxItem">
+	<summary>
+ 给COMBOBOX控件绑定项
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.LoadData">
+	<summary>
+ 加载数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.#ctor(System.String,System.String)">
+	<summary>
+ 构造函数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.FrmSelectMenuCustomer_Load(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：窗体加载
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.BtnRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：查询按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.BtnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：关闭按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.BtnYes_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：确定按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.DgvCustomer_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+	<summary>
+ 行索引变化时更新选中的栏位值
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.DgvCustomer_RowPostPaint(System.Object,System.Windows.Forms.DataGridViewRowPostPaintEventArgs)">
+	<summary>
+ 标准事件：画表格行号
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuCustomer.TxtSearch_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ 标准事件：查询栏位回车执行
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.FrmSelectMenuCustomer">
+	<summary>
+ 选择客户列表
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.TComboboxItem">
+	<summary>
+ ComboboxItem类
+ 用于Combobox的项绑定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.init">
+	<summary>
+ 窗体加载初始化数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.LoadMenuTree(System.Data.DataTable,System.Windows.Forms.TreeNodeCollection,System.String)">
+	<summary>
+ 加载系统菜单
+ </summary>
+	<param name="dt">系统菜单数据源</param>
+	<param name="treeNodeList">treeNode节点集合</param>
+	<param name="tParent">树状父节点</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.getAllMenu(System.String)">
+	<summary>
+ 系统菜单数据源
+ </summary>
+	<param name="strWhre">查询条件</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.InitTreeNode(System.Data.DataTable,System.String)">
+	<summary>
+ 加载选择树节点详细信息
+ </summary>
+	<param name="dt">数据源</param>
+	<param name="TreeKey">菜单主键</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.SetEnEdit(System.Boolean)">
+	<summary>
+ 树节点详细信息是否可编辑
+ </summary>
+	<param name="IsReadOnly">是否只读</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.ClearTreeNode">
+	<summary>
+ 清空文本信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.NewFile_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.EditFile_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.Delete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 删除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.Save_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.SaveOther(System.String)">
+	<summary>
+ 20181029增加， 
+ 保存菜单节点时，m_Logtree_t表之外的，其它信息的保存
+ 说明：保存其它的数据（例如：以“apm”开头的FormId写入M_SYSAPFORM_T）等等
+ </summary>
+	<param name="Tkey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.FileRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.BtnSelect_Click(System.Object,System.EventArgs)">
+	<summary>
+ 选择父级菜单
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.Back_Click(System.Object,System.EventArgs)">
+	<summary>
+ 返回事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.BtnSelectImage_Click(System.Object,System.EventArgs)">
+	<summary>
+ 选择菜单图标事件
+ 20180831，Yuanfeng.Yu，新建菜单图标选择窗口
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.GetSysMenuNewKey(System.String)">
+	<summary>
+ 获取新生成的菜单KEY值
+ </summary>
+	<param name="PMenuKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.SaveSourceField(System.String,System.String,System.String)">
+	<summary>
+ 保存来源的字段值
+ 因原菜单的相关内容与基础表内容填写不严谨，需要增加字段保存来源值，用于值比较
+ </summary>
+	<param name="tkey"></param>
+	<param name="fieldId">ID</param>
+	<param name="fieldName">名称</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.TxtParentName_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ 父节点栏位，文本变化时
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.BtnSelectItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ 选择节点名称
+ 范围：工厂，部门，利润中心，产线
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.IsImage(System.String)">
+	<summary>
+ 判断文件是否为图片
+ </summary>
+	<param name="path"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSysMenu.IsURLImage(System.String)">
+	<summary>
+ 判断文件是否为网络图片
+ </summary>
+	<param name="path"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.ShowImageList_FromDatabase">
+	<summary>
+ 从数据库表中，加载图片图片到ListView控件中
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.ShowImageList_FromFile">
+	<summary>
+ 从指定的文件目录，加载图片显示到ListView控件中
+ 没有此路径，不能使用
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.#ctor(System.String)">
+	<summary>
+ 构造函数
+ </summary>
+	<param name="imgName">图标名称</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.FrmSelectMenuImage_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗体默认加载事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.BtnRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：刷新按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.ListView1_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：选择列表中的项变化时
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.BtnExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：退出按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.BtnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：关闭按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuImage.BtnYes_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：确定按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.FrmSelectMenuImage">
+	<summary>
+ 弹出窗体：图标选择窗口
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSystemFileManage.GetMyFolder(System.String)">
+	<summary>
+ 自定义文件夹
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSystemFileManage.UpLoadFile">
+	<summary>
+ 上传更新文件说明图片
+ add by 马跃平
+ </summary>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.FrmSystemFileManage">
+	<summary>
+ 修改者：田玉琳
+ 日期：20180929
+ 修改内容：整理修改，增加发送邮件
+ 增加预定发送日期
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.GetFactoryList(System.Boolean)">
+	<summary>
+ 工厂
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.GetProfitcenterList(System.Boolean)">
+	<summary>
+ 利润中心
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.GetDeptList(System.Boolean)">
+	<summary>
+ 部门
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.GetLineList(System.Boolean)">
+	<summary>
+ 产线
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.TreeNodeExpand(System.Windows.Forms.TreeNode)">
+	<summary>
+ 展开指定节的所有父节点
+ </summary>
+	<param name="tn"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.LoadData">
+	<summary>
+ 窗体加载初始化数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.LoadTreeFactory">
+	<summary>
+ 1，工厂
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.LoadTreeFactoryAndProfitcenter">
+	<summary>
+ 2，工厂/利润中心
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.LoadTreeFactoryAndDept">
+	<summary>
+ 3，工厂/部门
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.LoadTreeFactoryAndDeptLine">
+	<summary>
+ 4，工厂/部门/产线
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.LoadTree(System.Windows.Forms.TreeNode,System.Windows.Forms.TreeNode)">
+	<summary>
+ 加载节点
+ </summary>
+	<param name="tn">当前节点</param>
+	<param name="parentNode">父节点</param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.#ctor(System.Int32,System.String,System.String)">
+	<summary>
+ 构造函数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.FrmSelectMenuOrg_Load(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：窗体加载
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.BtnRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：刷新按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.BtnExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：退出按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.BtnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：关闭按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.BtnYes_Click(System.Object,System.EventArgs)">
+	<summary>
+ 标准事件：确定按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.tvMenu_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+	<summary>
+ 标准事件：树节点选择
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.RbFilter_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 过滤
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:MESUserManage.FrmSelectMenuOrg.RbUnFilter_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 全部，不过滤
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:MESUserManage.FrmSelectMenuOrg">
+	<summary>
+ 弹出窗口：系统组织树
+ 1，工厂
+ 2，工厂/利润中心
+ 3，工厂/部门
+ 4，工厂/部门/产线
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

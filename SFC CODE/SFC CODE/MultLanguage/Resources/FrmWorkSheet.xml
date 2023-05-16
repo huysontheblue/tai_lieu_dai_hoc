@@ -1,0 +1,404 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>ButRout</Control_Id>
+    <Chs_Desc>...</Chs_Desc>
+    <Cht_Desc>...</Cht_Desc>
+    <En_Desc>...</En_Desc>
+    <En_Full_Desc>...</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ButRouter</Control_Id>
+    <Chs_Desc>...</Chs_Desc>
+    <Cht_Desc>...</Cht_Desc>
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>chk_moidqtylock</Control_Id>
+    <Chs_Desc>工单数量卡关锁定</Chs_Desc>
+    <Cht_Desc>工單數量卡關鎖定</Cht_Desc>
+    <En_Desc>MO Qty</En_Desc>
+    <En_Full_Desc>Manufacture Order Qty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkLinkLOT</Control_Id>
+    <Chs_Desc>关联其它产区料件批次</Chs_Desc>
+    <Cht_Desc>關聯其它產區料件批次</Cht_Desc>
+    <En_Desc>Relating Other Plants Material Batch</En_Desc>
+    <En_Full_Desc>Relate otherPlants MaterialBatch</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ChkLinkLOTERP</Control_Id>
+    <Chs_Desc>关联其它产区料件批次</Chs_Desc>
+    <Cht_Desc>關聯其它產區料件批次</Cht_Desc>
+    <En_Desc>Relating Other Plants Materials Batch</En_Desc>
+    <En_Full_Desc>Relate OtherPlants MaterialsBatch</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_0</Control_Id>
+    <Chs_Desc>选择</Chs_Desc>
+    <Cht_Desc>選擇</Cht_Desc>
+    <En_Desc>Select</En_Desc>
+    <En_Full_Desc>Select</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_1</Control_Id>
+    <Chs_Desc>工单编号</Chs_Desc>
+    <Cht_Desc>工單編號</Cht_Desc>
+    <En_Desc>MO ID</En_Desc>
+    <En_Full_Desc>Manufacture Order ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_2</Control_Id>
+    <Chs_Desc>料件编号</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_3</Control_Id>
+    <Chs_Desc>品名</Chs_Desc>
+    <Cht_Desc>品名</Cht_Desc>
+    <En_Desc>Part Name</En_Desc>
+    <En_Full_Desc>Part Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_4</Control_Id>
+    <Chs_Desc>厂区</Chs_Desc>
+    <Cht_Desc>廠區</Cht_Desc>
+    <En_Desc>Factory</En_Desc>
+    <En_Full_Desc>Factory</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_5</Control_Id>
+    <Chs_Desc>生产部门</Chs_Desc>
+    <Cht_Desc>生產部門</Cht_Desc>
+    <En_Desc>Prod Dept</En_Desc>
+    <En_Full_Desc>Production Department</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_6</Control_Id>
+    <Chs_Desc>生产线别</Chs_Desc>
+    <Cht_Desc>生產線別</Cht_Desc>
+    <En_Desc>Prod Line</En_Desc>
+    <En_Full_Desc>Production Line</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_7</Control_Id>
+    <Chs_Desc>工单数量</Chs_Desc>
+    <Cht_Desc>工單數量</Cht_Desc>
+    <En_Desc>MO Qty</En_Desc>
+    <En_Full_Desc>Manufacture Order Qty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_8</Control_Id>
+    <Chs_Desc>工单类型</Chs_Desc>
+    <Cht_Desc>工單類型</Cht_Desc>
+    <En_Desc>MO Type</En_Desc>
+    <En_Full_Desc>Manufacture Order Type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_9</Control_Id>
+    <Chs_Desc>工单状态</Chs_Desc>
+    <Cht_Desc>工單狀態</Cht_Desc>
+    <En_Desc>MO Status</En_Desc>
+    <En_Full_Desc>Manufacture Order Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_10</Control_Id>
+    <Chs_Desc>客户代码</Chs_Desc>
+    <Cht_Desc>客戶代碼</Cht_Desc>
+    <En_Desc>Cust Code</En_Desc>
+    <En_Full_Desc>Cust Code</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_11</Control_Id>
+    <Chs_Desc>订单编号</Chs_Desc>
+    <Cht_Desc>訂單編號</Cht_Desc>
+    <En_Desc>Order No.</En_Desc>
+    <En_Full_Desc>Order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_12</Control_Id>
+    <Chs_Desc>订单项次</Chs_Desc>
+    <Cht_Desc>訂單項次</Cht_Desc>
+    <En_Desc>Order items</En_Desc>
+    <En_Full_Desc>Order items</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_13</Control_Id>
+    <Chs_Desc>父工单</Chs_Desc>
+    <Cht_Desc>父工單</Cht_Desc>
+    <En_Desc>Parent Moid</En_Desc>
+    <En_Full_Desc>Parent Moid</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgMoData_14</Control_Id>
+    <Chs_Desc>工艺流程</Chs_Desc>
+    <Cht_Desc>工藝流程</Cht_Desc>
+    <En_Desc>Process Flow</En_Desc>
+    <En_Full_Desc>Process Flow</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ExitFrom</Control_Id>
+    <Chs_Desc>退出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmWorkSheet</Control_Id>
+    <Chs_Desc>工单资料维护</Chs_Desc>
+    <Cht_Desc>工單資料維護</Cht_Desc>
+    <En_Desc>MO Maint</En_Desc>
+    <En_Full_Desc>Manufacture Order DataMaint.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>客户代码：</Chs_Desc>
+    <Cht_Desc>客戶代碼：</Cht_Desc>
+    <En_Desc>Cust Code</En_Desc>
+    <En_Full_Desc>CustomerCode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>上级工单：</Chs_Desc>
+    <Cht_Desc>上級工單：</Cht_Desc>
+    <En_Desc>Parent MO</En_Desc>
+    <En_Full_Desc>Parent Manufacture Order</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>工艺流程：</Chs_Desc>
+    <Cht_Desc>工藝流程：</Cht_Desc>
+    <En_Desc>Technical Process</En_Desc>
+    <En_Full_Desc>Technical Process</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>工艺流程：</Chs_Desc>
+    <Cht_Desc>工藝流程：</Cht_Desc>
+    <En_Desc>Technical Procedure</En_Desc>
+    <En_Full_Desc>Technical Procedure</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>生产部门：</Chs_Desc>
+    <Cht_Desc>生產部門：</Cht_Desc>
+    <En_Desc>Prod Dept</En_Desc>
+    <En_Full_Desc>Production Department</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>生产线别：</Chs_Desc>
+    <Cht_Desc>生產線別：</Cht_Desc>
+    <En_Desc>Prod Line</En_Desc>
+    <En_Full_Desc>Production Line</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>工单数量：</Chs_Desc>
+    <Cht_Desc>工單數量：</Cht_Desc>
+    <En_Desc>MO Qty</En_Desc>
+    <En_Full_Desc>Manufacture Order Qty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>工单类型：</Chs_Desc>
+    <Cht_Desc>工單類型：</Cht_Desc>
+    <En_Desc>MO Type</En_Desc>
+    <En_Full_Desc>Manufacture Order Type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>工厂名称：</Chs_Desc>
+    <Cht_Desc>工廠名稱：</Cht_Desc>
+    <En_Desc>Plant Name</En_Desc>
+    <En_Full_Desc>PlantName</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO No.</En_Desc>
+    <En_Full_Desc>Manufacture Order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>上级工单：</Chs_Desc>
+    <Cht_Desc>上級工單：</Cht_Desc>
+    <En_Desc>Parent MO</En_Desc>
+    <En_Full_Desc>Parent Manufacture Order</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Labelcount</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LblCreatDate</Control_Id>
+    <Chs_Desc>开单日期：</Chs_Desc>
+    <Cht_Desc>開單日期：</Cht_Desc>
+    <En_Desc>MO CreateDate</En_Desc>
+    <En_Full_Desc>Manufacture Order CreateDate</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblMoType</Control_Id>
+    <Chs_Desc>工单类型：</Chs_Desc>
+    <Cht_Desc>工單類型：</Cht_Desc>
+    <En_Desc>MO Type</En_Desc>
+    <En_Full_Desc>Manufacture Order Type</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblMsg</Control_Id>
+    <Chs_Desc>提示信息</Chs_Desc>
+    <Cht_Desc>提示信息</Cht_Desc>
+    <En_Desc>Prompts</En_Desc>
+    <En_Full_Desc>Prompts</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPartID</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblTo</Control_Id>
+    <Chs_Desc>至：</Chs_Desc>
+    <Cht_Desc>至：</Cht_Desc>
+    <En_Desc>Till</En_Desc>
+    <En_Full_Desc>Till</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LelMoNo</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO NO.</En_Desc>
+    <En_Full_Desc>Manufacture Order No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolCancel</Control_Id>
+    <Chs_Desc>返回(&amp;C)</Chs_Desc>
+    <Cht_Desc>返回(&amp;C)</Cht_Desc>
+    <En_Desc>Back(&amp;C)</En_Desc>
+    <En_Full_Desc>Back(&amp;C)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolLblCount</Control_Id>
+    <Chs_Desc>记录笔数:</Chs_Desc>
+    <Cht_Desc>記錄筆數:</Cht_Desc>
+    <En_Desc>Record Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolNew</Control_Id>
+    <Chs_Desc>新增(&amp;N)</Chs_Desc>
+    <Cht_Desc>新增(&amp;N)</Cht_Desc>
+    <En_Desc>New Build(&amp;N)</En_Desc>
+    <En_Full_Desc>New Build(&amp;N)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolEdit</Control_Id>
+    <Chs_Desc>修改(&amp;E)</Chs_Desc>
+    <Cht_Desc>修改(&amp;E)</Cht_Desc>
+    <En_Desc>Edit(&amp;E)</En_Desc>
+    <En_Full_Desc>Edit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolQuery</Control_Id>
+    <Chs_Desc>查询(&amp;F)</Chs_Desc>
+    <Cht_Desc>查詢(&amp;F)</Cht_Desc>
+    <En_Desc>Find(&amp;F)</En_Desc>
+    <En_Full_Desc>Find(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolQueryErp</Control_Id>
+    <Chs_Desc>ERP工单查询下载(L)</Chs_Desc>
+    <Cht_Desc>ERP工單查詢下載(L)</Cht_Desc>
+    <En_Desc>ERP Download(L)</En_Desc>
+    <En_Full_Desc>ERP Manufacture QueryDownload(L)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolSave</Control_Id>
+    <Chs_Desc>保存(&amp;S)</Chs_Desc>
+    <Cht_Desc>保存(&amp;S)</Cht_Desc>
+    <En_Desc>Save(&amp;S)</En_Desc>
+    <En_Full_Desc>Save(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,394 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>btnExit_H</Control_Id>
+    <Chs_Desc>退 出</Chs_Desc>
+    <Cht_Desc>退 出</Cht_Desc>
+    <En_Desc>Quit</En_Desc>
+    <En_Full_Desc>Quit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnExit_Q</Control_Id>
+    <Chs_Desc>退 出</Chs_Desc>
+    <Cht_Desc>退 出</Cht_Desc>
+    <En_Desc>Quit</En_Desc>
+    <En_Full_Desc>Quit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnExit_W</Control_Id>
+    <Chs_Desc>退 出</Chs_Desc>
+    <Cht_Desc>退 出</Cht_Desc>
+    <En_Desc>Quit</En_Desc>
+    <En_Full_Desc>Quit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnGo_H</Control_Id>
+    <Chs_Desc>執 行</Chs_Desc>
+    <Cht_Desc>執 行</Cht_Desc>
+    <En_Desc>Run</En_Desc>
+    <En_Full_Desc>Run</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnGo_Q</Control_Id>
+    <Chs_Desc>執 行</Chs_Desc>
+    <Cht_Desc>執 行</Cht_Desc>
+    <En_Desc>Run</En_Desc>
+    <En_Full_Desc>Run</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnGo_W</Control_Id>
+    <Chs_Desc>執 行</Chs_Desc>
+    <Cht_Desc>執 行</Cht_Desc>
+    <En_Desc>Run</En_Desc>
+    <En_Full_Desc>Run</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_D_0</Control_Id>
+    <Chs_Desc>部件名稱</Chs_Desc>
+    <Cht_Desc>部件名稱</Cht_Desc>
+    <En_Desc>Comp Name</En_Desc>
+    <En_Full_Desc>Component Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_D_1</Control_Id>
+    <Chs_Desc>部件料號</Chs_Desc>
+    <Cht_Desc>部件料號</Cht_Desc>
+    <En_Desc>Comp Part ID</En_Desc>
+    <En_Full_Desc>Component Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_D_2</Control_Id>
+    <Chs_Desc>部件序號</Chs_Desc>
+    <Cht_Desc>部件序號</Cht_Desc>
+    <En_Desc>Comp No.</En_Desc>
+    <En_Full_Desc>Component No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_M_0</Control_Id>
+    <Chs_Desc>外箱序號</Chs_Desc>
+    <Cht_Desc>外箱序號</Cht_Desc>
+    <En_Desc>Outer No.</En_Desc>
+    <En_Full_Desc>Outer Box No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_M_1</Control_Id>
+    <Chs_Desc>成品序號</Chs_Desc>
+    <Cht_Desc>成品序號</Cht_Desc>
+    <En_Desc>Finished No.</En_Desc>
+    <En_Full_Desc>Finished Product No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_M_2</Control_Id>
+    <Chs_Desc>工單編號</Chs_Desc>
+    <Cht_Desc>工單編號</Cht_Desc>
+    <En_Desc>MO ID</En_Desc>
+    <En_Full_Desc>MO ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_M_3</Control_Id>
+    <Chs_Desc>料件編號</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_M_4</Control_Id>
+    <Chs_Desc>維護人員</Chs_Desc>
+    <Cht_Desc>維護人員</Cht_Desc>
+    <En_Desc>Maint Man</En_Desc>
+    <En_Full_Desc>Maintance Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvChai_M_5</Control_Id>
+    <Chs_Desc>維護時間</Chs_Desc>
+    <Cht_Desc>維護時間</Cht_Desc>
+    <En_Desc>Maint Time</En_Desc>
+    <En_Full_Desc>Maintance Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryD_0</Control_Id>
+    <Chs_Desc>部件名稱</Chs_Desc>
+    <Cht_Desc>部件名稱</Cht_Desc>
+    <En_Desc>Comp Name</En_Desc>
+    <En_Full_Desc>Component Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryD_1</Control_Id>
+    <Chs_Desc>部件料號</Chs_Desc>
+    <Cht_Desc>部件料號</Cht_Desc>
+    <En_Desc>Comp No.</En_Desc>
+    <En_Full_Desc>Component Serial No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryD_2</Control_Id>
+    <Chs_Desc>部件序號</Chs_Desc>
+    <Cht_Desc>部件序號</Cht_Desc>
+    <En_Desc>Comp No.</En_Desc>
+    <En_Full_Desc>Component Serial No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryM_0</Control_Id>
+    <Chs_Desc>外箱序號</Chs_Desc>
+    <Cht_Desc>外箱序號</Cht_Desc>
+    <En_Desc>Outer No.</En_Desc>
+    <En_Full_Desc>Outer Box No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryM_1</Control_Id>
+    <Chs_Desc>成品序號</Chs_Desc>
+    <Cht_Desc>成品序號</Cht_Desc>
+    <En_Desc>Finished No.</En_Desc>
+    <En_Full_Desc>Finished Product No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryM_2</Control_Id>
+    <Chs_Desc>工單編號</Chs_Desc>
+    <Cht_Desc>工單編號</Cht_Desc>
+    <En_Desc>MO No.</En_Desc>
+    <En_Full_Desc>Manufacture Order NO.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryM_3</Control_Id>
+    <Chs_Desc>料件編號</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryM_4</Control_Id>
+    <Chs_Desc>維護人員</Chs_Desc>
+    <Cht_Desc>維護人員</Cht_Desc>
+    <En_Desc>Maint Man</En_Desc>
+    <En_Full_Desc>Maintance Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvQueryM_5</Control_Id>
+    <Chs_Desc>維護時間</Chs_Desc>
+    <Cht_Desc>維護時間</Cht_Desc>
+    <En_Desc>Maint Time</En_Desc>
+    <En_Full_Desc>Maintance Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_0</Control_Id>
+    <Chs_Desc>外箱序號</Chs_Desc>
+    <Cht_Desc>外箱序號</Cht_Desc>
+    <En_Desc>Outer No.</En_Desc>
+    <En_Full_Desc>Outer Box No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_1</Control_Id>
+    <Chs_Desc>新成品序號</Chs_Desc>
+    <Cht_Desc>新成品序號</Cht_Desc>
+    <En_Desc>New Finished No.</En_Desc>
+    <En_Full_Desc>New Finished Product No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_2</Control_Id>
+    <Chs_Desc>舊成品序號</Chs_Desc>
+    <Cht_Desc>舊成品序號</Cht_Desc>
+    <En_Desc>Old Finished No.</En_Desc>
+    <En_Full_Desc>Old Finished Product No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_3</Control_Id>
+    <Chs_Desc>工單編號</Chs_Desc>
+    <Cht_Desc>工單編號</Cht_Desc>
+    <En_Desc>MO ID</En_Desc>
+    <En_Full_Desc>MO ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_4</Control_Id>
+    <Chs_Desc>料件編號</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_5</Control_Id>
+    <Chs_Desc>維護人員</Chs_Desc>
+    <Cht_Desc>維護人員</Cht_Desc>
+    <En_Desc>Maint Man</En_Desc>
+    <En_Full_Desc>Maintance Man</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgvReplace_6</Control_Id>
+    <Chs_Desc>維護時間</Chs_Desc>
+    <Cht_Desc>維護時間</Cht_Desc>
+    <En_Desc>Maint Time</En_Desc>
+    <En_Full_Desc>Maintance Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmPartition</Control_Id>
+    <Chs_Desc>关联拆换作业</Chs_Desc>
+    <Cht_Desc>關聯拆換作業</Cht_Desc>
+    <En_Desc>Associated removal</En_Desc>
+    <En_Full_Desc>Associated Removal Operation
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>GroupBox3</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>外箱序號:</Chs_Desc>
+    <Cht_Desc>外箱序號:</Cht_Desc>
+    <En_Desc>Outer No.:</En_Desc>
+    <En_Full_Desc>Outer Box No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>成品序號:</Chs_Desc>
+    <Cht_Desc>成品序號:</Cht_Desc>
+    <En_Desc>Finished No.:</En_Desc>
+    <En_Full_Desc>Finished Product No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>外箱序號:</Chs_Desc>
+    <Cht_Desc>外箱序號:</Cht_Desc>
+    <En_Desc>Outer No.</En_Desc>
+    <En_Full_Desc>Outer No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>新成品序號:</Chs_Desc>
+    <Cht_Desc>新成品序號:</Cht_Desc>
+    <En_Desc>New Finished No.:</En_Desc>
+    <En_Full_Desc>New Finished Product No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>舊成品序號:</Chs_Desc>
+    <Cht_Desc>舊成品序號:</Cht_Desc>
+    <En_Desc>Old Finished No.:</En_Desc>
+    <En_Full_Desc>Old Finished Product No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>部件序號:</Chs_Desc>
+    <Cht_Desc>部件序號:</Cht_Desc>
+    <En_Desc>Comp No.:</En_Desc>
+    <En_Full_Desc>Component Serial No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>1. 在舊成品序號中，用鍵盤或掃描槍輸入需要替換的成品序號；
+2. 在新成品序號中，用鍵盤或掃描槍輸入新的成品序號，即可替換；
+( 注: 只針對於已裝箱的成品，鍵盤輸入后需按回車鍵 )
+</Chs_Desc>
+    <Cht_Desc>1. 在舊成品序號中，用鍵盤或掃描槍輸入需要替換的成品序號；
+2. 在新成品序號中，用鍵盤或掃描槍輸入新的成品序號，即可替換；
+( 注: 只針對於已裝箱的成品，鍵盤輸入后需按回車鍵 )
+</Cht_Desc>
+    <En_Desc>1 In the old product serial number, with the keyboard or scanning gun input need to replace the finished product serial number;
+2 In the serial number of the new product, with the keyboard or scanning gun to enter the new finished product serial number, you can replace the;
+Note: Only for finished products that have been packed, the keyboard input is required to press the Enter key.
+</En_Desc>
+    <En_Full_Desc>1 In the old product serial number, with the keyboard or scanning gun input need to replace the finished product serial number;
+2 In the serial number of the new product, with the keyboard or scanning gun to enter the new finished product serial number, you can replace the;
+Note: Only for finished products that have been packed, the keyboard input is required to press the Enter key.
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>1. 如果掃描的序號為外箱序號，則拆外箱對應的成品及其部件的所有關聯；
+2. 如果掃描的序號為成品序號，則拆成品及其部件的所有關聯；
+3. 如果掃描的序號為部件序號，則不允許拆其關聯。
+(注:只針對于外箱或未裝箱的成品)</Chs_Desc>
+    <Cht_Desc>1. 如果掃描的序號為外箱序號，則拆外箱對應的成品及其部件的所有關聯；
+2. 如果掃描的序號為成品序號，則拆成品及其部件的所有關聯；
+3. 如果掃描的序號為部件序號，則不允許拆其關聯。
+(注:只針對于外箱或未裝箱的成品)</Cht_Desc>
+    <En_Desc>1 Scanned serial number is outside box number, all the related parts of the finished product and its components are removed;
+2 Scanned serial number the finished product, then the finished product and all the parts of the product are removed;
+3 Scanned serial number is component number, it is not allowed to do so.
+Note: Only for outer box or finished product not packing</En_Desc>
+    <En_Full_Desc>1 Scanned serial number is outside box number, all the related parts of the finished product and its components are removed;
+2 Scanned serial number the finished product, then the finished product and all the parts of the product are removed;
+3 Scanned serial number is component number, it is not allowed to do so.
+Note: Only for outer box or finished product not packing</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>成品序號:</Chs_Desc>
+    <Cht_Desc>成品序號:</Cht_Desc>
+    <En_Desc>Finished No.:</En_Desc>
+    <En_Full_Desc>Finished Product No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblMsg</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>Part ID:</En_Desc>
+    <En_Full_Desc>Part ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPartid</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>tabBreak</Control_Id>
+    <Chs_Desc>拆关联作业</Chs_Desc>
+    <Cht_Desc>拆關聯作業</Cht_Desc>
+    <En_Desc>Split Association</En_Desc>
+    <En_Full_Desc>Split Association Operation</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tabQuery</Control_Id>
+    <Chs_Desc>产品关联查询</Chs_Desc>
+    <Cht_Desc>產品關聯查詢</Cht_Desc>
+    <En_Desc>Prod Association</En_Desc>
+    <En_Full_Desc>Product Association Query</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>tabReplace</Control_Id>
+    <Chs_Desc>替换成品作业</Chs_Desc>
+    <Cht_Desc>替換成品作業</Cht_Desc>
+    <En_Desc>Replace Finished</En_Desc>
+    <En_Full_Desc>Replace Finished Product</En_Full_Desc>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FA076FE-3A63-4C3F-AC35-D8B25EEEC6CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>MESUserManage</RootNamespace>
+    <AssemblyName>MESUserManage</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>MESUserManage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\ShareFile\</OutputPath>
+    <DocumentationFile>MESUserManage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="MainFrame, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ShareFile\MainFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxUL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\ouxiangfeng\mes\代码\NMES System\NMES System\NMES System\SharedFile\TextBoxUL.dll</HintPath>
+    </Reference>
+    <Reference Include="ULControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\ouxiangfeng\mes\代码\NMES System\NMES System\NMES System\SharedFile\ULControls.dll</HintPath>
+    </Reference>
+    <Reference Include="VbCommClass, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ShareFile\VbCommClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnglishClass.vb" />
+    <Compile Include="FrmAberrantErrPrompt.Designer.vb">
+      <DependentUpon>FrmAberrantErrPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAberrantErrPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHW19ASNCheck.Designer.vb">
+      <DependentUpon>FrmHW19ASNCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHW19ASNCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWASNCheck.Designer.vb">
+      <DependentUpon>FrmHWASNCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWASNCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModuleManage.Designer.vb">
+      <DependentUpon>FrmModuleManage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModuleManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMsgEdit.Designer.vb">
+      <DependentUpon>FrmMsgEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMsgEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMsgEditAdv.Designer.vb">
+      <DependentUpon>FrmMsgEditAdv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMsgEditAdv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPasswordch.Designer.vb">
+      <DependentUpon>FrmPasswordch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPasswordch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRepeatCheck.Designer.vb">
+      <DependentUpon>FrmRepeatCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRepeatCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanAberrantHandle.Designer.vb">
+      <DependentUpon>FrmScanAberrantHandle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanAberrantHandle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.Designer.vb">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMenu.Designer.vb">
+      <DependentUpon>FrmSelectMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMenuCustomer.Designer.vb">
+      <DependentUpon>FrmSelectMenuCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMenuCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMenuImage.Designer.vb">
+      <DependentUpon>FrmSelectMenuImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMenuImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMenuOrg.Designer.vb">
+      <DependentUpon>FrmSelectMenuOrg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMenuOrg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMenuTree.Designer.vb">
+      <DependentUpon>FrmSelectMenuTree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMenuTree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectRole.designer.vb">
+      <DependentUpon>FrmSelectRole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetUserProfit.Designer.vb">
+      <DependentUpon>FrmSetUserProfit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetUserProfit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSysMenu.Designer.vb">
+      <DependentUpon>FrmSysMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSysMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystemFileManage.designer.vb">
+      <DependentUpon>FrmSystemFileManage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystemFileManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserManage.Designer.vb">
+      <DependentUpon>FrmUserManage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRoleManage.Designer.vb">
+      <DependentUpon>FrmRoleManage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRoleManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SnSet.Designer.vb">
+      <DependentUpon>Frm_SnSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SnSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAberrantErrPrompt.resx">
+      <DependentUpon>FrmAberrantErrPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHW19ASNCheck.resx">
+      <DependentUpon>FrmHW19ASNCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWASNCheck.resx">
+      <DependentUpon>FrmHWASNCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModuleManage.resx">
+      <DependentUpon>FrmModuleManage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMsgEdit.resx">
+      <DependentUpon>FrmMsgEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMsgEditAdv.resx">
+      <DependentUpon>FrmMsgEditAdv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPasswordch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPasswordch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRepeatCheck.resx">
+      <DependentUpon>FrmRepeatCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanAberrantHandle.resx">
+      <DependentUpon>FrmScanAberrantHandle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanErrPrompt.resx">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMenu.resx">
+      <DependentUpon>FrmSelectMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMenuCustomer.resx">
+      <DependentUpon>FrmSelectMenuCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMenuImage.resx">
+      <DependentUpon>FrmSelectMenuImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMenuOrg.resx">
+      <DependentUpon>FrmSelectMenuOrg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMenuTree.resx">
+      <DependentUpon>FrmSelectMenuTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectRole.resx">
+      <DependentUpon>FrmSelectRole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetUserProfit.resx">
+      <DependentUpon>FrmSetUserProfit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSysMenu.resx">
+      <DependentUpon>FrmSysMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystemFileManage.resx">
+      <DependentUpon>FrmSystemFileManage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserManage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUserManage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRoleManage.resx">
+      <DependentUpon>FrmRoleManage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SnSet.resx">
+      <DependentUpon>Frm_SnSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{ec017007-adae-4cae-ac78-1f0a18a798f4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

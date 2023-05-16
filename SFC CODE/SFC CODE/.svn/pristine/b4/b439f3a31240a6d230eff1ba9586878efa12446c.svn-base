@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EquipmentAutomation
+</name>
+</assembly>
+<members>
+<member name="M:EquipmentAutomation.FrmVoltageTest.ByteArrayToBinaryString(System.Byte[])">
+	<summary>
+ 字节数组节转换成二进制字符串
+ </summary>
+ 要转换的字节数组
+ <returns></returns>
+</member><member name="M:EquipmentAutomation.FrmVoltageTest.ByteArrayToHexString(System.Byte[])">
+	<summary> Converts an array of bytes into a formatted string of hex digits (ex: E4 CA B2)</summary>
+	<param name="data"> The array of bytes to be translated into a string of hex digits. </param>
+	<returns> Returns a well formatted string of hex digits with spacing. </returns>
+</member><member name="P:EquipmentAutomation.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:EquipmentAutomation.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:EquipmentAutomation.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+</members>
+</doc>

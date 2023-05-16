@@ -1,0 +1,22 @@
+Tạo cơ sở dữ liệu HoKhau gồm các bảng:
+tblPhuong để lưu các phường xã quản lý. 
+- MaPh	char(4)	(mã phường xã - trường khóa)
+- TenPhuong	nvarchar(35)	(tên phường xã)
+
+tblSoHoKhau để lưu sổ hộ khẩu.	
+- MaSo	char(4)	(mã sổ hộ khẩu - trường khóa)
+- TenCH	nvarchar(4)	(tên chủ hộ)
+- NoiCap	nvarchar(35)	(nơi cấp sổ)
+- NgayCap	datetime	(ngày cấp)
+- MaPh	char(4)	(mã phường xã)
+tblNhanKhau để lưu nhân khẩu của sổ hộ khẩu.			
+- MaSo	char(4)	(mã sổ hộ khẩu)
+- SoTrang	int		(mỗi trang lưu 1 nhân khẩu) 
+- HoTen	nvarchar(40)	(họ tên từng người trong hộ này)
+- Quanhe	nvarchar(20)	(quan hệ với chủ hộ: cha, mẹ, con, cháu,…)	
+
+Nhập nội dung cho các bảng, trong đó bảng tblNhanKhau có ít nhất 5 bản ghi.
+
+- Tạo hàm đàu vào là mã sổ hộ khẩu (MaSo), 
+đầu ra là họ tên từng người trong hộ này, 
+quan hệ với chủ hộ của những nhân khẩu có trong mã sổ hộ khẩu này.

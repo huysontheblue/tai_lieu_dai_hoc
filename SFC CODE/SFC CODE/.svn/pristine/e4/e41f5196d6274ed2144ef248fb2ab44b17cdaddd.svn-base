@@ -1,0 +1,172 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Vt_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Vt_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BnCancel</Control_Id>
+    <Chs_Desc>取 消</Chs_Desc>
+    <Cht_Desc>取 消</Cht_Desc>
+    <En_Desc>Cancel</En_Desc>
+    <En_Full_Desc>Cancel</En_Full_Desc>
+    <Vt_Desc>Hủy</Vt_Desc>
+    <Vt_Full_Desc>Hủy</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BnOpenlock</Control_Id>
+    <Chs_Desc>确 定</Chs_Desc>
+    <Cht_Desc>確 定</Cht_Desc>
+    <En_Desc>Confirm</En_Desc>
+    <En_Full_Desc>Confirm</En_Full_Desc>
+    <Vt_Desc>Xác nhận</Vt_Desc>
+    <Vt_Full_Desc>Xác nhận</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btReadSN</Control_Id>
+    <Chs_Desc>读取产品条码</Chs_Desc>
+    <Cht_Desc>讀取產品條碼</Cht_Desc>
+    <En_Desc>Read Barcode</En_Desc>
+    <En_Full_Desc>Read Product Barcode</En_Full_Desc>
+    <Vt_Desc>Đọc mã vạch</Vt_Desc>
+    <Vt_Full_Desc>Đọc mã vạch sản phẩm</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ButMac</Control_Id>
+    <Chs_Desc>MAC读取替换打印</Chs_Desc>
+    <Cht_Desc>MAC讀取替換打印</Cht_Desc>
+    <En_Desc>MAC Replace</En_Desc>
+    <En_Full_Desc>MAC Read Replace Print</En_Full_Desc>
+    <Vt_Desc>MAC in thay thế</Vt_Desc>
+    <Vt_Full_Desc>MAC Đọc in thay thế  </Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmMBarReplace</Control_Id>
+    <Chs_Desc>成品替换打印</Chs_Desc>
+    <Cht_Desc>成品替換打印</Cht_Desc>
+    <En_Desc>Replace Print</En_Desc>
+    <En_Full_Desc>Finished Product Replace Print</En_Full_Desc>
+    <Vt_Desc>In SP thay thế </Vt_Desc>
+    <Vt_Full_Desc>In thay thế thành phẩm</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc>选项</Chs_Desc>
+    <Cht_Desc>選項</Cht_Desc>
+    <En_Desc>Option</En_Desc>
+    <En_Full_Desc>Option</En_Full_Desc>
+    <Vt_Desc>Tùy chọn</Vt_Desc>
+    <Vt_Full_Desc>Tùy chọn</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>产品序号：</Chs_Desc>
+    <Cht_Desc>產品序號：</Cht_Desc>
+    <En_Desc>Prod No.:</En_Desc>
+    <En_Full_Desc>Product No.:</En_Full_Desc>
+    <Vt_Desc>Mã SP:</Vt_Desc>
+    <Vt_Full_Desc>Mã sản phẩm:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>Part ID:</En_Desc>
+    <En_Full_Desc>Part ID:</En_Full_Desc>
+    <Vt_Desc>Mã liệu:</Vt_Desc>
+    <Vt_Full_Desc>Mã liệu:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>解锁密码：</Chs_Desc>
+    <Cht_Desc>解鎖密碼：</Cht_Desc>
+    <En_Desc>Unlock Pwd:</En_Desc>
+    <En_Full_Desc>Unlock Password:</En_Full_Desc>
+    <Vt_Desc>Mật khẩu mở khóa:</Vt_Desc>
+    <Vt_Full_Desc>Mật khẩu mở khóa:</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblMessage</Control_Id>
+    <Chs_Desc>提示：</Chs_Desc>
+    <Cht_Desc>提示：</Cht_Desc>
+    <En_Desc>Prompt:</En_Desc>
+    <En_Full_Desc>Prompt:</En_Full_Desc>
+    <Vt_Desc>Thông báo</Vt_Desc>
+    <Vt_Full_Desc>Thông báo</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadioButton3</Control_Id>
+    <Chs_Desc>新产品序号生成替换</Chs_Desc>
+    <Cht_Desc>新產品序號生成替換</Cht_Desc>
+    <En_Desc>New Serial No. replacement</En_Desc>
+    <En_Full_Desc>New Serial No. Replacement</En_Full_Desc>
+    <Vt_Desc>Thay thế mã sp mới</Vt_Desc>
+    <Vt_Full_Desc>Thay thế mã sản phẩm mới</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadioButton4</Control_Id>
+    <Chs_Desc>W2特殊条码替换</Chs_Desc>
+    <Cht_Desc>W2特殊條碼替換</Cht_Desc>
+    <En_Desc>W2 Barcode Replacement</En_Desc>
+    <En_Full_Desc>W2 Special Barcode Replacement</En_Full_Desc>
+    <Vt_Desc>Thay thế mã vạch W2</Vt_Desc>
+    <Vt_Full_Desc>Thay thế mã vạch đặc biệt W2</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadioButton5</Control_Id>
+    <Chs_Desc>新外箱序号生成替换</Chs_Desc>
+    <Cht_Desc>新外箱序號生成替換</Cht_Desc>
+    <En_Desc>New Outer Serial No. Replacementt</En_Desc>
+    <En_Full_Desc>New Outer Serial No. Generation And Replacement</En_Full_Desc>
+    <Vt_Desc>Thay thế mã thùng mới</Vt_Desc>
+    <Vt_Full_Desc>Thay thế mã thùng mới</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadLocalReplace</Control_Id>
+    <Chs_Desc>原号码本机模板替换</Chs_Desc>
+    <Cht_Desc>原號碼本機模板替換</Cht_Desc>
+    <En_Desc>Replace Machine Template</En_Desc>
+    <En_Full_Desc>Replace Machine Template of Original Number </En_Full_Desc>
+    <Vt_Desc>Thay Đổi Bản Mẫu</Vt_Desc>
+    <Vt_Full_Desc>Thay Đổi Bản Mẫu trên máy</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>SeriesReplace</Control_Id>
+    <Chs_Desc>多合一条码替换</Chs_Desc>
+    <Cht_Desc>多合一條碼替換</Cht_Desc>
+    <En_Desc>Multi Barcode Replacement</En_Desc>
+    <En_Full_Desc>Multi Barcode Replacement</En_Full_Desc>
+    <Vt_Desc>Thay thế nhiều Mã Vạch</Vt_Desc>
+    <Vt_Full_Desc>Thay thế nhiều Mã Vạch</Vt_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ServerReplace</Control_Id>
+    <Chs_Desc>原号码服务器模板替换</Chs_Desc>
+    <Cht_Desc>原號碼服務器模板替換</Cht_Desc>
+    <En_Desc>Replace Server Template</En_Desc>
+    <En_Full_Desc>Replace Server Template of Original Number </En_Full_Desc>
+    <Vt_Desc>Thay Đổi Bản Mẫu Server</Vt_Desc>
+    <Vt_Full_Desc>Thay Đổi Bản Mẫu Server</Vt_Full_Desc>
+  </Table>
+</NewDataSet>

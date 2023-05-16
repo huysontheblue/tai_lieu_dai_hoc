@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://dcs.luxshare-ict.com:8001/WCF/EmployeeWCF.svc?disco" filename="EmployeeWCF.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://dcs.luxshare-ict.com:8001/WCF/EmployeeWCF.svc?xsd=xsd0" filename="EmployeeWCF.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://dcs.luxshare-ict.com:8001/WCF/EmployeeWCF.svc?xsd=xsd1" filename="EmployeeWCF0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://dcs.luxshare-ict.com:8001/WCF/EmployeeWCF.svc?xsd=xsd2" filename="EmployeeWCF1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://dcs.luxshare-ict.com:8001/WCF/EmployeeWCF.svc?wsdl=wsdl0" filename="EmployeeWCF.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://dcs.luxshare-ict.com:8001/WCF/EmployeeWCF.svc?wsdl" filename="EmployeeWCF0.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

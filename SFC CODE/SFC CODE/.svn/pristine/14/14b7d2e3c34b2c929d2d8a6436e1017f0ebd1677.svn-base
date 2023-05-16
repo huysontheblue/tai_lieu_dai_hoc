@@ -1,0 +1,72 @@
+
+-- ===========================================================
+-- Exec_InsertWorkOrder,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROC [dbo].[Exec_InsertWorkOrder]
+	@RTVALUE VARCHAR(1) OUTPUT,
+	@RTMSG NVARCHAR(128) OUTPUT,
+	@USER_NAME NVARCHAR(64)='',
+	@FACTORY_ID NVARCHAR(64)='',
+	@PROFITCENTER NVARCHAR(64)='',
+	@WORKORDER_NO NVARCHAR(32)='',
+	@MATERIAL_NO NVARCHAR(32)='',
+	@QTY FLOAT=0
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF NOT EXISTS(SELECT MO_ID FROM W_MO_T WHERE MO_NO=@WORKORDER_NO)
+	BEGIN
+		INSERT INTO W_MO_T(FACTORY_ID, FACTORY_NAME, PROFITCENTER, MO_ID, MO_NO, MATERIAL_NO, QUANTITY, STATUS, 
+                CREATE_USERNAME, CREATE_DATE
+		)VALUES(
+			@FACTORY_ID, NULL, @PROFITCENTER, @WORKORDER_NO, @WORKORDER_NO, @MATERIAL_NO, @QTY, 0, @USER_NAME, GETDATE()
+		)
+	END
+
+	IF (@@ERROR>0)
+	BEGIN
+		SET @RTVALUE='0'
+		SET @RTMSG='新增採購項次失敗，請聯繫開發人員!'
+	END
+	ELSE
+	BEGIN
+		SET @RTVALUE='1'
+		SET @RTMSG=''
+	END
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO
+
+

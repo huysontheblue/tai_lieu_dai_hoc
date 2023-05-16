@@ -1,0 +1,161 @@
+                                                                                      BÀI THỰC HÀNH SỐ 1
+
+                                                                Họ và tên: Hà Huy Sơn
+                                                            Mã sv:18574802010055
+
+Câu 1: 
+# Đoc và hiển thị ảnh
+import cv2
+import numpy as np
+# Đọc ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+# Hiện ảnh
+cv2.imshow("Hien anh",img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu 2: 
+#In giá trị màu tại điểm nhập vào
+import cv2 as cv
+img = cv.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+x = int(input('Nhap toa do x : '))
+y = int(input('Nhap toa do y : '))
+(B, R, G)=img[x , y]
+print("R={},B={},G={}".format(R,G,B))
+cv.imshow('Anh goc', img)
+cv.waitKey(5000)
+cv.destroyAllWindows()
+
+Câu 3:
+#Viết chương trình đổi ảnh màu sang ảnh xám, ảnh nhị phân.
+#Lưu lại ảnh xám và ảnh nhị phân
+import cv2
+import numpy as np
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+(height,width)=img.shape[:2]
+xam = np.zeros([height,width],dtype = np.uint8)
+nhiphan = np.zeros([height,width],dtype = np.uint8)
+#0.299*R + 0.587*G + 0.1149*B
+nguong = 128
+for i in range(height):
+    for j in range(width):
+        xam[i, j] = int(0.299*img[i,j,2]+0.857*img[i,j,1]+0.114*img[i,j,0])
+        if xam[i,j] < nguong:
+            nhiphan[i,j]=0
+        else: nhiphan[i,j]=255
+# hiện ảnh    
+cv2.imshow("Hien anh goc",img)
+cv2.imshow("Hien anh xam",xam)
+cv2.imshow("Hien anh nhi phan",nhiphan)
+# Lưu ảnh
+cv2.imwrite("D:\\XuLyAnh\\Th1\\xamc3.jpg", xam)
+cv2.imwrite("D:\\XuLyAnh\\Th1\\nhipahnc3.jpg", nhiphan)
+cv2.waitKey(0)
+cv2.destroyAllWindows() 
+
+Câu 4:
+
+import cv2
+import numpy
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+h = img.shape[0]
+w = img.shape[1]
+gray = numpy.zeros([h,w],dtype = numpy.uint8)
+binary = numpy.zeros([h,w],dtype = numpy.uint8)
+for i in range(h):
+    for j in range(w):
+        gray[i,j] = int(0.2989*img[i,j,2] + 0.5870*img[i,j,1] + 0.1140*img[i,j,0] )
+def changebin(x):
+    changebin.value = x
+changebin.value = 0
+cv2.namedWindow('xulyanh1')
+cv2.createTrackbar('nhi phan','xulyanh1', 100, 255, changebin)
+while(True):
+    T = changebin.value
+    for i in range(h):
+        for j in range(w):
+            if gray[i,j] < T:
+                binary[i,j] = 0
+            else:
+                binary[i,j] = 255
+    cv2.imshow('xulyanh1',binary)
+    cv2.imwrite("D:\\XuLyAnh\\Th1\\nicsoer.jpg",binary)
+    if cv2.waitKey(5) == ord ('q'): break
+cv2.destroyAllWindows()
+
+Câu 5:
+#Trackbar tương phản, độ sáng
+import cv2
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+def changea(x):
+    changea.value = x
+changea.value = 0
+def changeb(x):
+    changeb.value = x
+changeb.value = 0
+
+cv2.namedWindow('xulyanh')
+cv2.createTrackbar('tuong phan','xulyanh', 1, 10, changea)
+cv2.createTrackbar('do sang','xulyanh', 0, 50, changeb)
+
+while(True):
+    alpha = changea.value
+    beta = changeb.value
+    img1 = cv2.convertScaleAbs(img,alpha = alpha, beta = beta)
+    cv2.imshow('xulyanh',img1)
+    if cv2.waitKey(5) == ord ('q'): break
+cv2.destroyAllWindows()
+
+Câu 6: 
+#Hiện nhiều hình ảnh với thư viện matplotlib. Hiện ra 4 ảnh trên một cửa sổ
+#import thư viện
+import cv2
+from matplotlib import pyplot as plt
+  
+#kích thước khung nhìn
+fig = plt.figure(figsize=(8, 11))
+  
+# thiết lập giá trị cho các biến hàng và cột
+rows = 1
+columns = 4
+  
+# đọc ảnh 
+img1 = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+#img2 = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+#img3 = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+#img4 = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+  
+# Thêm một ô phụ ở vị trí đầu tiên
+fig.add_subplot(rows, columns, 1)
+  
+# hiển thị hình ảnh
+plt.imshow(img1)
+plt.axis('off')
+plt.title("1")
+  
+# Thêm một ô phụ ở vị trí thứ 2
+fig.add_subplot(rows, columns, 2)
+  
+# hiển thị hình ảnh
+plt.imshow(img1)
+plt.axis('off')
+plt.title("2")
+  
+# Thêm một ô phụ ở vị trí thứ 3
+fig.add_subplot(rows, columns, 3)
+  
+# hiển thị hình ảnh
+plt.imshow(img1)
+plt.axis('off')
+plt.title("3")
+  
+# Thêm một ô phụ ở vị trí thứ 4
+fig.add_subplot(rows, columns, 4)
+  
+# hiển thị hình ảnh
+plt.imshow(img1)
+plt.axis('off')
+plt.title("4")
+
+
+

@@ -1,0 +1,100 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\SysBasicClass.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\SysBasicClass.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\SysBasicClass.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\SysBasicClass.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.csprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\SysBasicClass\obj\Debug\SysBasicClass.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\SysBasicClass.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\SysBasicClass.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.Cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\SysBasicClass.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\SysBasicClass.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.csprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.dll
+C:\Users\matech\Desktop\VN\VN\DEV\SysBasicClass\obj\Debug\SysBasicClass.pdb
+D:\义安SFC\DEV\ShareFile\SysBasicClass.dll
+D:\义安SFC\DEV\ShareFile\SysBasicClass.pdb
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csprojAssemblyReference.cache
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.cache
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.CopyComplete
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.dll
+D:\义安SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\SysBasicClass.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\SysBasicClass.pdb
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.csproj.CopyComplete
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.dll
+D:\VNSFC\NV-SFC\DEV\SysBasicClass\obj\Debug\SysBasicClass.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\SysBasicClass.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\SysBasicClass.pdb
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.csprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.dll
+D:\work\svn\SFC\NV_SFC\code\SysBasicClass\obj\Debug\SysBasicClass.pdb
+D:\SFC CODE\ShareFile\SysBasicClass.dll
+D:\SFC CODE\ShareFile\SysBasicClass.pdb
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.csprojResolveAssemblyReference.cache
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.Cache
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.dll
+D:\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.pdb
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.csprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.InputText.resources
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.Pager.resources
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.waitForm.resources
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.FormMessageBox.resources
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.Properties.Resources.resources
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.csproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\SysBasicClass\obj\Debug\SysBasicClass.dll

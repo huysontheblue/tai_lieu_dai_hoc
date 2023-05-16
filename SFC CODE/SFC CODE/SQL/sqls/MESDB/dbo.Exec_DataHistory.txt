@@ -1,0 +1,212 @@
+
+-- ===========================================================
+-- Exec_DataHistory,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROC [dbo].[Exec_DataHistory]
+	@RTVALUE NVARCHAR(1) OUTPUT,
+	@RTMSG NVARCHAR(MAX) OUTPUT,
+	@USERID VARCHAR(32) = '',
+	@DATAHISTORYID VARCHAR(32) = ''
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	IF (ISNULL(@DATAHISTORYID,'')='')
+	BEGIN
+		SET @RTMSG = N'数据迁移ID不能为空!'
+		SET @RTVALUE = '0'
+		RETURN;
+	END
+
+	IF (ISNULL(@USERID,'')='')
+	BEGIN
+		SET @USERID = 'SYSTEM'
+	END
+
+	DECLARE @strExecSQL NVARCHAR(MAX)
+	DECLARE @DataHistoryRecordId VARCHAR(16)
+	DECLARE @ExecMessage NVARCHAR(512)
+	DECLARE @DataHistoryTableName VARCHAR(32), @SourceDatabase VARCHAR(32), @LinkServerName VARCHAR(32), @TargetDataBaseName VARCHAR(32), @TargetTableName VARCHAR(32), @TreatmentFlag VARCHAR(32), @JobID VARCHAR(64), @SequenceColumn VARCHAR(32), @SequenceType VARCHAR(32),
+		 @ColumnType VARCHAR(32), @ColumnSQL VARCHAR(512), @TargetColumnSQL VARCHAR(512), @WhereSQL NVARCHAR(512), @ProcessingNumber VARCHAR(32), @ExecutionInterval VARCHAR(32), @IntervalFrequency VARCHAR(32), @IntervalType VARCHAR(32), @ChildTableFlag VARCHAR(8), @StartTime VARCHAR(32), @EndTime VARCHAR(32), @RetentionDays INT
+	
+	SELECT @DataHistoryTableName=DataHistoryTableName, @SourceDatabase=SourceDatabase, @LinkServerName=LinkServerName, @TargetDataBaseName=TargetDataBaseName, @TargetTableName=TargetTableName, @TreatmentFlag=TreatmentFlag, @JobID=JobID, @SequenceColumn=SequenceColumn, @SequenceType=SequenceType, 
+		@ColumnType=ColumnType, @ColumnSQL=ColumnSQL, @TargetColumnSQL=TargetColumnSQL, @WhereSQL=WhereSQL, @ProcessingNumber=ProcessingNumber, @ExecutionInterval=ExecutionInterval, @IntervalFrequency=IntervalFrequency, @IntervalType=IntervalType, @ChildTableFlag=ChildTableFlag, @StartTime=StartTime, 
+        @EndTime=EndTime, @RetentionDays=RetentionDays
+	FROM m_DataHistory_t WHERE DataHistoryId = @DATAHISTORYID
+		
+	IF (ISNULL(@DataHistoryTableName, '') = '')
+	BEGIN
+		SET @RTMSG = N'数据迁移表不能为空!'
+		SET @RTVALUE = '0'
+		RETURN;
+	END
+	DECLARE @RetentionDate VARCHAR(32)
+	SET @RetentionDate = CONVERT(VARCHAR(10),DATEADD(D,-@RetentionDays,GETDATE()),121)
+
+	INSERT INTO m_DataHistoryRecord_t(DataHistoryId, USERID, DataHistoryTableName, SourceDatabase, LinkServerName, TargetDataBaseName, TargetTableName, TreatmentFlag, JobID,
+            ColumnType, ColumnSQL, TargetColumnSQL, WhereSQL, SequenceColumn, SequenceType, ProcessingNumber, ExecutionInterval, IntervalFrequency, IntervalType, ChildTableFlag, StartTime, 
+            EndTime, RetentionDays, StartExecuteTime
+	)VALUES(
+			@DATAHISTORYID, @USERID, @DataHistoryTableName, @SourceDatabase, @LinkServerName, @TargetDataBaseName, @TargetTableName, @TreatmentFlag, @JobID,
+            @ColumnType, @ColumnSQL, @TargetColumnSQL, @WhereSQL, @SequenceColumn, @SequenceType, @ProcessingNumber, @ExecutionInterval, @IntervalFrequency, @IntervalType, @ChildTableFlag, @StartTime, 
+            @EndTime, @RetentionDays , GETDATE())
+	SELECT TOP 1 @DataHistoryRecordId = MAX(DataHistoryRecordId) FROM m_DataHistoryRecord_t
+
+	SET XACT_ABORT ON
+	BEGIN TRY
+	BEGIN TRAN 
+		DECLARE @strSelectSQL NVARCHAR(MAX)
+		DECLARE @strInsertSQL NVARCHAR(MAX)
+		DECLARE @strUpdateSQL NVARCHAR(MAX)
+		DECLARE @strInsertChildSQL NVARCHAR(MAX)
+		DECLARE @strUpdateChildSQL NVARCHAR(MAX)
+
+		--转移子表数据
+		IF (ISNULL(@ChildTableFlag,'0')='1')
+		BEGIN
+			
+			DECLARE DataHistoryChild CURSOR	FOR 
+				SELECT ChildTableName, ParentColumnName, ChildColumnName, WhereSQL FROM m_DataHistoryChild_t WHERE DataHistoryId = @DATAHISTORYID AND DeleteFlag = '0' ORDER BY ItemNo ASC
+			OPEN DataHistoryChild
+				DECLARE @ChildTableName VARCHAR(64), @ParentColumnName VARCHAR(64), @ChildColumnName VARCHAR(64), @ChildWhereSQL NVARCHAR(512)
+				FETCH NEXT FROM DataHistoryChild INTO @ChildTableName, @ParentColumnName, @ChildColumnName, @ChildWhereSQL
+				WHILE @@FETCH_STATUS =0
+				BEGIN
+					SET @strInsertChildSQL = ''
+					SET @strUpdateChildSQL = ''
+					SET @strSelectSQL = ''
+					SET @strSelectSQL = N' SELECT TOP ' + @ProcessingNumber + ' ' + @ParentColumnName + ' FROM ' + @DataHistoryTableName + ' WHERE 1=1 ' + @WhereSQL + ' AND ' + @SequenceColumn + ' < =''' + @RetentionDate + ''' ORDER BY ' + @SequenceColumn + ' ' + @SequenceType
+					
+					--+ ' ( ' + @TargetColumnSQL + ' )'     [' + @LinkServerName + '].
+					IF(ISNULL(@LinkServerName,'') = '')
+					BEGIN
+						SET @strInsertChildSQL = N'INSERT INTO ' + @TargetDataBaseName + '.dbo.' + @ChildTableName	
+					END
+					ELSE
+					BEGIN
+						SET @strInsertChildSQL = N'INSERT INTO [' + @LinkServerName + '].' + @TargetDataBaseName + '.dbo.' + @ChildTableName	
+					END
+					SET @strInsertChildSQL = @strInsertChildSQL + ' SELECT * FROM ' + @ChildTableName + ' WHERE ' + @ChildColumnName + ' IN (' 
+					SET @strInsertChildSQL = @strInsertChildSQL + @strSelectSQL +' )'
+					EXEC SP_EXECUTESQL @strInsertChildSQL
+
+					SET @strUpdateChildSQL = N'DELETE ' + @ChildTableName + ' WHERE ' + @ChildColumnName + ' IN (' + @strSelectSQL +')'
+					EXEC SP_EXECUTESQL @strUpdateChildSQL
+
+					FETCH NEXT FROM  DataHistoryChild INTO @ChildTableName, @ParentColumnName, @ChildColumnName, @ChildWhereSQL
+				END	
+			CLOSE DataHistoryChild
+			DEALLOCATE DataHistoryChild
+		END
+
+		--转移主表数据
+		IF(ISNULL(@LinkServerName,'') = '')
+		BEGIN
+			--[' + @LinkServerName + '].
+			IF(ISNULL(@TargetColumnSQL,'')='*')
+			BEGIN
+				SET @strInsertSQL = N'INSERT INTO ' + @TargetDataBaseName + '.dbo.' + @DataHistoryTableName 
+			END
+			ELSE
+			BEGIN
+				SET @strInsertSQL = N'INSERT INTO ' + @TargetDataBaseName + '.dbo.' + @DataHistoryTableName + ' (' + @TargetColumnSQL + ' )'
+			END
+			SET @strInsertSQL = @strInsertSQL + N' SELECT TOP ' + @ProcessingNumber + ' ' + @ColumnSQL + ' FROM ' + @DataHistoryTableName + ' WHERE 1=1 ' + @WhereSQL + ' AND ' + @SequenceColumn + ' < = ''' + @RetentionDate +  ''' ORDER BY ' + @SequenceColumn + ' ' + @SequenceType
+		END
+		ELSE
+		BEGIN
+			IF(RTRIM(LTRIM(ISNULL(@TargetColumnSQL,'')))='*')
+			BEGIN
+				SET @strInsertSQL = N'INSERT INTO [' + @LinkServerName + '].' + @TargetDataBaseName + '.dbo.' + @DataHistoryTableName 
+			END
+			ELSE
+			BEGIN
+				SET @strInsertSQL = N'INSERT INTO [' + @LinkServerName + '].' + @TargetDataBaseName + '.dbo.' + @DataHistoryTableName + ' (' + @TargetColumnSQL + ' )'
+			END
+			
+			SET @strInsertSQL = @strInsertSQL + N' SELECT TOP ' + @ProcessingNumber + ' ' + @ColumnSQL + ' FROM ' + @DataHistoryTableName + ' WHERE 1=1 ' + @WhereSQL + ' AND ' + @SequenceColumn + ' < = ''' + @RetentionDate +  ''' ORDER BY ' + @SequenceColumn + ' ' + @SequenceType
+		END
+		EXEC SP_EXECUTESQL @strInsertSQL
+
+		SET @strUpdateSQL = N'DELETE TEMP FROM (SELECT TOP ' + @ProcessingNumber + ' ' + @SequenceColumn + ' FROM ' + @DataHistoryTableName + ' WHERE 1=1 ' + @WhereSQL + ' AND ' + @SequenceColumn + ' < = ''' + @RetentionDate +  ''' ORDER BY ' + @SequenceColumn + ' ' + @SequenceType + ' ) TEMP '
+		EXEC SP_EXECUTESQL @strUpdateSQL
+		--' +	@ProcessingNumber + '筆
+		SET @ExecMessage = N'執行表' + @DataHistoryTableName + '歷史數據轉移成功'	
+		SET @strExecSQL = ISNULL(@strInsertSQL, '') + ' / ' + ISNULL(@strUpdateSQL, '') + '/' + ISNULL(@strInsertChildSQL,'') + '/' + ISNULL(@strUpdateChildSQL,'')
+		UPDATE m_DataHistoryRecord_t SET EndExecuteTime = GETDATE(), ExecuteResult = '1', RecordRemark = @ExecMessage, strExecSQL = @strExecSQL WHERE DataHistoryRecordId = @DataHistoryRecordId
+		
+		SET @RTVALUE = '1'
+		SET @RTMSG =  ISNULL(@strUpdateSQL,'')
+		COMMIT TRAN
+	END TRY 
+	BEGIN CATCH 
+		ROLLBACK TRAN 
+		SET @RTMSG = ERROR_MESSAGE()
+		--'N'執行失敗，請聯繫開發人員！ + ISNULL(@strInsertSQL,'') + ' ''
+		SET @RTVALUE = '0'
+		SET @strExecSQL = ISNULL(@strInsertSQL, '') + ' / ' + ISNULL(@strUpdateSQL, '') + '/' + ISNULL(@strInsertChildSQL,'') + '/' + ISNULL(@strUpdateChildSQL,'')
+		UPDATE m_DataHistoryRecord_t SET EndExecuteTime = GETDATE(), ExecuteResult = '0', RecordRemark = ERROR_MESSAGE(), strExecSQL = @strExecSQL WHERE DataHistoryRecordId = @DataHistoryRecordId
+	END CATCH 
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO
+
+

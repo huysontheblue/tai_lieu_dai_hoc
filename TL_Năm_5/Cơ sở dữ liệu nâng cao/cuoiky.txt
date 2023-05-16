@@ -1,0 +1,59 @@
+ CREATE OR REPLACE TYPE kieu_nguoi AS OBJECT
+(
+    maso NUMBER,
+    hoten VARCHAR2(30),
+    dia_chi VARCHAR2(100)
+) NOT FINAL;
+
+CREATE OR REPLACE TYPE sinh_vien UNDER kieu_nguoi
+(
+    mssv NUMBER,
+    nganhhoc VARCHAR2(30)
+);
+
+CREATE OR REPLACE TYPE nhan_vien UNDER kieu_nguoi
+(
+    luong NUMBER
+) NOT FINAL;
+
+CREATE OR REPLACE TYPE nhan_vien_tinh_gio UNDER nhan_vien
+(
+    so_gio_lam NUMBER
+);
+
+CREATE TABLE tblNguoi OF kieu_nguoi;
+drop table tblNguoi;
+
+--b1 Nhập dữ liệu vào CSDL, yêu cầu mỗi đối tượng đại diện cho 1 tập thực thể.
+
+INSERT INTO tblNguoi VALUES (kieu_nguoi(1,'Ha Huy Son','Ha Tinh'));
+
+INSERT INTO tblNguoi VALUES (sinh_vien(2,'Truong Huy Manh','Nghe An',1857,'CNTT'));
+INSERT INTO tblNguoi VALUES (sinh_vien(5,'Truong Huy Dung','Nghe An',1858,'KHMT'));
+
+INSERT INTO tblNguoi VALUES (nhan_vien(3,'Tran Trung Kien','Ha Tinh', 200000));
+
+INSERT INTO tblNguoi VALUES (nhan_vien_tinh_gio(4,'Ho Dinh Hieu', 'Nghe an',500000, 8));
+
+select * from tblNguoi
+
+--b2 Cho biết họ tên và ngành học của các tất cả sinh viên ngành 'CNTT' và ngành 'KHMT'
+SELECT N.hoten, TREAT(VALUE(N) AS sinh_vien).nganhhoc as NganhHoc
+FROM tblNguoi N
+WHERE TREAT(VALUE(N) AS sinh_vien).nganhhoc='CNTT' OR TREAT(VALUE(N) AS sinh_vien).nganhhoc='KHMT';
+
+
+--b3 Cho biết họ tên và địa chỉ của tất cả nhân viên tính giờ
+SELECT N.hoten, N.dia_chi
+FROM tblNguoi N
+WHERE VALUE(N) IS OF (nhan_vien_tinh_gio);
+
+--b4 Đưa ra họ tên, địa chỉ các cá nhân k phải là sinh viên và cũng không phải là nhân viên
+SELECT N.hoten, N.dia_chi
+FROM tblNguoi N
+WHERE VALUE(N) IS NOT OF (sinh_vien) and VALUE(N) IS NOT OF (nhan_vien);
+
+--b5 Thay đổi địa chỉ của sinh viên có mã '2021' thành 'New Vinh'
+UPDATE tblNguoi N
+SET N.dia_chi='Hà Tĩnh'
+WHERE TREAT(VALUE(N) AS sinh_vien).maso=2

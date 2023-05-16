@@ -1,0 +1,126 @@
+======================================================= Bài thực hành số 6 =============================================================================
+======================================================= Họ và tên: Hà Huy Sơn ==========================================================================
+======================================================= MSSV: 18574802010055 ===========================================================================
+
+================Câu 1:=================================
+# Phân đoạn ảnh dựa vào phân ngưỡng. 
+# Áp dụng các thuật toán phân ngưỡng nhị phân, phân ngưỡng thích nghi, phân ngưỡng otsu 
+======== có sử dụng bộ lọc ============================
+import cv2
+import matplotlib.pyplot as plt
+
+# lấy ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+anhmau0 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+# lọc ảnh
+img1 =  cv2.GaussianBlur(img,(5,5),0)
+# chuyển ảnh xám
+anhxam = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+
+# Phân ngưỡng ảnh bằng thuật toán phân ngưỡng nhị phân 
+ret, thresh1 = cv2.threshold(anhxam,128,255,cv2.THRESH_BINARY)
+anhmau1 = cv2.cvtColor(thresh1, cv2.COLOR_BGR2RGB)
+
+# phân ngưỡng thích nghi 
+thichnghi = cv2.adaptiveThreshold(anhxam, 255, cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,55,0 )
+anhmau2 = cv2.cvtColor(thichnghi, cv2.COLOR_BGR2RGB)
+
+# phân ngưỡng bằng thuật toán otsu
+retval, threshold = cv2.threshold(anhxam, 50, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+#anhmau3 = cv2.cvtColor(threshold, cv2.COLOR_BGR2RGB)
+
+# in ra bằng matlotlib
+plt.subplot(2,2,1).axis('off'),plt.imshow(anhmau0),plt.title('Ảnh ban đầu')
+plt.subplot(2,2,2).axis('off'),plt.imshow(anhmau1),plt.title('Ảnh phân ngưỡng nhị phân')
+plt.subplot(2,2,3).axis('off'),plt.imshow(anhmau2),plt.title('Ảnh phân ngưỡng thích nghi')
+plt.subplot(2,2,4).axis('off'),plt.imshow(threshold),plt.title('Ảnh phân ngưỡng Otsu')
+
+cv2.waitKey()
+cv2.destroyAllWindows()
+
+
+========== không sử dụng bộ lọc =======================
+import cv2
+import matplotlib.pyplot as plt
+
+# lấy ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+anhmau0 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+# chuyển ảnh xám
+anhxam = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+# Phân ngưỡng ảnh bằng thuật toán phân ngưỡng nhị phân 
+ret, thresh1 = cv2.threshold(anhxam,128,255,cv2.THRESH_BINARY)
+anhmau1 = cv2.cvtColor(thresh1, cv2.COLOR_BGR2RGB)
+
+# phân ngưỡng thích nghi 
+thichnghi = cv2.adaptiveThreshold(anhxam, 255, cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,55,0 )
+anhmau2 = cv2.cvtColor(thichnghi, cv2.COLOR_BGR2RGB)
+
+# phân ngưỡng bằng thuật toán otsu
+retval, threshold = cv2.threshold(anhxam, 50, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+#anhmau3 = cv2.cvtColor(threshold, cv2.COLOR_BGR2RGB)
+
+# in ra bằng matlotlib
+plt.subplot(2,2,1).axis('off'),plt.imshow(anhmau0),plt.title('Ảnh ban đầu')
+plt.subplot(2,2,2).axis('off'),plt.imshow(anhmau1),plt.title('Ảnh phân ngưỡng nhị phân')
+plt.subplot(2,2,3).axis('off'),plt.imshow(anhmau2),plt.title('Ảnh phân ngưỡng thích nghi')
+plt.subplot(2,2,4).axis('off'),plt.imshow(threshold),plt.title('Ảnh phân ngưỡng Otsu')
+
+
+cv2.waitKey()
+cv2.destroyAllWindows()
+
+================Câu 2:=================================
+import cv2
+import numpy as np
+# đọc ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg", cv2.IMREAD_UNCHANGED)
+
+# chuyển qua ảnh xám
+img_grey = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+
+#  phân ngưỡng cho ảnh 
+ret,thresh_img = cv2.threshold(img_grey, 100, 255, cv2.THRESH_BINARY)
+
+# tìm đường viền
+contours, hierarchy = cv2.findContours(thresh_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+# taoh một hình ảnh trống cho các đường viền
+img_contours = np.zeros(img.shape)
+
+# vẽ các đường viền trên hình trống
+cv2.drawContours(img_contours, contours, -1, (255,0,255), 1)
+#save image
+cv2.imshow('Contuor', img_contours)
+cv2.waitKey()
+cv2.destroyAllWindows()
+
+
+================Câu 3:=================================
+
+import cv2
+import numpy as np
+
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
+
+ret, thresh = cv2.threshold(gray,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
+k = np.ones((3,3),np.uint8)
+
+opening = cv2.morphologyEx(thresh,cv2.MORPH_OPEN,k,iterations = 2)
+sure_bg = cv2.dilate(opening,k,iterations = 3)
+dish_transform = cv2.distanceTransform(opening,cv2.DIST_L2,5)
+ret,sure_fg = cv2.threshold(dish_transform,0.7*dish_transform.max(),255,0)
+sure_fg = np.uint8(sure_fg)
+unknown = cv2.subtract(sure_bg,sure_fg)
+
+ret, markers = cv2.connectedComponents(sure_fg)
+markers = markers+1
+markers[unknown==255] = 0
+markers = cv2.watershed(img, markers)
+img[markers == -1] = [0,0,255]
+cv2.imshow("display",img)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()

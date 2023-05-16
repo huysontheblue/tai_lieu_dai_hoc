@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>FrmCheckRecordQuery</Control_Id>
+    <Chs_Desc>重码校验记录查询</Chs_Desc>
+    <Cht_Desc>重碼校驗記錄查詢</Cht_Desc>
+    <En_Desc>Repeated Code Verify Record</En_Desc>
+    <En_Full_Desc>RepeatedCode Record</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox3</Control_Id>
+    <Chs_Desc>查询条件</Chs_Desc>
+    <Cht_Desc>查詢條件</Cht_Desc>
+    <En_Desc>Query Criteria</En_Desc>
+    <En_Full_Desc>Query Criteria</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>条码序号:</Chs_Desc>
+    <Cht_Desc>條碼序號:</Cht_Desc>
+    <En_Desc>Barcode No.</En_Desc>
+    <En_Full_Desc>BarcodeNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>外箱号:</Chs_Desc>
+    <Cht_Desc>外箱號:</Cht_Desc>
+    <En_Desc>Carton No.</En_Desc>
+    <En_Full_Desc>CartonNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblTotal</Control_Id>
+    <Chs_Desc>共 {0} 笔</Chs_Desc>
+    <Cht_Desc>共 {0} 筆</Cht_Desc>
+    <En_Desc>Total (0) </En_Desc>
+    <En_Full_Desc>Total(0)order</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExcel</Control_Id>
+    <Chs_Desc>汇   出</Chs_Desc>
+    <Cht_Desc>匯   出</Cht_Desc>
+    <En_Desc>Export</En_Desc>
+    <En_Full_Desc>Export</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolExit</Control_Id>
+    <Chs_Desc>退    出</Chs_Desc>
+    <Cht_Desc>退    出</Cht_Desc>
+    <En_Desc>Exit</En_Desc>
+    <En_Full_Desc>Exit</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolReflsh</Control_Id>
+    <Chs_Desc>刷    新</Chs_Desc>
+    <Cht_Desc>刷    新</Cht_Desc>
+    <En_Desc>Refresh</En_Desc>
+    <En_Full_Desc>Refresh</En_Full_Desc>
+  </Table>
+</NewDataSet>

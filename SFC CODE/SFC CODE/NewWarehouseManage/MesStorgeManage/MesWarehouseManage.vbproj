@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0EFFC71-6B2F-4BFC-8267-6D4E723D750E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>MesStorgeManage</RootNamespace>
+    <AssemblyName>MesStorgeManage</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\SharedFile\</OutputPath>
+    <DocumentationFile>MesStorgeManage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>C:\Program Files\AVC\SFCS\</OutputPath>
+    <DocumentationFile>MesStorgeManage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextCtrlV, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SharedFile\TextCtrlV.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmInformation.Designer.vb">
+      <DependentUpon>FrmInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInfShow.Designer.vb">
+      <DependentUpon>FrmInfShow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInfShow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInStorge.designer.vb">
+      <DependentUpon>FrmInStorge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInStorge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInStorgeOther.Designer.vb">
+      <DependentUpon>FrmInStorgeOther.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInStorgeOther.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLock.Designer.vb">
+      <DependentUpon>FrmLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMgArea.Designer.vb">
+      <DependentUpon>FrmMgArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMgArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMgShipInfo.Designer.vb">
+      <DependentUpon>FrmMgShipInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMgShipInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMgWHinfo.Designer.vb">
+      <DependentUpon>FrmMgWHinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMgWHinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMgWHPart.Designer.vb">
+      <DependentUpon>FrmMgWHPart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMgWHPart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewLabel.Designer.vb">
+      <DependentUpon>FrmNewLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewLabel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewLabel_DG.Designer.vb">
+      <DependentUpon>FrmNewLabel_DG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewLabel_DG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOtherOut.Designer.vb">
+      <DependentUpon>FrmOtherOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOtherOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOutWH.designer.vb">
+      <DependentUpon>FrmOutWH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOutWH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOutWH2.Designer.vb">
+      <DependentUpon>FrmOutWH2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOutWH2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOutWH2_DG.Designer.vb">
+      <DependentUpon>FrmOutWH2_DG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOutWH2_DG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReMoveBack.Designer.vb">
+      <DependentUpon>FrmReMoveBack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReMoveBack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReworkOut.designer.vb">
+      <DependentUpon>FrmReworkOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReworkOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReworkOut_DG.Designer.vb">
+      <DependentUpon>FrmReworkOut_DG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReworkOut_DG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.designer.vb">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowDetail.Designer.vb">
+      <DependentUpon>FrmShowDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTranWH.Designer.vb">
+      <DependentUpon>FrmTranWH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTranWH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWHChange.Designer.vb">
+      <DependentUpon>FrmWHChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWHChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWhMove.Designer.vb">
+      <DependentUpon>FrmWhMove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWhMove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="InfClass.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReuseClass.vb" />
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmInformation.resx">
+      <DependentUpon>FrmInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInfShow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmInfShow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInStorge.resx">
+      <DependentUpon>FrmInStorge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInStorgeOther.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmInStorgeOther.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMgArea.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMgArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMgShipInfo.resx">
+      <DependentUpon>FrmMgShipInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMgWHinfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMgWHinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMgWHPart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMgWHPart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewLabel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNewLabel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewLabel_DG.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNewLabel_DG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOtherOut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOtherOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOutWH.resx">
+      <DependentUpon>FrmOutWH.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOutWH2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOutWH2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOutWH2_DG.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOutWH2_DG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReMoveBack.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReMoveBack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReworkOut.resx">
+      <DependentUpon>FrmReworkOut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReworkOut_DG.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReworkOut_DG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanErrPrompt.resx">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowDetail.resx">
+      <DependentUpon>FrmShowDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTranWH.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTranWH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWHChange.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmWHChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWhMove.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmWhMove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ringin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chimes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\err.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chord.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\mmmmm2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BarCodePrint\BarCodePrint.vbproj">
+      <Project>{953C2C10-BF59-4592-8F58-9E8B3DC335A1}</Project>
+      <Name>BarCodePrint</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{A8C44C39-1C47-4105-A98A-14BA6613CA01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

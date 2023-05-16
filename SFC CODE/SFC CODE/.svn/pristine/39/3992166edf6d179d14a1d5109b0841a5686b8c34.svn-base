@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BnCancel</Control_Id>
+    <Chs_Desc>清 除</Chs_Desc>
+    <Cht_Desc>清 除</Cht_Desc>
+    <En_Desc>Remove</En_Desc>
+    <En_Full_Desc>Remove</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BnOpenlock</Control_Id>
+    <Chs_Desc>确定</Chs_Desc>
+    <Cht_Desc>確定</Cht_Desc>
+    <En_Desc>Confirm</En_Desc>
+    <En_Full_Desc>Confirm</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgError_0</Control_Id>
+    <Chs_Desc>工站编号</Chs_Desc>
+    <Cht_Desc>工站編號</Cht_Desc>
+    <En_Desc>Station Number</En_Desc>
+    <En_Full_Desc>Station Number</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgError_1</Control_Id>
+    <Chs_Desc>工站名称</Chs_Desc>
+    <Cht_Desc>工站名稱</Cht_Desc>
+    <En_Desc>Station Name</En_Desc>
+    <En_Full_Desc>Work Station Name</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgError_2</Control_Id>
+    <Chs_Desc>测试结果</Chs_Desc>
+    <Cht_Desc>測試結果</Cht_Desc>
+    <En_Desc>Test Result</En_Desc>
+    <En_Full_Desc>Test Result</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgError_3</Control_Id>
+    <Chs_Desc>测试次数</Chs_Desc>
+    <Cht_Desc>測試次數</Cht_Desc>
+    <En_Desc>Test Times</En_Desc>
+    <En_Full_Desc>Test Times</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgError_4</Control_Id>
+    <Chs_Desc>测试时间</Chs_Desc>
+    <Cht_Desc>測試時間</Cht_Desc>
+    <En_Desc>Test Time</En_Desc>
+    <En_Full_Desc>Test Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmScanErrPrompt</Control_Id>
+    <Chs_Desc>扫描错误提示框</Chs_Desc>
+    <Cht_Desc>掃描錯誤提示框</Cht_Desc>
+    <En_Desc>Scan Error Prompt Box</En_Desc>
+    <En_Full_Desc>Scan Error Prompt Box</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>       条码扫描提示信息</Chs_Desc>
+    <Cht_Desc>       條碼掃描提示信息</Cht_Desc>
+    <En_Desc>       Barcode Scanning Tips</En_Desc>
+    <En_Full_Desc>       Barcode Scanning Tips</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>Label10</Chs_Desc>
+    <Cht_Desc>Label10</Cht_Desc>
+    <En_Desc>Label10</En_Desc>
+    <En_Full_Desc>Label10</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>  条码序号：</Chs_Desc>
+    <Cht_Desc>  條碼序號：</Cht_Desc>
+    <En_Desc>  Barcode NO.:</En_Desc>
+    <En_Full_Desc>  Barcode No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>  错误提示：</Chs_Desc>
+    <Cht_Desc>  錯誤提示：</Cht_Desc>
+    <En_Desc>  Error Prompt:</En_Desc>
+    <En_Full_Desc>  Error Prompt:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>  解决方法：</Chs_Desc>
+    <Cht_Desc>  解決方法：</Cht_Desc>
+    <En_Desc>  Solution:</En_Desc>
+    <En_Full_Desc>  Solution:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>  解锁密码：</Chs_Desc>
+    <Cht_Desc>  解鎖密碼：</Cht_Desc>
+    <En_Desc>  Unlock Pwd:</En_Desc>
+    <En_Full_Desc>  Unlock Password:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>Label8</Chs_Desc>
+    <Cht_Desc>Label8</Cht_Desc>
+    <En_Desc>Label8</En_Desc>
+    <En_Full_Desc>Label8</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>Label9</Chs_Desc>
+    <Cht_Desc>Label9</Cht_Desc>
+    <En_Desc>Label9</En_Desc>
+    <En_Full_Desc>Label9</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripStatusLabel1</Control_Id>
+    <Chs_Desc>准备就绪...</Chs_Desc>
+    <Cht_Desc>準備就緒...</Cht_Desc>
+    <En_Desc>Ready...</En_Desc>
+    <En_Full_Desc>Ready...</En_Full_Desc>
+  </Table>
+</NewDataSet>

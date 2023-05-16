@@ -1,0 +1,1310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B2509B3-8D0F-4C47-B6E7-8F80376F950E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>BarCodeScan</RootNamespace>
+    <AssemblyName>BarCodeScan</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>BarCodeScan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>BarCodeScan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DDTek.Oracle, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DDTek.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b" />
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevExpress.XtraEditors.v10.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=9.40.2.1, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="MainFrame, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\MainFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PinkieControls">
+      <HintPath>..\ShareFile\PinkieControls.dll</HintPath>
+    </Reference>
+    <Reference Include="PLCLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile_Public\PLCLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxUL">
+      <HintPath>..\ShareFile\TextBoxUL.dll</HintPath>
+    </Reference>
+    <Reference Include="ULControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\ULControls.dll</HintPath>
+    </Reference>
+    <Reference Include="xptextbox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\xptextbox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CartonScanOption.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\SapCommon.vb" />
+    <Compile Include="Data.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FrmBOMCheckSet.Designer.vb">
+      <DependentUpon>FrmBOMCheckSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBOMCheckSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDateCodeInput.Designer.vb">
+      <DependentUpon>FrmDateCodeInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDateCodeInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHMCheck.Designer.vb">
+      <DependentUpon>FrmHMCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHMCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmimag.Designer.vb">
+      <DependentUpon>Frmimag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmimag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNGBarLink.Designer.vb">
+      <DependentUpon>FrmNGBarLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNGBarLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPpidExceptionHandle.designer.vb">
+      <DependentUpon>FrmPpidExceptionHandle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPpidExceptionHandle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQCAddBatch.Designer.vb">
+      <DependentUpon>FrmQCAddBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQCAddBatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoWorkStantScan.designer.vb">
+      <DependentUpon>FrmAutoWorkStantScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoWorkStantScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfigSet.Designer.vb">
+      <DependentUpon>FrmConfigSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfigSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCrossStageInputScan.Designer.vb">
+      <DependentUpon>FrmCrossStageInputScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCrossStageInputScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFixedCodeScan.Designer.vb">
+      <DependentUpon>FrmFixedCodeScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFixedCodeScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFixedCodeSet.Designer.vb">
+      <DependentUpon>FrmFixedCodeSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFixedCodeSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWOQCCheck.Designer.vb">
+      <DependentUpon>FrmHWOQCCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWOQCCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWOQCSet.Designer.vb">
+      <DependentUpon>FrmHWOQCSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWOQCSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMerryShipScan.Designer.vb">
+      <DependentUpon>FrmMerryShipScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMerryShipScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMultiPackScanDetail.Designer.vb">
+      <DependentUpon>FrmMultiPackScanDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMultiPackScanDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMultiShowDetail.Designer.vb">
+      <DependentUpon>FrmMultiShowDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMultiShowDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewEquipmentSetFormZCTest.Designer.vb">
+      <DependentUpon>FrmNewEquipmentSetFormZCTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewStantPackScan_HWHL.designer.vb">
+      <DependentUpon>FrmNewStantPackScan_HWHL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewStantPackScan_HWHL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewStantPackScan_L01.designer.vb">
+      <DependentUpon>FrmNewStantPackScan_L01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewStantPackScan_L01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOBACheck.Designer.vb">
+      <DependentUpon>FrmOBACheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOBACheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineMoreCartonPrint.Designer.vb">
+      <DependentUpon>FrmOnlineMoreCartonPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineMoreCartonPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlinePrintCarton.Designer.vb">
+      <DependentUpon>FrmOnlinePrintCarton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlinePrintCarton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrint.Designer.vb">
+      <DependentUpon>FrmOnlineWorkPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrintMAC.Designer.vb">
+      <DependentUpon>FrmOnlineWorkPrintMAC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrintPES.designer.vb">
+      <DependentUpon>FrmOnlineWorkPrintPES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrintPES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrintScanBar.designer.vb">
+      <DependentUpon>FrmOnlineWorkPrintScanBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrintScanBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOutOfBoxCheck.Designer.vb">
+      <DependentUpon>FrmOutOfBoxCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOutOfBoxCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssemblySetting.Designer.vb">
+      <DependentUpon>FrmAssemblySetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssemblySetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoScanSendData.Designer.vb">
+      <DependentUpon>FrmAutoScanSendData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoScanSendData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCartonLastQtySet.Designer.vb">
+      <DependentUpon>FrmCartonLastQtySet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonLastQtySet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCartonLastSet.Designer.vb">
+      <DependentUpon>FrmCartonLastSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonLastSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCartonRepeatPrint.Designer.vb">
+      <DependentUpon>FrmCartonRepeatPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonRepeatPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckCarton.Designer.vb">
+      <DependentUpon>FrmCheckCarton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckCarton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckShippingBarCode.Designer.vb">
+      <DependentUpon>FrmCheckShippingBarCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckShippingBarCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCOMSet.Designer.vb">
+      <DependentUpon>FrmCOMSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCOMSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmE75Bind.Designer.vb">
+      <DependentUpon>FrmE75Bind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmE75Bind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCartonPrompt.Designer.vb">
+      <DependentUpon>FrmCartonPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeCard.Designer.vb">
+      <DependentUpon>FrmEmployeeCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWITMoStyleQuery.Designer.vb">
+      <DependentUpon>FrmHWITMoStyleQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWITMoStyleQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWITScan.Designer.vb">
+      <DependentUpon>FrmHWITScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWITScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHWPackScan.Designer.vb">
+      <DependentUpon>FrmHWPackScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHWPackScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIssueHandler.Designer.vb">
+      <DependentUpon>FrmIssueHandler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIssueHandler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKeyPartAlter.Designer.vb">
+      <DependentUpon>FrmKeyPartAlter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKeyPartAlter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLaserPrint.Designer.vb">
+      <DependentUpon>FrmLaserPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLaserPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLastPalletSet.Designer.vb">
+      <DependentUpon>FrmLastPalletSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLastPalletSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineQuery.Designer.vb">
+      <DependentUpon>FrmLineQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotShareSetForm.Designer.vb">
+      <DependentUpon>FrmLotShareSetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotShareSetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMBarReplace.designer.vb">
+      <DependentUpon>FrmMBarReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMBarReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMOQuery.Designer.vb">
+      <DependentUpon>FrmMOQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMOQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMOStatusSetting.Designer.vb">
+      <DependentUpon>FrmMOStatusSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMOStatusSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewEquipmentSetForm.Designer.vb">
+      <DependentUpon>FrmNewEquipmentSetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewEquipmentSetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoBarCodePack.designer.vb">
+      <DependentUpon>FrmNoBarCodePack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoBarCodePack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoBarCodeSet.designer.vb">
+      <DependentUpon>FrmNoBarCodeSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoBarCodeSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOkCancel.Designer.vb">
+      <DependentUpon>FrmOkCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOkCancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlinePrintBarcode.Designer.vb">
+      <DependentUpon>FrmOnlinePrintBarcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlinePrintBarcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineWeightPrint.Designer.vb">
+      <DependentUpon>FrmOnlineWeightPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineWeightPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMultiPackScan.Designer.vb">
+      <DependentUpon>FrmMultiPackScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMultiPackScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingCheck.Designer.vb">
+      <DependentUpon>FrmPackingCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingCheckA.Designer.vb">
+      <DependentUpon>FrmPackingCheckA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingCheckA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingCheckMaster.Designer.vb">
+      <DependentUpon>FrmPackingCheckMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingCheckMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingCheckSetting.Designer.vb">
+      <DependentUpon>FrmPackingCheckSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingCheckSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingExceptionHandle.Designer.vb">
+      <DependentUpon>FrmPackingExceptionHandle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingExceptionHandle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingSameScan.Designer.vb">
+      <DependentUpon>FrmPackingSameScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingSameScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPartLotScan.Designer.vb">
+      <DependentUpon>FrmPartLotScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPartLotScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptionSet.Designer.vb">
+      <DependentUpon>FrmOptionSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptionSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPalletSetStyleSet.Designer.vb">
+      <DependentUpon>FrmPalletSetStyleSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPalletSetStyleSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPartition.designer.vb">
+      <DependentUpon>FrmPartition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPartition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionBoard.Designer.vb">
+      <DependentUpon>FrmProductionBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQCCheck.Designer.vb">
+      <DependentUpon>FrmQCCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQCCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQCCheckList.Designer.vb">
+      <DependentUpon>FrmQCCheckList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQCCheckList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQCNoCheck.Designer.vb">
+      <DependentUpon>FrmQCNoCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQCNoCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQcQuery.Designer.vb">
+      <DependentUpon>FrmQcQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQcQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQCReject.Designer.vb">
+      <DependentUpon>FrmQCReject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQCReject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQcSnDetail.Designer.vb">
+      <DependentUpon>FrmQcSnDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQcSnDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQCTestItem.Designer.vb">
+      <DependentUpon>FrmQCTestItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQCTestItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReCheckData.Designer.vb">
+      <DependentUpon>FrmReCheckData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReCheckData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRePrint.Designer.vb">
+      <DependentUpon>FrmRePrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRePrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.Designer.vb">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCartonReplace.Designer.vb">
+      <DependentUpon>FrmCartonReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCartonReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackCartonSet.Designer.vb">
+      <DependentUpon>FrmPackCartonSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackCartonSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackStandScan.Designer.vb">
+      <DependentUpon>FrmPackStandScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackStandScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReplaceLock.Designer.vb">
+      <DependentUpon>FrmReplaceLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReplaceLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanExceptionHandle.Designer.vb">
+      <DependentUpon>FrmScanExceptionHandle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanExceptionHandle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanStation.Designer.vb">
+      <DependentUpon>FrmScanStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetLock.Designer.vb">
+      <DependentUpon>FrmSetLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShareSetForm.Designer.vb">
+      <DependentUpon>FrmShareSetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShareSetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowDetail.Designer.vb">
+      <DependentUpon>FrmShowDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSNCheck.Designer.vb">
+      <DependentUpon>FrmSNCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSNCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSNCheckSet.Designer.vb">
+      <DependentUpon>FrmSNCheckSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSNCheckSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSnSet.Designer.vb">
+      <DependentUpon>FrmSnSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSnSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplitBox.Designer.vb">
+      <DependentUpon>FrmSplitBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplitBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStandardRework.Designer.vb">
+      <DependentUpon>FrmStandardRework.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStandardRework.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStandPackScanBS.Designer.vb">
+      <DependentUpon>FrmStandPackScanBS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStandPackScanBS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStantLotScan.Designer.vb">
+      <DependentUpon>FrmStantLotScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStantLotScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTestStationHandle.Designer.vb">
+      <DependentUpon>FrmTestStationHandle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTestStationHandle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdatePackingQuantity.Designer.vb">
+      <DependentUpon>FrmUpdatePackingQuantity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdatePackingQuantity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWait.Designer.vb">
+      <DependentUpon>FrmWait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkStandScanBS.Designer.vb">
+      <DependentUpon>FrmWorkStandScanBS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkStandScanBS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkStantScan.Designer.vb">
+      <DependentUpon>FrmWorkStantScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkStantScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkStantScanBZ.Designer.vb">
+      <DependentUpon>FrmWorkStantScanBZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkStantScanPpidWeight.Designer.vb">
+      <DependentUpon>FrmWorkStantScanPpidWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkStantScanPpidWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkStantScan_HWHL.designer.vb">
+      <DependentUpon>FrmWorkStantScan_HWHL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkStantScan_HWHL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkStantScan_L01.designer.vb">
+      <DependentUpon>FrmWorkStantScan_L01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkStantScan_L01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetMesData.vb" />
+    <Compile Include="ModuleClass.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="outScanOption.vb" />
+    <Compile Include="PackingCheckScan.vb" />
+    <Compile Include="PrintBarcode.vb" />
+    <Compile Include="Resources\Resource1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ScanCommon.vb" />
+    <Compile Include="ScanOption.vb" />
+    <Compile Include="ScanPrint.vb" />
+    <Compile Include="FrmScanPrt.Designer.vb">
+      <DependentUpon>FrmScanPrt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanPrt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScanSetting.vb" />
+    <Compile Include="SqlClass.vb" />
+    <Compile Include="WorkStantOption.vb" />
+    <Compile Include="FrmStantPackScan.Designer.vb">
+      <DependentUpon>FrmStantPackScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStantPackScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBarCodeReplace.Designer.vb">
+      <DependentUpon>FrmBarCodeReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBarCodeReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutoLaserPrint.Designer.vb">
+      <DependentUpon>FrmAutoLaserPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutoLaserPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductCheck.Designer.vb">
+      <DependentUpon>FrmProductCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExceptionHandling.Designer.vb">
+      <DependentUpon>FrmExceptionHandling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExceptionHandling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPackingScan.Designer.vb">
+      <DependentUpon>FrmPackingScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPackingScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewStantPackScan.Designer.vb">
+      <DependentUpon>FrmNewStantPackScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewStantPackScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewShareSetForm.Designer.vb">
+      <DependentUpon>FrmNewShareSetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewShareSetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmBOMCheckSet.resx">
+      <DependentUpon>FrmBOMCheckSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDateCodeInput.resx">
+      <DependentUpon>FrmDateCodeInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHMCheck.resx">
+      <DependentUpon>FrmHMCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmimag.resx">
+      <DependentUpon>Frmimag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNGBarLink.resx">
+      <DependentUpon>FrmNGBarLink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPpidExceptionHandle.resx">
+      <DependentUpon>FrmPpidExceptionHandle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQCAddBatch.resx">
+      <DependentUpon>FrmQCAddBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssemblySetting.resx">
+      <DependentUpon>FrmAssemblySetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoScanSendData.resx">
+      <DependentUpon>FrmAutoScanSendData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoWorkStantScan.resx">
+      <DependentUpon>FrmAutoWorkStantScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonLastQtySet.resx">
+      <DependentUpon>FrmCartonLastQtySet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonLastSet.resx">
+      <DependentUpon>FrmCartonLastSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonRepeatPrint.resx">
+      <DependentUpon>FrmCartonRepeatPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckCarton.resx">
+      <DependentUpon>FrmCheckCarton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckShippingBarCode.resx">
+      <DependentUpon>FrmCheckShippingBarCode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCOMSet.resx">
+      <DependentUpon>FrmCOMSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfigSet.resx">
+      <DependentUpon>FrmConfigSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCrossStageInputScan.resx">
+      <DependentUpon>FrmCrossStageInputScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmE75Bind.resx">
+      <DependentUpon>FrmE75Bind.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonPrompt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCartonPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeCard.resx">
+      <DependentUpon>FrmEmployeeCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFixedCodeScan.resx">
+      <DependentUpon>FrmFixedCodeScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFixedCodeSet.resx">
+      <DependentUpon>FrmFixedCodeSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWITMoStyleQuery.resx">
+      <DependentUpon>FrmHWITMoStyleQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWITScan.resx">
+      <DependentUpon>FrmHWITScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWOQCCheck.resx">
+      <DependentUpon>FrmHWOQCCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWOQCSet.resx">
+      <DependentUpon>FrmHWOQCSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHWPackScan.resx">
+      <DependentUpon>FrmHWPackScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIssueHandler.resx">
+      <DependentUpon>FrmIssueHandler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKeyPartAlter.resx">
+      <DependentUpon>FrmKeyPartAlter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLaserPrint.resx">
+      <DependentUpon>FrmLaserPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLastPalletSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLastPalletSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineQuery.resx">
+      <DependentUpon>FrmLineQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotShareSetForm.resx">
+      <DependentUpon>FrmLotShareSetForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMBarReplace.resx">
+      <DependentUpon>FrmMBarReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMerryShipScan.resx">
+      <DependentUpon>FrmMerryShipScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMOQuery.resx">
+      <DependentUpon>FrmMOQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMOStatusSetting.resx">
+      <DependentUpon>FrmMOStatusSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMultiPackScanDetail.resx">
+      <DependentUpon>FrmMultiPackScanDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMultiShowDetail.resx">
+      <DependentUpon>FrmMultiShowDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewEquipmentSetForm.resx">
+      <DependentUpon>FrmNewEquipmentSetForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewEquipmentSetFormZCTest.resx">
+      <DependentUpon>FrmNewEquipmentSetFormZCTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewStantPackScan_HWHL.resx">
+      <DependentUpon>FrmNewStantPackScan_HWHL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewStantPackScan_L01.resx">
+      <DependentUpon>FrmNewStantPackScan_L01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoBarCodePack.resx">
+      <DependentUpon>FrmNoBarCodePack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoBarCodeSet.resx">
+      <DependentUpon>FrmNoBarCodeSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOBACheck.resx">
+      <DependentUpon>FrmOBACheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOkCancel.resx">
+      <DependentUpon>FrmOkCancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineMoreCartonPrint.resx">
+      <DependentUpon>FrmOnlineMoreCartonPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlinePrintBarcode.resx">
+      <DependentUpon>FrmOnlinePrintBarcode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlinePrintCarton.resx">
+      <DependentUpon>FrmOnlinePrintCarton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineWeightPrint.resx">
+      <DependentUpon>FrmOnlineWeightPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineWorkPrint.resx">
+      <DependentUpon>FrmOnlineWorkPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineWorkPrintMAC.resx">
+      <DependentUpon>FrmOnlineWorkPrintMAC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineWorkPrintPES.resx">
+      <DependentUpon>FrmOnlineWorkPrintPES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineWorkPrintScanBar.resx">
+      <DependentUpon>FrmOnlineWorkPrintScanBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOutOfBoxCheck.resx">
+      <DependentUpon>FrmOutOfBoxCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMultiPackScan.resx">
+      <DependentUpon>FrmMultiPackScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingCheck.resx">
+      <DependentUpon>FrmPackingCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingCheckA.resx">
+      <DependentUpon>FrmPackingCheckA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingCheckMaster.resx">
+      <DependentUpon>FrmPackingCheckMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingCheckSetting.resx">
+      <DependentUpon>FrmPackingCheckSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingExceptionHandle.resx">
+      <DependentUpon>FrmPackingExceptionHandle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingSameScan.resx">
+      <DependentUpon>FrmPackingSameScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPartLotScan.resx">
+      <DependentUpon>FrmPartLotScan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptionSet.resx">
+      <DependentUpon>FrmOptionSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPalletSetStyleSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPalletSetStyleSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPartition.resx">
+      <DependentUpon>FrmPartition.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionBoard.resx">
+      <DependentUpon>FrmProductionBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQCCheck.resx">
+      <DependentUpon>FrmQCCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQCCheckList.resx">
+      <DependentUpon>FrmQCCheckList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQCNoCheck.resx">
+      <DependentUpon>FrmQCNoCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQcQuery.resx">
+      <DependentUpon>FrmQcQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQCReject.resx">
+      <DependentUpon>FrmQCReject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQcSnDetail.resx">
+      <DependentUpon>FrmQcSnDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQCTestItem.resx">
+      <DependentUpon>FrmQCTestItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReCheckData.resx">
+      <DependentUpon>FrmReCheckData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRePrint.resx">
+      <DependentUpon>FrmRePrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanErrPrompt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCartonReplace.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCartonReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackCartonSet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPackCartonSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackStandScan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPackStandScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReplaceLock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReplaceLock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanExceptionHandle.resx">
+      <DependentUpon>FrmScanExceptionHandle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanStation.resx">
+      <DependentUpon>FrmScanStation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetLock.resx">
+      <DependentUpon>FrmSetLock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShareSetForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmShareSetForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowDetail.resx">
+      <DependentUpon>FrmShowDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSNCheck.resx">
+      <DependentUpon>FrmSNCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSNCheckSet.resx">
+      <DependentUpon>FrmSNCheckSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnSet.resx">
+      <DependentUpon>FrmSnSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplitBox.resx">
+      <DependentUpon>FrmSplitBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStandardRework.resx">
+      <DependentUpon>FrmStandardRework.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStandPackScanBS.resx">
+      <DependentUpon>FrmStandPackScanBS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStantLotScan.resx">
+      <DependentUpon>FrmStantLotScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTestStationHandle.resx">
+      <DependentUpon>FrmTestStationHandle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdatePackingQuantity.resx">
+      <DependentUpon>FrmUpdatePackingQuantity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWait.resx">
+      <DependentUpon>FrmWait.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkStantScan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmWorkStantScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkStantScanBZ.resx">
+      <DependentUpon>FrmWorkStantScanBZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkStantScanPpidWeight.resx">
+      <DependentUpon>FrmWorkStantScanPpidWeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkStantScan_HWHL.resx">
+      <DependentUpon>FrmWorkStantScan_HWHL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkStantScan_L01.resx">
+      <DependentUpon>FrmWorkStantScan_L01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource1.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStantPackScan.resx">
+      <DependentUpon>FrmStantPackScan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBarCodeReplace.resx">
+      <DependentUpon>FrmBarCodeReplace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutoLaserPrint.resx">
+      <DependentUpon>FrmAutoLaserPrint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductCheck.resx">
+      <DependentUpon>FrmProductCheck.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExceptionHandling.resx">
+      <DependentUpon>FrmExceptionHandling.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPackingScan.resx">
+      <DependentUpon>FrmPackingScan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewStantPackScan.resx">
+      <DependentUpon>FrmNewStantPackScan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewShareSetForm.resx">
+      <DependentUpon>FrmNewShareSetForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanPrt.resx">
+      <DependentUpon>FrmScanPrt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmWorkStantScanBZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewEquipmentSetFormZCTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineWorkPrintMAC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ERR.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\chimes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_document_16px_25311_easyicon.net.png" />
+    <Content Include="Resources\query.gif" />
+    <None Include="Resources\fail_zhcn.wav" />
+    <None Include="Play\ok_zhcn.wav" />
+    <None Include="Play\fail_zhcn.wav" />
+    <None Include="Resources\delete row.gif" />
+    <None Include="Resources\delete row1.gif" />
+    <Content Include="Resources\edit.gif" />
+    <Content Include="Resources\mmmmm2.bmp" />
+    <None Include="Resources\ok_zhcn.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BarCodePrint\BarCodePrint.vbproj">
+      <Project>{953C2C10-BF59-4592-8F58-9E8B3DC335A1}</Project>
+      <Name>BarCodePrint</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RouteManagment\RouteManagement.csproj">
+      <Project>{771fa975-342f-4c77-9274-61975b65b9e6}</Project>
+      <Name>RouteManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{ec017007-adae-4cae-ac78-1f0a18a798f4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIHandler\UIHandler.csproj">
+      <Project>{fca8bb01-08a5-4448-b2be-0d28e1de048f}</Project>
+      <Name>UIHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5ca79a79-689e-4c76-92ad-b2d7aa71da22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

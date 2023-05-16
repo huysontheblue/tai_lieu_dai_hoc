@@ -1,0 +1,136 @@
+import cv2
+from matplotlib import pyplot as plt
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+
+menu_options = {
+    1: 'Biến đổi thành ảnh âm bản',
+    2: 'Thay đổi độ tương phản',
+    3: 'Thay đổi độ sáng',
+    4: 'Xoay ảnh sang phải 90 độ',
+    5: 'Xoay ảnh sang trái 90 độ',
+    6: 'Phân vùng ảnh bằng Otsu',
+    7: 'Vẽ Contour của ảnh',
+    8: 'Hiện histogram',
+    9: 'Lưu ảnh với tên Sinh viên',
+    10: 'Exit',
+}
+
+def print_menu():
+    for key in menu_options.keys():
+        print (key, '--', menu_options[key] )
+
+def option1():
+     print('Biến đổi thành ảnh âm bản')
+
+def option2():
+     print('Thay đổi độ tương phản')
+
+def option3():
+     print('Thay đổi độ sáng')
+     
+def option4():
+    print('Xoay ảnh sang phải 90 độ')
+    
+def option5():
+    print('Xoay ảnh sang trái 90 độ')
+        
+def option6():
+    print('Phân vùng ảnh bằng Otsu')        
+  
+def option7():
+    print('Vẽ Contour của ảnh')
+
+def option8():
+    print('Hiện histogram')        
+
+def option9():
+    print('Lưu ảnh với tên Sinh viên')
+    
+def option10():
+    print('Exit')
+    
+    
+if __name__=='__main__':
+    while(True):
+        print_menu()
+        option = ''
+        try:
+            option = int(input('Nhập sự lựa chọn của bạn: '))
+        except:
+            print('Nhập sai. Vui lòng nhập một số ...')
+            
+        if option == 1:
+           amban = 255 - img
+           cv2.imshow('Amban',amban)
+           cv2.waitKey(0)
+           cv2.destroyAllWindows()
+           
+        elif option == 2:
+            a = int(input('Nhap tuong phan: '))
+            hien = cv2.convertScaleAbs(img,10,a)
+            cv2.imshow('Trackbar',hien)
+            cv2.waitKey(0)
+            
+        elif option == 3:
+            a = int(input('Nhập độ sáng: '))
+            hien = cv2.convertScaleAbs(img,a/10,3)
+            cv2.imshow('Trackbar',hien)
+            cv2.waitKey(0)
+            
+        elif option == 4:
+            height, width = img.shape[:2]
+            center = (width/2, height/2)
+            M = cv2.getRotationMatrix2D(center=center, angle=90, scale=1)
+            img1 = cv2.warpAffine(img, M, dsize=(width, height))
+            cv2.imshow('anh goc', img)
+            cv2.imshow('Xoay sanh phai',img1) 
+            cv2.waitKey()
+            cv2.destroyAllWindows()
+            
+        elif option == 5:
+            height, width = img.shape[:2]
+            center = (width/2, height/2)
+            M = cv2.getRotationMatrix2D(center=center, angle=90, scale=-1)
+            img2 = cv2.warpAffine(img, M, dsize=(width, height))
+            cv2.imshow('anh goc', img)
+            cv2.imshow('Xoay sang trai',img2) 
+            cv2.waitKey()
+            cv2.destroyAllWindows()
+                
+        elif option == 6:
+            img1 = cv2.GaussianBlur(img, (5,5), 0)
+            anhxam = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+            ret, nguong = cv2.threshold(anhxam, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)     
+            cv2.imshow('Nguong Otsu', nguong)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
+            
+        elif option == 7:
+            cv2.GaussianBlur(img, (5,5), 0)
+            cv2.imshow('bd', img)
+            cn = cv2.Canny(img, 30, 200)
+            #danh sách contour,danh sách vecto= (ảnh đầu vào, kiểu trích xuất, phương pháp)
+            contours, hierarchy = cv2.findContours(cn, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+            cv2.drawContours(img, contours, -1, (0, 255, 0), 3)
+            cv2.imshow('Contours', img)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
+            
+        elif option == 8:
+            # plt.subplot(221),plt.imshow(img),plt.title('Anh ban dau')
+            # plt.subplot(222),plt.title('Histogram1'),plt.hist(anhxam)
+            
+            anhxam1 = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            plt.subplot(2,2,1).axis('off'),plt.imshow(img),plt.title('Ảnh ban đầu')
+            plt.subplot(2,2,2).axis('off'),plt.hist(img),plt.title('Histogram của ảnh')
+            
+        elif option == 9:
+            cv2.imwrite('D:\\XuLyAnh\\sondep.jpg', img)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
+            
+        elif option == 10:
+            print('Thoát chương trình')
+            exit()
+        else:
+            print('Tùy chọn không hợp lệ. Vui lòng nhập một số từ 1 đến 10.')

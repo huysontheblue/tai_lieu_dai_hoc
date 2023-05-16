@@ -1,0 +1,222 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\WmsManagement.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\WmsManagement.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\WmsManagement.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\WmsManagement.dll
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\WmsManagement.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\WmsManagement.xml
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.dll
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.xml
+D:\Users\C060148\Desktop\BDTest\DEV\WmsManagement\obj\Debug\WmsManagement.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\WmsManagement.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\WmsManagement.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\WmsManagement.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\WmsManagement\obj\Debug\WmsManagement.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\WmsManagement.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\WmsManagement.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\WmsManagement.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\WmsManagement.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\WmsManagement.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\WmsManagement.xml
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.vbprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.dll
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.xml
+C:\Users\matech\Desktop\VN\VN\DEV\WmsManagement\obj\Debug\WmsManagement.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\WmsManagement.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\WmsManagement.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\WmsManagement.xml
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.vbproj.CopyComplete
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.dll
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.xml
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.pdb
+D:\VNSFC\NV-SFC\DEV\WmsManagement\obj\Debug\WmsManagement.FrmWmsOutterBBY.resources
+D:\work\svn\SFC\NV_SFC\code\ShareFile\WmsManagement.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\WmsManagement.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\WmsManagement.xml
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.FrmWmsOutterBBY.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.dll
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.xml
+D:\work\svn\SFC\NV_SFC\code\WmsManagement\obj\Debug\WmsManagement.pdb
+D:\SFC CODE\ShareFile\WmsManagement.dll
+D:\SFC CODE\ShareFile\WmsManagement.pdb
+D:\SFC CODE\ShareFile\WmsManagement.xml
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmRYPONumber.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWmsOutterBBY.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.dll
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.xml
+D:\SFC CODE\WmsManagement\obj\Debug\WmsManagement.pdb
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.vbprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmBBYPONumber.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmHMshipment.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmHWPONumber.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmLocaion.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmLocationSet.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmPartRetrospective.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmRYPONumber.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingEditCheckQuantity.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingExport.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingQCCheck.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmShippingWarehouseCheck.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseFind.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseIn.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseInDetail.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOut.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWareHouseOutDetail.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.FrmWmsOutterBBY.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.Resources.resources
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.vbproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.dll
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.xml
+E:\SFC CODE\SFC CODE\WmsManagement\obj\Debug\WmsManagement.pdb

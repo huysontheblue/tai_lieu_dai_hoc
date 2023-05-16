@@ -1,0 +1,495 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BtBack</Control_Id>
+    <Chs_Desc>退 出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退 出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>checkBox1</Control_Id>
+    <Chs_Desc>移除外箱</Chs_Desc>
+    <Cht_Desc>移除外箱</Cht_Desc>
+    <En_Desc>Carton Removal</En_Desc>
+    <En_Full_Desc>CartonRemoval</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>chk_checkno</Control_Id>
+    <Chs_Desc>检测条码检验(无需要做校验的产品可以取消勾选)</Chs_Desc>
+    <Cht_Desc>檢測條碼檢驗(無需要做校驗的產品可以取消勾選)</Cht_Desc>
+    <En_Desc>Testing Barcode Inspect</En_Desc>
+    <En_Full_Desc>Barcode Inspect(uncheck prod.ticked rescind)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_0</Control_Id>
+    <Chs_Desc>楼层</Chs_Desc>
+    <Cht_Desc>樓層</Cht_Desc>
+    <En_Desc>Floor
+</En_Desc>
+    <En_Full_Desc>Floor</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_1</Control_Id>
+    <Chs_Desc>仓库</Chs_Desc>
+    <Cht_Desc>倉庫</Cht_Desc>
+    <En_Desc>Warehouse</En_Desc>
+    <En_Full_Desc>Warehouse</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_2</Control_Id>
+    <Chs_Desc>储位</Chs_Desc>
+    <Cht_Desc>儲位</Cht_Desc>
+    <En_Desc>
+
+Storage Location
+</En_Desc>
+    <En_Full_Desc>
+
+Storage Location
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_3</Control_Id>
+    <Chs_Desc>最佳拣货路线</Chs_Desc>
+    <Cht_Desc>最佳揀貨路線</Cht_Desc>
+    <En_Desc>Best Route</En_Desc>
+    <En_Full_Desc>Best Order Picking Route</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_4</Control_Id>
+    <Chs_Desc>外箱编号</Chs_Desc>
+    <Cht_Desc>外箱編號</Cht_Desc>
+    <En_Desc>Outer ID</En_Desc>
+    <En_Full_Desc>Outer Box ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_5</Control_Id>
+    <Chs_Desc>数量</Chs_Desc>
+    <Cht_Desc>數量</Cht_Desc>
+    <En_Desc>Qty</En_Desc>
+    <En_Full_Desc>Quantity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_6</Control_Id>
+    <Chs_Desc>版本</Chs_Desc>
+    <Cht_Desc>版本</Cht_Desc>
+    <En_Desc>Ver</En_Desc>
+    <En_Full_Desc>Version</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgM_SnRuleD_t_7</Control_Id>
+    <Chs_Desc>状态</Chs_Desc>
+    <Cht_Desc>狀態</Cht_Desc>
+    <En_Desc>Status</En_Desc>
+    <En_Full_Desc>Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_0</Control_Id>
+    <Chs_Desc>选择</Chs_Desc>
+    <Cht_Desc>選擇</Cht_Desc>
+    <En_Desc>Choice</En_Desc>
+    <En_Full_Desc>Choice</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_1</Control_Id>
+    <Chs_Desc>项次</Chs_Desc>
+    <Cht_Desc>項次</Cht_Desc>
+    <En_Desc>Item</En_Desc>
+    <En_Full_Desc>Item</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_2</Control_Id>
+    <Chs_Desc>料件编号</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_3</Control_Id>
+    <Chs_Desc>出货数量</Chs_Desc>
+    <Cht_Desc>出貨數量</Cht_Desc>
+    <En_Desc>Shipment Qty</En_Desc>
+    <En_Full_Desc>Shipment Quantity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_4</Control_Id>
+    <Chs_Desc>已扫描数量</Chs_Desc>
+    <Cht_Desc>已掃描數量</Cht_Desc>
+    <En_Desc>Scanned Qty</En_Desc>
+    <En_Full_Desc>Scanned Quantity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_5</Control_Id>
+    <Chs_Desc>状态</Chs_Desc>
+    <Cht_Desc>狀態</Cht_Desc>
+    <En_Desc>Status</En_Desc>
+    <En_Full_Desc>Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgOgbList_6</Control_Id>
+    <Chs_Desc>客户料号</Chs_Desc>
+    <Cht_Desc>客戶料號</Cht_Desc>
+    <En_Desc>Cust Part ID</En_Desc>
+    <En_Full_Desc>Customer Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_0</Control_Id>
+    <Chs_Desc>选择</Chs_Desc>
+    <Cht_Desc>選擇</Cht_Desc>
+    <En_Desc>Choice</En_Desc>
+    <En_Full_Desc>Choice</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_1</Control_Id>
+    <Chs_Desc>料件编号</Chs_Desc>
+    <Cht_Desc>料件編號</Cht_Desc>
+    <En_Desc>Part ID</En_Desc>
+    <En_Full_Desc>Part ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_2</Control_Id>
+    <Chs_Desc>外箱编号</Chs_Desc>
+    <Cht_Desc>外箱編號</Cht_Desc>
+    <En_Desc>Outer Box ID</En_Desc>
+    <En_Full_Desc>Outer Box ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_3</Control_Id>
+    <Chs_Desc>装箱数量</Chs_Desc>
+    <Cht_Desc>裝箱數量</Cht_Desc>
+    <En_Desc>Packing Qty</En_Desc>
+    <En_Full_Desc>Packing Quantity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_4</Control_Id>
+    <Chs_Desc>扫描人员</Chs_Desc>
+    <Cht_Desc>掃描人員</Cht_Desc>
+    <En_Desc>Scan Man</En_Desc>
+    <En_Full_Desc>Scanning personnel</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_5</Control_Id>
+    <Chs_Desc>扫描时间</Chs_Desc>
+    <Cht_Desc>掃描時間</Cht_Desc>
+    <En_Desc>Scan Time</En_Desc>
+    <En_Full_Desc>Scan Time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgScanData_6</Control_Id>
+    <Chs_Desc>栈板编号</Chs_Desc>
+    <Cht_Desc>棧板編號</Cht_Desc>
+    <En_Desc>Pallet ID</En_Desc>
+    <En_Full_Desc>Pallet ID</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmWmsOutter</Control_Id>
+    <Chs_Desc>仓库成品出货扫描作业</Chs_Desc>
+    <Cht_Desc>倉庫成品出貨掃描作業</Cht_Desc>
+    <En_Desc>Warehouse Product Shipping Scan</En_Desc>
+    <En_Full_Desc>Warehouse Product Shipping Scan</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>groupBox1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>groupBox2</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LabCartCoun</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label1</Control_Id>
+    <Chs_Desc>出货单号：</Chs_Desc>
+    <Cht_Desc>出貨單號：</Cht_Desc>
+    <En_Desc>Shipping No.:</En_Desc>
+    <En_Full_Desc>Shipping List No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label10</Control_Id>
+    <Chs_Desc>成品条码：</Chs_Desc>
+    <Cht_Desc>成品條碼：</Cht_Desc>
+    <En_Desc>Product Code</En_Desc>
+    <En_Full_Desc>Prod.Barcode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>DRI：</Chs_Desc>
+    <Cht_Desc>DRI：</Cht_Desc>
+    <En_Desc>DRI</En_Desc>
+    <En_Full_Desc>DRI</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label12</Control_Id>
+    <Chs_Desc>Build name-Config：</Chs_Desc>
+    <Cht_Desc>Build name-Config：</Cht_Desc>
+    <En_Desc>Build Name-Config:</En_Desc>
+    <En_Full_Desc>BuildName-Config</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label17</Control_Id>
+    <Chs_Desc>已包装箱数：</Chs_Desc>
+    <Cht_Desc>已包裝箱數：</Cht_Desc>
+    <En_Desc>Packed Qty</En_Desc>
+    <En_Full_Desc>PackedQty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label2</Control_Id>
+    <Chs_Desc>栈板条码：</Chs_Desc>
+    <Cht_Desc>棧板條碼：</Cht_Desc>
+    <En_Desc>Pallet Barcode</En_Desc>
+    <En_Full_Desc>Pallet Barcode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label3</Control_Id>
+    <Chs_Desc>外箱条码：</Chs_Desc>
+    <Cht_Desc>外箱條碼：</Cht_Desc>
+    <En_Desc>Carton Code</En_Desc>
+    <En_Full_Desc>CartonCode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>P/N</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>客户编号：</Chs_Desc>
+    <Cht_Desc>客戶編號：</Cht_Desc>
+    <En_Desc>Cust No.:</En_Desc>
+    <En_Full_Desc>Customer No.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label6</Control_Id>
+    <Chs_Desc>产品数量：</Chs_Desc>
+    <Cht_Desc>產品數量：</Cht_Desc>
+    <En_Desc>Product Qty</En_Desc>
+    <En_Full_Desc>Product Qty</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>label7</Control_Id>
+    <Chs_Desc>应装箱箱数：</Chs_Desc>
+    <Cht_Desc>應裝箱箱數：</Cht_Desc>
+    <En_Desc>Should Packed</En_Desc>
+    <En_Full_Desc>Should Packed Quantity</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>出货地址：</Chs_Desc>
+    <Cht_Desc>出貨地址：</Cht_Desc>
+    <En_Desc>Delivery Address</En_Desc>
+    <En_Full_Desc>Deliv.Address</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label9</Control_Id>
+    <Chs_Desc>单据编号：</Chs_Desc>
+    <Cht_Desc>單據編號：</Cht_Desc>
+    <En_Desc>Receipts No.:</En_Desc>
+    <En_Full_Desc>ReceiptsNo.:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblMsg</Control_Id>
+    <Chs_Desc>System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。</Chs_Desc>
+    <Cht_Desc>System.Data.OracleClient 需要 Oracle 客戶端軟件 8.1.7 或更高版本。</Cht_Desc>
+    <En_Desc>Oracle Clientware 8.1.7 or Higher Ver.</En_Desc>
+    <En_Full_Desc>System Data Oracle Client Request Oracle Clientware 8.1.7 or Higher Ver.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPalletQty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPartid</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblPqty</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadPack</Control_Id>
+    <Chs_Desc>外箱条码扫描</Chs_Desc>
+    <Cht_Desc>外箱條碼掃描</Cht_Desc>
+    <En_Desc>Outter Scan</En_Desc>
+    <En_Full_Desc>Outter Box Barcode Scan</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>radPallet</Control_Id>
+    <Chs_Desc>栈板条码扫描</Chs_Desc>
+    <Cht_Desc>棧板條碼掃描</Cht_Desc>
+    <En_Desc>Pallet Scan</En_Desc>
+    <En_Full_Desc>Pallet Barcode Scan</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadPalltPack</Control_Id>
+    <Chs_Desc>外箱+栈板条码扫描</Chs_Desc>
+    <Cht_Desc>外箱+棧板條碼掃描</Cht_Desc>
+    <En_Desc>Outter+Pallet Scan</En_Desc>
+    <En_Full_Desc>Outter Box+Pallet Scan</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>RadPPID</Control_Id>
+    <Chs_Desc>产品条码扫描</Chs_Desc>
+    <Cht_Desc>產品條碼掃描</Cht_Desc>
+    <En_Desc>Barcode Scan</En_Desc>
+    <En_Full_Desc>Product Barcode Scan</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolBack</Control_Id>
+    <Chs_Desc>取消设置(&amp;B)</Chs_Desc>
+    <Cht_Desc>取消設置(&amp;B)</Cht_Desc>
+    <En_Desc>Cancel Setting(&amp;B)</En_Desc>
+    <En_Full_Desc>CancelSetup(&amp;B)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolBTask</Control_Id>
+    <Chs_Desc>设置(&amp;K)</Chs_Desc>
+    <Cht_Desc>設置(&amp;K)</Cht_Desc>
+    <En_Desc>Setting(&amp;K)</En_Desc>
+    <En_Full_Desc>Setting(&amp;K)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolFinish</Control_Id>
+    <Chs_Desc>设置完成(&amp;A)</Chs_Desc>
+    <Cht_Desc>設置完成(&amp;A)</Cht_Desc>
+    <En_Desc>Setup Finish(&amp;A)</En_Desc>
+    <En_Full_Desc>SetupFinish(&amp;A)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolInit</Control_Id>
+    <Chs_Desc>重置(&amp;I)</Chs_Desc>
+    <Cht_Desc>重置(&amp;I)</Cht_Desc>
+    <En_Desc>Reset(&amp;I)</En_Desc>
+    <En_Full_Desc>Reset(&amp;I)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolLblCount</Control_Id>
+    <Chs_Desc>0</Chs_Desc>
+    <Cht_Desc>0</Cht_Desc>
+    <En_Desc>0</En_Desc>
+    <En_Full_Desc>0</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolSDele</Control_Id>
+    <Chs_Desc>舍弃(&amp;S)</Chs_Desc>
+    <Cht_Desc>舍棄(&amp;S)</Cht_Desc>
+    <En_Desc>Reject</En_Desc>
+    <En_Full_Desc>Reject</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripButton1</Control_Id>
+    <Chs_Desc>汇出Excel(&amp;E)</Chs_Desc>
+    <Cht_Desc>匯出Excel(&amp;E)</Cht_Desc>
+    <En_Desc>Export Excel(&amp;E)</En_Desc>
+    <En_Full_Desc>ExportExcel(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripButton2</Control_Id>
+    <Chs_Desc>驳回(&amp;S)</Chs_Desc>
+    <Cht_Desc>駁回(&amp;S)</Cht_Desc>
+    <En_Desc>Refusal(&amp;S)</En_Desc>
+    <En_Full_Desc>Refusal(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripButton3</Control_Id>
+    <Chs_Desc>确认(&amp;S)</Chs_Desc>
+    <Cht_Desc>確認(&amp;S)</Cht_Desc>
+    <En_Desc>Confirm(&amp;S)</En_Desc>
+    <En_Full_Desc>Confirm(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripStatusLabel1</Control_Id>
+    <Chs_Desc>记录笔数:</Chs_Desc>
+    <Cht_Desc>記錄筆數:</Cht_Desc>
+    <En_Desc>Record Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+</NewDataSet>

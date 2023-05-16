@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>btnClear</Control_Id>
+    <Chs_Desc>清空</Chs_Desc>
+    <Cht_Desc>清空</Cht_Desc>
+    <En_Desc>Clear</En_Desc>
+    <En_Full_Desc>Clear</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button1</Control_Id>
+    <Chs_Desc>确认</Chs_Desc>
+    <Cht_Desc>確認</Cht_Desc>
+    <En_Desc>Confirm</En_Desc>
+    <En_Full_Desc>Confirm</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button2</Control_Id>
+    <Chs_Desc>查询</Chs_Desc>
+    <Cht_Desc>查詢</Cht_Desc>
+    <En_Desc>Query</En_Desc>
+    <En_Full_Desc>Query</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>chkReadAuto</Control_Id>
+    <Chs_Desc>读取自动绑定ASN</Chs_Desc>
+    <Cht_Desc>讀取自動綁定ASN</Cht_Desc>
+    <En_Desc>
+
+Read Auto Binding ASN
+</En_Desc>
+    <En_Full_Desc>
+
+Read Auto Binding ASN
+</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgLogNi_0</Control_Id>
+    <Chs_Desc>ASN条码</Chs_Desc>
+    <Cht_Desc>ASN條碼</Cht_Desc>
+    <En_Desc>ASN Barcode</En_Desc>
+    <En_Full_Desc>ASN Barcode</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>dgLogNi_1</Control_Id>
+    <Chs_Desc>E75序号</Chs_Desc>
+    <Cht_Desc>E75序號</Cht_Desc>
+    <En_Desc>E75 No.</En_Desc>
+    <En_Full_Desc>E75 Serial No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmLinkAsn</Control_Id>
+    <Chs_Desc>FrmLinkAsn</Chs_Desc>
+    <Cht_Desc>FrmLinkAsn</Cht_Desc>
+    <En_Desc>FrmLinkAsn</En_Desc>
+    <En_Full_Desc>FrmLinkAsn</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>ASN Number：</Chs_Desc>
+    <Cht_Desc>ASN Number：</Cht_Desc>
+    <En_Desc>ASN Number：</En_Desc>
+    <En_Full_Desc>ASN Number：</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label82</Control_Id>
+    <Chs_Desc>module serial number：</Chs_Desc>
+    <Cht_Desc>module serial number：</Cht_Desc>
+    <En_Desc>module serial number：</En_Desc>
+    <En_Full_Desc>module serial number：</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label83</Control_Id>
+    <Chs_Desc>E75 module serial number：</Chs_Desc>
+    <Cht_Desc>E75 module serial number：</Cht_Desc>
+    <En_Desc>E75 module serial number：</En_Desc>
+    <En_Full_Desc>E75 module serial number：</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>lblMessageE75</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

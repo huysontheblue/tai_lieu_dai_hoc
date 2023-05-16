@@ -1,0 +1,914 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FrmWarehouseingMaster
+    Inherits System.Windows.Forms.Form
+
+    'Form 重写 Dispose，以清理组件列表。
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows 窗体设计器所必需的
+    Private components As System.ComponentModel.IContainer
+
+    '注意: 以下过程是 Windows 窗体设计器所必需的
+    '可以使用 Windows 窗体设计器修改它。
+    '不要使用代码编辑器修改它。
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.LabelX1 = New DevComponents.DotNetBar.LabelX()
+        Me.dtpInvoiceDate = New DevComponents.Editors.DateTimeAdv.DateTimeInput()
+        Me.LabelX2 = New DevComponents.DotNetBar.LabelX()
+        Me.cboWarehouse = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.cboInvoiceTransactionType = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.LabelX3 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX4 = New DevComponents.DotNetBar.LabelX()
+        Me.mtxtSupplier = New DevComponents.DotNetBar.Controls.MaskedTextBoxAdv()
+        Me.LabelX5 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX6 = New DevComponents.DotNetBar.LabelX()
+        Me.mtxtDelivery = New DevComponents.DotNetBar.Controls.MaskedTextBoxAdv()
+        Me.LabelX7 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX8 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX9 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX10 = New DevComponents.DotNetBar.LabelX()
+        Me.CheckBoxX1 = New DevComponents.DotNetBar.Controls.CheckBoxX()
+        Me.btnSave = New DevComponents.DotNetBar.ButtonX()
+        Me.btnCancel = New DevComponents.DotNetBar.ButtonX()
+        Me.btnInsertRow = New DevComponents.DotNetBar.ButtonX()
+        Me.btnDeleteRow = New DevComponents.DotNetBar.ButtonX()
+        Me.btnBarcodeInput = New DevComponents.DotNetBar.ButtonX()
+        Me.btnSelectmaterial = New DevComponents.DotNetBar.ButtonX()
+        Me.txtTransactionId = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtOrderNumber = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtRemark = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtERPTranscationID = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.LabelX11 = New DevComponents.DotNetBar.LabelX()
+        Me.lblMessage = New DevComponents.DotNetBar.LabelX()
+        Me.btnStick = New DevComponents.DotNetBar.ButtonX()
+        Me.mtxtAttentionName = New DevComponents.DotNetBar.Controls.MaskedTextBoxAdv()
+        Me.dgvInvoiceTransactionItem = New DevComponents.DotNetBar.Controls.DataGridViewX()
+        Me.ItemId = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TransactionType = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MATERIALNO = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DESCRIPTION = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.SPECIFICATION = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UOM_NAME = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.STOCKQUANTITY = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PlanQuantity = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.mtxtWarehouseLocationId = New DevComponents.DotNetBar.Controls.DataGridViewMaskedTextBoxAdvColumn()
+        Me.QUANTITY = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UNITPRICE = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalAmount = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.OrderNumber = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.REMARK = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.dtpInvoiceDate, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvInvoiceTransactionItem, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'LabelX1
+        '
+        '
+        '
+        '
+        Me.LabelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX1.Location = New System.Drawing.Point(19, 13)
+        Me.LabelX1.Name = "LabelX1"
+        Me.LabelX1.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX1.TabIndex = 0
+        Me.LabelX1.Text = "日     期"
+        '
+        'dtpInvoiceDate
+        '
+        '
+        '
+        '
+        Me.dtpInvoiceDate.BackgroundStyle.Class = "DateTimeInputBackground"
+        Me.dtpInvoiceDate.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.dtpInvoiceDate.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown
+        Me.dtpInvoiceDate.ButtonDropDown.Visible = True
+        Me.dtpInvoiceDate.CustomFormat = "yyyy-MM-dd"
+        Me.dtpInvoiceDate.Format = DevComponents.Editors.eDateTimePickerFormat.Custom
+        Me.dtpInvoiceDate.IsPopupCalendarOpen = False
+        Me.dtpInvoiceDate.Location = New System.Drawing.Point(89, 13)
+        '
+        '
+        '
+        Me.dtpInvoiceDate.MonthCalendar.AnnuallyMarkedDates = New Date(-1) {}
+        '
+        '
+        '
+        Me.dtpInvoiceDate.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.dtpInvoiceDate.MonthCalendar.CalendarDimensions = New System.Drawing.Size(1, 1)
+        Me.dtpInvoiceDate.MonthCalendar.ClearButtonVisible = True
+        '
+        '
+        '
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1
+        Me.dtpInvoiceDate.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.dtpInvoiceDate.MonthCalendar.DisplayMonth = New Date(2015, 7, 1, 0, 0, 0, 0)
+        Me.dtpInvoiceDate.MonthCalendar.MarkedDates = New Date(-1) {}
+        Me.dtpInvoiceDate.MonthCalendar.MonthlyMarkedDates = New Date(-1) {}
+        '
+        '
+        '
+        Me.dtpInvoiceDate.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
+        Me.dtpInvoiceDate.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90
+        Me.dtpInvoiceDate.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
+        Me.dtpInvoiceDate.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.dtpInvoiceDate.MonthCalendar.TodayButtonVisible = True
+        Me.dtpInvoiceDate.MonthCalendar.WeeklyMarkedDays = New System.DayOfWeek(-1) {}
+        Me.dtpInvoiceDate.Name = "dtpInvoiceDate"
+        Me.dtpInvoiceDate.Size = New System.Drawing.Size(170, 21)
+        Me.dtpInvoiceDate.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.dtpInvoiceDate.TabIndex = 1
+        '
+        'LabelX2
+        '
+        '
+        '
+        '
+        Me.LabelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX2.Location = New System.Drawing.Point(322, 53)
+        Me.LabelX2.Name = "LabelX2"
+        Me.LabelX2.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX2.TabIndex = 2
+        Me.LabelX2.Text = "仓     库"
+        '
+        'cboWarehouse
+        '
+        Me.cboWarehouse.DisplayMember = "Text"
+        Me.cboWarehouse.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboWarehouse.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboWarehouse.FormattingEnabled = True
+        Me.cboWarehouse.ItemHeight = 15
+        Me.cboWarehouse.Location = New System.Drawing.Point(392, 53)
+        Me.cboWarehouse.Name = "cboWarehouse"
+        Me.cboWarehouse.Size = New System.Drawing.Size(170, 21)
+        Me.cboWarehouse.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.cboWarehouse.TabIndex = 3
+        '
+        'cboInvoiceTransactionType
+        '
+        Me.cboInvoiceTransactionType.DisplayMember = "Text"
+        Me.cboInvoiceTransactionType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboInvoiceTransactionType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboInvoiceTransactionType.FormattingEnabled = True
+        Me.cboInvoiceTransactionType.ItemHeight = 15
+        Me.cboInvoiceTransactionType.Location = New System.Drawing.Point(688, 13)
+        Me.cboInvoiceTransactionType.Name = "cboInvoiceTransactionType"
+        Me.cboInvoiceTransactionType.Size = New System.Drawing.Size(170, 21)
+        Me.cboInvoiceTransactionType.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.cboInvoiceTransactionType.TabIndex = 5
+        '
+        'LabelX3
+        '
+        '
+        '
+        '
+        Me.LabelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX3.Location = New System.Drawing.Point(618, 13)
+        Me.LabelX3.Name = "LabelX3"
+        Me.LabelX3.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX3.TabIndex = 4
+        Me.LabelX3.Text = "类     型"
+        '
+        'LabelX4
+        '
+        '
+        '
+        '
+        Me.LabelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX4.Location = New System.Drawing.Point(322, 13)
+        Me.LabelX4.Name = "LabelX4"
+        Me.LabelX4.Size = New System.Drawing.Size(82, 23)
+        Me.LabelX4.TabIndex = 7
+        Me.LabelX4.Text = "单     号"
+        '
+        'mtxtSupplier
+        '
+        '
+        '
+        '
+        Me.mtxtSupplier.BackgroundStyle.Class = "TextBoxBorder"
+        Me.mtxtSupplier.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.mtxtSupplier.ButtonCustom.Visible = True
+        Me.mtxtSupplier.Location = New System.Drawing.Point(392, 94)
+        Me.mtxtSupplier.Name = "mtxtSupplier"
+        Me.mtxtSupplier.ReadOnly = True
+        Me.mtxtSupplier.Size = New System.Drawing.Size(170, 21)
+        Me.mtxtSupplier.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.mtxtSupplier.TabIndex = 9
+        Me.mtxtSupplier.Text = ""
+        '
+        'LabelX5
+        '
+        '
+        '
+        '
+        Me.LabelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX5.Location = New System.Drawing.Point(322, 93)
+        Me.LabelX5.Name = "LabelX5"
+        Me.LabelX5.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX5.TabIndex = 8
+        Me.LabelX5.Text = "供 应  商"
+        '
+        'LabelX6
+        '
+        '
+        '
+        '
+        Me.LabelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX6.Location = New System.Drawing.Point(618, 94)
+        Me.LabelX6.Name = "LabelX6"
+        Me.LabelX6.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX6.TabIndex = 11
+        Me.LabelX6.Text = "交  货 人"
+        '
+        'mtxtDelivery
+        '
+        '
+        '
+        '
+        Me.mtxtDelivery.BackgroundStyle.Class = "TextBoxBorder"
+        Me.mtxtDelivery.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.mtxtDelivery.ButtonCustom.Visible = True
+        Me.mtxtDelivery.Location = New System.Drawing.Point(688, 94)
+        Me.mtxtDelivery.Name = "mtxtDelivery"
+        Me.mtxtDelivery.ReadOnly = True
+        Me.mtxtDelivery.Size = New System.Drawing.Size(170, 21)
+        Me.mtxtDelivery.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.mtxtDelivery.TabIndex = 10
+        Me.mtxtDelivery.Text = ""
+        '
+        'LabelX7
+        '
+        '
+        '
+        '
+        Me.LabelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX7.Location = New System.Drawing.Point(19, 94)
+        Me.LabelX7.Name = "LabelX7"
+        Me.LabelX7.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX7.TabIndex = 12
+        Me.LabelX7.Text = "经  办 人"
+        '
+        'LabelX8
+        '
+        '
+        '
+        '
+        Me.LabelX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX8.Location = New System.Drawing.Point(618, 53)
+        Me.LabelX8.Name = "LabelX8"
+        Me.LabelX8.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX8.TabIndex = 15
+        Me.LabelX8.Text = "订  单 号"
+        '
+        'LabelX9
+        '
+        '
+        '
+        '
+        Me.LabelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX9.Location = New System.Drawing.Point(18, 133)
+        Me.LabelX9.Name = "LabelX9"
+        Me.LabelX9.Size = New System.Drawing.Size(75, 23)
+        Me.LabelX9.TabIndex = 17
+        Me.LabelX9.Text = "备     注"
+        '
+        'LabelX10
+        '
+        '
+        '
+        '
+        Me.LabelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX10.Location = New System.Drawing.Point(19, 163)
+        Me.LabelX10.Name = "LabelX10"
+        Me.LabelX10.Size = New System.Drawing.Size(354, 23)
+        Me.LabelX10.TabIndex = 18
+        Me.LabelX10.Text = "▼下方输入料号编码或右侧""选择料号""或""条码录入"""
+        '
+        'CheckBoxX1
+        '
+        '
+        '
+        '
+        Me.CheckBoxX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.CheckBoxX1.Location = New System.Drawing.Point(568, 164)
+        Me.CheckBoxX1.Name = "CheckBoxX1"
+        Me.CheckBoxX1.Size = New System.Drawing.Size(226, 23)
+        Me.CheckBoxX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.CheckBoxX1.TabIndex = 19
+        Me.CheckBoxX1.Text = "启用计量单位换算(如1箱=10个）"
+        '
+        'btnSave
+        '
+        Me.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnSave.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnSave.Location = New System.Drawing.Point(585, 459)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnSave.TabIndex = 21
+        Me.btnSave.Text = "保  存"
+        '
+        'btnCancel
+        '
+        Me.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnCancel.Location = New System.Drawing.Point(726, 459)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
+        Me.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnCancel.TabIndex = 22
+        Me.btnCancel.Text = "取  消"
+        '
+        'btnInsertRow
+        '
+        Me.btnInsertRow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnInsertRow.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnInsertRow.Location = New System.Drawing.Point(870, 255)
+        Me.btnInsertRow.Name = "btnInsertRow"
+        Me.btnInsertRow.Size = New System.Drawing.Size(75, 23)
+        Me.btnInsertRow.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnInsertRow.TabIndex = 23
+        Me.btnInsertRow.Text = "增加行"
+        '
+        'btnDeleteRow
+        '
+        Me.btnDeleteRow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnDeleteRow.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnDeleteRow.Location = New System.Drawing.Point(870, 302)
+        Me.btnDeleteRow.Name = "btnDeleteRow"
+        Me.btnDeleteRow.Size = New System.Drawing.Size(75, 23)
+        Me.btnDeleteRow.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnDeleteRow.TabIndex = 24
+        Me.btnDeleteRow.Text = "删除行"
+        '
+        'btnBarcodeInput
+        '
+        Me.btnBarcodeInput.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnBarcodeInput.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnBarcodeInput.Location = New System.Drawing.Point(870, 349)
+        Me.btnBarcodeInput.Name = "btnBarcodeInput"
+        Me.btnBarcodeInput.Size = New System.Drawing.Size(75, 23)
+        Me.btnBarcodeInput.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnBarcodeInput.TabIndex = 25
+        Me.btnBarcodeInput.Text = "条码录入"
+        '
+        'btnSelectmaterial
+        '
+        Me.btnSelectmaterial.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnSelectmaterial.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnSelectmaterial.Location = New System.Drawing.Point(870, 208)
+        Me.btnSelectmaterial.Name = "btnSelectmaterial"
+        Me.btnSelectmaterial.Size = New System.Drawing.Size(75, 23)
+        Me.btnSelectmaterial.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnSelectmaterial.TabIndex = 26
+        Me.btnSelectmaterial.Text = "选择料号"
+        '
+        'txtTransactionId
+        '
+        '
+        '
+        '
+        Me.txtTransactionId.Border.Class = "TextBoxBorder"
+        Me.txtTransactionId.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtTransactionId.Location = New System.Drawing.Point(392, 13)
+        Me.txtTransactionId.Name = "txtTransactionId"
+        Me.txtTransactionId.Size = New System.Drawing.Size(170, 21)
+        Me.txtTransactionId.TabIndex = 28
+        '
+        'txtOrderNumber
+        '
+        '
+        '
+        '
+        Me.txtOrderNumber.Border.Class = "TextBoxBorder"
+        Me.txtOrderNumber.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtOrderNumber.Location = New System.Drawing.Point(688, 53)
+        Me.txtOrderNumber.Name = "txtOrderNumber"
+        Me.txtOrderNumber.Size = New System.Drawing.Size(170, 21)
+        Me.txtOrderNumber.TabIndex = 29
+        '
+        'txtRemark
+        '
+        '
+        '
+        '
+        Me.txtRemark.Border.Class = "TextBoxBorder"
+        Me.txtRemark.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtRemark.Location = New System.Drawing.Point(88, 134)
+        Me.txtRemark.Name = "txtRemark"
+        Me.txtRemark.Size = New System.Drawing.Size(770, 21)
+        Me.txtRemark.TabIndex = 30
+        '
+        'txtERPTranscationID
+        '
+        '
+        '
+        '
+        Me.txtERPTranscationID.Border.Class = "TextBoxBorder"
+        Me.txtERPTranscationID.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.txtERPTranscationID.Location = New System.Drawing.Point(89, 53)
+        Me.txtERPTranscationID.Name = "txtERPTranscationID"
+        Me.txtERPTranscationID.Size = New System.Drawing.Size(170, 21)
+        Me.txtERPTranscationID.TabIndex = 32
+        '
+        'LabelX11
+        '
+        '
+        '
+        '
+        Me.LabelX11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.LabelX11.Location = New System.Drawing.Point(19, 53)
+        Me.LabelX11.Name = "LabelX11"
+        Me.LabelX11.Size = New System.Drawing.Size(82, 23)
+        Me.LabelX11.TabIndex = 31
+        Me.LabelX11.Text = "Tiptop单号"
+        '
+        'lblMessage
+        '
+        '
+        '
+        '
+        Me.lblMessage.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.lblMessage.Font = New System.Drawing.Font("宋体", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.lblMessage.Location = New System.Drawing.Point(19, 459)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(419, 23)
+        Me.lblMessage.TabIndex = 33
+        '
+        'btnStick
+        '
+        Me.btnStick.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnStick.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnStick.Location = New System.Drawing.Point(870, 393)
+        Me.btnStick.Name = "btnStick"
+        Me.btnStick.Size = New System.Drawing.Size(75, 23)
+        Me.btnStick.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.btnStick.TabIndex = 34
+        Me.btnStick.Text = "批量粘贴"
+        '
+        'mtxtAttentionName
+        '
+        '
+        '
+        '
+        Me.mtxtAttentionName.BackgroundStyle.Class = "TextBoxBorder"
+        Me.mtxtAttentionName.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.mtxtAttentionName.ButtonCustom.Visible = True
+        Me.mtxtAttentionName.Location = New System.Drawing.Point(89, 94)
+        Me.mtxtAttentionName.Name = "mtxtAttentionName"
+        Me.mtxtAttentionName.ReadOnly = True
+        Me.mtxtAttentionName.Size = New System.Drawing.Size(170, 21)
+        Me.mtxtAttentionName.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+        Me.mtxtAttentionName.TabIndex = 35
+        Me.mtxtAttentionName.Text = ""
+        '
+        'dgvInvoiceTransactionItem
+        '
+        Me.dgvInvoiceTransactionItem.AllowUserToAddRows = False
+        Me.dgvInvoiceTransactionItem.AllowUserToDeleteRows = False
+        Me.dgvInvoiceTransactionItem.BackgroundColor = System.Drawing.SystemColors.Window
+        Me.dgvInvoiceTransactionItem.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvInvoiceTransactionItem.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        Me.dgvInvoiceTransactionItem.ColumnHeadersHeight = 32
+        Me.dgvInvoiceTransactionItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgvInvoiceTransactionItem.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ItemId, Me.TransactionType, Me.MATERIALNO, Me.DESCRIPTION, Me.SPECIFICATION, Me.UOM_NAME, Me.STOCKQUANTITY, Me.PlanQuantity, Me.mtxtWarehouseLocationId, Me.QUANTITY, Me.UNITPRICE, Me.TotalAmount, Me.OrderNumber, Me.REMARK})
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(139, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvInvoiceTransactionItem.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dgvInvoiceTransactionItem.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter
+        Me.dgvInvoiceTransactionItem.EnableHeadersVisualStyles = False
+        Me.dgvInvoiceTransactionItem.GridColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(211, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.dgvInvoiceTransactionItem.Location = New System.Drawing.Point(18, 192)
+        Me.dgvInvoiceTransactionItem.MultiSelect = False
+        Me.dgvInvoiceTransactionItem.Name = "dgvInvoiceTransactionItem"
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("宋体", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvInvoiceTransactionItem.RowHeadersDefaultCellStyle = DataGridViewCellStyle7
+        Me.dgvInvoiceTransactionItem.RowHeadersWidth = 15
+        Me.dgvInvoiceTransactionItem.RowTemplate.Height = 28
+        Me.dgvInvoiceTransactionItem.Size = New System.Drawing.Size(840, 246)
+        Me.dgvInvoiceTransactionItem.TabIndex = 140
+        '
+        'ItemId
+        '
+        Me.ItemId.DataPropertyName = "ItemId"
+        Me.ItemId.HeaderText = "ItemId"
+        Me.ItemId.Name = "ItemId"
+        Me.ItemId.ReadOnly = True
+        Me.ItemId.Visible = False
+        Me.ItemId.Width = 66
+        '
+        'TransactionType
+        '
+        Me.TransactionType.DataPropertyName = "TransactionType"
+        Me.TransactionType.HeaderText = "TransactionType"
+        Me.TransactionType.Name = "TransactionType"
+        Me.TransactionType.ReadOnly = True
+        Me.TransactionType.Visible = False
+        '
+        'MATERIALNO
+        '
+        Me.MATERIALNO.DataPropertyName = "MATERIALNO"
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.LightGray
+        Me.MATERIALNO.DefaultCellStyle = DataGridViewCellStyle2
+        Me.MATERIALNO.FillWeight = 120.6621!
+        Me.MATERIALNO.HeaderText = "料号"
+        Me.MATERIALNO.Name = "MATERIALNO"
+        Me.MATERIALNO.ReadOnly = True
+        Me.MATERIALNO.Width = 150
+        '
+        'DESCRIPTION
+        '
+        Me.DESCRIPTION.DataPropertyName = "DESCRIPTION"
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.LightGray
+        Me.DESCRIPTION.DefaultCellStyle = DataGridViewCellStyle3
+        Me.DESCRIPTION.FillWeight = 194.1506!
+        Me.DESCRIPTION.HeaderText = "品名"
+        Me.DESCRIPTION.Name = "DESCRIPTION"
+        Me.DESCRIPTION.ReadOnly = True
+        Me.DESCRIPTION.Width = 120
+        '
+        'SPECIFICATION
+        '
+        Me.SPECIFICATION.DataPropertyName = "SPECIFICATION"
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.LightGray
+        Me.SPECIFICATION.DefaultCellStyle = DataGridViewCellStyle4
+        Me.SPECIFICATION.FillWeight = 384.243!
+        Me.SPECIFICATION.HeaderText = "规格"
+        Me.SPECIFICATION.Name = "SPECIFICATION"
+        Me.SPECIFICATION.ReadOnly = True
+        Me.SPECIFICATION.Width = 120
+        '
+        'UOM_NAME
+        '
+        Me.UOM_NAME.DataPropertyName = "UOM_NAME"
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.LightGray
+        Me.UOM_NAME.DefaultCellStyle = DataGridViewCellStyle5
+        Me.UOM_NAME.FillWeight = 161.4316!
+        Me.UOM_NAME.HeaderText = "单位"
+        Me.UOM_NAME.Name = "UOM_NAME"
+        Me.UOM_NAME.ReadOnly = True
+        Me.UOM_NAME.Width = 35
+        '
+        'STOCKQUANTITY
+        '
+        Me.STOCKQUANTITY.DataPropertyName = "STOCKQUANTITY"
+        Me.STOCKQUANTITY.FillWeight = 9.595305!
+        Me.STOCKQUANTITY.HeaderText = "库存数量"
+        Me.STOCKQUANTITY.Name = "STOCKQUANTITY"
+        Me.STOCKQUANTITY.ReadOnly = True
+        Me.STOCKQUANTITY.Width = 60
+        '
+        'PlanQuantity
+        '
+        Me.PlanQuantity.DataPropertyName = "PlanQuantity"
+        Me.PlanQuantity.HeaderText = "下载数量"
+        Me.PlanQuantity.Name = "PlanQuantity"
+        Me.PlanQuantity.ReadOnly = True
+        Me.PlanQuantity.Width = 60
+        '
+        'mtxtWarehouseLocationId
+        '
+        Me.mtxtWarehouseLocationId.BackColor = System.Drawing.SystemColors.Window
+        '
+        '
+        '
+        Me.mtxtWarehouseLocationId.BackgroundStyle.Class = "DataGridViewBorder"
+        Me.mtxtWarehouseLocationId.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
+        Me.mtxtWarehouseLocationId.ButtonCustom.Visible = True
+        Me.mtxtWarehouseLocationId.Culture = New System.Globalization.CultureInfo("zh-CN")
+        Me.mtxtWarehouseLocationId.DataPropertyName = "WarehouseLocationId"
+        Me.mtxtWarehouseLocationId.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.mtxtWarehouseLocationId.HeaderText = "储位"
+        Me.mtxtWarehouseLocationId.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.mtxtWarehouseLocationId.Mask = ""
+        Me.mtxtWarehouseLocationId.Name = "mtxtWarehouseLocationId"
+        Me.mtxtWarehouseLocationId.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.mtxtWarehouseLocationId.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.mtxtWarehouseLocationId.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.mtxtWarehouseLocationId.Text = ""
+        Me.mtxtWarehouseLocationId.Width = 80
+        '
+        'QUANTITY
+        '
+        Me.QUANTITY.DataPropertyName = "QUANTITY"
+        Me.QUANTITY.FillWeight = 9.760911!
+        Me.QUANTITY.HeaderText = "数量"
+        Me.QUANTITY.Name = "QUANTITY"
+        Me.QUANTITY.Width = 60
+        '
+        'UNITPRICE
+        '
+        Me.UNITPRICE.DataPropertyName = "UNITPRICE"
+        Me.UNITPRICE.FillWeight = 9.595305!
+        Me.UNITPRICE.HeaderText = "单价"
+        Me.UNITPRICE.Name = "UNITPRICE"
+        Me.UNITPRICE.ReadOnly = True
+        Me.UNITPRICE.Width = 60
+        '
+        'TotalAmount
+        '
+        Me.TotalAmount.DataPropertyName = "TotalAmount"
+        Me.TotalAmount.FillWeight = 9.595305!
+        Me.TotalAmount.HeaderText = "金额"
+        Me.TotalAmount.Name = "TotalAmount"
+        Me.TotalAmount.ReadOnly = True
+        Me.TotalAmount.Width = 60
+        '
+        'OrderNumber
+        '
+        Me.OrderNumber.DataPropertyName = "OrderNumber"
+        Me.OrderNumber.HeaderText = "订单号"
+        Me.OrderNumber.Name = "OrderNumber"
+        Me.OrderNumber.Width = 60
+        '
+        'REMARK
+        '
+        Me.REMARK.DataPropertyName = "REMARK"
+        Me.REMARK.FillWeight = 9.595305!
+        Me.REMARK.HeaderText = "备注"
+        Me.REMARK.Name = "REMARK"
+        Me.REMARK.Width = 118
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.DataPropertyName = "MATERIAL_NO"
+        Me.DataGridViewTextBoxColumn1.FillWeight = 101.7259!
+        Me.DataGridViewTextBoxColumn1.HeaderText = "料号"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ReadOnly = True
+        Me.DataGridViewTextBoxColumn1.Visible = False
+        Me.DataGridViewTextBoxColumn1.Width = 92
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.DataPropertyName = "DESCRIPTION"
+        Me.DataGridViewTextBoxColumn2.FillWeight = 101.7259!
+        Me.DataGridViewTextBoxColumn2.HeaderText = "品名"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.ReadOnly = True
+        Me.DataGridViewTextBoxColumn2.Visible = False
+        Me.DataGridViewTextBoxColumn2.Width = 93
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.DataPropertyName = "SPECIFICATION"
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.LightGray
+        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle8
+        Me.DataGridViewTextBoxColumn3.FillWeight = 101.7259!
+        Me.DataGridViewTextBoxColumn3.HeaderText = "规格"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.ReadOnly = True
+        Me.DataGridViewTextBoxColumn3.Visible = False
+        Me.DataGridViewTextBoxColumn3.Width = 92
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.DataPropertyName = "UOM_NAME"
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.LightGray
+        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle9
+        Me.DataGridViewTextBoxColumn4.FillWeight = 101.7259!
+        Me.DataGridViewTextBoxColumn4.HeaderText = "单位"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.ReadOnly = True
+        Me.DataGridViewTextBoxColumn4.Width = 92
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        Me.DataGridViewTextBoxColumn5.DataPropertyName = "SPECIFICATION"
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.LightGray
+        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle10
+        Me.DataGridViewTextBoxColumn5.FillWeight = 384.243!
+        Me.DataGridViewTextBoxColumn5.HeaderText = "库存数量"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.ReadOnly = True
+        Me.DataGridViewTextBoxColumn5.Width = 91
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        Me.DataGridViewTextBoxColumn6.DataPropertyName = "QUANTITY"
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.LightGray
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle11
+        Me.DataGridViewTextBoxColumn6.FillWeight = 101.7259!
+        Me.DataGridViewTextBoxColumn6.HeaderText = "数量"
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        Me.DataGridViewTextBoxColumn6.ReadOnly = True
+        Me.DataGridViewTextBoxColumn6.Width = 92
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        Me.DataGridViewTextBoxColumn7.DataPropertyName = "UOM_NAME"
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.LightGray
+        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle12
+        Me.DataGridViewTextBoxColumn7.FillWeight = 9.595305!
+        Me.DataGridViewTextBoxColumn7.HeaderText = "单价"
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        Me.DataGridViewTextBoxColumn7.ReadOnly = True
+        Me.DataGridViewTextBoxColumn7.Width = 90
+        '
+        'DataGridViewTextBoxColumn8
+        '
+        Me.DataGridViewTextBoxColumn8.DataPropertyName = "QUANTITY"
+        Me.DataGridViewTextBoxColumn8.FillWeight = 9.760911!
+        Me.DataGridViewTextBoxColumn8.HeaderText = "金额"
+        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
+        Me.DataGridViewTextBoxColumn8.ReadOnly = True
+        Me.DataGridViewTextBoxColumn8.Width = 91
+        '
+        'DataGridViewTextBoxColumn9
+        '
+        Me.DataGridViewTextBoxColumn9.DataPropertyName = "UNITPRICE"
+        Me.DataGridViewTextBoxColumn9.FillWeight = 9.595305!
+        Me.DataGridViewTextBoxColumn9.HeaderText = "备注"
+        Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
+        Me.DataGridViewTextBoxColumn9.ReadOnly = True
+        Me.DataGridViewTextBoxColumn9.Width = 90
+        '
+        'DataGridViewTextBoxColumn10
+        '
+        Me.DataGridViewTextBoxColumn10.DataPropertyName = "AMOUNT"
+        Me.DataGridViewTextBoxColumn10.FillWeight = 9.595305!
+        Me.DataGridViewTextBoxColumn10.HeaderText = "金额"
+        Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
+        Me.DataGridViewTextBoxColumn10.ReadOnly = True
+        Me.DataGridViewTextBoxColumn10.Width = 80
+        '
+        'DataGridViewTextBoxColumn11
+        '
+        Me.DataGridViewTextBoxColumn11.DataPropertyName = "REMARK"
+        Me.DataGridViewTextBoxColumn11.FillWeight = 9.595305!
+        Me.DataGridViewTextBoxColumn11.HeaderText = "备注"
+        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
+        Me.DataGridViewTextBoxColumn11.ReadOnly = True
+        Me.DataGridViewTextBoxColumn11.Width = 118
+        '
+        'DataGridViewTextBoxColumn12
+        '
+        Me.DataGridViewTextBoxColumn12.DataPropertyName = "REMARK"
+        Me.DataGridViewTextBoxColumn12.FillWeight = 9.595305!
+        Me.DataGridViewTextBoxColumn12.HeaderText = "备注"
+        Me.DataGridViewTextBoxColumn12.Name = "DataGridViewTextBoxColumn12"
+        Me.DataGridViewTextBoxColumn12.Width = 118
+        '
+        'FrmWarehouseingMaster
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(956, 496)
+        Me.Controls.Add(Me.dgvInvoiceTransactionItem)
+        Me.Controls.Add(Me.mtxtAttentionName)
+        Me.Controls.Add(Me.btnStick)
+        Me.Controls.Add(Me.lblMessage)
+        Me.Controls.Add(Me.txtERPTranscationID)
+        Me.Controls.Add(Me.LabelX11)
+        Me.Controls.Add(Me.txtRemark)
+        Me.Controls.Add(Me.txtOrderNumber)
+        Me.Controls.Add(Me.txtTransactionId)
+        Me.Controls.Add(Me.btnSelectmaterial)
+        Me.Controls.Add(Me.btnBarcodeInput)
+        Me.Controls.Add(Me.btnDeleteRow)
+        Me.Controls.Add(Me.btnInsertRow)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnSave)
+        Me.Controls.Add(Me.CheckBoxX1)
+        Me.Controls.Add(Me.LabelX10)
+        Me.Controls.Add(Me.LabelX9)
+        Me.Controls.Add(Me.LabelX8)
+        Me.Controls.Add(Me.LabelX7)
+        Me.Controls.Add(Me.mtxtDelivery)
+        Me.Controls.Add(Me.mtxtSupplier)
+        Me.Controls.Add(Me.LabelX4)
+        Me.Controls.Add(Me.cboInvoiceTransactionType)
+        Me.Controls.Add(Me.LabelX3)
+        Me.Controls.Add(Me.cboWarehouse)
+        Me.Controls.Add(Me.LabelX2)
+        Me.Controls.Add(Me.dtpInvoiceDate)
+        Me.Controls.Add(Me.LabelX1)
+        Me.Controls.Add(Me.LabelX5)
+        Me.Controls.Add(Me.LabelX6)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "FrmWarehouseingMaster"
+        Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "入库单"
+        CType(Me.dtpInvoiceDate, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvInvoiceTransactionItem, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents LabelX1 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents dtpInvoiceDate As DevComponents.Editors.DateTimeAdv.DateTimeInput
+    Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents cboWarehouse As DevComponents.DotNetBar.Controls.ComboBoxEx
+    Friend WithEvents cboInvoiceTransactionType As DevComponents.DotNetBar.Controls.ComboBoxEx
+    Friend WithEvents LabelX3 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents LabelX4 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents mtxtSupplier As DevComponents.DotNetBar.Controls.MaskedTextBoxAdv
+    Friend WithEvents LabelX5 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents LabelX6 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents mtxtDelivery As DevComponents.DotNetBar.Controls.MaskedTextBoxAdv
+    Friend WithEvents LabelX7 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents LabelX8 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents LabelX9 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents LabelX10 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents CheckBoxX1 As DevComponents.DotNetBar.Controls.CheckBoxX
+    Friend WithEvents btnSave As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents btnCancel As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents btnInsertRow As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents btnDeleteRow As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents btnBarcodeInput As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents btnSelectmaterial As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents txtTransactionId As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents txtOrderNumber As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents txtRemark As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents txtERPTranscationID As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents LabelX11 As DevComponents.DotNetBar.LabelX
+    Friend WithEvents lblMessage As DevComponents.DotNetBar.LabelX
+    Friend WithEvents btnStick As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents mtxtAttentionName As DevComponents.DotNetBar.Controls.MaskedTextBoxAdv
+    Friend WithEvents dgvInvoiceTransactionItem As DevComponents.DotNetBar.Controls.DataGridViewX
+    Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn8 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn10 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn11 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn12 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ItemId As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TransactionType As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents MATERIALNO As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents DESCRIPTION As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents SPECIFICATION As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents UOM_NAME As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents STOCKQUANTITY As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents PlanQuantity As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents mtxtWarehouseLocationId As DevComponents.DotNetBar.Controls.DataGridViewMaskedTextBoxAdvColumn
+    Friend WithEvents QUANTITY As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents UNITPRICE As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents TotalAmount As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents OrderNumber As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents REMARK As System.Windows.Forms.DataGridViewTextBoxColumn
+End Class

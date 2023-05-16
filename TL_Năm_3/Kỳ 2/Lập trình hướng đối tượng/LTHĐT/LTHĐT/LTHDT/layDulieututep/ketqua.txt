@@ -1,0 +1,33 @@
+---------------------DANH SACH BAN DAU---------------------
+
+ 1.          Nguyen Van An    59CNTT     6.5     300     200
+ 2.          Tran Van Binh    59CNTT     8.5     600     700
+ 3.           Le Van Cuong    59CNTT     5.5     800     600
+ 4.             Ho Thi Hoa    59CNTT     8.5     500     900
+ 5.       Tran Thi Van Anh    59CNTT     7.5     300     400
+ 6.    Hoang Thi Thanh Hoa    59CNTT     8.5     500     600
+ 7.      Tran Thi Kim Oanh    59CNTT     9.5     600     700
+ 8.         Dang Thanh Van    59CNTT     8.4     700     600
+ 9.       Le Thi Khanh Hoa    59CNTT     8.9     800     700
+
+
+-----------------DANH SACH SAU KHI SAP XEP-----------------
+
+ 1.          Nguyen Van An    59CNTT     6.5     300     200
+ 2.       Tran Thi Van Anh    59CNTT     7.5     300     400
+ 3.           Le Van Cuong    59CNTT     5.5     800     600
+ 4.    Hoang Thi Thanh Hoa    59CNTT     8.5     500     600
+ 5.         Dang Thanh Van    59CNTT     8.4     700     600
+ 6.      Tran Thi Kim Oanh    59CNTT     9.5     600     700
+ 7.          Tran Van Binh    59CNTT     8.5     600     700
+ 8.       Le Thi Khanh Hoa    59CNTT     8.9     800     700
+ 9.             Ho Thi Hoa    59CNTT     8.5     500     900
+-----DANH SACH SINH VIEN CO HOC PHI >500:-----
+ 3.           Le Van Cuong    59CNTT     600
+ 4.    Hoang Thi Thanh Hoa    59CNTT     600
+ 5.         Dang Thanh Van    59CNTT     600
+ 6.      Tran Thi Kim Oanh    59CNTT     700
+ 7.          Tran Van Binh    59CNTT     700
+ 8.       Le Thi Khanh Hoa    59CNTT     700
+ 9.             Ho Thi Hoa    59CNTT     900
+TONG SO SINH VIEN CO HOC PHI >500 LA: 7

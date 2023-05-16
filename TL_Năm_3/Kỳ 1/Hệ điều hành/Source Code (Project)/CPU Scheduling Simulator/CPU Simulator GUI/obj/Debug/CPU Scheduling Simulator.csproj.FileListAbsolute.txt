@@ -1,0 +1,10 @@
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\bin\Debug\CPU Scheduling Simulator.exe
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\bin\Debug\CPU Scheduling Simulator.pdb
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU Scheduling Simulator.csprojAssemblyReference.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU_Simulator.ProgramForm.resources
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU_Simulator.AboutForm.resources
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU_Simulator.Properties.Resources.resources
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU Scheduling Simulator.csproj.GenerateResource.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU Scheduling Simulator.csproj.CoreCompileInputs.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU Scheduling Simulator.exe
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\Source Code (Project)\CPU Scheduling Simulator\CPU Simulator GUI\obj\Debug\CPU Scheduling Simulator.pdb

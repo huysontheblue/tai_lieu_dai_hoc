@@ -1,0 +1,147 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\RouteManagement.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\RouteManagement.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\RouteManagement.dll
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\RouteManagement.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+D:\Users\C060148\Desktop\BDTest\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\RouteManagement.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\RouteManagement.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\RouteManagement.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\RouteManagement.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\RouteManagement.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\RouteManagement.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.csprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+C:\Users\matech\Desktop\VN\VN\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+D:\义安SFC\DEV\ShareFile\RouteManagement.dll
+D:\义安SFC\DEV\ShareFile\RouteManagement.pdb
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csprojAssemblyReference.cache
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.cache
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.CopyComplete
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+D:\义安SFC\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\RouteManagement.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\RouteManagement.pdb
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csproj.CopyComplete
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.dll
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.pdb
+D:\VNSFC\NV-SFC\DEV\RouteManagment\obj\Debug\RouteManagement.csprojAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\ShareFile\RouteManagement.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\RouteManagement.pdb
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.FrmCPTestReport.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.frmSNtoMAC.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.dll
+D:\work\svn\SFC\NV_SFC\code\RouteManagment\obj\Debug\RouteManagement.pdb
+D:\SFC CODE\ShareFile\RouteManagement.dll
+D:\SFC CODE\ShareFile\RouteManagement.pdb
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmCPTestReport.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.frmSNtoMAC.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.Result.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.dll
+D:\SFC CODE\RouteManagment\obj\Debug\RouteManagement.pdb
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.csprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.Exclude.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmCPTestReport.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmDbDictionary.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmProduction.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.FrmRoute.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.frmSNtoMAC.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.HelpSOP.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.Resource.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.Result.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.TestResult.resources
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.csproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\RouteManagment\obj\Debug\RouteManagement.dll

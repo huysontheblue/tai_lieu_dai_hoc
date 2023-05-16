@@ -1,0 +1,75 @@
+#include <iostream>
+
+using namespace std;
+typedef struct info{
+    string name;
+    string namsinh;
+    string email;
+}info;
+
+info ds[100];
+void sort(int n) {
+    for (int i = 1; i<n;i++)
+        for (int j = i+1;j<=n;j++) {
+            if (ds[i].name > ds[j].name) {info t = ds[i];
+                ds[i] = ds[j];
+                ds[j] = t;
+            }
+        }
+}
+
+void _output(int n) {
+    for (int i = 1; i<=n; i++) {
+        cout << "----- HOC SINH " << i << endl;
+        cout << "Name: " << ds[i].name << endl;
+        cout << "Namsinh: " << ds[i].namsinh << endl;
+        cout << "Email: " << ds[i].email << endl;
+    }
+}
+info _binary_search(int n, string x) {
+    info t;
+    t.name = "NOT FOUND";
+    int left = 1, right = n, ans = -1;
+    while (left <= right) {
+        int mid = (left+right)/2;
+        if (ds[mid].name == x) {
+            ans = mid;
+            break;
+        }
+        else if (ds[mid].name < x)
+            left = mid+1;
+        else
+            right = mid-1;
+    }
+    if (ans+1) {
+        return ds[ans];
+    }
+    else
+        return t;
+}
+int main() {
+    int n;
+    freopen("D:\\cau truc du lie va giai thuat\\TH4 ( Tim kiem)\\input.txt","r",stdin);
+    cout << "Nhap so luong hs:  \n"; cin >> n;
+    for (int i = 1; i<=n;i++) {
+        cin >> ds[i].name;
+        cin >> ds[i].namsinh;
+        cin >> ds[i].email;
+    }
+    //_output(n);
+    sort(n);
+    //_output(n);
+    string x;
+    cout << "Nhap ten can tim: "; cin >> x;
+    info found = _binary_search(n,x);
+    if (found.name == "NOT FOUND") {
+        cout << "Khong co ten can tim trong danh sach";
+    }
+    else {
+        cout << "________HOC SINH";
+        cout << " NAME: " << found.name << endl;
+        cout << " NAMSINH: " << found.namsinh << endl;
+        cout << " MAIL: " << found.email << endl;
+    }
+    return 0;
+}

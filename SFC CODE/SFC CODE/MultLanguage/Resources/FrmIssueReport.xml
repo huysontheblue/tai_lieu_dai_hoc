@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BtnExcel</Control_Id>
+    <Chs_Desc>汇  出</Chs_Desc>
+    <Cht_Desc>匯  出</Cht_Desc>
+    <En_Desc>Export</En_Desc>
+    <En_Full_Desc>Export</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>BtnExcelAll</Control_Id>
+    <Chs_Desc>汇 出 细 项</Chs_Desc>
+    <Cht_Desc>匯 出 細 項</Cht_Desc>
+    <En_Desc>Export Details</En_Desc>
+    <En_Full_Desc>ExportDetails</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnExit</Control_Id>
+    <Chs_Desc>退 出(&amp;X)</Chs_Desc>
+    <Cht_Desc>退 出(&amp;X)</Cht_Desc>
+    <En_Desc>Exit(&amp;X)</En_Desc>
+    <En_Full_Desc>Exit(&amp;X)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>btnSearch</Control_Id>
+    <Chs_Desc>查 找(&amp;F)</Chs_Desc>
+    <Cht_Desc>查 找(&amp;F)</Cht_Desc>
+    <En_Desc>Find(&amp;F)</En_Desc>
+    <En_Full_Desc>Find(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_0</Control_Id>
+    <Chs_Desc>咨询编号</Chs_Desc>
+    <Cht_Desc>咨詢編號</Cht_Desc>
+    <En_Desc>inquire No.</En_Desc>
+    <En_Full_Desc>inquire No.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_1</Control_Id>
+    <Chs_Desc>厂区</Chs_Desc>
+    <Cht_Desc>廠區</Cht_Desc>
+    <En_Desc>plants</En_Desc>
+    <En_Full_Desc>plants</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_2</Control_Id>
+    <Chs_Desc>类别</Chs_Desc>
+    <Cht_Desc>類別</Cht_Desc>
+    <En_Desc>classes</En_Desc>
+    <En_Full_Desc>classes</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_3</Control_Id>
+    <Chs_Desc>问题摘要</Chs_Desc>
+    <Cht_Desc>問題摘要</Cht_Desc>
+    <En_Desc>problem abstract</En_Desc>
+    <En_Full_Desc>problem abstract</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_4</Control_Id>
+    <Chs_Desc>状态</Chs_Desc>
+    <Cht_Desc>狀態</Cht_Desc>
+    <En_Desc>Status</En_Desc>
+    <En_Full_Desc>Status</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_5</Control_Id>
+    <Chs_Desc>负责人</Chs_Desc>
+    <Cht_Desc>負責人</Cht_Desc>
+    <En_Desc>handling officer</En_Desc>
+    <En_Full_Desc>handling officer</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_6</Control_Id>
+    <Chs_Desc>最后处理时间</Chs_Desc>
+    <Cht_Desc>最后處理時間</Cht_Desc>
+    <En_Desc>handling final time</En_Desc>
+    <En_Full_Desc>handling final time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_7</Control_Id>
+    <Chs_Desc>完成时间</Chs_Desc>
+    <Cht_Desc>完成時間</Cht_Desc>
+    <En_Desc>finishing time</En_Desc>
+    <En_Full_Desc>finishing time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_8</Control_Id>
+    <Chs_Desc>咨询时间</Chs_Desc>
+    <Cht_Desc>咨詢時間</Cht_Desc>
+    <En_Desc>inquire time</En_Desc>
+    <En_Full_Desc>inquire time</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>DgvIssue_9</Control_Id>
+    <Chs_Desc>联系人</Chs_Desc>
+    <Cht_Desc>聯系人</Cht_Desc>
+    <En_Desc>linkman</En_Desc>
+    <En_Full_Desc>linkman</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmIssueReport</Control_Id>
+    <Chs_Desc>问题报表</Chs_Desc>
+    <Cht_Desc>問題報表</Cht_Desc>
+    <En_Desc>Problem Report</En_Desc>
+    <En_Full_Desc>Probl.Report</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>联系人:</Chs_Desc>
+    <Cht_Desc>聯系人:</Cht_Desc>
+    <En_Desc>Linkman</En_Desc>
+    <En_Full_Desc>Linkman</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label13</Control_Id>
+    <Chs_Desc>负责人:</Chs_Desc>
+    <Cht_Desc>負責人:</Cht_Desc>
+    <En_Desc>Responsible Person</En_Desc>
+    <En_Full_Desc>Responsi.Person</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>咨询编号:</Chs_Desc>
+    <Cht_Desc>咨詢編號:</Cht_Desc>
+    <En_Desc>Query No.</En_Desc>
+    <En_Full_Desc>QueryNo.</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label3</Control_Id>
+    <Chs_Desc>状态:</Chs_Desc>
+    <Cht_Desc>狀態:</Cht_Desc>
+    <En_Desc>Status</En_Desc>
+    <En_Full_Desc>State</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>至</Chs_Desc>
+    <Cht_Desc>至</Cht_Desc>
+    <En_Desc>Till</En_Desc>
+    <En_Full_Desc>Till</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>处理时间:</Chs_Desc>
+    <Cht_Desc>處理時間:</Cht_Desc>
+    <En_Desc>Handle Time</En_Desc>
+    <En_Full_Desc>HandleTime</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label6</Control_Id>
+    <Chs_Desc>咨询时间:</Chs_Desc>
+    <Cht_Desc>咨詢時間:</Cht_Desc>
+    <En_Desc>Inquiry Time</En_Desc>
+    <En_Full_Desc>QueryTime</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label7</Control_Id>
+    <Chs_Desc>问题摘要:</Chs_Desc>
+    <Cht_Desc>問題摘要:</Cht_Desc>
+    <En_Desc>Problem Abstract</En_Desc>
+    <En_Full_Desc>Prob.Abstract</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label8</Control_Id>
+    <Chs_Desc>至</Chs_Desc>
+    <Cht_Desc>至</Cht_Desc>
+    <En_Desc>Till</En_Desc>
+    <En_Full_Desc>Till</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LblPartID</Control_Id>
+    <Chs_Desc>类别:</Chs_Desc>
+    <Cht_Desc>類別:</Cht_Desc>
+    <En_Desc>Type</En_Desc>
+    <En_Full_Desc>Category</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LelTpart</Control_Id>
+    <Chs_Desc>厂区:</Chs_Desc>
+    <Cht_Desc>廠區:</Cht_Desc>
+    <En_Desc>Plant</En_Desc>
+    <En_Full_Desc>Plant</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>StatusLabel</Control_Id>
+    <Chs_Desc>记录笔数：</Chs_Desc>
+    <Cht_Desc>記錄筆數：</Cht_Desc>
+    <En_Desc>Record Num:</En_Desc>
+    <En_Full_Desc>Record Number:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem1</Control_Id>
+    <Chs_Desc>系统(&amp;S)</Chs_Desc>
+    <Cht_Desc>系統(&amp;S)</Cht_Desc>
+    <En_Desc>System(&amp;S)</En_Desc>
+    <En_Full_Desc>System(&amp;S)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem2</Control_Id>
+    <Chs_Desc>文件(&amp;F)</Chs_Desc>
+    <Cht_Desc>文件(&amp;F)</Cht_Desc>
+    <En_Desc>File(&amp;F)</En_Desc>
+    <En_Full_Desc>File(&amp;F)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem3</Control_Id>
+    <Chs_Desc>查看(&amp;V)</Chs_Desc>
+    <Cht_Desc>查看(&amp;V)</Cht_Desc>
+    <En_Desc>View(&amp;V)</En_Desc>
+    <En_Full_Desc>View(&amp;V)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem4</Control_Id>
+    <Chs_Desc>工具(&amp;T)</Chs_Desc>
+    <Cht_Desc>工具(&amp;T)</Cht_Desc>
+    <En_Desc>Tool(&amp;T)</En_Desc>
+    <En_Full_Desc>Tool(&amp;T)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem5</Control_Id>
+    <Chs_Desc>窗口(&amp;W)</Chs_Desc>
+    <Cht_Desc>窗口(&amp;W)</Cht_Desc>
+    <En_Desc>Window(&amp;W)</En_Desc>
+    <En_Full_Desc>Window(&amp;W)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>toolStripMenuItem6</Control_Id>
+    <Chs_Desc>帮助(&amp;H)</Chs_Desc>
+    <Cht_Desc>幫助(&amp;H)</Cht_Desc>
+    <En_Desc>Help(&amp;H)</En_Desc>
+    <En_Full_Desc>Help(&amp;H)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>ToolStripStatusLabel1</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

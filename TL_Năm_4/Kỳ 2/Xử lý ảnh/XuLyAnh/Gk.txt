@@ -1,0 +1,100 @@
+import cv2
+import matplotlib.pyplot as plt
+# đọc ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")          
+
+# Thay đổi kích thước ảnh với hệ số tỉ lệ trục x và trục y nhập vào từ bàn phím. 
+# Dùng ảnh này để thực 
+x = int(input('Nhap x : '))
+y = int(input('Nhap y : '))
+anhmau = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+resized_img = cv2.resize(anhmau, (x, y))
+
+# Biến đổi ảnh vừa cắt thành ảnh âm bản
+amban = 255 - resized_img
+anhmau1 = cv2.cvtColor(amban, cv2.COLOR_BGR2RGB)
+
+# Phân ngưỡng ảnh bằng thuật toán phân ngưỡng nhị phân với ngưỡng nhập vào từ bàn phím
+anhxam = cv2.cvtColor(resized_img, cv2.COLOR_BGR2GRAY)
+z = int(input('Nhap nguong z  : '))
+ret,thresh1 = cv2.threshold(anhxam,z,255,cv2.THRESH_BINARY)
+anhmau2 = cv2.cvtColor(thresh1, cv2.COLOR_BGR2RGB)
+
+# Tách biên ảnh bằng phương pháp Canny
+locanh = cv2.blur(resized_img,(3,3))
+anhxam = cv2.cvtColor(locanh, cv2.COLOR_BGR2GRAY)
+anhcanny = cv2.Canny(anhxam,100,200)
+anhmau3 = cv2.cvtColor(anhcanny, cv2.COLOR_BGR2RGB)
+
+# in ra bằng matlotlib
+plt.subplot(2,2,1).axis('off'),plt.imshow(resized_img),plt.title('Ảnh sau khi đổi kích thước')
+plt.subplot(2,2,2).axis('off'),plt.imshow(anhmau1),plt.title('Ảnh âm bản')
+plt.subplot(2,2,3).axis('off'),plt.imshow(anhmau2),plt.title('Ảnh phân ngưỡng')
+plt.subplot(2,2,4).axis('off'),plt.imshow(anhmau3),plt.title('Tách biên Canny')
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+
+==================================================================================================
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+# đọc ảnh
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")     
+
+# ảnh sau khi cắt
+# Cropping an image
+anhcat = img[80:280, 150:330]
+
+# đổi ảnh vừa cắt sang hệ màu RGB
+anhrgb = cv2.cvtColor(anhcat, cv2.COLOR_BGR2RGB)
+
+# phân ngưỡng bằng thuật toán otsu
+anhxam = cv2.cvtColor(anhcat, cv2.COLOR_BGR2GRAY)
+retval, threshold = cv2.threshold(anhxam, 12, 255, cv2.THRESH_BINARY)
+
+# Tách biên ảnh bằng phương pháp Canny
+locanh = cv2.GaussianBlur(anhcat,(5,5),0)
+anhxam = cv2.cvtColor(locanh, cv2.COLOR_BGR2GRAY)
+anhcanny = cv2.Canny(anhxam,100,200)
+anhmau3 = cv2.cvtColor(anhcanny, cv2.COLOR_BGR2RGB)
+
+#Hiển thị ảnh trên matplotlib 
+plt.subplot(2,2,1).axis('off'),plt.imshow(anhcat),plt.title('Ảnh sau khi cắt')
+plt.subplot(2,2,2).axis('off'),plt.imshow(anhrgb),plt.title('Ảnh âm bản')
+plt.subplot(2,2,3).axis('off'),plt.imshow(threshold),plt.title('Ảnh phân ngưỡng')
+plt.subplot(2,2,4).axis('off'),plt.imshow(anhmau3),plt.title('Tách biên Canny')
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+
+====================================================================================================
+import cv2
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+cv2.namedWindow("display")
+def get_x(x):
+    get_x.value = x
+get_x.value = 0
+def get_y(y):
+    get_y.value = y
+get_y.value = 0
+def get_a(a):
+    get_a.value = a
+get_a.value = 0
+cv2.createTrackbar("x","display",1,100,get_x)
+cv2.createTrackbar("y","display",1,100,get_y)
+cv2.createTrackbar("a","display",1,10,get_a)
+while(True):
+    x = get_x.value
+    y = get_y.value
+    a = get_a.value
+    img1 = cv2.convertScaleAbs(img, alpha = a, beta = 1)
+    img2 = cv2.blur(img1,(x,y))
+    cv2.imshow("display", img2)
+    if cv2.waitKey(5) == ord("q"):
+        break
+cv2.destroyAllWindows()

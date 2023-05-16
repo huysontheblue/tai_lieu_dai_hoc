@@ -1,0 +1,511 @@
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\BarCodePrint.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\BarCodePrint.pdb
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\ShareFile\BarCodePrint.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\Users\C060261\Source\Workspaces\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\BarCodePrint.dll
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\BarCodePrint.pdb
+D:\Users\C060148\Desktop\BDTest\DEV\ShareFile\BarCodePrint.xml
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\Users\C060148\Desktop\BDTest\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\BarCodePrint.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\BarCodePrint.pdb
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\ShareFile\BarCodePrint.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\企业微信记录\WXWork\1688853111314805\Cache\File\2020-10\DEV(1)(1)\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\BarCodePrint.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\BarCodePrint.pdb
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\ShareFile\BarCodePrint.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+E:\新TFS\DG-TEAM-SFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\BarCodePrint.dll
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\BarCodePrint.pdb
+C:\Users\matech\Desktop\VN\VN\DEV\ShareFile\BarCodePrint.xml
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojAssemblyReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.cache
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.CoreCompileInputs.cache
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.CopyComplete
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+C:\Users\matech\Desktop\VN\VN\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+D:\义安SFC\DEV\ShareFile\BarCodePrint.dll
+D:\义安SFC\DEV\ShareFile\BarCodePrint.pdb
+D:\义安SFC\DEV\ShareFile\BarCodePrint.xml
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojAssemblyReference.cache
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.cache
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.CopyComplete
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\义安SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\BarCodePrint.dll
+D:\VNSFC\NV-SFC\DEV\ShareFile\BarCodePrint.pdb
+D:\VNSFC\NV-SFC\DEV\ShareFile\BarCodePrint.xml
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbprojAssemblyReference.cache
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.cache
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.vbproj.CopyComplete
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\VNSFC\NV-SFC\DEV\BarCodePrint\obj\Debug\BarCodePrint.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\BarCodePrint.dll
+D:\work\svn\SFC\NV_SFC\code\ShareFile\BarCodePrint.pdb
+D:\work\svn\SFC\NV_SFC\code\ShareFile\BarCodePrint.xml
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\work\svn\SFC\NV_SFC\code\BarCodePrint\obj\Debug\BarCodePrint.pdb
+D:\SFC CODE\ShareFile\BarCodePrint.dll
+D:\SFC CODE\ShareFile\BarCodePrint.pdb
+D:\SFC CODE\ShareFile\BarCodePrint.xml
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.dll
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.xml
+D:\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.pdb
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.vbprojResolveAssemblyReference.cache
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.vbproj.ResolveComReference.cache
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmChildPrintMoNum.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmLineMOQuery.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintRepairBar.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.Frm2DPrt.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmA20Prt.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmBarM.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonTypeEdit.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCodeSet.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmComplementApplication.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmDistributionSel.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmEditTime.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmH3Print.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmKETPrintSetting.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListOthePrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintJX.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListPrintLine.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmListTemplate.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmLotPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmNoSerial.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPalletPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPEPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrinterMaster.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrintQCCheck.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtSet.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtTask.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmPrtVer.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmReprint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmReprintQuery.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSelAddPrtInfo.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSetPrintQTY.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSelEcnChangeRemind.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmShipSheetPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSNDistributionQuery.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmSpecialPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmTiptopPrtTask.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmConvetCodeRule.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.Resources.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCartonV2.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmCheckDigitPrt.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.FrmLocationPrint.resources
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.vbproj.GenerateResource.Cache
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.dll
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.xml
+E:\SFC CODE\SFC CODE\BarCodePrint\obj\Debug\BarCodePrint.pdb

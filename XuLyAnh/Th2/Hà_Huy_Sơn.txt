@@ -1,0 +1,191 @@
+                                                        BÀI THỰC HÀNH SỐ 2
+                                                       Họ và tên: Hà Huy Sơn
+                                                       Mã sv: 18574802010055
+
+Câu1:
+#Trackbar tương phản, độ sáng
+import cv2
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+def changea(x):
+    changea.value = x
+changea.value = 0
+def changeb(x):
+    changeb.value = x
+changeb.value = 0
+
+cv2.namedWindow('xulyanh')
+cv2.createTrackbar('tuong phan','xulyanh', 1, 15, changea)
+cv2.createTrackbar('do sang','xulyanh', 0, 50, changeb)
+
+while(True):
+    alpha = changea.value
+    beta = changeb.value
+    img1 = cv2.convertScaleAbs(img,alpha = alpha, beta = beta)
+    cv2.imshow('xulyanh',img1)
+    if cv2.waitKey(5) == ord ('q'): break 
+cv2.destroyAllWindows()
+
+Câu2: 
+# Biến đổi ảnh sang ảnh nhị phân với ngưỡng thay đổi từ
+# trackbar. Biến đổi ảnh nhị phân thành ảnh âm bản, lưu lại 
+# ảnh âm bản
+import cv2
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg",0)
+def get_nguong(vitri):
+        get_nguong.value = vitri
+get_nguong.value = 127
+cv2.namedWindow('Nhiphan')
+cv2.createTrackbar('dentrang:', 'Nhiphan', 127, 200, get_nguong)
+while(True):
+    #lấy ngưỡng:
+    nguong = get_nguong.value
+    #hàm phân ngưỡng:
+    ret,anh =cv2.threshold(img, nguong, 255, cv2.THRESH_BINARY)
+    neg =255 - img
+    cv2.imshow('Nhiphan',anh)
+    cv2.imshow('Anh am ban', neg)
+    #gọi hàm thay đổi độ sáng 
+    if cv2.waitKey(5)==ord('q'):
+        break
+cv2.imwrite('D:\\XuLyAnh\\amban.jpg', neg)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+câu3:
+# Thu phóng ảnh với tỉ lệ nhập vào từ bàn phím
+
+import cv2
+image = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+
+# let's downscale the image using new  width and height
+down_width = 300
+down_height = 300
+down_points = (down_width, down_height)
+resized_down = cv2.resize(image, down_points, interpolation= cv2.INTER_LINEAR)
+
+# let's upscale the image using new  width and height
+up_width = 1000
+up_height = 1000
+up_points = (up_width, up_height)
+resized_up = cv2.resize(image, up_points, interpolation= cv2.INTER_LINEAR)
+
+# Display images
+cv2.imshow('Anh goc', image)
+cv2.waitKey(2000)
+cv2.imshow('Anh thu nho', resized_down)
+cv2.waitKey(2000)
+cv2.imshow('Anh phong to', resized_up)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu4:
+# Cắt 1 phần ảnh.
+# import the necessary packages
+import cv2
+# load the image and show it
+image = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+cv2.imshow("original", image)
+print(image)
+# cắt ảnh 
+cat = image[250:800, 250:600]
+cv2.imshow("Anh cat", cat)
+cv2.waitKey(0)
+
+Câu5:
+# Dịch chuyển ảnh với khoảng cách trục x, trục y thay đổi 
+# lấy từ trackbar.
+import cv2
+import numpy as np
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+def get_trucx(vitri):
+    get_trucx.value = vitri
+def get_trucy(vitri):
+    get_trucy.value = vitri
+get_trucx.value = 0
+get_trucy.value = 0
+cv2.namedWindow('Dichanh')
+cv2.createTrackbar('trucx', 'Dichanh', 0, 150, get_trucx)
+cv2.createTrackbar('trucy', 'Dichanh', 0, 150, get_trucy)
+while(True):
+    alpha = get_trucx.value
+    beta = get_trucy.value
+    h,c = img.shape[:2]
+    M = np.array([[1,0,alpha],[0,1,beta]],dtype= np.float32)
+    img1 = cv2.warpAffine(img, M, (c,h)) 
+    cv2.imshow('Dichanh',img1)
+    if cv2.waitKey(5)==ord(' '):
+        break
+cv2.destroyAllWindows()
+Câu6:
+#  Xoay ảnh 1 góc tùy ý lấy từ trackbar.
+import cv2
+
+def funcRotate(degree=0):
+    degree = cv2.getTrackbarPos('degree','Xoayanh')
+    rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), degree, 1)
+    rotated_image = cv2.warpAffine(img, rotation_matrix, (width, height))
+    cv2.imshow('Sau khi xoay', rotated_image)
+
+if __name__== '__main__':
+
+    img=cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+    height, width = img.shape[:2]
+    cv2.namedWindow('Xoayanh')
+    degree=0
+    cv2.createTrackbar('degree','Xoayanh',degree,360,funcRotate)
+    funcRotate(0)
+    cv2.imshow('Xoayanh',img)
+    cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+Câu7:
+# Biến đổi phối cảnh ảnh.
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg",0)
+pts1 = np.float32([[50,50],[350,50],[50,350],[350,350]])
+pts2 = np.float32([[0,0],[200,50],[50,300],[300,300]])
+
+M = cv2.getPerspectiveTransform(pts1,pts2)
+
+dst = cv2.warpPerspective(img,M,(300,300))
+
+plt.subplot(121),plt.imshow(img),plt.title('Input')
+for (x, y) in pts1:
+  plt.scatter(x, y, s=50, c='white', marker='x')
+plt.subplot(122),plt.imshow(dst),plt.title('Perspective Transform')
+for (x, y) in pts2:
+  plt.scatter(x, y, s=50, c='white', marker='x')
+plt.show()
+
+
+Câu8:
+# Ghi văn bản, vẽ các hình đơn giản lên ảnh: đường thẳng, 
+# mũi tên, hình tròn, elip, hình chữ nhật, đa giác
+import cv2
+import numpy as np
+img = cv2.imread("D:\\XuLyAnh\\sondeptrai.jpg")
+
+# ve duong thang
+img = cv2.line(img, (300, 0), (300, 600),(255, 0 ,0), 2, cv2.LINE_AA)
+
+# ve hinh tron
+img = cv2.circle(img,(300,300), 100, (0, 0, 255), 3)
+
+# vẽ eclip
+img = cv2.ellipse(img, (200, 200), (50, 25), 45, 0, 360, (255, -5, 255))
+# ve hinh chu nhat
+img = cv2.rectangle(img, (200,150), (500, 600), (0, 250, 0), 4)
+
+# vẽ đa giác
+pts = np.array([[300,200],[550,300],[600,240],[650,300]], np.int32)
+pts = pts.reshape((-1,1,2))
+img = cv2.polylines(img,[pts],True,(0,0,255), 10)
+
+
+cv2.imshow('anh', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+

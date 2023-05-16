@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Shop Mobile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="https://www.google.com/intl/vi/gmail/about/"><i class="fa fa-envelope"></i>nhomchungtoi_!@gmail.com</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>0123456789</a></li>
+              <li><a href="login.html">Đăng Nhập</a></li>
+              <li><a href="dangky.html">Đăng Ký</a></li>
+            </ul>
+          </div>
+         <!--  <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="https://www.facebook.com/hoang1206.ht"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Mobile Store</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Sản Phẩm</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="cart.html">Giỏ Hàng</a>
+              </li> -->
+              <li class="nav-item dropdown active">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Giới Thiệu</a>
+              
+                <div class="dropdown-menu">
+                    <a class="dropdown-item active" href="about.html">Về Chúng Tôi</a>
+                    <a class="dropdown-item" href="blog.html">Bài Viết</a>
+                    <a class="dropdown-item " href="testimonials.html">Phản Hồi</a>
+                    <!-- <a class="dropdown-item" href="terms.html">Terms</a> -->
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Liên Hệ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"><i style="font-size: 20px;" class="fa fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 style="font-family: Arial;">Giỏ Hàng</h1>
+            <span>Các sản phẩm của bạn.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main role="main">
+      <div  class="container mt-4">
+          <div class="row">
+              <div class="col col-md-12">
+                <h3 style="font-family: Arial;">Giỏ Hàng Của Bạn</h3>
+                <br>
+                  <table style="text-align: center;" class="table table-bordered">
+                      <thead>
+                          <tr>
+                              <th style="font-family: Arial;">STT</th>
+                              <th style="font-family: Arial;">Ảnh đại diện</th>
+                              <th style="font-family: Arial;">Tên sản phẩm</th>
+                              <th style="font-family: Arial;">Số lượng</th>
+                              <th style="font-family: Arial;">Đơn giá</th>
+                              <th style="font-family: Arial;">Thành tiền</th>
+                              <th style="font-family: Arial;">Hủy đơn hàng</th>
+                          </tr>
+                      </thead>
+                      <tbody id="datarow">
+                          <tr>
+                              <td>1</td>
+                              <td>
+                                  <img style="height: 28px;" src="assets/images/product-1-720x480.jpg" class="hinhdaidien">
+                              </td>
+                              <td><a style="color: #000;" href="product-details.html">Iphone X</a></td>
+                              <td>1</td>
+                              <td>17.000.000 VNĐ</td>
+                              <td>17.000.000 VNĐ</td>
+                              <td style="cursor: pointer;">×</td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td>
+                                  <img style="height: 28px;" src="assets/images/product-2-720x480.jpg" class="hinhdaidien">
+                              </td>
+                              <td><a style="color: #000;" href="product-details.html">Oppo A5s</a></td>
+                              <td>2</td>
+                              <td>7.000.000 VNĐ</td>
+                              <td>7.000.000 VNĐ</td>
+                              <td style="cursor: pointer;">×</td>
+                          </tr>
+                          <tr>
+                              <td>3</td>
+                              <td>
+                                  <img style="height: 28px;" src="assets/images/product-3-720x480.jpg" class="hinhdaidien">
+                              </td>
+                              <td><a style="color: #000;" href="product-details.html">Iphone 12 Pro Max</a></td>
+                              <td>1</td>
+                              <td>33.99.999 VNĐ</td>
+                              <td>33.999.999 VNĐ</td>
+                              <td style="cursor: pointer;">×</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <a href="products.html" class="btn btn-warning btn-md"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Mua hàng tiếp</a>
+              </div>
+          </div>
+      </div>
+  </main>
+
+    <div style="background-color: #d2c6c6; padding: 45px 0;" class="callback-form contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="contact-form">
+              <form action="#" id="contact">
+                 <div class="row">
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <select class="form-control" data-msg-required="Trường này là bắt buộc.">
+                                     <option value="">-- Chọn --</option>
+                                     <option value="dr">Anh.</option>
+                                     <option value="miss">Chị.</option>
+                                     <option value="mr">Ông.</option>
+                                     <option value="mrs">Bà.</option>
+                                     <option value="ms">Khác.</option>
+                                </select>
+                           </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Họ tên:">
+                           </div>
+                      </div>
+                 </div>
+                 <div class="row">
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email:">
+                           </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Số điện thoại:">
+                           </div>
+                      </div>
+                 </div>
+                 <div class="row">
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Địa chỉ:">
+                           </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <select class="form-control">
+                                     <option value="">-- Chọn Quốc Gia --</option>
+                                     <option value="">-- Việt Nam --</option>
+                                     <option value="">-- Thái Lan --</option>
+                                     <option value="">-- Lào --</option>
+                                </select>
+                           </div>
+                      </div>
+                 </div>
+
+                 <div class="row">
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <select class="form-control">
+                                     <option value="">-- Chọn Phương Thức Thanh Toán --</option>
+                                     <option value="bank">Tiền Mặt</option>
+                                     <option value="cash">Thẻ ATM</option>
+                                     <option value="paypal">PayPal</option>
+                                </select>
+                           </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-12">
+                           <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Captcha">
+                           </div>
+                      </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-lg-12">
+                      <button type="submit" id="form-submit" class="filled-button">Thanh Toán</button>
+                  </div>
+                 </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>Mobile Store</h4>
+            <p>Đăng ký để nhận thông báo khi có sản phẩm mới, bạn sẽ không bỏ lỡ những sản phẩm mới nhất từ chúng tôi.</p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Sản phẩm nổi bật</h4>
+            <ul class="menu-list">
+              <li><a href="product-details.html">Iphone X</a></li>
+              <li><a href="product-details.html">SamSung Galaxy Fold 3</a></li>
+              <li><a href="product-details.html">Realme 7 pro</a></li>
+              <li><a href="product-details.html">Iphone 11</a></li>
+              <li><a href="product-details.html">Iphone 12</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Hoạt động của bạn</h4>
+            <ul class="menu-list">
+              <li><a href="#">Tài khoản của tôi</a></li>
+              <li><a href="#">Lịch sử mua hàng</a></li>
+              <li><a href="#">Yêu thích</a></li>
+              <li><a href="#">Thanh toán</a></li>
+              <li><a href="cart.html">Giỏ hàng</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item last-item">
+            <h4>Phản hồi</h4>
+            <div class="contact-form">
+              <form id="contact footer-contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Họ và tên" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="Địa chỉ email" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Nội dung gửi" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="filled-button">Gửi tin nhắn</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 style="color: #fff;">
+              Shop Mobile
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; 
+      function clearField(t){                   
+      if(! cleared[t.id]){                     
+          cleared[t.id] = 1;  
+          t.value='';        
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>

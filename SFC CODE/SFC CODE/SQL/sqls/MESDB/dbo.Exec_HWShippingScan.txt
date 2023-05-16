@@ -1,0 +1,81 @@
+
+-- ===========================================================
+-- Exec_ClearReelBarcode,v1.0.0.0,2015/11/10,By Aimee Lu
+-- ===========================================================
+-- Check In TFS
+
+USE [MESDB]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROC [dbo].[Exec_HWShippingScan]
+	@RTVALUE VARCHAR(1) OUTPUT,
+	@RTMSG NVARCHAR(128) OUTPUT,
+	@OUTSCANQTY FLOAT OUTPUT,
+	@FACTORYID VARCHAR(64)='',
+	@PROFITCENTER VARCHAR(32)='',
+	@USERID VARCHAR(32)='',
+	@DELIVERYNO VARCHAR(32)='',
+	@SHIPPINGNO	VARCHAR(64)='',
+	@ORDERSEQ VARCHAR(32)='',
+	@CUSTID VARCHAR(32)='',
+	@CUSTADDRESS NVARCHAR(64)='',
+	@HWCARTON VARCHAR(64)='',
+	@HWPART	VARCHAR(32)='',
+	@HWQTY FLOAT=0,
+	@LXCARTON VARCHAR(64)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	DECLARE @OUTWHID VARCHAR(32)
+
+	BEGIN TRY
+		BEGIN TRAN
+		SELECT @OUTWHID = Outwhid FROM m_WhOutM_t WHERE Avcoutid = @SHIPPINGNO AND Orderseq = @ORDERSEQ
+		
+		IF(ISNULL(@OUTWHID,'') = '')
+		BEGIN
+			SELECT @OUTWHID = DBO.GetCostBillID('INV',getdate())
+			INSERT INTO m_WhOutM_t(
+				Outwhid, Avcoutid, Partid, CustShippingOrder, Rwmoid, Cusid, Orderseq, Saddress, Shipqty, States, CustDeliveryNO, 
+                CheckStatus, CheckNote, CheckUserId, CheckTime, Outtype, Remark, Userid, Intime
+			) VALUES(
+				@OUTWHID, @SHIPPINGNO, @HWPART, NULL, NULL, @CUSTID, @ORDERSEQ, @CUSTADDRESS, @HWQTY, 'N', @DELIVERYNO, 
+				0, NULL, NULL, NULL, 0, NULL, @USERID, GETDATE()
+			)
+		END
+		ELSE
+		BEGIN
+			UPDATE m_WhOutM_t SET Shipqty = Shipqty + @HWQTY WHERE Outwhid = @OUTWHID AND Avcoutid = @SHIPPINGNO AND Orderseq = @ORDERSEQ
+		END
+
+		INSERT INTO m_WhOutD_t(
+			Outwhid, CartonID, HWCartonId, HWPartId, HWQty, HWShippingNO, PallteID, CartonOutqty, UserID, Intime
+		)VALUES(
+			@OUTWHID, @LXCARTON, @HWCARTON, @HWPART, @HWQTY, @SHIPPINGNO, NULL, @HWQTY, @USERID, GETDATE()
+		)
+		
+		COMMIT TRAN
+	END TRY 
+	BEGIN CATCH 
+		ROLLBACK TRAN
+		SET @OUTSCANQTY=0
+		SET @RTMSG=N'÷¥––≤È—Ø“Ï≥£'
+		SET @RTVALUE='0'
+	END CATCH 
+END
+
+
+
+
+
+                                                                                                                   
+GO
+
+

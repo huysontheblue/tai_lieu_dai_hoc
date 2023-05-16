@@ -1,0 +1,54 @@
+=========================================================================Bài thực hành số 8===============================================================================
+===========================================================================Hà Huy Sơn=====================================================================================
+========================================================================MSSV: 18574802010055==============================================================================
+
+---------------------Câu 1-------------------------------
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+# đọc ảnh
+img = cv2.imread("D:\\XuLyAnh\\hoahong.png",0)
+
+# cắt  1 vùng ảnh vs tọa độ đc nhập vào
+x1 = int(input("Nhap x1:"))
+x2 = int(input("Nhap x2:"))
+y1 = int(input("Nhap y1:"))
+y2 = int(input("Nhap y2:"))
+anhcat = img[x1:x2, y1:y2]
+# chuyển vè màu rgb
+# anhmau0 = cv2.cvtColor(anhcat, cv2.COLOR_BGR2RGB)
+# Lọc ảnh bằng bộ lọc Gauss
+anhloc = cv2.GaussianBlur(anhcat,(5,5),0)
+# chuyển về màu rgb
+# anhmau1 = cv2.cvtColor(anhloc, cv2.COLOR_BGR2RGB)
+
+#Hiển thị ảnh trên matplotlib 
+plt.subplot(2,2,1).axis('off'),plt.imshow(anhcat),plt.title('Ảnh cắt')
+plt.subplot(2,2,2).axis('off'),plt.imshow(anhloc),plt.title('Ảnh sau khi lọc')
+# hiện histogram
+plt.subplot(2,2,3).axis('off'),plt.hist(anhcat),plt.title('Histogram của anh cắt')
+plt.subplot(2,2,4).axis('off'),plt.hist(anhloc),plt.title('Histogram của anh lọc')
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+---------------------Câu 2-------------------------------
+import cv2
+img =cv2.imread('E:\\1.jpg',0)
+def get_nguong(vitri):
+ get_nguong.value = vitri
+ get_nguong.value =127
+cv2.namedWindow('Nhiphan')
+cv2.createTrackbar('dentrang','Nhiphan',127,200,get_nguong)
+while(True):
+ nguong = get_nguong.value
+ ret,anh = cv2.threshold(img,nguong,255,cv2.THRESH_BINARY)
+ neg = 255 - img
+ cv2.imshow('Nhiphan',anh)
+ cv2.imshow('Amban',neg)
+ if cv2.waitKey(5) == ord('q'):
+     break
+cv2.imwrite('E:\\amban.jpg',neg)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

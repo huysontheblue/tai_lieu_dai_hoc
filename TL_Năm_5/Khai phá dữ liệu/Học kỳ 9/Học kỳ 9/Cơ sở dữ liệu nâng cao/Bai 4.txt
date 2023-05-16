@@ -1,0 +1,62 @@
+---4.1 About attribute and type names
+
+CREATE TYPE somename (person person);
+
+---4.2 Collection Types
+
+CREATE TYPE phone_array AS VARRAY(10) OF VARCHAR2(12);
+
+CREATE TABLE company1 (name VARCHAR2(20), phone phone_array);
+
+INSERT INTO company1 VALUES ('abc', phone_array('243-4758','485-2534'));
+
+CREATE TYPE phone_nested AS TABLE OF VARCHAR2(12);
+
+CREATE TABLE company2 (name VARCHAR2(20), phone phone_nested)
+NESTED TABLE phone STORE AS phone_nr_table;
+
+INSERT into company2 VALUES ('abc', phone_nested('243-4758','485-2534'));
+
+SELECT c.name, p.* FROM company1 c, TABLE(c.phone) p;
+
+SELECT c.name, p.* FROM company2 c, TABLE(c.phone) p;
+
+--Exercises 25
+
+CREATE TYPE phone_code AS OBJECT(area_code VARCHAR2(20), local_number VARCHAR2(20));
+
+CREATE TYPE phone_numbers AS TABLE OF phone_code;
+
+CREATE TABLE company3 (name VARCHAR2(20), phone phone_numbers)
+NESTED TABLE phone STORE AS phone_nested_table;
+
+--Exercises 26
+
+INSERT INTO company3 VALUES ('abc', phone_numbers(phone_code('0131','243-4758'), phone_code('0131','485-2534')));
+INSERT INTO company3 VALUES ('def', phone_numbers(phone_code('0132','243-4768'), phone_code('0130','485-6782')));
+INSERT INTO company3 VALUES ('ghi', phone_numbers(phone_code('0133','243-4798'), phone_code('0129','485-8263')));
+
+SELECT c.name, p.* FROM company3 c, TABLE(c.phone) p;
+
+---4.3 Multi-level collection types and other advanced features
+
+---4.4 Select statements for nested tables
+
+SELECT * FROM company1;
+
+SELECT c.name, t.* FROM company1 c, TABLE(c.phone) t;
+
+SELECT name, t.* FROM company1, TABLE(SELECT phone FROM company1) t;
+
+SELECT t.COLUMN_VALUE from company1 c, TABLE(c.phone) t;
+
+--Exercises 28
+
+SELECT c.name, t.local_number FROM company3 c, TABLE(c.phone) t;
+
+SELECT c.name, t.area_code FROM company3 c, TABLE(c.phone) t WHERE t.area_code = '0133';
+
+SELECT t.local_number FROM company3 c, TABLE(c.phone) t;
+
+
+

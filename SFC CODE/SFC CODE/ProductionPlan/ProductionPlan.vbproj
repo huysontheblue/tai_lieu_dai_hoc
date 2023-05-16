@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD0BEBBA-7246-48F4-AD9B-A1F3195347B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ProductionPlan</RootNamespace>
+    <AssemblyName>ProductionPlan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>ProductionPlan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>ProductionPlan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=5.3.1.0, Culture=neutral, PublicKeyToken=9ec0ff091d04b091, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DDTek.Oracle, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DDTek.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.0.0.15, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile_Public\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsian, Version=2.1.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsianCmaps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\iTextAsianCmaps.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="Pager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Pager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\PlanCommon.vb" />
+    <Compile Include="FrmAddEMCPEPT.Designer.vb">
+      <DependentUpon>FrmAddEMCPEPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddEMCPEPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBZAutoSchedule.Designer.vb">
+      <DependentUpon>FrmBZAutoSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBZAutoSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.vb">
+      <DependentUpon>FrmCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClassSet.Designer.vb">
+      <DependentUpon>FrmClassSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClassSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmColumnVisiableSetting.Designer.vb">
+      <DependentUpon>FrmColumnVisiableSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmColumnVisiableSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCopyPeiZhi.Designer.vb">
+      <DependentUpon>FrmCopyPeiZhi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCopyPeiZhi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditEMCPEPT.Designer.vb">
+      <DependentUpon>FrmEditEMCPEPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditEMCPEPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEMCEquipmentconfig.Designer.vb">
+      <DependentUpon>FrmEMCEquipmentconfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEMCEquipmentconfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEMCPEPT.Designer.vb">
+      <DependentUpon>FrmEMCPEPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEMCPEPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImport.Designer.vb">
+      <DependentUpon>FrmImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInput.Designer.vb">
+      <DependentUpon>FrmInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeanProCD.Designer.vb">
+      <DependentUpon>FrmLeanProCD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeanProCD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeanProCDInfo.Designer.vb">
+      <DependentUpon>FrmLeanProCDInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeanProCDInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineQuery.Designer.vb">
+      <DependentUpon>FrmLineQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineSeriesType.Designer.vb">
+      <DependentUpon>FrmLineSeriesType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineSeriesType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManpowerMaster.Designer.vb">
+      <DependentUpon>FrmManpowerMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManpowerMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMOOutDate.Designer.vb">
+      <DependentUpon>FrmMOOutDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMOOutDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPartCategory.designer.vb">
+      <DependentUpon>FrmPartCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPartCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlanReport.Designer.vb">
+      <DependentUpon>FrmPlanReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlanReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProdBoard.Designer.vb">
+      <DependentUpon>FrmProdBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProdBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionPlanManagement.Designer.vb">
+      <DependentUpon>FrmProductionPlanManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionPlanManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionPlanMaster.Designer.vb">
+      <DependentUpon>FrmProductionPlanMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionPlanMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionPlanQuery.Designer.vb">
+      <DependentUpon>FrmProductionPlanQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionPlanQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionPlanUpdate.Designer.vb">
+      <DependentUpon>FrmProductionPlanUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionPlanUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionSchedule.designer.vb">
+      <DependentUpon>FrmProductionSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductionTimeMaster.Designer.vb">
+      <DependentUpon>FrmProductionTimeMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductionTimeMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductivityMaster.Designer.vb">
+      <DependentUpon>FrmProductivityMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductivityMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTiptopPlanMaster.Designer.vb">
+      <DependentUpon>FrmTiptopPlanMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTiptopPlanMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkDayPlan.Designer.vb">
+      <DependentUpon>FrmWorkDayPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkDayPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkDayPlanInfo.Designer.vb">
+      <DependentUpon>FrmWorkDayPlanInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkDayPlanInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWorkOrder.Designer.vb">
+      <DependentUpon>FrmWorkOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWorkOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetMesData.vb" />
+    <Compile Include="iTextSharpHelp.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAddEMCPEPT.resx">
+      <DependentUpon>FrmAddEMCPEPT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBZAutoSchedule.resx">
+      <DependentUpon>FrmBZAutoSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClassSet.resx">
+      <DependentUpon>FrmClassSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmColumnVisiableSetting.resx">
+      <DependentUpon>FrmColumnVisiableSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCopyPeiZhi.resx">
+      <DependentUpon>FrmCopyPeiZhi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditEMCPEPT.resx">
+      <DependentUpon>FrmEditEMCPEPT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEMCEquipmentconfig.resx">
+      <DependentUpon>FrmEMCEquipmentconfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEMCPEPT.resx">
+      <DependentUpon>FrmEMCPEPT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImport.resx">
+      <DependentUpon>FrmImport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInput.resx">
+      <DependentUpon>FrmInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeanProCD.resx">
+      <DependentUpon>FrmLeanProCD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeanProCDInfo.resx">
+      <DependentUpon>FrmLeanProCDInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineQuery.resx">
+      <DependentUpon>FrmLineQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineSeriesType.resx">
+      <DependentUpon>FrmLineSeriesType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManpowerMaster.resx">
+      <DependentUpon>FrmManpowerMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMOOutDate.resx">
+      <DependentUpon>FrmMOOutDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPartCategory.resx">
+      <DependentUpon>FrmPartCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlanReport.resx">
+      <DependentUpon>FrmPlanReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProdBoard.resx">
+      <DependentUpon>FrmProdBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionPlanManagement.resx">
+      <DependentUpon>FrmProductionPlanManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionPlanMaster.resx">
+      <DependentUpon>FrmProductionPlanMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionPlanQuery.resx">
+      <DependentUpon>FrmProductionPlanQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionPlanUpdate.resx">
+      <DependentUpon>FrmProductionPlanUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionSchedule.resx">
+      <DependentUpon>FrmProductionSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductionTimeMaster.resx">
+      <DependentUpon>FrmProductionTimeMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductivityMaster.resx">
+      <DependentUpon>FrmProductivityMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTiptopPlanMaster.resx">
+      <DependentUpon>FrmTiptopPlanMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkDayPlan.resx">
+      <DependentUpon>FrmWorkDayPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkDayPlanInfo.resx">
+      <DependentUpon>FrmWorkDayPlanInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWorkOrder.resx">
+      <DependentUpon>FrmWorkOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\PlanExportTemplate.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confirm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mmmmm2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProductionPlanTemplate.xlsx" />
+    <None Include="Resources\query.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MainTainModule\MainTainModule\MainTainModule.vbproj">
+      <Project>{de7f4aa2-3248-44ee-a5de-cb2b35652db0}</Project>
+      <Name>MainTainModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{ec017007-adae-4cae-ac78-1f0a18a798f4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIHandler\UIHandler.csproj">
+      <Project>{FCA8BB01-08A5-4448-B2BE-0D28E1DE048F}</Project>
+      <Name>UIHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5ca79a79-689e-4c76-92ad-b2d7aa71da22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

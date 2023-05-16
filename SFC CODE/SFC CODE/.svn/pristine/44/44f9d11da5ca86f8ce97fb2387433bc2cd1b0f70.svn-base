@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{281EEB70-2A3E-4F57-9F9F-7FAB8C801648}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>RCard</RootNamespace>
+    <AssemblyName>RCard</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>RCard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\ShareFile\</OutputPath>
+    <DocumentationFile>RCard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\ShareFile\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DDTek.Oracle, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DDTek.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.5.0.3, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetBarcode, Version=2.4.2480.34660, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile_Public\DotNetBarcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=9.40.2.1, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BtShlExtLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=109ff779a1b4cbc7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile\Interop.BtShlExtLib.dll</HintPath>
+    </Reference>
+    <Reference Include="luxshare.RouteDesign">
+      <HintPath>..\ShareFile\luxshare.RouteDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NPOI, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile_Public\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.1.2.4.0.Fakes, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0ae41878053f6703, processorArchitecture=MSIL">
+      <HintPath>..\ShareFile_Public\NPOI.1.2.4.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\ShareFile\office.dll</HintPath>
+    </Reference>
+    <Reference Include="Pager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\Pager.dll</HintPath>
+    </Reference>
+    <Reference Include="PinkieControls, Version=1.0.1362.15156, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\PinkieControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxUL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\TextBoxUL.dll</HintPath>
+    </Reference>
+    <Reference Include="ULControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ShareFile\ULControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOFToolListDetailCopy.Designer.vb">
+      <DependentUpon>BOFToolListDetailCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BOFToolListDetailCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BOFToolListMainLog.Designer.vb">
+      <DependentUpon>BOFToolListMainLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BOFToolListMainLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business\OnlineSopBusiness.vb" />
+    <Compile Include="Business\RCardComBusiness.vb" />
+    <Compile Include="Business\RunCardBusiness.vb" />
+    <Compile Include="Business\SapCommon.vb" />
+    <Compile Include="Business\ScanBusiness.vb" />
+    <Compile Include="Business\SetScan.vb" />
+    <Compile Include="CartonScanOption.vb" />
+    <Compile Include="CmbDatagridbiew.vb" />
+    <Compile Include="Data.vb" />
+    <Compile Include="FrmAddBOFToolListDetail.Designer.vb">
+      <DependentUpon>FrmAddBOFToolListDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddBOFToolListDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddBOFToolListEquiment.Designer.vb">
+      <DependentUpon>FrmAddBOFToolListEquiment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddBOFToolListEquiment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddBOFToolListMain.Designer.vb">
+      <DependentUpon>FrmAddBOFToolListMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddBOFToolListMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBOFToolList.designer.vb">
+      <DependentUpon>FrmBOFToolList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBOFToolList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBOFToolListCopy.Designer.vb">
+      <DependentUpon>FrmBOFToolListCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBOFToolListCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBOFToolListPrint.Designer.vb">
+      <DependentUpon>FrmBOFToolListPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBOFToolListPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBOFToolListSearch.Designer.vb">
+      <DependentUpon>FrmBOFToolListSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBOFToolListSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCellMerging.Designer.vb">
+      <DependentUpon>FrmCellMerging.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCellMerging.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChildPNQuote.Designer.vb">
+      <DependentUpon>FrmChildPNQuote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChildPNQuote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCopy.Designer.vb">
+      <DependentUpon>FrmCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardLog.designer.vb">
+      <DependentUpon>FrmCutCardLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardPartDetail.designer.vb">
+      <DependentUpon>FrmCutCardPartDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardPartDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardStationCopy.Designer.vb">
+      <DependentUpon>FrmCutCardStationCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardStationCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeOnJob.Designer.vb">
+      <DependentUpon>FrmEmployeeOnJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeOnJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLog.Designer.vb">
+      <DependentUpon>FrmLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotReportRegister.Designer.vb">
+      <DependentUpon>FrmLotReportRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotReportRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotScan.Designer.vb">
+      <DependentUpon>FrmLotScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLotSplit.Designer.vb">
+      <DependentUpon>FrmLotSplit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLotSplit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOldCutCardBodyEdit.designer.vb">
+      <DependentUpon>FrmOldCutCardBodyEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOldCutCardBodyEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOldCutCardModify.designer.vb">
+      <DependentUpon>FrmOldCutCardModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOldCutCardModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineRemark.Designer.vb">
+      <DependentUpon>FrmOnlineRemark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineRemark.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSop.Designer.vb">
+      <DependentUpon>FrmOnlineSop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSopCopy.Designer.vb">
+      <DependentUpon>FrmOnlineSopCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSopCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSopDetailEdit.Designer.vb">
+      <DependentUpon>FrmOnlineSopDetailEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSopDetailEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSopEMail.Designer.vb">
+      <DependentUpon>FrmOnlineSopEMail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSopEMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSopMailRelation.Designer.vb">
+      <DependentUpon>FrmOnlineSopMailRelation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSopMailRelation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSopNew.Designer.vb">
+      <DependentUpon>FrmOnlineSopNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSopNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOnlineSopQuery.Designer.vb">
+      <DependentUpon>FrmOnlineSopQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOnlineSopQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPictureCut.Designer.vb">
+      <DependentUpon>FrmPictureCut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPictureCut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPNList.Designer.vb">
+      <DependentUpon>FrmPNList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPNList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrint.Designer.vb">
+      <DependentUpon>FrmPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessParametersImport.Designer.vb">
+      <DependentUpon>FrmProcessParametersImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessParametersImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessParametersMaintain.Designer.vb">
+      <DependentUpon>FrmProcessParametersMaintain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessParametersMaintain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessParametersQuery.designer.vb">
+      <DependentUpon>FrmProcessParametersQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessParametersQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQuoteMaintenance.Designer.vb">
+      <DependentUpon>FrmQuoteMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQuoteMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQuoteQuery.Designer.vb">
+      <DependentUpon>FrmQuoteQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQuoteQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRCardDelUndo.Designer.vb">
+      <DependentUpon>FrmRCardDelUndo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRCardDelUndo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRCardLog.Designer.vb">
+      <DependentUpon>FrmRCardLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRCardLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRCardLogQuery.Designer.vb">
+      <DependentUpon>FrmRCardLogQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRCardLogQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCard.Designer.vb">
+      <DependentUpon>FrmRunCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardBodyEdit.Designer.vb">
+      <DependentUpon>FrmRunCardBodyEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardBodyEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardBodyModify.Designer.vb">
+      <DependentUpon>FrmRunCardBodyModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardBodyModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardCopy.Designer.vb">
+      <DependentUpon>FrmRunCardCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardCut.designer.vb">
+      <DependentUpon>FrmRunCardCut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardCut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardBodyEdit.designer.vb">
+      <DependentUpon>FrmCutCardBodyEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardBodyEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardBodyModify.designer.vb">
+      <DependentUpon>FrmCutCardBodyModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardBodyModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardCopy.Designer.vb">
+      <DependentUpon>FrmCutCardCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardHeaderEdit.designer.vb">
+      <DependentUpon>FrmCutCardHeaderEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardHeaderEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCutCardImportStation.designer.vb">
+      <DependentUpon>FrmCutCardImportStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCutCardImportStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardHeaderEdit.Designer.vb">
+      <DependentUpon>FrmRunCardHeaderEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardHeaderEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardHSL.Designer.vb">
+      <DependentUpon>FrmRunCardHSL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardHSL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardImportStation.Designer.vb">
+      <DependentUpon>FrmRunCardImportStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardImportStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardPartDetail.Designer.vb">
+      <DependentUpon>FrmRunCardPartDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardPartDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardQuery.Designer.vb">
+      <DependentUpon>FrmRunCardQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardSeries.Designer.vb">
+      <DependentUpon>FrmRunCardSeries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardSeries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardShowPicture.Designer.vb">
+      <DependentUpon>FrmRunCardShowPicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardShowPicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCardStationCopy.Designer.vb">
+      <DependentUpon>FrmRunCardStationCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCardStationCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.Designer.vb">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanErrPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScanRecord.Designer.vb">
+      <DependentUpon>FrmScanRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScanRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectEquipment.Designer.vb">
+      <DependentUpon>FrmSelectEquipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectEquipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMaterials.Designer.vb">
+      <DependentUpon>FrmSelectMaterials.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMaterials.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectPICNew.Designer.vb">
+      <DependentUpon>FrmSelectPICNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectPICNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetLock.Designer.vb">
+      <DependentUpon>FrmSetLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetPNGroup.Designer.vb">
+      <DependentUpon>FrmSetPNGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetPNGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetScan.Designer.vb">
+      <DependentUpon>FrmSetScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetScanQuery.Designer.vb">
+      <DependentUpon>FrmSetScanQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetScanQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowPictureDetail.designer.vb">
+      <DependentUpon>FrmShowPictureDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowPictureDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowRunCard.Designer.vb">
+      <DependentUpon>FrmShowRunCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowRunCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowRunCardDetail.Designer.vb">
+      <DependentUpon>FrmShowRunCardDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowRunCardDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSOPLog.designer.vb">
+      <DependentUpon>FrmSOPLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSOPLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSOPReason.Designer.vb">
+      <DependentUpon>FrmSOPReason.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSOPReason.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStandardJobScheduling.Designer.vb">
+      <DependentUpon>FrmStandardJobScheduling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStandardJobScheduling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStandardJobSchedulingAddDetails.Designer.vb">
+      <DependentUpon>FrmStandardJobSchedulingAddDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStandardJobSchedulingAddDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStandardJobSchedulingAddMain.Designer.vb">
+      <DependentUpon>FrmStandardJobSchedulingAddMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStandardJobSchedulingAddMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStations.Designer.vb">
+      <DependentUpon>FrmStations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUploadFile.Designer.vb">
+      <DependentUpon>FrmUploadFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUploadFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWpartNumber.Designer.vb">
+      <DependentUpon>FrmWpartNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWpartNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelHelper.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NPOIExcle.vb" />
+    <Compile Include="ScanSetting.vb" />
+    <Compile Include="Web References\com.luxshare-ict.plmNew\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.luxshare-ict.plm\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DcsWebReference\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WorkStantOption.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BOFToolListDetailCopy.resx">
+      <DependentUpon>BOFToolListDetailCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BOFToolListMainLog.resx">
+      <DependentUpon>BOFToolListMainLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddBOFToolListDetail.resx">
+      <DependentUpon>FrmAddBOFToolListDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddBOFToolListEquiment.resx">
+      <DependentUpon>FrmAddBOFToolListEquiment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddBOFToolListMain.resx">
+      <DependentUpon>FrmAddBOFToolListMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBOFToolList.resx">
+      <DependentUpon>FrmBOFToolList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBOFToolListCopy.resx">
+      <DependentUpon>FrmBOFToolListCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBOFToolListPrint.resx">
+      <DependentUpon>FrmBOFToolListPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBOFToolListSearch.resx">
+      <DependentUpon>FrmBOFToolListSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCellMerging.resx">
+      <DependentUpon>FrmCellMerging.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChildPNQuote.resx">
+      <DependentUpon>FrmChildPNQuote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCopy.resx">
+      <DependentUpon>FrmCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardLog.resx">
+      <DependentUpon>FrmCutCardLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardPartDetail.resx">
+      <DependentUpon>FrmCutCardPartDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardStationCopy.resx">
+      <DependentUpon>FrmCutCardStationCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeOnJob.resx">
+      <DependentUpon>FrmEmployeeOnJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLog.resx">
+      <DependentUpon>FrmLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotReportRegister.resx">
+      <DependentUpon>FrmLotReportRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotScan.resx">
+      <DependentUpon>FrmLotScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLotSplit.resx">
+      <DependentUpon>FrmLotSplit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOldCutCardBodyEdit.resx">
+      <DependentUpon>FrmOldCutCardBodyEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOldCutCardModify.resx">
+      <DependentUpon>FrmOldCutCardModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineRemark.resx">
+      <DependentUpon>FrmOnlineRemark.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSop.resx">
+      <DependentUpon>FrmOnlineSop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSopCopy.resx">
+      <DependentUpon>FrmOnlineSopCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSopDetailEdit.resx">
+      <DependentUpon>FrmOnlineSopDetailEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSopEMail.resx">
+      <DependentUpon>FrmOnlineSopEMail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSopMailRelation.resx">
+      <DependentUpon>FrmOnlineSopMailRelation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSopNew.resx">
+      <DependentUpon>FrmOnlineSopNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOnlineSopQuery.resx">
+      <DependentUpon>FrmOnlineSopQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPictureCut.resx">
+      <DependentUpon>FrmPictureCut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPNList.resx">
+      <DependentUpon>FrmPNList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrint.resx">
+      <DependentUpon>FrmPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessParametersImport.resx">
+      <DependentUpon>FrmProcessParametersImport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessParametersMaintain.resx">
+      <DependentUpon>FrmProcessParametersMaintain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessParametersQuery.resx">
+      <DependentUpon>FrmProcessParametersQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQuoteMaintenance.resx">
+      <DependentUpon>FrmQuoteMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQuoteQuery.resx">
+      <DependentUpon>FrmQuoteQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRCardDelUndo.resx">
+      <DependentUpon>FrmRCardDelUndo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRCardLog.resx">
+      <DependentUpon>FrmRCardLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRCardLogQuery.resx">
+      <DependentUpon>FrmRCardLogQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCard.resx">
+      <DependentUpon>FrmRunCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardBodyEdit.resx">
+      <DependentUpon>FrmRunCardBodyEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardBodyModify.resx">
+      <DependentUpon>FrmRunCardBodyModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardCopy.resx">
+      <DependentUpon>FrmRunCardCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardCut.resx">
+      <DependentUpon>FrmRunCardCut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardBodyEdit.resx">
+      <DependentUpon>FrmCutCardBodyEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardBodyModify.resx">
+      <DependentUpon>FrmCutCardBodyModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardCopy.resx">
+      <DependentUpon>FrmCutCardCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardHeaderEdit.resx">
+      <DependentUpon>FrmCutCardHeaderEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCutCardImportStation.resx">
+      <DependentUpon>FrmCutCardImportStation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardHeaderEdit.resx">
+      <DependentUpon>FrmRunCardHeaderEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardHSL.resx">
+      <DependentUpon>FrmRunCardHSL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardImportStation.resx">
+      <DependentUpon>FrmRunCardImportStation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardPartDetail.resx">
+      <DependentUpon>FrmRunCardPartDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardQuery.resx">
+      <DependentUpon>FrmRunCardQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardSeries.resx">
+      <DependentUpon>FrmRunCardSeries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardShowPicture.resx">
+      <DependentUpon>FrmRunCardShowPicture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCardStationCopy.resx">
+      <DependentUpon>FrmRunCardStationCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanErrPrompt.resx">
+      <DependentUpon>FrmScanErrPrompt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScanRecord.resx">
+      <DependentUpon>FrmScanRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectEquipment.resx">
+      <DependentUpon>FrmSelectEquipment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMaterials.resx">
+      <DependentUpon>FrmSelectMaterials.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectPICNew.resx">
+      <DependentUpon>FrmSelectPICNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetLock.resx">
+      <DependentUpon>FrmSetLock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetPNGroup.resx">
+      <DependentUpon>FrmSetPNGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetScan.resx">
+      <DependentUpon>FrmSetScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetScanQuery.resx">
+      <DependentUpon>FrmSetScanQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowPictureDetail.resx">
+      <DependentUpon>FrmShowPictureDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowRunCard.resx">
+      <DependentUpon>FrmShowRunCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowRunCardDetail.resx">
+      <DependentUpon>FrmShowRunCardDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSOPLog.resx">
+      <DependentUpon>FrmSOPLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSOPReason.resx">
+      <DependentUpon>FrmSOPReason.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStandardJobScheduling.resx">
+      <DependentUpon>FrmStandardJobScheduling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStandardJobSchedulingAddDetails.resx">
+      <DependentUpon>FrmStandardJobSchedulingAddDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStandardJobSchedulingAddMain.resx">
+      <DependentUpon>FrmStandardJobSchedulingAddMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStations.resx">
+      <DependentUpon>FrmStations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUploadFile.resx">
+      <DependentUpon>FrmUploadFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWpartNumber.resx">
+      <DependentUpon>FrmWpartNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\CutCardBusiness.vb" />
+    <Fakes Include="Fakes\NPOI.fakes" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Web References\com.luxshare-ict.plmNew\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\com.luxshare-ict.plmNew\webserviceasmx.wsdl" />
+    <None Include="Web References\com.luxshare-ict.plm\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\com.luxshare-ict.plm\WebService1.wsdl" />
+    <None Include="Web References\DcsWebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\DcsWebReference\WorkStation.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BasicManagement\BasicManagement.vbproj">
+      <Project>{c1000e97-85bb-4ac9-abe8-764db6830d0d}</Project>
+      <Name>BasicManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MainFrame\MainFrame\MainFrame.vbproj">
+      <Project>{a8c44c39-1c47-4105-a98a-14ba6613ca01}</Project>
+      <Name>MainFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysBasicClass\SysBasicClass.csproj">
+      <Project>{ec017007-adae-4cae-ac78-1f0a18a798f4}</Project>
+      <Name>SysBasicClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIHandler\UIHandler.csproj">
+      <Project>{fca8bb01-08a5-4448-b2be-0d28e1de048f}</Project>
+      <Name>UIHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VbCommClass\VbCommClass.vbproj">
+      <Project>{5ca79a79-689e-4c76-92ad-b2d7aa71da22}</Project>
+      <Name>VbCommClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://elearning.luxshare-ict.com/axis/WorkStation.jws%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DcsWebReference\</RelPath>
+      <UpdateFromURL>http://elearning.luxshare-ict.com/axis/WorkStation.jws%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RCard_DcsWebReference_WorkStationService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://plm.luxshare-ict.com/getdata/webserviceasmx.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.luxshare-ict.plmNew\</RelPath>
+      <UpdateFromURL>http://plm.luxshare-ict.com/getdata/webserviceasmx.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RCard_com_luxshare_ict_plmNew_webserviceasmx</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://plm.luxshare-ict.com/plmws/WebService1.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.luxshare-ict.plm\</RelPath>
+      <UpdateFromURL>http://plm.luxshare-ict.com/plmws/WebService1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RCard_com_luxshare_ict_plm_WebService1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\com.luxshare-ict.plm\WebService1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\RCardDB.vb" />
+    <Content Include="Resources\check.gif" />
+    <Content Include="Resources\excel.png" />
+    <None Include="Web References\com.luxshare-ict.plmNew\webserviceasmx.disco" />
+    <None Include="Resources\fail_zhcn.wav" />
+    <Content Include="Resources\logo.jpg" />
+    <Content Include="Resources\noimage.jpg" />
+    <Content Include="Resources\nopic.png" />
+    <None Include="Resources\ok_zhcn.wav" />
+    <Content Include="Resources\query.gif" />
+    <Content Include="Resources\query.png" />
+    <None Include="Play\fail_zhcn.wav" />
+    <None Include="Play\ok_zhcn.wav" />
+    <Content Include="RCard.SQL" />
+    <Content Include="RCard.Versonlog.txt" />
+    <None Include="Resources\chimes.wav" />
+    <None Include="Resources\ding.wav" />
+    <Content Include="Resources\edit.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

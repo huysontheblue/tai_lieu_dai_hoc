@@ -1,0 +1,7 @@
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\bin\Debug\socket_server.exe.config
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\bin\Debug\socket_server.exe
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\bin\Debug\socket_server.pdb
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\obj\Debug\socket_server.csprojAssemblyReference.cache
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\obj\Debug\socket_server.csproj.CoreCompileInputs.cache
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\obj\Debug\socket_server.exe
+D:\TL_Nam_3\Ky_2\Mạng máy tính\BTNhom_9\socket\socket_server\obj\Debug\socket_server.pdb

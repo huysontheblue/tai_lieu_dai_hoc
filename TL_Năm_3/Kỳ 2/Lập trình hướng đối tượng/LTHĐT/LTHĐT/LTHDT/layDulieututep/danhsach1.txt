@@ -1,0 +1,46 @@
+Nguyen Van An
+59CNTT
+6.5
+300
+200
+Tran Van Binh
+59CNTT
+8.5
+600
+700
+Le Van Cuong
+59CNTT
+5.5
+800
+600
+Ho Thi Hoa
+59CNTT
+8.5
+500
+900
+Tran Thi Van Anh
+59CNTT
+7.5
+300
+400
+Hoang Thi Thanh Hoa
+59CNTT
+8.5
+500
+600
+Tran Thi Kim Oanh
+59CNTT
+9.5
+600
+700
+Dang Thanh Van
+59CNTT
+8.4
+700
+600
+Le Thi Khanh Hoa
+59CNTT
+8.9
+800
+700
+

@@ -1,0 +1,7 @@
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\bin\Debug\giaithuatRR.exe.config
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\bin\Debug\giaithuatRR.exe
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\bin\Debug\giaithuatRR.pdb
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\obj\Debug\giaithuatRR.csprojAssemblyReference.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\obj\Debug\giaithuatRR.csproj.CoreCompileInputs.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\obj\Debug\giaithuatRR.exe
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\giaithuatRR\obj\Debug\giaithuatRR.pdb

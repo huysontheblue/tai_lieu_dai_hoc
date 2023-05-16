@@ -1,0 +1,50 @@
+MỤC LỤC
+Lời cam đoan
+Mục lục
+Danh mục các ký hiệu các chữ viết tắt
+Danh mục các bảng
+Danh mục các hình vẽ đồ thị
+CHƯƠNG 1. TỔNG QUAN
+1.1 Mô tả về bài toán
+1.2	 Các nghiên cứu liên quan
+1.3	 Phạm vi của đề tài
+1.4	 Phương pháp nghiên cứu
+1.4.1	Phương pháp thu thập.
+1.4.2	Phương pháp xử lý thông tin.
+CHƯƠNG 2 CƠ SỞ LÝ THUYẾT
+2.1 Cơ sở lý thuyết
+2.1.1 Framework Laravel
+2.1.2 Cơ sở dữ liệu MySQL
+2.1.3 Môi trường công cụ.
+2.2 Nội dung thực hiện
+CHƯƠNG 3 NỘI DUNG NGHIÊN CỨU
+3.1 Khảo sát nghiệp vụ
+3.1.1 Đối với người dùng website
+3.1.2 Đối với người Editor của website
+3.1.3 Đối với người quản trị viên của website
+3.2 Các chức năng chính của hệ thống
+3.2.1 Sơ đồ phân cấp chức năng 
+3.2.2 Sơ đồ tổng quát chức năng
+3.3 Phân tích các chức năng của hệ thống
+3.3.1 Quản lý bài viết
+3.3.2 Quản lý danh mục bài viết
+3.3.3 Quản lý người dùng
+3.3.4 Quản lý phân quyền
+3.4 Thiết kế sơ đồ quản lý quy trình nghiệp vụ
+3.4.1 Quy trình đăng ký
+3.4.2 Quy trình đăng nhập
+3.4.3 Quy trình thêm bài viết
+3.4.4 Quy trình thêm danh mục 
+3.5 Phân tích thiết kế cơ sở dữ liệu
+CHƯƠNG 4 KẾT QUẢ NGHIÊN CỨU
+4.1 Phác thảo giao diện
+4.1.1 Giao diện đăng ký, đăng nhập
+4.1.2 Giao diện người dùng
+4.1.3 Giao diện người quản trị
+4.2 Các kết quả đạt được
+4.2.1 Các chức năng chính của website
+4.2.2 Các module chủ yếu của website
+4.3 Những vấn đề còn vướng phải
+KẾT LUẬN VÀ KIẾN NGHỊ
+- Kết luận về toàn bộ nghiên cứu của đồ án về lý thuyết, thực nghiệm;
+- Các đề nghị rút ra từ kết quả nghiên cứu.

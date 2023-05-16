@@ -1,0 +1,7 @@
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\bin\Debug\laplich_SJF.exe.config
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\bin\Debug\laplich_SJF.exe
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\bin\Debug\laplich_SJF.pdb
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\obj\Debug\laplich_SJF.csprojAssemblyReference.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\obj\Debug\laplich_SJF.csproj.CoreCompileInputs.cache
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\obj\Debug\laplich_SJF.exe
+D:\Tài liệu năm 3\Kỳ 1\Hệ điều hành\bàitap2nhom9\laplich_SJF\obj\Debug\laplich_SJF.pdb

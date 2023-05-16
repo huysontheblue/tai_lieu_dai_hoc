@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Control_Id" type="xs:string" />
+                <xs:element name="Chs_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="Cht_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="En_Full_Desc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table" />
+        <xs:field xpath="Control_Id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Control_Id>BnConFrm</Control_Id>
+    <Chs_Desc>确  认(&amp;O)</Chs_Desc>
+    <Cht_Desc>確  認(&amp;O)</Cht_Desc>
+    <En_Desc>OK(&amp;O)</En_Desc>
+    <En_Full_Desc>OK(&amp;O)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Button1</Control_Id>
+    <Chs_Desc>退  出(&amp;E)</Chs_Desc>
+    <Cht_Desc>退  出(&amp;E)</Cht_Desc>
+    <En_Desc>Exit(&amp;E)</En_Desc>
+    <En_Full_Desc>Exit(&amp;E)</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>FrmSnSet</Control_Id>
+    <Chs_Desc>条码打印检测设置</Chs_Desc>
+    <Cht_Desc>條碼打印檢測設置</Cht_Desc>
+    <En_Desc>Barcode Setting</En_Desc>
+    <En_Full_Desc>Barcode Printing Detection Setting</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox1</Control_Id>
+    <Chs_Desc>工单信息</Chs_Desc>
+    <Cht_Desc>工單信息</Cht_Desc>
+    <En_Desc>MO Info</En_Desc>
+    <En_Full_Desc>MO Infomation</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>GroupBox2</Control_Id>
+    <Chs_Desc>扫描信息设置</Chs_Desc>
+    <Cht_Desc>掃描信息設置</Cht_Desc>
+    <En_Desc>Scan Set</En_Desc>
+    <En_Full_Desc>Scan Infomation Setting</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabCust</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LabDept</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>Label1</Control_Id>
+    <Chs_Desc>工单线别：</Chs_Desc>
+    <Cht_Desc>工單線別：</Cht_Desc>
+    <En_Desc>MO Line:</En_Desc>
+    <En_Full_Desc>Manufacture Order Line:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label11</Control_Id>
+    <Chs_Desc>日期设置：</Chs_Desc>
+    <Cht_Desc>日期設置：</Cht_Desc>
+    <En_Desc>Date Set:</En_Desc>
+    <En_Full_Desc>Date Setting:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label15</Control_Id>
+    <Chs_Desc>客户名称：</Chs_Desc>
+    <Cht_Desc>客戶名稱：</Cht_Desc>
+    <En_Desc>Cust Name:</En_Desc>
+    <En_Full_Desc>Customer Name:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label18</Control_Id>
+    <Chs_Desc>客户料号：</Chs_Desc>
+    <Cht_Desc>客戶料號：</Cht_Desc>
+    <En_Desc>Cust PartID:</En_Desc>
+    <En_Full_Desc>Customer Part ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label2</Control_Id>
+    <Chs_Desc>线别编号：</Chs_Desc>
+    <Cht_Desc>線別編號：</Cht_Desc>
+    <En_Desc>Line ID:</En_Desc>
+    <En_Full_Desc>Line ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label20</Control_Id>
+    <Chs_Desc>工单类型：</Chs_Desc>
+    <Cht_Desc>工單類型：</Cht_Desc>
+    <En_Desc>MO Type:</En_Desc>
+    <En_Full_Desc>Manufacture Order Type:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label23</Control_Id>
+    <Chs_Desc>工单编号：</Chs_Desc>
+    <Cht_Desc>工單編號：</Cht_Desc>
+    <En_Desc>MO ID:</En_Desc>
+    <En_Full_Desc>Manufacture Order ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label29</Control_Id>
+    <Chs_Desc>部门名称：</Chs_Desc>
+    <Cht_Desc>部門名稱：</Cht_Desc>
+    <En_Desc>Dept Name:</En_Desc>
+    <En_Full_Desc>Department Name:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label31</Control_Id>
+    <Chs_Desc>料件编号：</Chs_Desc>
+    <Cht_Desc>料件編號：</Cht_Desc>
+    <En_Desc>PartID:</En_Desc>
+    <En_Full_Desc>Part ID:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label34</Control_Id>
+    <Chs_Desc>条码长度：</Chs_Desc>
+    <Cht_Desc>條碼長度：</Cht_Desc>
+    <En_Desc>Barcode Len:</En_Desc>
+    <En_Full_Desc>Barcode Length:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label4</Control_Id>
+    <Chs_Desc>工单数量：</Chs_Desc>
+    <Cht_Desc>工單數量：</Cht_Desc>
+    <En_Desc>MO Qty:</En_Desc>
+    <En_Full_Desc>Manufacture Order Quantity:</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>Label5</Control_Id>
+    <Chs_Desc>开始时间：</Chs_Desc>
+    <Cht_Desc>開始時間：</Cht_Desc>
+    <En_Desc>Start Time:</En_Desc>
+    <En_Full_Desc>StartTime</En_Full_Desc>
+  </Table>
+  <Table>
+    <Control_Id>LabMoqty</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LabMtype</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LabPartid</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LabSnLen</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+  <Table>
+    <Control_Id>LblLine</Control_Id>
+    <Chs_Desc />
+    <Cht_Desc />
+    <En_Desc />
+    <En_Full_Desc />
+  </Table>
+</NewDataSet>

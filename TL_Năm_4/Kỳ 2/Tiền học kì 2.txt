@@ -1,0 +1,13 @@
+
+   Tên môn           Số tín   TiếtLT   TiếtTH    ThảoluậnBT    Kìhọc   HệSố          SốTiền
+
+An toàn thông tin	3	35	  0	     10	         8      1       =    1.140.000 Vnđ 
+
+Công nghệ phần mềm	3	30	  15	      0	         8      1.1     =    1.254.000 Vnđ 
+
+Tương tác người-máy	3	30	  15	      0	         8      1.1     =    1.254.000 Vnđ 
+
+Xử lý ảnh	        3	30	  15	      0	         8      1.1     =    1.254.000 Vnđ 
+
+
+                                                                       Tổng Tiền:    4.902.000  Vnđ             
