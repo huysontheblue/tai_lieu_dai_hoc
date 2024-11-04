@@ -1,17 +1,7 @@
-Viettinbank
-tk: 0388580624
-mk: Huyson2000@
+Viettinbank                                  Vietcombank
+tk: 0388580624                               tk: 0388580624
+mk: Huyson2000@                              mk: Son2000@
 
-tk:Vietcombank
-0388580624
-Son2000@
-
-
-tk: bảo hiểm xã hội
-tk:   4217071696
-mk:   Huyson2000@
-
-tk VNeID
-tk:   042200011819
-mk:   Huyson2000@
-SĐT:  0388580624
+Bảo hiểm xã hội(VssID)                       VNeID 
+tk:   4217071696                             tk:   042200011819
+mk:   Huyson2000@                            mk:   Huyson2000@       SĐT:  0388580624
