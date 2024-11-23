@@ -1,7 +1,13 @@
 Viettinbank                                  Vietcombank
 tk: 0388580624                               tk: 0388580624
-mk: Huyson2000@                              mk: Son2000@
+mk: Huyson2000@                              mk: Huyson2000@
 
 Bảo hiểm xã hội(VssID)                       VNeID 
 tk:   4217071696                             tk:   042200011819
 mk:   Huyson2000@                            mk:   Huyson2000@       SĐT:  0388580624
+
+Gmail vs FaceBook:
+tk:   foreveralone24102000@gmail.com
+tk:   sonchat2k@gmail.com
+tk:   sontheblue2000.com@gmail.com  
+mk:   Huyson2000.com@
